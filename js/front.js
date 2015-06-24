@@ -2,7 +2,6 @@ var rd = rd || {};
   rd.init = function() {
     rd.initNavbar();
     rd.initWork();
-    rd.scrollReveal();
     rd.initResetScroll();
   }
 
@@ -35,9 +34,6 @@ rd.initResetScroll = function(){
     }, 300);
 };
 
-rd.scrollReveal = function(){
-  window.sr = new scrollReveal();
-}
 
 $(function(){
     rd.init();
