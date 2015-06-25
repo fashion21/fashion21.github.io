@@ -30,59 +30,77 @@ a:focus
   text-decoration: none
   color: transparent
 
+.container
+  nav
+    &#work-navbar
+      background-color: transparent
+      border-color: transparent
+      &.navbar-visible
+        top: 0
+      &.navbar-hidden
+        top: -100px
+      &.navbar
+        min-height: 68px
+        transition: linear 0.25s
+      a
+        color: $white
+        text-decoration: none
+      .nav-container
+        margin: 0 12px
+        padding-top: 0
+        padding-bottom: 0
+        .navbar-header
+          .navbar-brand
+            height: 66px
+            padding-top: 0
+            padding-bottom: 0
+            line-height: 55px
+            margin-left: 30px
+            padding: 0
+            a
+              img
+                top: auto
+                margin-top: 6px
+                float: left
+                &.brand-logo-small
+                  height: 55px
+          button
+            margin-top: 20px
+        // end of navbar-header
+        .navbar-collapse
+          border-color: transparent
+          .navbar-right
+            margin-right: 30px
+            ul
+              &.nav
+                padding-right: 0
+                width: 100%
+                li
+                  padding: 25px 0px 0px 8px
+                  margin-top: 0px
+                  a
+                    display: inline
+                    padding: 0
+                    color: $white
+                    font-size: 20px
+                    letter-spacing: 3px
+                  &:not(:last-child)
+                    margin-right: 30px
 
-nav
-  &#work-navbar
-    background-color: transparent
-    border-color: transparent
-    &.navbar-visible
-      top: 0
-    &.navbar-hidden
-      top: -100px
-    &.navbar
-      min-height: 68px
-      transition: linear 0.25s
-    a
-      color: $white
-      text-decoration: none
-    .nav-container
-      margin: 0 12px
-      padding-top: 0
-      padding-bottom: 0
-      .navbar-header
-        .navbar-brand
-          height: 66px
-          padding-top: 0
-          padding-bottom: 0
-          line-height: 55px
-          margin-left: 30px
-          padding: 0
-          a
-            img
-              top: auto
-              margin-top: 6px
-              float: left
-              &.brand-logo-small
-                height: 55px
-        button
-          margin-top: 20px
-      // end of navbar-header
-      .navbar-collapse
-        border-color: transparent
-        .navbar-right
-          margin-right: 30px
-          ul
-            &.nav
-              padding-right: 0
-              width: 100%
-              li
-                padding: 25px 0px 0px 8px
-                margin-top: 0px
-                a
-                  display: inline
-                  padding: 0
-                  color: $white
-                  font-size: 20px
-                  letter-spacing: 3px
-                &:not(:last-child)
-                  margin-right: 30px
+  #cover
+    margin-top: 108px
+    .container
+      .svg-graphic
+        position: relative
+        display: inline-block
+        z-index: 0
+
+        //image
+        //  -webkit-transition: opacity 300ms ease
+        //  -moz-transition: opacity 300ms ease
+        //  transition: opacity 300ms ease
+
+    /*svg polygon:hover {
+     *opacity: 1; }
+    /*svg a:hover image {
+     *opacity: 0.4; }
