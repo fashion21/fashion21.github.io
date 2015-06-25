@@ -1,5 +1,14 @@
-// Global declaration
+@import "navbar"
+@import "footer"
+@import "fonts"
+
+$white: white
+$black: black
+$gray: #333333
+$skyblue: #0fb5b3
+
 body
+  color: $black
 
 #mock-up
   background-image: url("/img/front.jpg")
@@ -9,20 +18,6 @@ body
   background-position: top
   background-repeat: no-repeat
 
-// colors
-$white: white
-$black: black
-$gray: #333333
-$skyblue: #0fb5b3
-
-.text-center
-  text-align: center
-
-.section-header
-  margin: 45px 0px 30px
-
-ul
-  list-style: none
 
 a:hover,
 a:active,
@@ -30,70 +25,19 @@ a:focus
   text-decoration: none
   color: transparent
 
-.container
-  nav
-    &#work-navbar
-      background-color: transparent
-      border-color: transparent
-      &.navbar-visible
-        top: 0
-      &.navbar-hidden
-        top: -100px
-      &.navbar
-        min-height: 68px
-        transition: linear 0.25s
-      a
-        color: $white
-        text-decoration: none
-      .nav-container
-        margin: 0 12px
-        padding-top: 0
-        padding-bottom: 0
-        .navbar-header
-          .navbar-brand
-            height: 66px
-            padding-top: 0
-            padding-bottom: 0
-            line-height: 55px
-            margin-left: 30px
-            padding: 0
-            a
-              img
-                top: auto
-                margin-top: 6px
-                float: left
-                &.brand-logo-small
-                  height: 55px
-          button
-            margin-top: 20px
-        // end of navbar-header
-        .navbar-collapse
-          border-color: transparent
-          .navbar-right
-            margin-right: 30px
-            ul
-              &.nav
-                padding-right: 0
-                width: 100%
-                li
-                  padding: 25px 0px 0px 8px
-                  margin-top: 0px
-                  a
-                    display: inline
-                    padding: 0
-                    color: $white
-                    font-size: 20px
-                    letter-spacing: 3px
-                  &:not(:last-child)
-                    margin-right: 30px
 
-  #cover
-    margin-top: 108px
-    .container
-      .svg-graphic
-        position: relative
-        display: inline-block
-        z-index: 0
+#cover
+  margin-top: 53px
+  .cover-container
+    width: 100%
+    margin: 0 auto
+
+    //.svg-graphic
+    //  height: 154px
+    //  width: 150px
+    //  position: relative
+    //  display: inline-block
+    //  z-index: 0
 
         //image
         //  -webkit-transition: opacity 300ms ease
@@ -104,3 +48,28 @@ a:focus
      *opacity: 1; }
     /*svg a:hover image {
      *opacity: 0.4; }
+#video
+  width: 620px
+  margin: 103px auto 0
+  h6
+    font-family: Avenir-Bold
+  .video-container
+    margin: 47px auto
+    width: 700px
+    padding: 0
+    .video-tutorial
+      padding: 0px
+      width: 443px
+      height: 291px
+    .video-description
+      padding: 0 0 0 15px
+      p
+        font-size: 13px
+        letter-spacing: 0.5px
+
+
+
+
+
+
+
