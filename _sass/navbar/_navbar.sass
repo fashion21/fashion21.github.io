@@ -6,29 +6,19 @@ nav
     background-color: transparent
     border-color: transparent
     .container
-      max-width: 643px
-      height: 62px
-      padding-left: 0px
-      padding-right: 0px
+      height: inherit
+
       .navbar-brand
         margin-top: 37px
         img
           display: none
       .navbar-nav
-        margin-top: 37px
+        float: none
+        margin: 37px auto 0px
+        display: table
         li
-          &:nth-child(2)
-            padding: 0 26px
-          &:nth-child(3)
-            padding-left: 10px
-            padding-right: 32px
-          &:nth-child(5)
-            padding-left: 32px
-            padding-right: 9px
-          &:nth-child(6)
-            padding: 0 35px
-          &:nth-child(7)
-            padding-left: 31px
+          display: inline-block
+          padding: 0 25px
           a
             color: #000
             padding: 0px
