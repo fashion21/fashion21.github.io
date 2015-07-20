@@ -2,14 +2,12 @@
     <div class="row cover-content">
         <div class="col-md-6" id="cover-carousel">
             <div id="carousel" class="carousel slide" data-ride="carousel">
-            <!-- Indicators -->
             <ol class="carousel-indicators">
                 <li data-target="#carousel" data-slide-to="0"></li>
                 <li data-target="#carousel" data-slide-to="1"></li>
                 <li data-target="#carousel" data-slide-to="2"></li>
             </ol>
 
-            <!-- Wrapper for slides -->
             <div class="carousel-inner">
                 {% for promoItems in site.data.carousel.promoItems %}
                 <div class="item">
@@ -17,16 +15,26 @@
                 </div>
                 {% endfor %}
             </div>
-        </div> <!-- Carousel -->
+        </div>
         </div>
         <div class="col-md-6" id="cover-category">
             <div class="row">
+                {% for promoCategory in  site.data.promo-item.promoCategory %}
                 <div class="col-md-6 cover-items">
-
+                    <a href="javascript:void(0)">
+                        <div class="image-hover" style=" height: 223px; background: url({{ promoCategory.image}}); background-size: cover; background-position: center center; background-repeat: no-repeat">
+                            <div class="caption">
+                                <div class="caption-content">
+                                    <!--<h1 class="accent">{{work.title}}</h1>-->
+                                    <!--<div class="work-description">-->
+                                        <!--<p>{{work.description}}</p>-->
+                                    <!--</div>-->
+                                </div>
+                            </div>
+                        </div>
+                    </a>
                 </div>
-                <div class="col-md-6 cover-items">
-
-                </div>
+                {% endfor %}
             </div>
         </div>
     </div>
