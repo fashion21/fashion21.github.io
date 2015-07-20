@@ -1,0 +1,11 @@
+- name: "F21 Mix & Match Pallete"
+  price: 125
+  description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
+
+- name: "F21 TWC Sponge"
+  price: 35
+  description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
+
+- name: "F21 Mini E/S Foam Applicator"
+  price: 35
+  description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "

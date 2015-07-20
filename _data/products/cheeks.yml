@@ -1,0 +1,11 @@
+- name: "F21 Lip & Cheek Gel #1"
+  price: 140
+  description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
+
+- name: "F21 Lip & Cheek Gel #2"
+  price: 140
+  description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
+
+- name: "F21 Lip & Cheek Tint #2"
+  price: 140
+  description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "

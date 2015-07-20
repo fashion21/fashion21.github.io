@@ -1,0 +1,11 @@
+- name: "F21 Fruit Gloss Cherry"
+  price: 39
+  description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
+
+- name: "F21 Fruit Gloss Strawberry"
+  price: 39
+  description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
+
+- name: "F21 Color Lipstick black"
+  price: 100
+  description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
