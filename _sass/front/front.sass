@@ -7,8 +7,11 @@ $black: black
 $gray: #333333
 $skyblue: #0fb5b3
 
-body
+html, body
+  height: 100%
   color: $black
+  margin: 0px
+
 
 #mock-up
   background-image: url("/img/front.jpg")
@@ -25,21 +28,27 @@ a:focus
   color: red
 
 #cover
-  margin-top: 53px
+  //margin-top: 53px
   position: relative
-  .cover-content
-    margin: 0px
-    height: 100vh
-    #cover-carousel
-      height: inherit
-      padding: 0px
-    #cover-category
-      padding: 0px
+  height: 100vh
+  .container
+    width: 100%
+    padding: 0px
+    .cover-content
+      height: 590px
       margin: 0px
-      .row
+      #cover-carousel
+        padding: 0px
+      #cover-category
+        height: 590px
+        padding: 0px
         margin: 0px
-        .cover-items
-          padding: 0px
+        .row
+          margin: 0px
+          .cover-items
+            height: 33.33%
+            padding: 0px
+
 #video
   width: 620px
   margin: 103px auto 0
