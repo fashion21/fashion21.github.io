@@ -13,7 +13,7 @@ footer
         color: #FFFFFF
         margin: 0px
         font-size: 13px
-        padding-top: 14px
+        padding: 14px 0 0 0
         width: 100%
         text-align: center
         li
@@ -23,9 +23,17 @@ footer
             padding: 0 15px
           a
             color: #FFFFFF
+    #social-media
+      display: none
+
     #copyrights-container
       width: 100%
       p
         font-size: 13px
         text-align: center
         margin: 15px 0px
+
+@media screen and (max-width: 830px)
+  li
+    &:nth-child(4)
+      display: none
