@@ -25,7 +25,13 @@ footer
             color: #FFFFFF
     #social-media
       display: none
-
+      float: none
+      margin: 0 auto
+      ul
+        padding: 15px 0 0 0
+        list-style: none
+        li
+          padding: 0px 15px
     #copyrights-container
       width: 100%
       p
@@ -34,6 +40,17 @@ footer
         margin: 15px 0px
 
 @media screen and (max-width: 830px)
-  li
-    &:nth-child(4)
-      display: none
+  footer
+    .container
+      #footer-links-container
+        .footer-links
+          li
+            &:nth-child(4)
+              display: none
+            &:nth-child(5)
+              display: none
+      #social-media
+        display: table
+        ul
+          li
+            display: inline-block
