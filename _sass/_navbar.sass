@@ -30,18 +30,31 @@ nav
               height: 30px
 
 @media screen and (max-width: 767px)
-  nav
-    .navbar-brand
-      padding: 8px 0px 19px
-      img
-        display: block
-        height: 24px
-    .navbar-nav
-      li
-        &:nth-child(odd)
-          padding: 0px
-        &:nth-child(even)
-          padding: 0px
-        &:nth-child(3)
-          display: none
-
+  nav.navbar-default
+    .container
+      .navbar-header
+        height: 87px
+      .navbar-brand
+        margin-top: 9px
+        img
+          display: block
+          height: 34px
+      .navbar-toggle
+        margin-top: 20px
+        border-color: transparent
+        &:focus, &:hover
+          background-color: transparent
+        .icon-bar
+          background-color: #000
+          border-radius: 3px
+          height: 5px
+      .navbar-nav
+        margin: 20px auto 10px
+        li
+          display: block
+          a
+            font-size: 19px
+            padding: 0px
+            line-height: 55px
+            img
+              display: none
