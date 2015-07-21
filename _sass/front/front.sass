@@ -26,9 +26,9 @@ a:focus
 
 #cover
   top: 0px
-  position: relative
   height: inherit
   .container
+    position: relative
     height: inherit
     width: 100%
     padding: 0px
@@ -47,10 +47,9 @@ a:focus
             padding: 0px
 
 #video
-  position: relative
   height: inherit
   .container
-    height: 100vh
+    position: relative
     .row-content
       margin-top: 50px
       .video-header
@@ -69,6 +68,12 @@ a:focus
         margin: 20px 0px
         &:last-child
           margin-bottom: 30px
+
+@media screen and (max-width: 540px)
+  #video
+    .container
+      height: 710px
+
 
 
 
