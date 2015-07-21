@@ -1,4 +1,4 @@
-@import "../navbar/navbar"
+@import "../navbar"
 @import "../footer"
 @import "../fonts"
 
@@ -9,13 +9,13 @@ $skyblue: #0fb5b3
 
 body
   color: $black
-
+  margin-top: 88px
 #mock-up
-  //background-image: url("/img/front.jpg")
-  //opacity: 0.8
-  //background-size: cover
-  //background-position: top
-  //background-repeat: no-repeat
+  background-image: url("/img/front.jpg")
+  opacity: 0.8
+  background-size: cover
+  background-position: top
+  background-repeat: no-repeat
 
 a:hover,
 a:focus
@@ -25,32 +25,56 @@ a:focus
   color: red
 
 #cover
-  margin-top: 53px
-  .cover-container
+  top: 0px
+  height: inherit
+  .container
+    position: relative
+    height: inherit
     width: 100%
-    margin: 0 auto
+    padding: 0px
+    .cover-content
+      margin: 0px
+      height: inherit
+      #cover-carousel
+        padding: 0px
+      #cover-category
+        height: 590px
+        padding: 0px
+        margin: 0px
+        .row
+          margin: 0px
+          .cover-items
+            padding: 0px
+
 #video
-  width: 620px
-  margin: 103px auto 0
-  h6
-    font-family: Avenir-Bold
-  .video-container
-    margin: 47px auto
-    width: 700px
-    padding: 0
-    .video-tutorial
-      padding: 0px
-      width: 443px
-      height: 291px
-    .video-description
-      padding: 0 0 0 15px
+  height: inherit
+  .container
+    position: relative
+    .row-content
+      margin-top: 50px
+      .video-header
+        margin: 16px 0px
+        font-size: 20px
+      iframe
+        width: 100%
+        height: 322px
+      h4
+        font-size: 16px
       p
+        font-size: 14px
         text-align: justify
-        font-size: 13px
-        letter-spacing: 0.5px
-      h6
+        letter-spacing: 0px
+        line-height: 25px
+        margin: 20px 0px
         &:last-child
-          margin-top: 25px
+          margin-bottom: 30px
+
+@media screen and (max-width: 540px)
+  #video
+    .container
+      height: 710px
+
+
 
 
 

@@ -1,2 +1,28 @@
+<div class="container-fluid full-width">
+    <div class="row row-no-gutter">
+        <div class="col-md-6" id="cover-carousel">
+            <div id="carousel" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carousel" data-slide-to="0"></li>
+                    <li data-target="#carousel" data-slide-to="1"></li>
+                    <li data-target="#carousel" data-slide-to="2"></li>
+                </ol>
 
-<img class="center-block img-responsive" src="/img/hexagon-full.png"/>
+                <div class="carousel-inner">
+                    {% for promoItems in site.data.carousel.promoItems %}
+                    <div class="item">
+                        <img src="{{ promoItems.image }}" class="img-full-width">
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            {% for promoCategory in  site.data.promo-item.promoCategory %}
+            <div class="col-md-6 col-xs-6 col-sm-6">
+                <img src="{{ promoCategory.image}}" class="img-full-width" alt="" />
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>
