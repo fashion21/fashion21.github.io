@@ -28,7 +28,7 @@ a:focus
   .full-width
     padding-left: 0
     padding-right: 0
-    overflow-x: hidden
+    overflow: hidden
     .row-no-gutter
       margin: 0
       [class*="col-"]
@@ -36,17 +36,37 @@ a:focus
         .img-full-width
           width: 100%
           height: auto
+      .category-container
+        position: relative
+        .img-full-width
+          width: 100%
+          height: auto
+        .category-title
+          top: 0
+          width: 100%
+          height: 100%
+          color: #ffffff
+          position: absolute
+          background: rgba(0,0,0,0.3)
+          padding: 23% 15px 0 15px
+          line-height: 25px
+          transition: all 500ms ease
+          h3
+            margin: 0
+          p
+            margin: 0px
+            display: none
 
 #video
   height: inherit
   position: relative
   .container
     position: relative
-    .video-container
+    .vimeo-container
       margin: 50px 0px
-      .video-header
-        margin: 16px 0px
+      .section-header
         font-size: 20px
+        margin-bottom: 50px
       iframe
         width: 100%
         height: 322px
@@ -62,13 +82,21 @@ a:focus
           margin-bottom: 30px
     .facebook-container
       margin: 50px 0px
-      .video-header
-        margin: 16px 0px
+      .section-header
         font-size: 20px
+        margin-bottom: 50px
 
+@media screen and (max-width: 540px)
+  #cover
+    .full-width
+      .row-no-gutter
+        .category-container
+          .category-title
 
-
-
+            p
+              margin-top: -12%
+              line-height: 20px
+              font-size: 9.5px
 
 
 

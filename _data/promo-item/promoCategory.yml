@@ -1,17 +1,23 @@
-- title: "Rens pogi"
+- title: "cheeks"
   image: http://lorempixel.com/360/210/
+  description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
 
-- title: "Rens pogi"
+- title: "eyes"
   image: http://lorempixel.com/360/210/sports
+  description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
 
-- title: "Rens pogi"
+- title: "face"
   image: http://lorempixel.com/360/210/nature
+  description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
 
-- title: "Rens pogi"
+- title: "lips"
   image: http://lorempixel.com/360/210/sports
+  description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
 
-- title: "Rens pogi"
+- title: "skin"
   image: http://lorempixel.com/360/210/sports
+  description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
 
-- title: "Rens pogi"
+- title: "accessories"
   image: http://lorempixel.com/360/210/sports
+  description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
