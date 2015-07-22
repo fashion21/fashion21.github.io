@@ -11,6 +11,7 @@ footer
       border-bottom: 42px solid red
       border-left: 21px solid #FFFFFF
       .footer-links
+        padding-left: 0px
         color: #FFFFFF
         margin: 0px
         font-size: 13px
@@ -30,6 +31,7 @@ footer
       display: none
       float: none
       margin: 0 auto
+      padding: 0 15px
       ul
         padding: 15px 0 0 0
         list-style: none
@@ -64,13 +66,18 @@ footer
         margin-left: 5px
         .footer-links
           font-size: 10px
-          padding: 16px 0 0 0
-
 @media screen and (max-width: 400px)
   footer
     #footer-links-container
       margin-left: 0px
       border-left: none
+@media screen and (max-width: 370px)
+  footer
+    .container
+      #footer-links-container
+        .footer-links
+          li
+            padding: 14px 8px 0
 
 
 
