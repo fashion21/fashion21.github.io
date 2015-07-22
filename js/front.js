@@ -6,7 +6,20 @@ var fs = fs || {};
       fs.facebookPageWidget();
       fs.facebookLikeWidget();
       fs.instagramWidget();
+      fs.categoryItemHover();
   }
+
+fs.categoryItemHover = function(){
+    $('.category-container .category-title').on('mouseenter', function(){
+        $(this).css('opacity', '1');
+    });
+    $('.category-container .category-title').on('mouseleave', function(){
+        $(this).css('opacity','0');
+    });
+
+};
+
+
 
 fs.instagramWidget = function(){
     $.getScript('http://instagramfollowbutton.com/components/instagram/v2/js/ig-follow.js', function(d,t){
