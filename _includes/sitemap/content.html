@@ -1,41 +1,51 @@
 <div class="container">
     <h4>SITE MAP</h4>
-    <div id="content-about">
+    <div class="content-section">
         <h5>ABOUT FASHION21</h5>
         <ul>
+            {% for aboutItems in site.data.sitemap.about %}
             <li>
-                <a href="">About Us</a>
+                <a href="">{{ aboutItems.item }}</a>
             </li>
-            <li>
-                <a href="">Legal Terms</a>
-            </li>
-            <li>
-                <a href="">Site Map</a>
-            </li>
+            {% endfor %}
         </ul>
     </div>
 
-    <div id="content-product">
+    <div class="content-section">
         <h5>PRODUCTS</h5>
         <ul>
             <li>
+                {% for products in site.data.sitemap.product %}
                 <ul>
-                    <h6>EYES</h6>
-
+                    <h6>{{ products.category | upcase }}</h6>
                     <li>
-                        <a href="">Brow Liner</a>
+                        <a href="">{{ products.item1 }}</a>
                     </li>
                     <li>
-                        <a href="">Eye Shadow</a>
+                        <a href="">{{ products.item2 }}</a>
+                    </li>
+                    <li>
+                        <a href="">{{ products.item3 }}</a>
+                    </li>
+                    <li>
+                        <a href="">{{ products.item4 }}</a>
                     </li>
                 </ul>
+                {% endfor %}
             </li>
 
             <li>
-
+                <h5>VIDEOS</h5>
+                <ul>
+                    {% for videos in site.data.sitemap.videos %}
+                    <li>
+                        <a href="">{{ videos.item }}</a>
+                    </li>
+                    {% endfor %}
+                </ul>
             </li>
             <li>
-
+                <h5>WHATS NEW</h5>
             </li>
         </ul>
     </div>
