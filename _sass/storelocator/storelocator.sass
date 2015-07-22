@@ -188,3 +188,34 @@
   border: 1px solid #000
   border-radius: 3px
   box-shadow: 0 0 3px #656565
+
+$screen-sm-min: 768px
+$screen-xs-max: ($screen-sm-min - 1)
+$screen-md-min: 992px
+$screen-sm-max: ($screen-md-min - 1)
+$screen-lg-min: 1200px
+$screen-md-max: ($screen-lg-min - 1)
+
+@media (max-width: $screen-md-max) and (orientation: portrait)
+  .bh-sl-container
+    .bh-sl-loc-list
+      height: 300px
+
+@media (max-width: $screen-sm-max) and (orientation: landscape)
+  .bh-sl-container
+    .bh-sl-loc-list
+      height: 150px
+
+::-webkit-scrollbar
+  -webkit-appearance: none
+::-webkit-scrollbar:vertical
+  width: 12px
+::-webkit-scrollbar:horizontal
+  height: 12px
+::-webkit-scrollbar-thumb
+  background-color: rgba(0, 0, 0, .5)
+  border-radius: 10px
+  border: 2px solid #ffffff
+::-webkit-scrollbar-track
+  border-radius: 10px
+  background-color: #ffffff
