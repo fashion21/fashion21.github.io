@@ -5,7 +5,7 @@
         <ul>
             {% for aboutItems in site.data.sitemap.about %}
             <li>
-                <a href="">{{ aboutItems.item }}</a>
+                <a href="{{ aboutItems.url }}">{{ aboutItems.item }}</a>
             </li>
             {% endfor %}
         </ul>
