@@ -7,7 +7,7 @@ var fs = fs || {};
       fs.facebookLikeWidget();
       fs.instagramWidget();
       fs.categoryItemHover();
-  }
+  };
 
 fs.categoryItemHover = function(){
     $('.category-container .category-title').on('mouseenter', function(){

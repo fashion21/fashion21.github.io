@@ -1,26 +1,25 @@
 ---
 layout: storelocator
 ---
-
-<div class="container">
-    <div class="bh-sl-container">
-        <div class="bh-sl-form-container">
-            <form id="bh-sl-user-location" method="post" action="#">
-                <div class="form-input">
-                    <label for="bh-sl-address">Enter Address or Zip Code:</label>
-                    <input type="text" id="bh-sl-address" name="bh-sl-address" />
+<div id="auto-scroll-mobile" class="visible-md visible-lg"></div>
+<div class="bh-sl-container container-fluid">
+    <div id="map-container" class="bh-sl-map-container">
+        <div class="row">
+            <div id="map-results-container" class="container">
+                <div class="bh-sl-loc-list col-md-3">
+                    <ul class="list list-unstyled"></ul>
                 </div>
+                <div class="col-md-9 map-wrapper">
+                    <div id="bh-sl-map" class="bh-sl-map"></div>
+                    <form id="bh-sl-user-location" class="form-inline" method="post" action="#" role="form">
+                        <div class="form-input form-group">
+                            <input class="form-control" type="text" id="bh-sl-address" name="bh-sl-address" placeholder="Enter Address or Zip Code"/>
+                        </div>
 
-                <button id="bh-sl-submit" type="submit">Submit</button>
-            </form>
-        </div>
-
-        <div id="map-container" class="bh-sl-map-container">
-            <div class="bh-sl-loc-list">
-                <ul class="list"></ul>
+                        <button id="bh-sl-submit" class="btn btn-primary" type="submit">Submit</button>
+                    </form>
+                </div>
             </div>
-            <div id="bh-sl-map" class="bh-sl-map"></div>
         </div>
     </div>
-
 </div>

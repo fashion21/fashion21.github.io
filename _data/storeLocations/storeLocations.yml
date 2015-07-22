@@ -26,3 +26,89 @@
   hours2: ""
   hours3: ""
 
+- id: 3
+  name: "Chipotle Minneapolis"
+  lat: 44.947464
+  lng: -93.320826
+  address: "3040 Excelsior Blvd"
+  address2: ""
+  state: "MN"
+  postal: 55416
+  phone: "612-922-6662"
+  web: "http://www.chipotle.com"
+  hours1: "Mon-Sun 11am-10pm"
+  hours2: ""
+  hours3: ""
+
+- id: 4
+  name: "Chipotle Minneapolis 2"
+  lat: 44.957464
+  lng: -93.320826
+  address: "3040 Excelsior Blvd"
+  address2: ""
+  state: "MN"
+  postal: 55416
+  phone: "612-922-6662"
+  web: "http://www.chipotle.com"
+  hours1: "Mon-Sun 11am-10pm"
+  hours2: ""
+  hours3: ""
+
+
+- id: 5
+  name: "Chipotle Minneapolis"
+  lat: 44.947464
+  lng: -93.320826
+  address: "3040 Excelsior Blvd"
+  address2: ""
+  state: "MN"
+  postal: 55416
+  phone: "612-922-6662"
+  web: "http://www.chipotle.com"
+  hours1: "Mon-Sun 11am-10pm"
+  hours2: ""
+  hours3: ""
+
+- id: 6
+  name: "Chipotle Minneapolis 2"
+  lat: 44.957464
+  lng: -93.320826
+  address: "3040 Excelsior Blvd"
+  address2: ""
+  state: "MN"
+  postal: 55416
+  phone: "612-922-6662"
+  web: "http://www.chipotle.com"
+  hours1: "Mon-Sun 11am-10pm"
+  hours2: ""
+  hours3: ""
+
+
+- id: 8
+  name: "Chipotle Minneapolis"
+  lat: 44.947464
+  lng: -93.320826
+  address: "3040 Excelsior Blvd"
+  address2: ""
+  state: "MN"
+  postal: 55416
+  phone: "612-922-6662"
+  web: "http://www.chipotle.com"
+  hours1: "Mon-Sun 11am-10pm"
+  hours2: ""
+  hours3: ""
+
+- id: 9
+  name: "Chipotle Minneapolis 2"
+  lat: 44.957464
+  lng: -93.320826
+  address: "3040 Excelsior Blvd"
+  address2: ""
+  state: "MN"
+  postal: 55416
+  phone: "612-922-6662"
+  web: "http://www.chipotle.com"
+  hours1: "Mon-Sun 11am-10pm"
+  hours2: ""
+  hours3: ""
+
