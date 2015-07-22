@@ -1,0 +1,52 @@
+<div class="container">
+    <h4>SITE MAP</h4>
+    <div class="content-section">
+        <h5>ABOUT FASHION21</h5>
+        <ul>
+            {% for aboutItems in site.data.sitemap.about %}
+            <li>
+                <a href="">{{ aboutItems.item }}</a>
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+
+    <div class="content-section">
+        <h5>PRODUCTS</h5>
+        <ul>
+            <li>
+                {% for products in site.data.sitemap.product %}
+                <ul>
+                    <h6>{{ products.category | upcase }}</h6>
+                    <li>
+                        <a href="">{{ products.item1 }}</a>
+                    </li>
+                    <li>
+                        <a href="">{{ products.item2 }}</a>
+                    </li>
+                    <li>
+                        <a href="">{{ products.item3 }}</a>
+                    </li>
+                    <li>
+                        <a href="">{{ products.item4 }}</a>
+                    </li>
+                </ul>
+                {% endfor %}
+            </li>
+
+            <li>
+                <h5>VIDEOS</h5>
+                <ul>
+                    {% for videos in site.data.sitemap.videos %}
+                    <li>
+                        <a href="">{{ videos.item }}</a>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </li>
+            <li>
+                <h5>WHATS NEW</h5>
+            </li>
+        </ul>
+    </div>
+</div>
