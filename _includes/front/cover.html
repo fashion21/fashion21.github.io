@@ -19,8 +19,11 @@
         </div>
         <div class="col-md-6">
             {% for promoCategory in  site.data.promo-item.promoCategory %}
-            <div class="col-md-6 col-xs-6 col-sm-6">
+            <div class="col-md-6 col-xs-6 col-sm-6 category-container">
                 <img src="{{ promoCategory.image}}" class="img-full-width" alt="" />
+                <!--<div class="category-title">-->
+                    <!--<h4>{{ promoCategory.image }}</h4>-->
+                <!--</div>-->
             </div>
             {% endfor %}
         </div>

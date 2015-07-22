@@ -25,24 +25,17 @@ a:focus
 #cover
   top: 0px
   height: inherit
-  .container
-    position: relative
-    height: inherit
-    width: 100%
-    padding: 0px
-    .cover-content
-      margin: 0px
-      height: inherit
-      #cover-carousel
-        padding: 0px
-      #cover-category
-        height: 590px
-        padding: 0px
-        margin: 0px
-        .row
-          margin: 0px
-          .cover-items
-            padding: 0px
+  .full-width
+    padding-left: 0
+    padding-right: 0
+    overflow-x: hidden
+    .row-no-gutter
+      margin: 0
+      [class*="col-"]
+        padding: 0
+        .img-full-width
+          width: 100%
+          height: auto
 
 #video
   height: inherit
