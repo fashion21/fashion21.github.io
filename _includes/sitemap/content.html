@@ -24,4 +24,36 @@
         {% endfor %}
         </div>
     </div>
+
+    <div class="content-section">
+        <h5>OTHERS</h5>
+        <div class="row">
+            <div class="col-md-4">
+                <h6>VIDEOS</h6>
+                <ul>
+                    {% for videos in site.data.sitemap.videos %}
+                    <li>
+                        <a href="">{{ videos.items }}</a>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <h6>WHATS NEW</h6>
+                <ul>
+                    <li>
+                        <a href=""></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <h6>SERVICES</h6>
+                <ul>
+                    <li>
+                        <a href="{{ 'sitemap.html' | prepend: site.baseurl }}">Store Locator</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
 </div>
