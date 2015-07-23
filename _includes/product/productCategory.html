@@ -1,12 +1,18 @@
 <div class="category-menu-container">
-    <div class="category-menu"></div>
-    <img src="/img/product/bar-image.png"/>
+    <div class="category-menu">
+        <ul>
+            {% for categoryMenu in site.data.products.categoryMenu %}
+            <li>
+                <a href="javascript:void(0)">{{ categoryMenu.name | upcase }}</a>
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
 </div>
 <div class="container">
     <div class="col-md-4">
 
     </div>
     <div class="col-md-8">
-
     </div>
 </div>

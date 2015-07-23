@@ -6,13 +6,45 @@
 #productCategory
   .category-menu-container
     position: relative
-    height: 100px
     .category-menu
       width: 100%
       height: 44px
       background-color: red
-    img
-      position: absolute
-      top: 0
-      right: 0
-      height: 50px
+      ul
+        float: none
+        margin: 0 auto
+        display: table
+        list-style: none
+        padding: 0px
+        li
+          padding: 12px 20px 0
+          display: inline-block
+          a
+            font-family: 'Avenir-Bold'
+            color: white
+            text-decoration: none
+            font-size: 12px
+
+//@media screen and (max-width: 767px)
+//  #productCategory
+//    .category-menu-container
+//      .category-menu
+
+
+//@media screen and (max-width: 1200px)
+//  #productCategory
+//    .category-menu-container
+//      .category-menu
+//        padding: 0
+//        ul
+//          margin-left: 20px
+//
+//@media screen and (max-width: 991px)
+//  @media screen and (max-width: 1200px)
+//  #productCategory
+//    .category-menu-container
+//      .category-menu
+//        ul
+//          display: none
+//        button
+//          display: block
