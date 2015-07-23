@@ -10,6 +10,7 @@ nav
       height: inherit
       width: 100%
       .navbar-brand
+        display: inline-block
         margin-top: 37px
         img
           display: none
@@ -35,6 +36,9 @@ nav
             img
               margin-top: -11px
               height: 30px
+      .nav-hidden
+        display: none !important
+
 
 @media screen and (max-width: 767px)
   nav.navbar-default
@@ -66,3 +70,5 @@ nav
             line-height: 55px
             img
               display: none
+      .nav-hidden
+        display: table !important
