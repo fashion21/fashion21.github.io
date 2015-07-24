@@ -11,14 +11,16 @@
     </div>
 </div>
 <div class="container-fluid">
+    <ol class="breadcrumb">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Library</a></li>
+        <li class="active">Data</li>
+    </ol>
     <div class="col-md-3">
-        <ol class="breadcrumb">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Library</a></li>
-            <li class="active">Data</li>
-        </ol>
+
         {% include product/productSidebar.html %}
     </div>
     <div class="col-md-9">
+        {% include product/productList.html %}
     </div>
 </div>
