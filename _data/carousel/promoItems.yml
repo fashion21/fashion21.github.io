@@ -1,3 +1,3 @@
-- image: http://lorempixel.com/800/700/fashion/
-- image: http://lorempixel.com/800/700/fashion/
-- image: http://lorempixel.com/800/700/fashion/
+- image: http://lorempixel.com/800/700/fashion/?x
+- image: http://lorempixel.com/800/700/fashion/?y
+- image: http://lorempixel.com/800/700/fashion/?z
