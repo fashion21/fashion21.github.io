@@ -10,10 +10,15 @@
         <img src="/img/product/bar-image.png"/>
     </div>
 </div>
-<div class="container">
-    <div class="col-md-4">
-
+<div class="container-fluid">
+    <div class="col-md-3">
+        <ol class="breadcrumb">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Library</a></li>
+            <li class="active">Data</li>
+        </ol>
+        {% include product/productSidebar.html %}
     </div>
-    <div class="col-md-8">
+    <div class="col-md-9">
     </div>
 </div>
