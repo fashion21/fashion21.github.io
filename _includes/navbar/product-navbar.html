@@ -4,16 +4,16 @@
             <a class="navbar-brand" href="/">
                 <img class="" src="{{ 'img/brand-logo.png' | prepend: site.baseurl }}">
             </a>
-            <button type="button" class="navbar-toggle" data-parent="#navGroup" data-toggle="collapse" data-target="#navbar-menu-collapse">
+            <button style="left: 0px;" id="category-button" type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-category-collapse">CATEGORY</button>
+            <button type="button" id="menu-button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu-collapse">
                 <span class="sr-only">Toggle navigation</span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <button style="left: 0px;" id="test2" type="button" class="navbar-toggle" data-parent="#navGroup" data-toggle="collapse" data-target="#navbar-category-collapse">CATEGORY</button>
         </div>
 
-        <div class="collapse navbar-collapse" id="navbar-menu-collapse">
+        <div id="navbar-menu-collapse" class="collapse navbar-collapse">
             <ul class="nav navbar-nav">
                 <li><a href="{{ '/' | prepend: site.baseurl }}">WHAT'S NEW</a></li>
                 <li><a href="javascript:void(0)">PRODUCTS</a></li>
@@ -23,7 +23,8 @@
                 <li><a href="javascript:void(0)"><span class="glyphicon glyphicon-search"/></a></li>
             </ul>
         </div>
-        <div class="collapse navbar-collapse" id="navbar-category-collapse">
+
+        <div id="navbar-category-collapse" class="collapse navbar-collapse">
             <ul class="nav navbar-nav nav-hidden">
                 <li><a href="{{ '/' | prepend: site.baseurl }}">WHAT'S NEW</a></li>
                 <li><a href="javascript:void(0)">PRODUCTS</a></li>
