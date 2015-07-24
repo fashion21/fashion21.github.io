@@ -9,3 +9,9 @@ markdown: kramdown
 
 sass:
     style: :compressed
+
+#Collections
+collections:
+    products:
+        output: true
+        permalink: /products/:path/
