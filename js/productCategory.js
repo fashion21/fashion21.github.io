@@ -15,6 +15,10 @@ fs.navbarToggle = function(){
         //}
         var categoryButton = $("#category-button");
         var menuButton = $("#menu-button");
+        var categorySection = $("#menu-button");
+        var menuCategory = $("#menu-button");
+
+
         if($(this)[0] == categoryButton[0]){
             if($("#navbar-menu-collapse").hasClass("navbar-collapse collapse in")){
                 menuButton.click();
