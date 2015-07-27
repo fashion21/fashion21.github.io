@@ -19,16 +19,18 @@
         </div>
         <div class="col-md-6">
             {% assign counter=0 %}
-            {% for cat in site.data.category-list %}
-                {% if cat.is-promo == true and counter < 6%}
+            {% for category in site.category-page %}
+                {% if category.is-promo == true and counter < 6%}
                     {% assign counter=counter | plus:1 %}
-                    <div class="col-md-6 col-xs-6 col-sm-6 category-container">
-                    <img src="{{ cat.category-image }}" class="img-full-width" alt="" />
-                    <div class="category-title">
-                        <h3 class="text-center">{{ cat.title | upcase }}</h3>
-                        <p class="text-center">{{ cat.description }}</p>
-                    </div>
-                    </div>
+                    <a href="{{ category.url }}">
+                        <div class="col-md-6 col-xs-6 col-sm-6 category-container">
+                            <img src="{{ category.category-image }}" class="img-full-width" alt="" />
+                            <div class="category-title">
+                                <h3 class="text-center">{{ category.title | upcase }}</h3>
+                                <p class="text-center">{{ category.description }}</p>
+                            </div>
+                        </div>
+                    </a>
                 {% endif %}
             {% endfor %}
         </div>

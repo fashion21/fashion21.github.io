@@ -12,6 +12,9 @@ sass:
 
 #Collections
 collections:
+    category-page:
+        output: true
+        permalink: /:path/
     products:
         output: true
         permalink: /products/:path/

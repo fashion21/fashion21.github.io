@@ -1,5 +1,5 @@
-{% for category in site.data.category-list %}
-<h2>{{ category.title | capitalize}} <small>VIEW ALL</small></h2>
+{% for category in site.category-page %}
+<h2>{{ category.title | capitalize}} <a href="{{ category.url }}"><small>VIEW ALL</small></a></h2>
 <hr>
 <div id="products" class="row list-group">
     {% assign counter=0 %}
@@ -18,7 +18,7 @@
                                 <p class="lead">₱ {{ product.price }}</p>
                             </div>
                             <div class="col-xs-12 col-md-6">
-                                <a class="btn btn-success" href="http://www.jquery2dotnet.com">View More Details</a>
+                                <a class="btn btn-success" href="{{ product.url }}">View More Details</a>
                             </div>
                         </div>
                     </div>

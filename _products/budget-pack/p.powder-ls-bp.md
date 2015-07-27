@@ -1,9 +1,9 @@
 ---
-title: F21 TWC Spoon
+title: P.POWDER, L/S BP
 layout: product
-categories: [accessories]
+categories: [budget pack]
 feature_image: http://lorempixel.com/800/600/
-price: "12.00"
+price: "125.00"
 item_color_images:
     - http://lorempixel.com/800/600/
     - http://lorempixel.com/800/600/

@@ -1,6 +1,6 @@
 ---
 title: F21 Mix & Match Pallete
-layout: productCategory
+layout: product
 categories: [accessories]
 feature_image: http://lorempixel.com/800/600/
 price: "125.00"

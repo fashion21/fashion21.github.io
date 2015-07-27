@@ -1,6 +1,6 @@
 ---
 title: F21 Mini E/S Foam Applicator
-layout: productCategory
+layout: product
 categories: [accessories]
 feature_image: http://lorempixel.com/800/600/
 price: "35.00"

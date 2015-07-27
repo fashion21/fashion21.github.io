@@ -1,8 +1,8 @@
 <div class="category-menu navbar-fixed-top">
     <ul>
-        {% for categoryMenu in site.data.products.categoryMenu %}
+        {% for category in site.category-page %}
         <li>
-            <a href="javascript:void(0)">{{ categoryMenu.name | upcase }}</a>
+            <a href="{{ category.url }}">{{ category.title | upcase }}</a>
         </li>
         {% endfor %}
     </ul>
