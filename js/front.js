@@ -4,8 +4,6 @@ var fs = fs || {};
       fs.carouselImg();
       fs.categoryItems();
       fs.facebookPageWidget();
-      fs.facebookLikeWidget();
-      fs.instagramWidget();
       fs.categoryItemHover();
   };
 
