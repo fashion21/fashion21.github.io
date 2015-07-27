@@ -18,14 +18,18 @@
             </div>
         </div>
         <div class="col-md-6">
-            {% for promoCategory in  site.data.promo-item.promoCategory %}
-            <div class="col-md-6 col-xs-6 col-sm-6 category-container">
-                <img src="{{ promoCategory.image}}" class="img-full-width" alt="" />
-                <div class="category-title">
-                    <h3 class="text-center">{{ promoCategory.title | upcase }}</h3>
-                    <p class="text-center">{{ promoCategory.description }}</p>
-                </div>
-            </div>
+            {% assign counter=0 %}
+            {% for cat in site.data.category-list %}
+                {% if cat.is-promo == true and counter < 6%}
+                    {% assign counter=counter | plus:1 %}
+                    <div class="col-md-6 col-xs-6 col-sm-6 category-container">
+                    <img src="{{ cat.category-image }}" class="img-full-width" alt="" />
+                    <div class="category-title">
+                        <h3 class="text-center">{{ cat.title | upcase }}</h3>
+                        <p class="text-center">{{ cat.description }}</p>
+                    </div>
+                    </div>
+                {% endif %}
             {% endfor %}
         </div>
     </div>

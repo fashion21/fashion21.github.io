@@ -35,7 +35,13 @@ nav
             img
               margin-top: -11px
               height: 30px
+      .nav-hidden
+        display: none !important
 
+@media screen and (max-width: 991px)
+  .category-menu
+    img
+      display: none
 @media screen and (max-width: 767px)
   nav.navbar-default
     .container
@@ -56,13 +62,35 @@ nav
           background-color: #000
           border-radius: 3px
           height: 5px
-      .navbar-nav
-        margin: 20px auto 10px
-        li
-          display: block
-          a
-            font-size: 19px
+      #navbar-menu-collapse
+        .navbar-nav
+          margin: 20px auto 10px
+          li
+            display: block
+            a
+              font-size: 19px
+              padding: 0px
+              line-height: 55px
+              img
+                display: none
+      #navbar-category-collapse
+        overflow: hidden
+        .navbar-nav
+          margin: 20px auto 10px
+          li
+            display: inline-block
+            a
+              line-height: 55px
+              font-size: 15px
+              text-decoration: none
+      .nav-hidden
+        display: table !important
+  .category-menu
+    display: none
+@media screen and (max-width: 480px)
+  nav.navbar-default
+    .container
+      #navbar-category-collapse
+        .navbar-nav
+          li
             padding: 0px
-            line-height: 55px
-            img
-              display: none
