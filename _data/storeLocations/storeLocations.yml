@@ -560,8 +560,8 @@
 
 - id: 41
   name: "Robinsons Centrio"
-  lat: 8.4849669
-  lng: 123.8940956
+  lat: 8.4849767
+  lng: 124.6510936
   address: "Robinsons Centrio Dept. Store 2nd Level, Centrio Mall, C.M. Recto cor. Corrales St., Cagayan De Oro City, Misamis Oriental."
   address2: ""
   state: "MN"
@@ -754,8 +754,8 @@
   hours2: ""
   hours3: ""
 
-- id: 56
-  name: "Metro Ayala"
+- id: 55
+  name: "Gaisano Mandaue"
   lat: 10.3066505
   lng: 123.9107555
   address: "Super Metro, Cosmetics Section Estancia Street, Ibabao Mandaue City, Cebu City."
@@ -767,6 +767,137 @@
   hours1: "Mon-Sun 11am-10pm"
   hours2: ""
   hours3: ""
+
+- id: 56
+  name: "Cinderella Boutique"
+  lat: 14.594012
+  lng: 120.9860801
+  address: "Level 1, #219-225, Cinderella Boutique, Within Robinsons Place (Midtown) M. Adriatico St., Ermita, Manila, Metro Manila."
+  address2: ""
+  state: "MN"
+  postal: 1000
+  phone: "612-922-6662"
+  web: "http://www.chipotle.com"
+  hours1: "Mon-Sun 11am-10pm"
+  hours2: ""
+  hours3: ""
+
+- id: 57
+  name: "Landmark Trinoma"
+  lat: 14.6439035
+  lng: 121.038596
+  address: "Cosmetic Section, Landmark, Trinoma Branch (CITYSUPER,INC.) EDSA corner Mindanao Avenue Extension Brgy. Pag-Asa, Quezon City, Metro Manila."
+  address2: ""
+  state: "MN"
+  postal: 1100
+  phone: "612-922-6662"
+  web: "http://www.chipotle.com"
+  hours1: "Mon-Sun 11am-10pm"
+  hours2: ""
+  hours3: ""
+
+- id: 58
+  name: "Ever Commonwealth"
+  lat: 14.6780096
+  lng: 121.0853611
+  address: "Ever Gotesco Commonwealth Center, Unno. Commonwealth Avenue, Quezon City, Metro Manila."
+  address2: ""
+  state: "MN"
+  postal: 1121
+  phone: "612-922-6662"
+  web: "http://www.chipotle.com"
+  hours1: "Mon-Sun 11am-10pm"
+  hours2: ""
+  hours3: ""
+
+- id: 59
+  name: "KCC Mall Veranza"
+  lat: 6.1167809
+  lng: 125.1878519
+  address: "KCC Warehouse Plaza, 2F Cosmetics Section Jose Catolico Sr. Avenue Lagao, Gen. Santos City, South Cotabato, Philippines."
+  address2: ""
+  state: "MN"
+  postal: 9500
+  phone: "612-922-6662"
+  web: "http://www.chipotle.com"
+  hours1: "Mon-Sun 11am-10pm"
+  hours2: ""
+  hours3: ""
+
+- id: 60
+  name: "KCC Mall Veranza"
+  lat: 6.4989864
+  lng: 124.8462012
+  address: "Within KCC Marbel Branch, Cosmetics Section, KCC Shopping Center National Highway, Gen. San Drive, Koronadal City, South Cotabato."
+  address2: ""
+  state: "MN"
+  postal: 9506
+  phone: "612-922-6662"
+  web: "http://www.chipotle.com"
+  hours1: "Mon-Sun 11am-10pm"
+  hours2: ""
+  hours3: ""
+
+- id: 61
+  name: "Isetann Cinerama Complex"
+  lat: 14.6031828
+  lng: 120.9844337
+  address: "2nd Floor Cosmetics Section, RMSI Isetann Cinerama Complex, C.M. Recto Avenue Corner Evangelista Street, Quezon Boulevard Sta. Cruz, Manila."
+  address2: ""
+  state: "MN"
+  postal: 1104
+  phone: "612-922-6662"
+  web: "http://www.chipotle.com"
+  hours1: "Mon-Sun 11am-10pm"
+  hours2: ""
+  hours3: ""
+
+- id: 62
+  name: "Gaisano Mall of Mactan"
+  lat: 10.2859231
+  lng: 123.9693385
+  address: "Gaisano Mactan Capital, 2nd Flr., Cosmetic Section Pusok, Lapu-lapu City, Cebu."
+  address2: ""
+  state: "MN"
+  postal: 6015
+  phone: "612-922-6662"
+  web: "http://www.chipotle.com"
+  hours1: "Mon-Sun 11am-10pm"
+  hours2: ""
+  hours3: ""
+
+- id: 63
+  name: "Landmark Corp"
+  lat: 14.6039369
+  lng: 121.0284803
+  address: "Ground Floor, Cosmetics Section, Landmark Makati Commercial Center, Makati City, Metro Manila."
+  address2: ""
+  state: "MN"
+  postal: 1224
+  phone: "612-922-6662"
+  web: "http://www.chipotle.com"
+  hours1: "Mon-Sun 11am-10pm"
+  hours2: ""
+  hours3: ""
+
+- id: 64
+  name: "Robinsons Place Manila Kiosk"
+  lat: 14.5762817
+  lng: 120.9839452
+  address: "Central Atrium, 2nd floor, Robinsons Place, Ermita, Manila, Metro Manila."
+  address2: ""
+  state: "MN"
+  postal: 1000
+  phone: "612-922-6662"
+  web: "http://www.chipotle.com"
+  hours1: "Mon-Sun 11am-10pm"
+  hours2: ""
+  hours3: ""
+
+
+
+
+
 
 
 
