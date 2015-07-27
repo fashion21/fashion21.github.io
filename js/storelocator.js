@@ -8,6 +8,7 @@ fs.loadStoreLocatorMap = function(){
     var isDraggable = $(document).width() > 480 ? true : false;
     $('#map-container').storeLocator({
         'fullMapStart': true,
+        'storeLimit': 100,
         'dataType': 'json',
         'dataLocation': 'data/locations.json',
         'mapSettings' : {
