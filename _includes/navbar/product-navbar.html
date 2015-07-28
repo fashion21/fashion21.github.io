@@ -1,14 +1,16 @@
 <nav class="navbar navbar-fixed-top navbar-default">
     <div class="container">
 
-        {% include navbar/navbar.html %}
-        <div class="category-menu mobile navbar-fixed-top">
-            <ul>
-                <li>
-                    <a href="#"  data-toggle="collapse" data-target="#navbar-category-collapse">View All Categories</a>
-                </li>
-            </ul>
-            <img src="/img/product/bar-image.png">
+        <div class="navbar-mobile">
+            {% include navbar/navbar.html %}
+            <div class="category-menu mobile navbar-fixed-top">
+                <ul>
+                    <li>
+                        <a href="#" id="category-button" data-toggle="collapse" data-target="#navbar-category-collapse">View All Categories</a>
+                    </li>
+                </ul>
+                <img src="/img/product/bar-image.png">
+            </div>
         </div>
 
         <div id="navbar-category-collapse" class="collapse navbar-collapse">
