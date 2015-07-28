@@ -2,14 +2,22 @@
     <div class="container">
 
         {% include navbar/navbar.html %}
+        <div class="category-menu mobile navbar-fixed-top">
+            <ul>
+                <li>
+                    <a href="#"  data-toggle="collapse" data-target="#navbar-category-collapse">View All Categories</a>
+                </li>
+            </ul>
+            <img src="/img/product/bar-image.png">
+        </div>
 
         <div id="navbar-category-collapse" class="collapse navbar-collapse">
             <ul class="nav navbar-nav nav-hidden">
                 <div class="row">
-                    {% for categoryMenu in site.data.products.categoryMenu %}
+                    {% for categoryMenu in site.category-page %}
                     <div class="col-xs-6">
                         <li>
-                            <a href="javascript:void(0)">{{ categoryMenu.name | upcase }}</a>
+                            <a href="{{ categoryMenu.url }}">{{ categoryMenu.title | upcase }}</a>
                         </li>
                     </div>
                     {% endfor %}
