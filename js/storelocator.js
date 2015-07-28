@@ -9,7 +9,7 @@ fs.loadStoreLocatorMap = function(){
     $('#map-container').storeLocator({
         'fullMapStart': true,
         'dataType': 'json',
-        'dataLocation': 'data/locations.json',
+        'dataLocation': 'feeds/locations.json',
         'mapSettings' : {
             draggable: isDraggable,
             zoom : 12,
