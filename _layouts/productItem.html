@@ -17,8 +17,12 @@
         {% include product/productSidebar.html %}
     </div>
     <div class="item col-md-9 col-lg-9">
-        <div class="thumbnail">
-            <img class="group list-group-image" src="http://placehold.it/640x400/000/fff" alt="">
+        <div class="col-md-6">
+            <div class="thumbnail">
+                <img class="group list-group-image" src="http://placehold.it/640x400/000/fff" alt="">
+            </div>
+        </div>
+        <div class="col-md-6">
             <div class="caption">
                 <h4 class="group inner list-group-item-heading">{{ page.title}}</h4>
                 <p class="group inner list-group-item-text">{{ content }}</p>
@@ -30,6 +34,7 @@
             </div>
         </div>
     </div>
+
 </div>
 {% include footer.html %}
 <script type="text/javascript" src="/js/jquery-1.11.3.js"></script>
