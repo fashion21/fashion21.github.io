@@ -1,23 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
-    {% include head/productCategory-head.html %}
+    {% include head/productItemCategory-head.html %}
 </head>
 
 <body>
 {% include navbar/product-navbar.html %}
 {% include navbar/productCategory-navbar.html %}
-
-
 <div class="container-fluid">
     <ol class="breadcrumb">
         <li><a href="#">FASHION 21</a></li>
         <li><a href="#">ACCESSORIES</a></li>
     </ol>
-    <div class="col-lg-3 col-md-3">
-        {% include product/productSidebar.html %}
-    </div>
-    <div class="item col-lg-9">
+    <div class="item col-lg-12 col-md-12">
         <h2>{{ page.title | capitalize}}</a></h2>
         <div id="products" class="row list-group">
             {% for product in site.products %}
