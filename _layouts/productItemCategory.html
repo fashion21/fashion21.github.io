@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    {% include head/productCategory-head.html %}
+</head>
+
+<body>
+{% include navbar/product-navbar.html %}
+{% include navbar/productCategory-navbar.html %}
+
+
+<div class="container-fluid">
+    <ol class="breadcrumb">
+        <li><a href="#">FASHION 21</a></li>
+        <li><a href="#">ACCESSORIES</a></li>
+    </ol>
+    <div class="col-lg-3 col-md-3">
+        {% include product/productSidebar.html %}
+    </div>
+    <div class="item col-lg-9">
+        <h2>{{ page.title | capitalize}}</a></h2>
+        <div id="products" class="row list-group">
+            {% for product in site.products %}
+            {% for category in product.categories %}
+            {% if category == page.title %}
+            <div class="item col-sm-6 col-lg-4">
+                <div class="thumbnail">
+                    <img class="group list-group-image" src="http://placehold.it/640x400/000/fff" alt="" />
+                    <div class="caption">
+                        <h4 class="group inner list-group-item-heading">{{ product.title }}</h4>
+                        <p class="group inner list-group-item-text">{{ product.content }}</p>
+                        <div class="row">
+                            <div class="col-xs-12 col-md-6">
+                                <p class="lead">₱ {{ product.price }}</p>
+                            </div>
+                            <div class="col-xs-12 col-md-6">
+                                <a class="btn btn-success" href="{{ product.url }}">View More Details</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {% endif %}
+            {% endfor %}
+            {% endfor %}
+        </div>
+    </div>
+</div>
+
+{% include footer.html %}
+<script type="text/javascript" src="/js/jquery-1.11.3.js"></script>
+<script type="text/javascript" src="/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="/js/productCategory.js"></script>
+</body>
+</html>
