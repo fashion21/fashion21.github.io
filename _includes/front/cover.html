@@ -23,7 +23,7 @@
                 {% if category.is-promo == true and counter < 6%}
                     {% assign counter=counter | plus:1 %}
                     <a href="{{ category.url }}">
-                        <div class="col-md-6 col-xs-6 col-sm-6 category-container">
+                        <div class="col-md-6 col-xs-12 col-sm-6 category-container">
                             <img src="{{ category.category-image }}" class="img-full-width" alt="" />
                             <div class="category-title">
                                 <h3 class="text-center">{{ category.title | upcase }}</h3>
