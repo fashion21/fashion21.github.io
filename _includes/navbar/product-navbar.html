@@ -6,7 +6,7 @@
             <div class="category-menu mobile navbar-fixed-top">
                 <ul>
                     <li>
-                        <a href="#" id="category-button" data-toggle="collapse" data-target="#navbar-category-collapse">Categories <span class="caret"></span></a>
+                        <a href="#" id="category-button" data-toggle="collapse" data-target="#navbar-category-collapse">CATEGORIES <span class="caret"></span></a>
                     </li>
                 </ul>
                 <img src="/img/product/bar-image.png">
@@ -28,4 +28,14 @@
         </div>
     </div>
 </nav>
+<div class="category-menu navbar-fixed-top">
+    <ul>
+        {% for category in site.category-page %}
+        <li>
+            <a href="{{ category.url }}">{{ category.title | upcase }}</a>
+        </li>
+        {% endfor %}
+    </ul>
+    <img src="/img/product/bar-image.png"/>
+</div>
 
