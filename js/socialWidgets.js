@@ -1,7 +1,9 @@
 var fs= fs || {};
 fs.socialMedia = function() {
-    fs.facebookLikeWidget();
-    fs.instagramWidget();
+    setTimeout(function(){
+        fs.facebookLikeWidget(),
+        fs.instagramWidget()
+    }, 3000);
 };
 
 
