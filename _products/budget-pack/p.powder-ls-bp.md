@@ -1,6 +1,6 @@
 ---
 title: P.POWDER, L/S BP
-layout: product
+layout: productItem
 categories: [budget pack]
 feature_image: http://lorempixel.com/800/600/
 price: "125.00"

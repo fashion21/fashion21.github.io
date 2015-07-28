@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    {% include head/productItem-head.html %}
+</head>
+
+<body>
+{% include navbar/product-navbar.html %}
+{% include navbar/productCategory-navbar.html %}
+<div class="container-fluid">
+    <ol class="breadcrumb">
+        <li><a href="#">FASHION 21</a></li>
+        <li><a href="#">PRODUCTS</a></li>
+        <li><a href="#">p.poweder-ls-bp</a></li>
+    </ol>
+    <div class="col-md-3 col-lg-3 col-sm-4 hidden-xs">
+        {% include product/productSidebar.html %}
+    </div>
+    <div class="item col-md-9 col-lg-9 col-sm-8">
+        <div class="col-md-6">
+            <div class="thumbnail">
+                <img class="group list-group-image" src="http://placehold.it/640x400/000/fff" alt="">
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="caption">
+                <h2>{{ page.title}}</h2>
+                <p>{{ content }}</p>
+                <p>₱ {{ page.price }}</p>
+            </div>
+        </div>
+    </div>
+
+</div>
+{% include footer.html %}
+<script type="text/javascript" src="/js/jquery-1.11.3.js"></script>
+<script type="text/javascript" src="/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="/js/productCategory.js"></script>
+</body>
+</html>
