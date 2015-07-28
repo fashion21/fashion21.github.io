@@ -1,6 +1,6 @@
 ---
 title: F21 TWC Sponge
-layout: product
+layout: productItem
 categories: [accessories]
 feature_image: http://lorempixel.com/800/600/
 price: "35.00"
