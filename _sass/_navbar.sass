@@ -1,6 +1,7 @@
 nav
   background: #FFFFFF
   &.navbar-default
+    height: 87px
     font-family: Avenir-medium
     color: #000
     border-radius: 0px
@@ -34,14 +35,14 @@ nav
             &:hover
               color: red
             img
-              margin-top: -11px
-              height: 30px
+              transition: all 1s ease
+              margin-top: -15px
+              height: 40px
+
 
 @media screen and (max-width: 767px)
   nav.navbar-default
     .container
-      .navbar-header
-        height: 87px
       .navbar-brand
         margin-top: 9px
         float: none
