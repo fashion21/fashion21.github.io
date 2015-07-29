@@ -1,7 +1,12 @@
 <ul class="list-group">
-    <li class="list-group-item"><h2>FACE</h2></li>
-    <li class="list-group-item">Dapibus ac facilisis in</li>
-    <li class="list-group-item">Morbi leo risus</li>
-    <li class="list-group-item">Porta ac consectetur ac</li>
-    <li class="list-group-item">Vestibulum at eros</li>
+    <li class="list-group-item"><h2>{{ page.categories[0] | capitalize }} </h2></li>
+    {% for product in site.products %}
+        {% for productCategory in product.categories %}
+            {% if productCategory == page.categories[0] %}
+                <a href="{{ product.url }}">
+                    <li class="list-group-item">{{ product.title }}</li>
+                </a>
+            {% endif %}
+        {% endfor %}
+    {% endfor %}
 </ul>

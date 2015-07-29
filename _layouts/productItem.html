@@ -9,8 +9,8 @@
 <div class="container-fluid">
     <ol class="breadcrumb">
         <li><a href="#">FASHION 21</a></li>
-        <li><a href="#">PRODUCTS</a></li>
-        <li><a href="#">p.poweder-ls-bp</a></li>
+        <li><a href="#">{{ page.categories[0] | upcase }}</a></li>
+        <li><a href="#">{{ page.title | upcase }}</a></li>
     </ol>
     <div class="col-md-3 col-lg-3 col-sm-4 hidden-xs">
         {% include product/productSidebar.html %}
@@ -18,7 +18,7 @@
     <div class="item col-md-9 col-lg-9 col-sm-8">
         <div class="col-md-6">
             <div class="thumbnail">
-                <img class="group list-group-image" src="http://placehold.it/640x400/000/fff" alt="">
+                <img class="group list-group-image" src="{{ page.feature_image }}" alt="">
             </div>
         </div>
         <div class="col-md-6">

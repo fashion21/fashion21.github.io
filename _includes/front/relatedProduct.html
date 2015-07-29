@@ -1,34 +1,14 @@
 <h2 class="text-center">TOP PICKS</h2>
 
 <ul id="product-img-slider">
-    <li class="text-center">
-        <a href="">
-            <img src="http://lorempixel.com/g/400/200/"/>
-            <h3>F21 Mini E/S Foam Applicator</h3>
-        </a>
-    </li>
-    <li class="text-center">
-        <a href="">
-            <img src="http://lorempixel.com/g/400/200/"/>
-            <h3>F21 Mix & Match Pallete</h3>
-        </a>
-    </li>
-    <li class="text-center">
-        <a href="">
-            <img src="http://lorempixel.com/g/400/200/"/>
-            <h3>F21 TWC Sponge</h3>
-        </a>
-    </li>
-    <li class="text-center">
-        <a href="">
-            <img src="http://lorempixel.com/g/400/200/"/>
-            <h3>P.POWDER, L/S BP</h3>
-        </a>
-    </li>
-    <li class="text-center">
-        <a href="">
-            <img src="http://lorempixel.com/g/400/200/"/>
-            <h3>F21 Mini E/S Foam Applicator</h3>
-        </a>
-    </li>
+    {% for product in site.products %}
+        {% if product.is_top_pick == true %}
+            <li class="text-center">
+                <a href="{{ product.url }}">
+                    <img src="{{ product.feature_image }}"/>
+                    <h3>{{ product.title }}</h3>
+                </a>
+            </li>
+        {% endif %}
+    {% endfor %}
 </ul>

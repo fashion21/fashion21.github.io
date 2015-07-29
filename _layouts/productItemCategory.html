@@ -9,7 +9,7 @@
 <div class="container-fluid">
     <ol class="breadcrumb">
         <li><a href="#">FASHION 21</a></li>
-        <li><a href="#">ACCESSORIES</a></li>
+        <li><a href="#">{{ page.title | upcase }}</a></li>
     </ol>
     <div class="item col-lg-12 col-md-12">
         <h2>{{ page.title | capitalize}}</a></h2>
@@ -19,7 +19,7 @@
             {% if category == page.title %}
             <div class="item col-sm-6 col-lg-4">
                 <div class="thumbnail">
-                    <img class="group list-group-image" src="http://placehold.it/640x400/000/fff" alt="" />
+                    <img class="group list-group-image" src="{{ product.feature_image }}" alt="" />
                     <div class="caption">
                         <h4 class="group inner list-group-item-heading">{{ product.title }}</h4>
                         <p class="group inner list-group-item-text">{{ product.content }}</p>

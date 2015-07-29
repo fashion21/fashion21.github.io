@@ -9,7 +9,7 @@
             {% assign counter=counter | plus:1 %}
             <div class="item col-sm-6 col-lg-4">
                 <div class="thumbnail">
-                    <img class="group list-group-image" src="http://placehold.it/640x400/000/fff" alt="" />
+                    <img class="group list-group-image" src="{{ product.feature_image }}" alt="" />
                     <div class="caption">
                         <h4 class="group inner list-group-item-heading">{{ product.title }}</h4>
                         <p class="group inner list-group-item-text">{{ product.content }}</p>

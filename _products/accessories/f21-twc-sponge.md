@@ -2,7 +2,8 @@
 title: F21 TWC Sponge
 layout: productItem
 categories: [accessories]
-feature_image: http://lorempixel.com/800/600/
+is_top_pick: true
+feature_image: http://lorempixel.com/640/400/fashion/3
 price: "35.00"
 item_color_images:
     - http://lorempixel.com/800/600/
