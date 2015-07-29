@@ -6,6 +6,7 @@ var fs = fs || {};
       fs.facebookPageWidget();
       fs.categoryItemHover();
   };
+
 fs.categoryItemHover = function(){
     $('.category-container .category-title').on('mouseenter', function(){
         $(this).css({
