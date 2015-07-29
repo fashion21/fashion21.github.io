@@ -10,7 +10,7 @@ fs.navbarScroll = function() {
     var navbarNav = $('.navbar-nav');
     var navbarImg = $('.navbar-nav li a').find('img');
     $(window).scroll(function () {
-        if($(window).scrollTop() >= $('#video').offset().top - 465){
+        if($(window).scrollTop() >= $('nav').outerHeight() + 100){
             navbarDefault.css('height','65px');
             navbarNav.css('margin-top','26px');
             navbarImg.css({
@@ -18,7 +18,7 @@ fs.navbarScroll = function() {
                 'margin-top': '-11px'
             });
         }
-        else if($(window).scrollTop() <= $('#video').offset().top - 465){
+        else if($(window).scrollTop() <= $('nav').outerHeight() + 100){
             navbarDefault.css('height', '87px');
             navbarNav.css('margin-top','37px');
             navbarImg.css({
