@@ -39,8 +39,8 @@ fs.facebookPageWidget = function(){
 fs.addActiveClass = function () {
   var $navbarMenu = $('.navbar-nav>li a');
   $navbarMenu.on('click', function(){
-    $navbarMenu.removeClass('active');
-    $(this).addClass('active');
+    $navbarMenu.removeClass('active-text');
+    $(this).addClass('active-text');
   });
 };
 
