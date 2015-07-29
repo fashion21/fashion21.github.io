@@ -6,22 +6,22 @@ fs.navbar = function() {
 //nav.navbar-default .container .navbar-nav li a img
 
 fs.navbarScroll = function() {
+    var navbarDefault = $('nav.navbar-default');
+    var navbarNav = $('.navbar-nav');
+    var navbarImg = $('.navbar-nav li a').find('img');
     $(window).scroll(function () {
         if($(window).scrollTop() >= $('#video').offset().top - 465){
-            //alert('MEOW');
-            $('nav.navbar-default').css('height','65px');
-            $('.navbar-nav').css('margin-top','26px');
-            $('.navbar-nav li a').find('img').css({
+            navbarDefault.css('height','65px');
+            navbarNav.css('margin-top','26px');
+            navbarImg.css({
                 'height': '30px',
                 'margin-top': '-11px'
             });
-
-
         }
         else if($(window).scrollTop() <= $('#video').offset().top - 465){
-            $('nav.navbar-default').css('height', '87px');
-            $('.navbar-nav').css('margin-top','37px');
-            $('.navbar-nav li a').find('img').css({
+            navbarDefault.css('height', '87px');
+            navbarNav.css('margin-top','37px');
+            navbarImg.css({
                 'height': '40px',
                 'margin-top': '-15px'
             });
