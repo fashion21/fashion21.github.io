@@ -16,7 +16,7 @@
                 {% for categoryMenu in site.category-page %}
                 <div class="col-xs-6">
                     <li>
-                        <a href="{{ categoryMenu.url }}">{{ categoryMenu.title | upcase }}</a>
+                        <a {% if page.url == /page.title %} class="active-categories"{% endif %} href="{{ categoryMenu.url }}">{{ categoryMenu.title | upcase }}</a>
                     </li>
                 </div>
                 {% endfor %}
