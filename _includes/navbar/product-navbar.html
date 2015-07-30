@@ -16,10 +16,11 @@
                 {% for categoryMenu in site.category-page %}
                 <div class="col-xs-6">
                     <li>
-                        <a {% if page.url == /page.title %} class="active-categories"{% endif %} href="{{ categoryMenu.url }}">{{ categoryMenu.title | upcase }}</a>
+                        <a href="{{ categoryMenu.url }}">{{ categoryMenu.title | upcase }}</a>
                     </li>
                 </div>
                 {% endfor %}
+
             </ul>
         </div>
     </div>
@@ -29,7 +30,7 @@
     <ul>
         {% for category in site.category-page %}
         <li>
-            <a href="{{ category.url }}">{{ category.title | upcase }}</a>
+            <a {% if page.url == category.url or page.url == category.title %} class="active-category"{% endif %} href="{{ category.url }}">{{ category.title | upcase }}</a>
         </li>
         {% endfor %}
     </ul>
