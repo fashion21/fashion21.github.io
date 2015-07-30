@@ -2,6 +2,7 @@ var fs = fs || {};
 fs.init = function() {
     fs.loadStoreLocatorMap();
     fs.mobileAddressScroller();
+    fs.resetMap();
 };
 
 fs.loadStoreLocatorMap = function(){
@@ -27,7 +28,12 @@ fs.loadStoreLocatorMap = function(){
             }
         }
     });
+};
 
+fs.resetMap = function(){
+    $("#reset-map").click(function(){
+        $("#bh-sl-address").val("");
+    });
 };
 
 fs.mobileAddressScroller = function(){
