@@ -1960,6 +1960,7 @@
 				$('.' + _this.settings.locationList + ' li[data-markerid=' + markerId + ']').addClass('list-focus');
 
 				map.panTo(selectedMarker.getPosition());
+				map.setZoom(17);
 				var listLoc = 'left';
 				if (_this.settings.bounceMarker === true) {
 					selectedMarker.setAnimation(google.maps.Animation.BOUNCE);

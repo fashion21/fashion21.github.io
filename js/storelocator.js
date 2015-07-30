@@ -2,12 +2,14 @@ var fs = fs || {};
 fs.init = function() {
     fs.loadStoreLocatorMap();
     fs.mobileAddressScroller();
+    fs.resetMap();
 };
 
 fs.loadStoreLocatorMap = function(){
     var isDraggable = $(document).width() > 480 ? true : false;
     $('#map-container').storeLocator({
         'fullMapStart': true,
+        'storeLimit': 100,
         'dataType': 'json',
         'dataLocation': 'feeds/locations.json',
         'mapSettings' : {
@@ -26,7 +28,12 @@ fs.loadStoreLocatorMap = function(){
             }
         }
     });
+};
 
+fs.resetMap = function(){
+    $("#reset-map").click(function(){
+        $("#bh-sl-address").val("");
+    });
 };
 
 fs.mobileAddressScroller = function(){
