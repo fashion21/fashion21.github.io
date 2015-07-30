@@ -12,9 +12,10 @@
         </div>
         <div class="collapse navbar-collapse" id="navbar-menu-collapse">
             <ul class="nav navbar-nav">
-                <li><a href="/">WHAT'S NEW</a></li>
+                {% assign urlArray = page.url | split:"/"  %}
+                 <li><a href="/">WHAT'S NEW</a></li>
                 <li>
-                    <a {% if page.url =='/productCategory.html' and page.url !="/" or page.url | replace:' ','-' contains page.title or page.url contains page.categories[0] %} class="active-text"{% endif %} href="/productCategory.html">PRODUCTS</a>
+                    <a href="/products" {% if 'products' == urlArray[1] %}class="active-text"{% endif %}>PRODUCTS</a>
                 </li>
                 <li><a href="/"><img src="/img/brand-logo.png" class="brand-logo-small"/></a></li>
                 <li><a href="javascript:void(0)">VIDEOS</a></li>

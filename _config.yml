@@ -14,7 +14,7 @@ sass:
 collections:
     category-page:
         output: true
-        permalink: /:path/
+        permalink: /products/:path/
     products:
         output: true
         permalink: /products/:path/
