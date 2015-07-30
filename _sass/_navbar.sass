@@ -1,54 +1,84 @@
 nav
+  transition: all 300ms ease
   background: #FFFFFF
+  &.shrink
+    a
+      margin: 15px 0 15px 0 !important
+      padding-top: 0px !important
+      padding-bottom: 0px !important
+      font-size: 8px
+      img
+        height: 30px !important
   &.navbar-default
     font-family: Avenir-medium
     color: #000
     border-radius: 0px
     border-color: transparent
-    background-color: white
+    background-color: #ffffff
     .container
+      margin-top: 15px
       height: inherit
       width: 100%
-      .navbar-brand
-        margin-top: 37px
+      .mobile-nav-brand
         display: inline-block
         img
           display: none
       button
         top: 0
         right: 0
-        margin-top: 17px
+        //margin-top: 17px
         position: absolute
       .navbar-nav
         float: none
-        margin: 37px auto 0px
+        margin: 0px auto 0px
         display: table
         li
           display: inline-block
           padding: 0 25px
           a
+            margin: 25px 0 25px 0
             font-size: 14px
             color: #000
-            padding: 0px
-            transition: all 500ms ease
+            padding: 0
+            transition: all 300ms ease
             &:hover
               color: red
             img
-              margin-top: -11px
-              height: 30px
+              transition: all 300ms ease
+              height: 40px
+              margin-top: -15px
 
 @media screen and (max-width: 767px)
+  body
+    margin-top: 71px !important
   nav.navbar-default
-    .container
-      .navbar-header
-        height: 87px
-      .navbar-brand
-        margin-top: 9px
-        float: none
-        img
-          display: block
-          height: 34px
+    &.shrink
       .navbar-toggle
+        margin-top: 8px !important
+      .mobile-nav-brand
+        img
+          height: 30px !important
+      .navbar-toggle
+        margin: 8px 15px 8px 0
+      a
+        padding-top: 0px !important
+        padding-bottom: 0px !important
+        margin: 15px 0 15px 0 !important
+        font-size: 8px
+    .container
+      margin-top: 0
+      .navbar-navbar-default
+        height: 87px
+      .mobile-nav-brand
+        float: none
+        display: inline-block
+        img
+          transition: all 300ms ease
+          display: block
+          height: 40px
+          margin: 15px
+      .navbar-toggle
+        transition: all 300ms ease
         margin-top: 17px
         border-color: transparent
         &:focus, &:hover
@@ -58,12 +88,12 @@ nav
           border-radius: 3px
           height: 5px
       .navbar-nav
-        margin: 20px auto 10px
         li
           display: block
           a
             font-size: 19px
             padding: 0px
-            line-height: 55px
+            margin: 25px 0 25px 0
+            color: #000
             img
               display: none
