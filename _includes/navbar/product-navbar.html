@@ -30,10 +30,12 @@
     <ul>
         {% for category in site.category-page %}
         <li>
-            <a {% if page.url == category.url or page.url == category.title %} class="active-category"{% endif %} href="{{ category.url }}">{{ category.title | upcase }}</a>
+            <a {% if page.categories[0] == category.title or page.title == category.title %} class="active-category" {% endif %} href="{{ category.url }}">{{ category.title | upcase }}</a>
         </li>
         {% endfor %}
+
     </ul>
+    <h1>{{ site.products.title }}</h1>
     <img src="/img/product/bar-image.png"/>
 </nav>
 
