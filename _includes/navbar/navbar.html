@@ -13,10 +13,14 @@
         <div class="collapse navbar-collapse" id="navbar-menu-collapse">
             <ul class="nav navbar-nav">
                 <li><a href="/">WHAT'S NEW</a></li>
-                <li><a href="/productCategory.html">PRODUCTS</a></li>
+                <li>
+                    <a {% if page.url =='/productCategory.html' %} class="active-text"{% endif %} href="/productCategory.html">PRODUCTS</a>
+                </li>
                 <li><a href="/"><img src="/img/brand-logo.png" class="brand-logo-small"/></a></li>
                 <li><a href="javascript:void(0)">VIDEOS</a></li>
-                <li><a href="/about.html">ABOUT</a></li>
+                <li>
+                    <a {% if page.url =='/about.html' %} class="active-text"{% endif %} href="/about.html">ABOUT</a>
+                </li>
                 <li><a href="#" data-toggle="modal" data-target="#searchModal"><span class="glyphicon glyphicon-search"/></a></li>
             </ul>
         </div>
