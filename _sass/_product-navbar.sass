@@ -28,8 +28,6 @@
     position: absolute
 
 nav.navbar-default
-  .navbar-nav
-    margin: 40px auto 0 !important
   .mobile
     display: none
 
@@ -38,7 +36,6 @@ nav.navbar-default
     .mobile
       display: block
   .category-menu
-    margin-top: 71px
     img
       display: none
 @media screen and (max-width: 767px)
@@ -48,6 +45,8 @@ nav.navbar-default
         li
           margin: 0 !important
     .container
+      #navbar-menu-collapse
+        margin-top: 38px
       #navbar-category-collapse
         overflow: hidden
         .navbar-nav
@@ -62,6 +61,7 @@ nav.navbar-default
         display: table !important
   .category-menu
     display: none
+    margin-top: 71px
   .mobile
     display: block
     &.shrink
