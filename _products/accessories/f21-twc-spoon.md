@@ -3,7 +3,7 @@ title: F21 TWC Spoon
 layout: productItem
 categories: [accessories]
 is_top_pick: true
-feature_image: http://lorempixel.com/640/400/fashion/2
+feature_image: /dummypic/picture-6.jpg
 price: "12.00"
 item_color_images:
     - http://lorempixel.com/800/600/
