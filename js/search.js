@@ -153,6 +153,7 @@ function populateResultContent(html, item) {
     html = injectContent(html, item.link, '##Url##');
     html = injectContent(html, item.description, '##Description##');
     html = injectContent(html, item.price, '##Price##');
+    html = injectContent(html, item.feature_image, '##Feature_image##');
     return html;
 }
 
