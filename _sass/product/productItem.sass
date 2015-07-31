@@ -9,18 +9,28 @@ body
 
 .container-fluid
   padding-top: 28px
-  h2
-    margin: 0px
-    small
-      font-size: small
-      color: red
-      font-family: 'Avenir-Bold'
+  .list-group
+    border: 1px solid #dddddd
+    .list-group-item
+      border-radius: 0
+      border: none
+    h2
+      border-bottom: 1px solid #dddddd !important
+      margin: 0
+      small
+        font-size: small
+        color: red
+        font-family: 'Avenir-Bold'
+    a
+      text-decoration: none
+      color: black
+      transition: color 500ms ease
+      &:hover
+        color: red
+      li
+        span
+          float: right
   .thumbnail
     border: none
-  a
-    text-decoration: none
-    color: black
-    transition: color 500ms ease
-    &:hover
-      color: red
+
 
