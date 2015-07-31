@@ -30,6 +30,22 @@
             </div>
         </div>
 
+        <div class="popular-products">
+            <h2 class="text-center">TOP PICKS</h2>
+            <ul id="product-img-slider">
+                {% for product in site.products %}
+                {% if product.is_top_pick == true %}
+                <li class="text-center">
+                    <a href="{{ product.url }}">
+                        <img src="{{ product.feature_image }}"/>
+                        <h3>{{ product.title }}</h3>
+                    </a>
+                </li>
+                {% endif %}
+                {% endfor %}
+            </ul>
+        </div>
+
     </div>
 </div>
 {% include footer.html %}
@@ -39,14 +55,7 @@
 <script type="text/javascript" src="/js/productCategory.js"></script>
 <script type="text/javascript" src="/js/socialWidgets.js"></script>
 <script type="text/javascript" src="/js/search.js"></script>
-<script type="text/javascript">
-    $(window).scroll(function() {
-        if ($(document).scrollTop() > 50) {
-            $('nav').addClass('shrink');
-        } else {
-            $('nav').removeClass('shrink');
-        }
-    });
-</script>
+<script type="text/javascript" src="/js/lightslider.min.js"></script>
+<script type="text/javascript" src="/js/productItem.js"></script>
 </body>
 </html>
