@@ -11,7 +11,7 @@ fs.productImageSlider = function(){
         pause: 4000,
         auto: true,
         loop:true,
-        enableDrag:true,
+        enableDrag:false,
         responsive : [
             {
                 breakpoint:1366,
@@ -23,12 +23,14 @@ fs.productImageSlider = function(){
                 breakpoint:800,
                 settings: {
                     item:3,
+                    enableDrag:true
                 }
             },
             {
                 breakpoint:480,
                 settings: {
                     item:1,
+                    enableDrag:true
                 }
             }
         ]
