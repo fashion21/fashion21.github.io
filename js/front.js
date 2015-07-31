@@ -9,20 +9,14 @@ var fs = fs || {};
 
 fs.categoryItemHover = function(){
     $('.category-container .category-title').on('mouseenter', function(){
-        $(this).css({
-            background: 'rgba(0,0,0,0.7)',
-            padding: '14% 15px 0 15px'
-        });
-        $(this).find('h3').css('display','none');
-        $(this).find('p').css('display','block');
+        $(this).css('background', 'rgba(0,0,0,0.7');
+        $(this).find('h3').css('opacity','0');
+        $(this).find('p').css('opacity','1');
     });
     $('.category-container .category-title').on('mouseleave', function(){
-        $(this).css({
-            background: 'rgba(0,0,0,0.3)',
-            padding: '23% 15px 0 15px'
-        });
-        $(this).find('p').css('display','none');
-        $(this).find('h3').css('display','block');
+        $(this).css('background', 'rgba(0,0,0,0.3');
+        $(this).find('p').css('opacity','0');
+        $(this).find('h3').css('opacity','1');
     });
 };
 

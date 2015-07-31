@@ -47,15 +47,22 @@ a:focus
           color: #ffffff
           position: absolute
           background: rgba(0,0,0,0.3)
-          padding: 23% 15px 0 15px
           line-height: 25px
           transition: all 500ms ease
           h3
+            top: 50%
             margin: 0
+            position: relative
+            transform: translateY(-50%)
+            transition: all 500ms ease
           p
-            margin: 0px
-            display: none
-
+            top: 40%
+            margin: 0
+            position: relative
+            transform: translateY(-50%)
+            opacity: 0
+            padding: 0 15px
+            transition: all 500ms ease
 #relatedProduct
   margin-bottom: 20px
   h2
@@ -118,7 +125,14 @@ a:focus
           margin: auto
 
 @media screen and (max-width: 767px)
-
+  #cover
+    .full-width
+      .row-no-gutter
+        .category-container
+          .category-title
+            p
+              line-height: 30px
+              font-size: 20px
 
 @media screen and (max-width: 540px)
   #cover
