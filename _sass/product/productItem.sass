@@ -32,6 +32,8 @@ body
           float: right
   .thumbnail
     border: none
+    img
+      height: 300px
 
   .popular-products
     margin-top: 50px
@@ -45,12 +47,15 @@ body
         font-size: 14px
         &:hover
           color: red
+      img
+        height: 300px
       .lSAction
         a
           top: 40%
           width: 50px
           height: 50px
           z-index: 0
+          text-decoration: none
           &.lSPrev
             background-position: -20px -12px
           &.lSNext
