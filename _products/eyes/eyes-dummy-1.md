@@ -3,7 +3,7 @@ title: P.POWDER, L/S BP
 layout: productItem
 categories: [eyes]
 is_top_pick: true
-feature_image: http://lorempixel.com/640/400/fashion/5
+feature_image: http://lorempixel.com/400/300/fashion/5
 price: "125.00"
 item_color_images:
     - http://lorempixel.com/800/600/
