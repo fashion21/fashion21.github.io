@@ -1,6 +1,6 @@
 - item: About us
-  url: about.html
+  url: /about
 - item: Legal Terms
   url: #
 - item: Site Map
-  url: sitemap.html
+  url: /sitemap

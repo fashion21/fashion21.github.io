@@ -11,7 +11,7 @@ fs.loadStoreLocatorMap = function(){
         'fullMapStart': true,
         'storeLimit': 100,
         'dataType': 'json',
-        'dataLocation': 'feeds/locations.json',
+        'dataLocation': '/feeds/locations.json',
         'mapSettings' : {
             draggable: isDraggable,
             zoom : 12,
