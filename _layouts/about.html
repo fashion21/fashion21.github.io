@@ -4,22 +4,23 @@
     {% include head/about-head.html %}
 </head>
 
-  <body id="about-content">
-      {% include navbar/navbar.html %}
-      {{content}}
-      {% include footer.html %}
-      {% include search/searchModal.html %}
-      <script type="text/javascript" src="/js/jquery-1.11.3.js"></script>
-      <script type="text/javascript" src="/js/bootstrap.min.js"></script>
-      <script type="text/javascript" src="/js/socialWidgets.js"></script>
-      <script type="text/javascript">
-          $(window).scroll(function() {
-              if ($(document).scrollTop() > 50) {
-                  $('nav').addClass('shrink');
-              } else {
-                  $('nav').removeClass('shrink');
-              }
-          });
-      </script>
-  </body>
+<body id="about-content">
+{% include navbar/navbar.html %}
+{{content}}
+{% include footer.html %}
+{% include search/searchModal.html %}
+<script type="text/javascript" src="/js/jquery-1.11.3.js"></script>
+<script type="text/javascript" src="/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="/js/socialWidgets.js"></script>
+<script type="text/javascript" src="/js/search.js"></script>
+<script type="text/javascript">
+    $(window).scroll(function() {
+        if ($(document).scrollTop() > 50) {
+            $('nav').addClass('shrink');
+        } else {
+            $('nav').removeClass('shrink');
+        }
+    });
+</script>
+</body>
 </html>
