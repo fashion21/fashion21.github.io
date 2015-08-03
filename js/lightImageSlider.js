@@ -8,7 +8,7 @@ fs.productImageSlider = function(){
         item: 5,
         controls: true,
         speed: 2000,
-        pause: 4000,
+        pause: 6000,
         auto: true,
         loop:true,
         enableDrag:false,
