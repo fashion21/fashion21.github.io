@@ -3,7 +3,7 @@ title: P.POWDER, L/S BP
 layout: productItem
 categories: [budget pack]
 is_top_pick: true
-feature_image: /dummypic/picture-7.jpg
+feature_image: http://res.cloudinary.com/ruel/image/upload/v1438575069/fashion21/picture-7.jpg
 price: "125.00"
 item_color_images:
     - http://lorempixel.com/800/600/
