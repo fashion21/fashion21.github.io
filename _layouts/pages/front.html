@@ -1,15 +1,9 @@
-<!DOCTYPE html>
-<html>
-<head>
-    {% include head/front-head.html %}
-</head>
-
-  <body id="mockp">
-    {% include navbar/navbar.html %}
-    {{ content }}
-    {% include footer.html %}
-    {% include search/searchModal.html %}
-
+---
+layout: default
+title: Home
+css: /css/home.css
+head: |
+javascripts: |
     <script type="text/javascript" src="/js/jquery-1.11.3.js"></script>
     <script type="text/javascript" src="/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="/js/front.js"></script>
@@ -20,14 +14,14 @@
     <script type="text/javascript" src="/js/search.js"></script>
     <script type="text/javascript" src="/js/instagramWidget.js"></script>
     <script type="text/javascript">
-      $(window).scroll(function() {
-        if ($(document).scrollTop() > 50) {
-          $('nav').addClass('shrink');
-        } else {
-          $('nav').removeClass('shrink');
-        }
-      });
+        $(window).scroll(function() {
+            if ($(document).scrollTop() > 50) {
+                $('nav').addClass('shrink');
+            } else {
+                $('nav').removeClass('shrink');
+            }
+        });
     </script>
-  </body>
+---
 
-</html>
+{{ content }}
