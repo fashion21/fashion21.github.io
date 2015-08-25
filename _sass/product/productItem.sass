@@ -7,43 +7,35 @@
 body
   margin-top: 132px !important
 
-.swatches .swatch
-  width: 40px
-  height: 20px
-  margin-right: 2px
-  background: #dddddd
-  float: left
-  -webkit-transition: all 0.5s
-  -moz-transition: all 0.5s
-  -ms-transition: all 0.5s
-  -o-transition: all 0.5s
-  transition: all 0.5s
-  &.selected
-    -webkit-transition: none
-    -moz-transition: none
-    -ms-transition: none
-    -o-transition: none
-    transition: none
-    -webkit-transform: scale(1.2, 1.2)
-    -moz-transform: scale(1.2, 1.2)
-    -ms-transform: scale(1.2, 1.2)
-    -o-transform: scale(1.2, 1.2)
-    transform: scale(1.2, 1.2)
-    -webkit-box-shadow: 0 1px 10px black
-    -moz-box-shadow: 0 1px 10px black
-    box-shadow: 0 1px 10px black
+.swatches
+  .swatch
+    -webkit-border-radius: 50%
+    -moz-border-radius: 50%
+    border-radius: 50%
+    width: 30px
+    height: 30px
+    margin-right: 10px
+    background: #dddddd
+    float: left
+    cursor: pointer
+    &.selected
+      border: 2px solid black
 
 .row
-  //height: 200px
   .vcenter
     display: inline-block
     vertical-align: middle
     float: none
-  .color-picker
-    position: relative
-    img
-      position: absolute
-      //height: 150px
+    &.swatch
+      width: auto
+  .color-picker-container
+    margin-top: 20px
+    .color-picker
+      width: 120px
+      position: relative
+      img
+        position: absolute
+        width: 120px
 
 .container-fluid
   padding-top: 28px

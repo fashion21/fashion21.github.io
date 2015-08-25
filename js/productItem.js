@@ -6,26 +6,27 @@ fs.productItem = function() {
 };
 
 fs.colorPicker = function() {
-    var biggestHeight = "0";
-    var biggestWidth = "0";
-    $(".color-picker-container *").each(function(){
-        if ($(this).height() > biggestHeight ) {
-            biggestHeight = $(this).height()
-        }
-        if ($(this).width() > biggestWidth ) {
-            biggestWidth = $(this).width()
-        }
-    });
+    //var biggestWidth = "0";
+    //$(".color-picker-container *").each(function(){
+    //    if ($(this).width() > biggestWidth ) {
+    //        biggestWidth = $(this).width()
+    //    }
+    //});
+    //
+    //if(biggestWidth != 0){
+    //    $(".color-picker").width(biggestWidth);
+    //}
 
-    $(".color-picker-container").height(biggestHeight);
-    $(".color-picker-container").width(biggestWidth);
-    console.log("big h: " + biggestHeight);
-    console.log("big : " + biggestWidth);
+    $('.color-picker-container').height($('.swatch').height());
 
     var colorOptions = $(".swatches .swatch");
     var previewColor = $("#preview-color");
 
-    colorOptions.on('click', function(){
+    colorOptions.on('click mouseenter', function(){
+        colorOptions.each(function(){
+            $(this).removeClass('selected');
+        });
+        $(this).addClass('selected');
         previewColor.css('background-color', $(this).css('background-color'))
     });
 
@@ -85,5 +86,7 @@ fs.productImageSlider = function(){
 
 
 $(function(){
-    fs.productItem();
+    $(document).ready(function(){
+        fs.productItem();
+    });
 })

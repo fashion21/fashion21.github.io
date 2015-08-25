@@ -23,28 +23,31 @@
                 <p>₱ {{ page.price }}</p>
                 <p>
                     <div class="product row">
-                        <div class="col-md-4 color-picker-container vcenter" style="display: none;">
-                            <div class="color-picker">
-                                <img class="img-responsive" src="/img/FoundationShadow.png">
-                                <img id="preview-color" class="img-responsive" src="/img/FoundationAlpha.png" style="background-color: #{{ page.colors[0].hex }}};">
-                            </div>
-                        </div>
-                        <div class="swatch col-md-8 vcenter">
+                        <div class="swatch col-xs-9 vcenter">
                             <h3>Colors Available:</h3>
                             <div class="function medianCutPalette clearfix">
                                 <div class="swatches">
                                     {% for color in page.colors %}
                                         <div data-toggle="popover" data-content="{{ color.name }}" class="swatch" style="background-color: #{{ color.hex }};"></div>
                                     {% endfor %}
-
-                                    <!--<br>-->
-                                    <!--<div class="swatch" style="background-color: rgb(126, 113, 102);"></div>-->
-                                    <!--<div class="swatch" style="background-color: rgb(35, 126, 142);"></div>-->
-                                    <!--<div class="swatch" style="background-color: rgb(175, 184, 179);"></div>-->
-                                    <!--<div class="swatch" style="background-color: rgb(212, 85, 7);"></div>-->
                                 </div>
                             </div>
                         </div>
+                        {% if page.product_color_stroke == "foundation" %}
+                        <div class="col-xs-3 color-picker-container vcenter">
+                            <div class="color-picker">
+                                <img class="img-responsive" src="/img/Foundation/FoundationColorTemplateShadows.png">
+                                <img id="preview-color" class="img-responsive" src="/img/Foundation/FoundationColorTemplateAlpha.png" style="background-color: #{{ page.colors[0].hex }};">
+                            </div>
+                        </div>
+                        {% elsif page.product_color_stroke == "brush" %}
+                        <div class="col-xs-3 color-picker-container vcenter">
+                            <div class="color-picker">
+                                <img class="img-responsive" src="/img/Brush/BrushColorTemplateShadows.png">
+                                <img id="preview-color" class="img-responsive" src="/img/Brush/BrushColorTemplateAlpha.png" style="background-color: #{{ page.colors[0].hex }};">
+                            </div>
+                        </div>
+                        {% endif %}
                     </div>
                 </p>
             </div>

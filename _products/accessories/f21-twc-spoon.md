@@ -9,7 +9,8 @@ item_color_images:
     - http://lorempixel.com/800/600/
     - http://lorempixel.com/800/600/
     - http://lorempixel.com/800/600/
-colors: 
+product_color_stroke: brush
+colors:
     - hex: f70d70
       name: Hot Diva
     - hex: ff4583
