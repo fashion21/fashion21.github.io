@@ -8,7 +8,16 @@
                         <a href="javascript:void(0)" id="category-button" data-toggle="collapse" data-target="#navbar-category-collapse">CATEGORIES<span class="caret"></span></a>
                     </li>
                 </ul>
-                <img src="/img/{{ page.category-header-image }}">
+
+                {% for category in site.category-page %}
+                    {% if page.categories[0] == category.title or page.title == category.title %}
+                    {% assign category-header-image = category.category-header-image %}
+                        <img src="/img/{{ category-header-image }}">
+                    {% endif %}
+                {% endfor %}
+                {% if !page.category-header-image %}
+                    <img src="/img/{{ page.category-header-image }}">
+                {% endif %}
             </nav>
         </div>
         <div class="collapse navbar-collapse" id="navbar-category-collapse">
@@ -36,7 +45,11 @@
 
     </ul>
     <h1>{{ site.products.title }}</h1>
-    <img src="/img/{{ page.category-header-image }}"/>
+    {% if !page.category-header-image %}
+        <img src="/img/{{ page.category-header-image }}">
+    {% else if %}
+        <img src="/img/{{ category-header-image }}">
+    {% endif %}
 </nav>
 
 
