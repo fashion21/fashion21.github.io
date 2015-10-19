@@ -9,12 +9,12 @@ var fs = fs || {};
 
 fs.categoryItemHover = function(){
     $('.category-container .category-title').on('mouseenter', function(){
-        $(this).css('background', 'rgba(0,0,0,0.7');
+        $(this).css('background', 'rgba(0,0,0,0.3');
         $(this).find('h3').css('opacity','0');
         $(this).find('p').css('opacity','1');
     });
     $('.category-container .category-title').on('mouseleave', function(){
-        $(this).css('background', 'rgba(0,0,0,0.3');
+        $(this).css('background', 'rgba(0,0,0,0.7');
         $(this).find('p').css('opacity','0');
         $(this).find('h3').css('opacity','1');
     });
