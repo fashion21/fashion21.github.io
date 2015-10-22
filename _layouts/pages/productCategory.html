@@ -6,6 +6,7 @@ head: |
 javascripts: |
     <script type="text/javascript" src="/js/jquery-1.11.3.js"></script>
     <script type="text/javascript" src="/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/js/plugins/blazy.min.js"></script>
     <script type="text/javascript" src="/js/productCategory.js"></script>
     <script type="text/javascript" src="/js/socialWidgets.js"></script>
     <script type="text/javascript" src="/js/search.js"></script>
@@ -16,6 +17,20 @@ javascripts: |
             } else {
                 $('nav').removeClass('shrink');
             }
+        });
+
+        $(document).ready(function(){
+            var blazy = new Blazy({
+                breakpoints: [{
+                    src: 'data-src'
+                }],
+                success: function(element){
+                    setTimeout(function(){
+                        var parent = element.parentNode;
+                        parent.className = parent.className.replace(/\bloading\b/,'');
+                    }, 200);
+                }
+            });
         });
     </script>
 ---

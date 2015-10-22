@@ -17,7 +17,9 @@
                 <div class="item col-sm-6 col-lg-3">
                     <a href="{{ product.url }}">
                         <div class="thumbnail">
-                            <img class="group list-group-image" src="{{ product.feature_image }}" alt="" />
+                            <div class="loading">
+                                <img class="group list-group-image b-lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{{ product.feature_image }}" alt="" />
+                            </div>
                             <div class="caption text-center">
                                 <h4 class="group inner list-group-item-heading">{{ product.title }}</h4>
                             </div>
@@ -35,6 +37,7 @@
 {% include search/searchModal.html %}
 <script type="text/javascript" src="/js/jquery-1.11.3.js"></script>
 <script type="text/javascript" src="/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="/js/plugins/blazy.min.js"></script>
 <script type="text/javascript" src="/js/socialWidgets.js"></script>
 <script type="text/javascript" src="/js/search.js"></script>
 <script type="text/javascript">
@@ -45,6 +48,21 @@
             $('nav').removeClass('shrink');
         }
     });
+
+    $(document).ready(function(){
+        var blazy = new Blazy({
+            breakpoints: [{
+                src: 'data-src'
+            }],
+            success: function(element){
+                setTimeout(function(){
+                    var parent = element.parentNode;
+                    parent.className = parent.className.replace(/\bloading\b/,'');
+                }, 200);
+            }
+        });
+    });
+
 </script>
 <script>(function(){var qs,js,q,s,d=document,gi=d.getElementById,ce=d.createElement,gt=d.getElementsByTagName,id='typef_orm',b='https://s3-eu-west-1.amazonaws.com/share.typeform.com/';if(!gi.call(d,id)){js=ce.call(d,'script');js.id=id;js.src=b+'share.js';q=gt.call(d,'script')[0];q.parentNode.insertBefore(js,q)}})()</script>
 </body>

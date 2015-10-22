@@ -6,3 +6,45 @@ html
     font-family: 'Avenir-light'
     color: #000
 
+
+@keyframes spinner
+  to
+    transform: rotate(360deg)
+
+
+@-webkit-keyframes spinner
+  to
+    -webkit-transform: rotate(360deg)
+
+
+.loading
+  padding-bottom: 121.77263969% !important // h/w*100
+  height: 0 !important
+  background-color: white
+  &:before
+    content: 'Loading…'
+    position: absolute
+    top: 50%
+    left: 50%
+    width: 24px
+    height: 24px
+    margin-top: -13px
+    margin-left: -13px
+  &:not(:required):before
+    content: ''
+    border-radius: 50%
+    border: 1px solid #ccc
+    border-top-color: #eb0029
+    animation: spinner .6s linear infinite
+    -webkit-animation: spinner .6s linear infinite
+
+
+.b-lazy
+  -webkit-transition: opacity 500ms ease-in-out
+  -moz-transition: opacity 500ms ease-in-out
+  -o-transition: opacity 500ms ease-in-out
+  transition: opacity 500ms ease-in-out
+  max-width: 100%
+  opacity: 0
+  &.b-loaded
+    opacity: 1

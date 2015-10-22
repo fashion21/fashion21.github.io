@@ -10,9 +10,12 @@
             <div class="item col-sm-6 col-lg-3">
                 <a href="{{ product.url }}">
                     <div class="thumbnail">
-                        <img class="group list-group-image" src="{{ product.feature_image }}" alt="" />
+                        <div class="loading">
+                            <img class="group list-group-image b-lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{{ product.feature_image }}" alt="" />
+                        </div>
                         <div class="caption text-center">
                             <h4 class="group inner list-group-item-heading">{{ product.title }}</h4>
+
                         </div>
                     </div>
                 </a>
