@@ -20,17 +20,14 @@
             <div class="caption">
                 <h2>{{ page.title}}</h2>
                 <p>{{ content }}</p>
-                <p>₱ {{ page.price }}</p>
                 <p>
                     <div class="product row">
                         <div class="swatch col-xs-9 vcenter">
                             <h3>Colors Available:</h3>
-                            <div class="function medianCutPalette clearfix">
-                                <div class="swatches">
-                                    {% for color in page.colors %}
-                                        <div data-toggle="popover" data-content="{{ color.name }}" class="swatch" style="background-color: #{{ color.hex }};"></div>
-                                    {% endfor %}
-                                </div>
+                            <div class="swatches">
+                                {% for color in page.colors %}
+                                    <div data-toggle="popover" data-content="{{ color.name }}" class="swatch" style="background-color: #{{ color.hex }};"></div>
+                                {% endfor %}
                             </div>
                         </div>
                         {% if page.product_color_stroke == "foundation" %}
