@@ -17,11 +17,19 @@
                 <li>
                     <a href="/products" {% if 'products' == urlArray[1] %}class="active-text"{% endif %}>PRODUCTS</a>
                 </li>
-                <li><a href="/"><img src="/img/brand-logo.png" class="brand-logo-small"/></a></li>
                 <li><a href="javascript:void(0)">VIDEOS</a></li>
+                <li><a href="/"><img src="/img/brand-logo.png" class="brand-logo-small"/></a></li>
+
                 <li>
                     <a {% if page.url =='/about/index.html' %} class="active-text"{% endif %} href="/about">ABOUT</a>
                 </li>
+
+                <li>
+                    <a class="typeform-share link" href="https://fscosmetics.typeform.com/to/MVsHwt" data-mode="1" target="_blank">CONTACT</a>
+                    <script>(function(){var qs,js,q,s,d=document,gi=d.getElementById,ce=d.createElement,gt=d.getElementsByTagName,id='typef_orm',b='https://s3-eu-west-1.amazonaws.com/share.typeform.com/';if(!gi.call(d,id)){js=ce.call(d,'script');js.id=id;js.src=b+'share.js';q=gt.call(d,'script')[0];q.parentNode.insertBefore(js,q)}})()</script>
+
+                </li>
+
                 <li><a href="#" data-toggle="modal" data-target="#searchModal"><span class="glyphicon glyphicon-search"/></a></li>
             </ul>
         </div>
