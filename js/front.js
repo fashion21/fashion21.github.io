@@ -42,13 +42,13 @@ fs.carouselImg = function(){
     $('.carousel').carousel({
         interval: 3000
     });
-    $('.carousel-indicators').find('li').css('display','none');
+    //$('.carousel-indicators').find('li').css('display','none');
     $('.carousel-inner .item:first-child').addClass('active');
 };
 
 fs.categoryItems = function(){
     var containerHeight = $(document).height();
-    $('.cover-items').find('.category-items').css('height','containerHeight');
+    $('.cover-items').find('.category-items').css('height',containerHeight);
 };
 
 $(function(){
