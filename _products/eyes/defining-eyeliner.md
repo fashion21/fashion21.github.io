@@ -3,7 +3,7 @@ title: "Defining Eyeliner"
 layout: productItem
 categories: ["eyes"]
 is_top_pick: TRUE
-feature_image: "http://res.cloudinary.com/ruel/image/upload/v1438575069/fashion21/picture-15.jpg"
+feature_image: "/img/top-ten/defining_eyeliner.png"
 colors:
     - color: Black 
       hex: 000000

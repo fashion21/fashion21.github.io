@@ -3,7 +3,7 @@ title: "Duo Eyebrow Powder"
 layout: productItem
 categories: ["eyes"]
 is_top_pick: TRUE
-feature_image: "http://res.cloudinary.com/ruel/image/upload/v1438575069/fashion21/picture-18.jpg"
+feature_image: "/img/top-ten/duo_eyebrow.png"
 colors:
     - color: #1
       hex: 894c39+563e36 

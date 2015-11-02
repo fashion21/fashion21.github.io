@@ -26,11 +26,20 @@ a:focus
   height: 100%
   padding-top: 91px
   .topten-items
-    height: 20%
+    height: 33.33%
     margin: 0
     padding: 0
     background-position: center
-    background-size: cover
+    background-size: 40% auto
+    background-repeat: no-repeat
+    .topten-title
+      position: absolute
+      bottom: 0
+      left: 0
+      right: 0
+      width: 50%
+      margin: 0 auto
+      text-align: center
   .full-width
     height: 100%
     padding: 0
@@ -83,6 +92,7 @@ a:focus
   //
 
 #topPicks
+  display: none
   margin-bottom: 20px
   h2
     margin: 50px 0px
@@ -155,26 +165,33 @@ a:focus
           max-width: 100%
           height: auto
           margin: auto
-//
-//@media screen and (max-width: 767px)
-//  #cover
-//    .full-width
-//      .row-no-gutter
-//        .category-container
-//          .category-title
-//            p
-//              line-height: 30px
-//              font-size: 20px
 
-@media screen and (max-width: 540px)
-  //#cover
-  //  .full-width
-  //    .row-no-gutter
-  //      .category-container
-  //        .category-title
-  //          p
-  //            line-height: 20px
-  //            font-size: 15px
+@media (max-width: 991px)
+
+  #cover
+    padding-top: 0
+    height: auto
+    .full-width
+      height: 50vh
+      position: relative
+    .topten-items
+      height: 50%
+
+@media screen and (max-width: 568px)
+  #cover
+    .cover-right
+      padding: 3% 0
+      .topten-items
+        height: 100% !important
+        margin: 0
+        padding: 0
+        background-position: center
+        background-size: 70% auto
+        background-repeat: no-repeat
+        .topten-title
+          width: 100%
+
+
   #ig
     padding-top: 0px
     #ig-header

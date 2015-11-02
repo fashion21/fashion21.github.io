@@ -3,7 +3,7 @@ title: "Dipliner"
 layout: productItem
 categories: ["eyes"]
 is_top_pick: TRUE
-feature_image: "http://res.cloudinary.com/ruel/image/upload/v1438575069/fashion21/picture-16.jpg"
+feature_image: "/img/top-ten/dipliner.png"
 colors:
     - color: Black
       hex: 000000
