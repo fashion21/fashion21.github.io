@@ -8,28 +8,46 @@ body
   margin-top: 132px !important
 #whatsnew
   margin: 50px 0px
-  .container-fluid
-    padding-top: 28px
-    #products
-      .item
-        a
-          text-decoration: none
-          &:hover
-            h4
-              transition: all 300ms ease
-              color: Red
-    h2
-      margin-top: 0px
-      small
-        font-size: small
-        color: Red
-        font-family: 'Avenir'
-    .thumbnail
-      border: none
-      img
-        height: 300px
-      .caption
-        h4
-          font-family: Avenir-Bold
-        p
-          margin: 0
+  .whats-new-content
+    padding-top: 2%
+    padding-bottom: 2%
+    .whats-new-left
+      .whats-new-image
+        width: 100%
+        height: auto
+    .whats-new-right
+      padding-top: 10%
+      padding-bottom: 10%
+      //.whats-new-title
+      .whats-new-description
+        max-width: 90%
+
+@media (max-width: 991px)
+  #whatsnew
+    .whats-new-content
+      margin: 5% 0
+      padding: 0
+      .whats-new-right
+        padding: 0
+      .whats-new-title
+        text-align: center
+      .whats-new-description
+        max-width: 90%
+        margin: 0 auto
+        text-align: center
+
+@media (max-width: 767px)
+  #whatsnew
+    .whats-new-content
+      .whats-new-left
+        .whats-new-image
+          width: auto
+          height: 45vh
+      .whats-new-right
+        padding-top: 10%
+        padding-bottom: 10%
+        .whats-new-title
+          font-size: 25px
+
+
+

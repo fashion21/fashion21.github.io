@@ -1,28 +1,13 @@
-<!--sample-->
-<img class="center-block img-responsive" src="/img/whats-new.jpg"/>
-
-<!--<div class="container-fluid">-->
-    <!--{% for category in site.category-page %}-->
-    <!--<div id="products" class="row list-group">-->
-        <!--{% assign counter=0 %}-->
-        <!--{% for product in site.products %}-->
-        <!--{% for productCategory in product.categories %}-->
-        <!--{% if category.title == productCategory and counter < 4 %}-->
-        <!--{% assign counter=counter | plus:1 %}-->
-        <!--<div class="item col-sm-6 col-lg-3">-->
-            <!--<a href="{{ product.url }}">-->
-                <!--<div class="thumbnail">-->
-                    <!--<img class="group list-group-image" src="{{ product.feature_image }}" alt="" />-->
-                    <!--<div class="caption text-center">-->
-                        <!--<h4 class="group inner list-group-item-heading">{{ product.title }}</h4>-->
-                        <!--<p>₱&nbsp{{ product.price }}</p>-->
-                    <!--</div>-->
-                <!--</div>-->
-            <!--</a>-->
-        <!--</div>-->
-        <!--{% endif %}-->
-        <!--{% endfor%}-->
-        <!--{% endfor %}-->
-    <!--</div>-->
-    <!--{% endfor %}-->
-<!--</div>-->
+<div class="container">
+    {% for whatsNew in site.products %}
+    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 whats-new-content">
+        <div class="col-lg-5 col-md-5 col-sm-12  whats-new-left">
+            <img class="whats-new-image center-block" src="{{ whatsNew.feature_image }}"/>
+        </div>
+        <div class="col-lg-7 col-md-7 col-sm-12 whats-new-right">
+            <h2 class="whats-new-title">{{ whatsNew.title }}</h2>
+            <p class="whats-new-description">A highly pigmented, long-lasting lipstick that delivers rich color in one stroke.</p>
+        </div>
+    </div>
+    {% endfor %}
+</div>
