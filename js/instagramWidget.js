@@ -8,8 +8,8 @@ fs.runInstagramFeed = function () {
         if (Instafeed) {
             new Instafeed({
                 get: 'tagged',
-                tagName: 'avonph',
-                clientId: 'b74a7734368849fabe400246441d36f6',
+                tagName: 'fashion21_cosmetics',
+                clientId: '9ac414ea8c2742ceab562dd493eac687',
                 limit: 8,
                 sortBy: 'most-recent',
                 template: '<a href="{{link}}" target="_blank" class="col-md-2 col-sm-2 col-xs-6"><img src="{{image}}" /></a>',
