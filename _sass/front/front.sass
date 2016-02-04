@@ -9,6 +9,11 @@ $black: black
 $gray: #333333
 $skyblue: #0fb5b3
 
+html, body
+  height: auto !important
+  body
+    margin: 0 0 112px
+
 #mock-up
   background-image: url("/img/front.jpg")
   opacity: 0.8
@@ -22,9 +27,8 @@ a:focus
   color: transparent
 
 #cover
-  min-height: 100%
-  height: 100%
-  padding-top: 91px
+  height: 100vh
+  margin-top: 91px
   .topten-items
     height: 33.33%
     margin: 0
@@ -43,62 +47,13 @@ a:focus
   .full-width
     height: 100%
     padding: 0
-//.full-width
-  //  padding-left: 0
-  //  padding-right: 0
-  //  overflow: hidden
-  //  .row-no-gutter
-  //    margin: 0
-  //    #cover-carousel
-  //      #carousel
-  //        .carousel-inner
-  //          //min-height: 630px
-  //          background-color: #000000
-  //    [class*="col-"]
-  //      padding: 0
-  //      .img-full-width
-  //        width: 100%
-  //        height: auto
-  //    .category-container
-  //      position: relative
-  //      background-color: #000000
-  //      .img-full-width
-  //        width: 100%
-  //        height: auto
-  //        //min-height: 210px
-  //      .category-title
-  //        top: 0
-  //        width: 100%
-  //        height: 100%
-  //        color: #ffffff
-  //        position: absolute
-  //        background: rgba(0,0,0,0.3)
-  //        line-height: 25px
-  //        transition: all 500ms ease
-  //        h3
-  //          top: 50%
-  //          margin: 0
-  //          position: relative
-  //          transform: translateY(-50%)
-  //          transition: all 500ms ease
-  //        p
-  //          top: 40%
-  //          margin: 0
-  //          position: relative
-  //          transform: translateY(-50%)
-  //          opacity: 0
-  //          padding: 0 15px
-  //          transition: all 500ms ease
-  //
 
 #topPicks
-  //margin-bottom: 20px
-  height: 90%
-  h2
-    margin: 50px 0px
-    font-size: 20px
+  margin-bottom: 20px
+  .top-pick-header
+    margin: 3% auto 0
+    height: 50px
   #product-slider
-    height: inherit
     .col-top-pick
       position: relative
       min-height: 1px
@@ -107,7 +62,7 @@ a:focus
       background-position: center
       background-size: 80% auto
       background-repeat: no-repeat
-      height: 50%
+      height: 300px
       .top-pick-title
         margin: 2% auto
         display: block
@@ -117,52 +72,12 @@ a:focus
         right: 0
         bottom: 0
 
-//#video
-//  position: relative
-//  .container
-//    position: relative
-//    .vimeo-container
-//      margin: 50px 0px
-//      .section-header
-//        font-size: 20px
-//        margin-bottom: 50px
-//      iframe
-//        width: 100%
-//        height: 322px
-//      h4
-//        font-size: 16px
-//      p
-//        font-size: 14px
-//        text-align: justify
-//        letter-spacing: 0px
-//        line-height: 25px
-//        margin: 20px 0px
-//        &:last-child
-//          margin-bottom: 30px
-//    .facebook-container
-//      margin: 50px 0px
-//      .section-header
-//        font-size: 20px
-//        margin-bottom: 50px
-//
-//#ig
-//  padding-top: 0px
-//  #ig-header
-//    text-align: center
-//    font-size: 21px
-//    font-family: 'Avenir-Bold'
-//    margin: 23px 42px
-//    color: $black
-//  #instafeed
-//    margin-bottom: 30px
-//    .placeholder
-//      margin-bottom: 20px
-//      a
-//        img
-//          display: block
-//          max-width: 100%
-//          height: auto
-//          margin: auto
+footer
+  position: absolute
+  bottom: 0
+  left: 0
+  height: 112px
+  width: 100%
 
 @media (max-width: 991px)
   #cover
@@ -179,6 +94,12 @@ a:focus
     .topten-items
       .topten-title
         width: 100%
+  #topPicks
+    //.top-pick-header
+    //  margin: 10% auto 0% !important
+    .col-top-pick
+      width: 50% !important
+
 
 @media screen and (max-width: 568px)
   #cover

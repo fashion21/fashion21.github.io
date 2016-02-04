@@ -1,8 +1,12 @@
-<h2 class="text-center">TOP PICKS</h2>
-<div id="product-slider">
-    {% for topPicks in site.data.topPick %}
-    <div class="col-top-pick" style="background-image: url('{{ topPicks.image }}');">
-        <span class="top-pick-title">{{ topPicks.title }}</span>
+<div class="container-fluid">
+    <div class="row">
+        <img class="top-pick-header center-block" src="/img/top-pick/top-pick.png"/>
+        <div id="product-slider">
+            {% for topPicks in site.data.topPick %}
+            <div class="col-top-pick" style="background-image: url('{{ topPicks.image }}');">
+                <span class="top-pick-title">{{ topPicks.title }}</span>
+            </div>
+            {% endfor %}
+        </div>
     </div>
-    {% endfor %}
 </div>
