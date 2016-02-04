@@ -1,13 +1,8 @@
 <h2 class="text-center">TOP PICKS</h2>
-<ul id="product-img-slider">
-    {% for product in site.products %}
-        {% if product.is_top_pick == true %}
-            <li class="text-center">
-                <a href="{{ product.url }}">
-                    <img src="{{ product.feature_image }}"/>
-                    <h3>{{ product.title }}</h3>
-                </a>
-            </li>
-        {% endif %}
+<div id="product-slider">
+    {% for topPicks in site.data.topPick %}
+    <div class="col-top-pick" style="background-image: url('{{ topPicks.image }}');">
+        <span class="top-pick-title">{{ topPicks.title }}</span>
+    </div>
     {% endfor %}
-</ul>
+</div>

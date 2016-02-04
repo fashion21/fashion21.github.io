@@ -2,5 +2,6 @@ _site
 .sass-cache
 .idea
 *.iml
+/img/top-pick/
 dummypic/*
 _scripts/src/out/*

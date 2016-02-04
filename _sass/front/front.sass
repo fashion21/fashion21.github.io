@@ -92,79 +92,77 @@ a:focus
   //
 
 #topPicks
-  display: none
-  margin-bottom: 20px
+  //margin-bottom: 20px
+  height: 90%
   h2
     margin: 50px 0px
     font-size: 20px
-  .lSSlideOuter
-    h3
-      color: #000
-      font-size: 14px
-      &:hover
-        color: #eb0029
-    img
-      height: 300px
-    .lSAction
-      a
-        top: 40%
-        width: 50px
-        height: 36px
-        z-index: 0
-        text-decoration: none
-        &.lSPrev
-          background-position: 0px -72px
-        &.lSNext
-          background-position: -72px 0px
-    .lSPager
-      display: none
+  #product-slider
+    height: inherit
+    .col-top-pick
+      position: relative
+      min-height: 1px
+      float: left
+      width: 20%
+      background-position: center
+      background-size: 80% auto
+      background-repeat: no-repeat
+      height: 50%
+      .top-pick-title
+        margin: 2% auto
+        display: block
+        text-align: center
+        position: absolute
+        left: 0
+        right: 0
+        bottom: 0
 
-#video
-  position: relative
-  .container
-    position: relative
-    .vimeo-container
-      margin: 50px 0px
-      .section-header
-        font-size: 20px
-        margin-bottom: 50px
-      iframe
-        width: 100%
-        height: 322px
-      h4
-        font-size: 16px
-      p
-        font-size: 14px
-        text-align: justify
-        letter-spacing: 0px
-        line-height: 25px
-        margin: 20px 0px
-        &:last-child
-          margin-bottom: 30px
-    .facebook-container
-      margin: 50px 0px
-      .section-header
-        font-size: 20px
-        margin-bottom: 50px
-
-#ig
-  padding-top: 0px
-  #ig-header
-    text-align: center
-    font-size: 21px
-    font-family: 'Avenir-Bold'
-    margin: 23px 42px
-    color: $black
-  #instafeed
-    margin-bottom: 30px
-    .placeholder
-      margin-bottom: 20px
-      a
-        img
-          display: block
-          max-width: 100%
-          height: auto
-          margin: auto
+//#video
+//  position: relative
+//  .container
+//    position: relative
+//    .vimeo-container
+//      margin: 50px 0px
+//      .section-header
+//        font-size: 20px
+//        margin-bottom: 50px
+//      iframe
+//        width: 100%
+//        height: 322px
+//      h4
+//        font-size: 16px
+//      p
+//        font-size: 14px
+//        text-align: justify
+//        letter-spacing: 0px
+//        line-height: 25px
+//        margin: 20px 0px
+//        &:last-child
+//          margin-bottom: 30px
+//    .facebook-container
+//      margin: 50px 0px
+//      .section-header
+//        font-size: 20px
+//        margin-bottom: 50px
+//
+//#ig
+//  padding-top: 0px
+//  #ig-header
+//    text-align: center
+//    font-size: 21px
+//    font-family: 'Avenir-Bold'
+//    margin: 23px 42px
+//    color: $black
+//  #instafeed
+//    margin-bottom: 30px
+//    .placeholder
+//      margin-bottom: 20px
+//      a
+//        img
+//          display: block
+//          max-width: 100%
+//          height: auto
+//          margin: auto
 
 @media (max-width: 991px)
   #cover
