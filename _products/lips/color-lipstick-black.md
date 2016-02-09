@@ -1,11 +1,11 @@
 ---
+id: 38
 title: "Color Lipstick Black"
 layout: productItem
 categories: ["lips"]
-is_top_pick: FALSE
-feature_image: "http://res.cloudinary.com/ruel/image/upload/v1438575069/fashion21/picture-34.jpg"
+feature_image: "http://placehold.it/275x335?text=ruuuuuuuuu!!"
 colors:
-    - color: Black
-      hex: 000000
+    - color: "Black"
+      hex: "000000"
 ---
-Not into pinks, reds, and peaches? Bring out your inner goth with this richly pigmented black lipstick. It�s also perfect for cosplay !
+Not into pinks, reds, and peaches? Bring out your inner goth with this richly pigmented black lipstick. It’s also perfect for cosplay !
