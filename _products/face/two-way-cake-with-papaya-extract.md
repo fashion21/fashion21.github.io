@@ -1,15 +1,15 @@
 ---
+id: 10
 title: "Two-Way Cake with Papaya Extract"
 layout: productItem
 categories: ["face"]
-is_top_pick: TRUE
-feature_image: "/img/top-ten/two_wayCakePapaya.png"
+feature_image: "http://res.cloudinary.com/dp79ddrmc/image/upload/v1455006447/products/twoWayCakePapaya.jpg"
 colors:
-    - color: #1
-      hex: e6b081
-    - color: #2
-      hex: e1a975
-    - color: #3
-      hex: d89f6e
+    - color: "#1"
+      hex: "e6b081"
+    - color: "#2"
+      hex: "e1a975"
+    - color: "#3"
+      hex: "d89f6e"
 ---
 Walking around with naturally white, glowing skin is easy when you use our two-way cake with natural papaya essence, which is known to help lighten skin tone. This powder comes in three natural shades that can be blended perfectly into your skin.
