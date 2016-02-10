@@ -7,47 +7,34 @@
 body
   margin-top: 132px !important
 #whatsnew
-  margin: 50px 0px
-  .whats-new-content
-    padding-top: 2%
-    padding-bottom: 2%
-    .whats-new-left
-      .whats-new-image
-        width: 100%
-        height: auto
-    .whats-new-right
-      padding-top: 10%
-      padding-bottom: 10%
-      //.whats-new-title
-      .whats-new-description
-        max-width: 90%
+  height: 100%
+  min-height: 100vh
+  position: relative
+  .grid
+    &:after
+      content: ''
+      display: block
+      clear: both
+    .grid-item
+      float: left
+      background: #0D8
+      border: 3px solid #FFFFFF
+      &.grid-item-1, &.grid-item-4, &.grid-item-6, &.grid-item-7, &.grid-item-8, &.grid-item-9, &.grid-item-12
+        width: 40%
+        height: 33.33vh
 
-@media (max-width: 991px)
-  #whatsnew
-    .whats-new-content
-      margin: 5% 0
-      padding: 0
-      .whats-new-right
-        padding: 0
-      .whats-new-title
-        text-align: center
-      .whats-new-description
-        max-width: 90%
-        margin: 0 auto
-        text-align: center
+      &.grid-item-2, &.grid-item-3, &.grid-item-10, &.grid-item-11
+        width: 30%
+        height: 50vh
 
-@media (max-width: 767px)
-  #whatsnew
-    .whats-new-content
-      .whats-new-left
-        .whats-new-image
-          width: auto
-          height: 45vh
-      .whats-new-right
-        padding-top: 10%
-        padding-bottom: 10%
-        .whats-new-title
-          font-size: 25px
+
+      &.grid-item-5, &.grid-item-7
+        width: 60%
+        height: 50vh
+
+
+
+
 
 
 

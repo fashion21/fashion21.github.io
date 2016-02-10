@@ -9,6 +9,8 @@ javascripts: |
     <script type="text/javascript" src="/js/productCategory.js"></script>
     <script type="text/javascript" src="/js/socialWidgets.js"></script>
     <script type="text/javascript" src="/js/search.js"></script>
+    <script type="text/javascript" src="/js/isotope.pkgd.min.js"></script>
+    <script type="text/javascript" src="/js/packery-mode.pkgd.min.js"></script>
     <script type="text/javascript">
         $(window).scroll(function() {
             if ($(document).scrollTop() > 50) {
@@ -16,6 +18,16 @@ javascripts: |
             } else {
                 $('nav').removeClass('shrink');
             }
+        });
+
+        //isotope
+        $(function() {
+
+            $('.grid').isotope({
+                layoutMode: 'packery',
+                itemSelector: '.grid-item'
+            });
+
         });
     </script>
 ---
