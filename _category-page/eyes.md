@@ -1,4 +1,5 @@
 ---
+rank: 3
 title: eyes
 layout: productItemCategory
 category-image: http://lorempixel.com/360/210/fashion/4

@@ -1,4 +1,5 @@
-{% for category in site.category-page %}
+{% assign categories = (site.category-page | sort: 'rank') %}
+{% for category in categories %}
 <h2>{{ category.title | capitalize}} <a href="{{ category.url }}"><small>VIEW ALL</small></a></h2>
 <hr>
 <div id="products" class="row list-group">

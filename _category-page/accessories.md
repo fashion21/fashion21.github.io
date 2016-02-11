@@ -1,4 +1,5 @@
 ---
+rank: 7
 title: accessories
 layout: productItemCategory
 category-image: http://lorempixel.com/360/210/fashion/1

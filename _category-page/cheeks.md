@@ -1,4 +1,5 @@
 ---
+rank: 4
 title: cheeks
 layout: productItemCategory
 category-image: http://lorempixel.com/360/210/fashion/3

@@ -1,4 +1,5 @@
 ---
+rank: 6
 title: skin
 layout: productItemCategory
 category-image: http://lorempixel.com/360/210/fashion/8

@@ -1,4 +1,5 @@
 ---
+rank: 2
 title: lips
 layout: productItemCategory
 category-image: http://lorempixel.com/360/210/fashion/6

@@ -1,4 +1,5 @@
 ---
+rank: 5
 title: set
 layout: productItemCategory
 category-image: http://lorempixel.com/360/210/fashion/7

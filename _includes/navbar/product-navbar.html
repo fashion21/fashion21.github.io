@@ -1,3 +1,4 @@
+{% assign categories = (site.category-page | sort: 'rank') %}
 <nav class="navbar navbar-fixed-top navbar-default">
     <div class="container">
         <div class="navbar-mobile">
@@ -9,7 +10,7 @@
                     </li>
                 </ul>
 
-                {% for category in site.category-page %}
+                {% for category in categories %}
                     {% if page.categories[0] == category.title or page.title == category.title %}
                     {% assign category-header-image = category.category-header-image %}
                         <img src="/img/{{ category-header-image }}">
@@ -22,7 +23,7 @@
         </div>
         <div class="collapse navbar-collapse" id="navbar-category-collapse">
             <ul class="nav navbar-nav">
-                {% for categoryMenu in site.category-page %}
+                {% for categoryMenu in categories %}
                 <div class="col-xs-6">
                     <li>
                         <a href="{{ categoryMenu.url }}">{{ categoryMenu.title | upcase }}</a>
@@ -37,7 +38,7 @@
 
 <nav class="category-menu navbar-fixed-top">
     <ul>
-        {% for category in site.category-page %}
+        {% for category in categories %}
         <li>
             <a {% if page.categories[0] == category.title or page.title == category.title %} class="active-category" {% endif %} href="{{ category.url }}">{{ category.title | upcase }}</a>
         </li>
