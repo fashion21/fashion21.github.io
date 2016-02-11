@@ -1,138 +1,20 @@
 <div class="container-fluid">
     <div class="row">
-            <div class="grid">
-                <div class="grid-item grid-item-1">
-                    <img class="img-responsive" src="http://res.cloudinary.com/dp79ddrmc/image/upload/v1455097359/whatsnew/1-eyelashCurler.jpg"/>
-                    <div class="caption">
-                        <div class="blur">
-                            <div class="caption-text">
-                                <h1>Amazing Caption</h1>
-                                <p>Whatever It Is - Always Awesome</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="grid-item grid-item-2">
-                    <img class="img-responsive" src="http://res.cloudinary.com/dp79ddrmc/image/upload/v1455097359/whatsnew/2-twistEyePencil.jpg"/>
-                    <div class="caption">
-                        <div class="blur">
-                            <div class="caption-text">
-                                <h1>Amazing Caption</h1>
-                                <p>Whatever It Is - Always Awesome</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="grid-item grid-item-2">
-                    <img class="img-responsive" src="http://res.cloudinary.com/dp79ddrmc/image/upload/v1455097359/whatsnew/3-peachPerfectlipstick.jpg"/>
-                    <div class="caption">
-                        <div class="blur">
-                            <div class="caption-text">
-                                <h1>Amazing Caption</h1>
-                                <p>Whatever It Is - Always Awesome</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="grid-item grid-item-1">
-                    <img class="img-responsive" src="http://res.cloudinary.com/dp79ddrmc/image/upload/v1455097359/whatsnew/4-eyeShadowKit.jpg"/>
-                    <div class="caption">
-                        <div class="blur">
-                            <div class="caption-text">
-                                <h1>Amazing Caption</h1>
-                                <p>Whatever It Is - Always Awesome</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="grid-item grid-item-3">
-                    <img class="img-responsive" src="http://res.cloudinary.com/dp79ddrmc/image/upload/v1455097359/whatsnew/6-redRomance.jpg"/>
-                    <div class="caption">
-                        <div class="blur">
-                            <div class="caption-text">
-                                <h1>Amazing Caption</h1>
-                                <p>Whatever It Is - Always Awesome</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="grid-item grid-item-1">
-                    <img class="img-responsive" src="http://res.cloudinary.com/dp79ddrmc/image/upload/v1455097359/whatsnew/5-fakeLashes.jpg"/>
-                    <div class="caption">
-                        <div class="blur">
-                            <div class="caption-text">
-                                <h1>Amazing Caption</h1>
-                                <p>Whatever It Is - Always Awesome</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="grid-item grid-item-3">
-                    <img class="img-responsive" src="http://res.cloudinary.com/dp79ddrmc/image/upload/v1455097359/whatsnew/7-kabukiBrush.jpg"/>
-                    <div class="caption">
-                        <div class="blur">
-                            <div class="caption-text">
-                                <h1>Amazing Caption</h1>
-                                <p>Whatever It Is - Always Awesome</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="grid-item grid-item-1">
-                    <img class="img-responsive" src="http://res.cloudinary.com/dp79ddrmc/image/upload/v1455097359/whatsnew/8-eyelashAdhesive.jpg"/>
-                    <div class="caption">
-                        <div class="blur">
-                            <div class="caption-text">
-                                <h1>Amazing Caption</h1>
-                                <p>Whatever It Is - Always Awesome</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="grid-item grid-item-1">
-                    <img class="img-responsive" src="http://res.cloudinary.com/dp79ddrmc/image/upload/v1455097359/whatsnew/11-multiFunctionBrush.jpg"/>
-                    <div class="caption">
-                        <div class="blur">
-                            <div class="caption-text">
-                                <h1>Amazing Caption</h1>
-                                <p>Whatever It Is - Always Awesome</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="grid-item grid-item-2">
-                    <img class="img-responsive" src="http://res.cloudinary.com/dp79ddrmc/image/upload/v1455097359/whatsnew/10-eyebrowGel.jpg"/>
-                    <div class="caption">
-                        <div class="blur">
-                            <div class="caption-text">
-                                <h1>Amazing Caption</h1>
-                                <p>Whatever It Is - Always Awesome</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="grid-item grid-item-2">
-                    <img class="img-responsive" src="http://res.cloudinary.com/dp79ddrmc/image/upload/v1455097359/whatsnew/9-pushUpBrush.jpg"/>
-                    <div class="caption">
-                        <div class="blur">
-                            <div class="caption-text">
-                                <h1>Amazing Caption</h1>
-                                <p>Whatever It Is - Always Awesome</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="grid-item grid-item-1">
-                    <img class="img-responsive" src="http://res.cloudinary.com/dp79ddrmc/image/upload/v1455097359/whatsnew/12-eyeShadowBrush.jpg"/>
-                    <div class="caption">
-                        <div class="blur">
-                            <div class="caption-text">
-                                <h1>Amazing Caption</h1>
-                                <p>Whatever It Is - Always Awesome</p>
-                            </div>
+        <div class="grid">
+            {% assign sorted-whatsNew = site.data.whatsNew | sort: "id"  %}
+            {% for whatsNew in sorted-whatsNew %}
+            <div class="grid-item {{ whatsNew.class }}">
+                <img class="img-responsive" src="{{ whatsNew.image }}"/>
+                <div class="caption">
+                    <div class="blur">
+                        <div class="caption-text">
+                            <h1>{{ whatsNew.title }}</h1>
+                            <p>{{ whatsNew.description }}</p>
                         </div>
                     </div>
                 </div>
             </div>
+            {% endfor %}
+        </div>
     </div>
 </div>
