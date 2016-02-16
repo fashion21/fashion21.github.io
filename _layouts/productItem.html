@@ -23,24 +23,26 @@
                 <p>
                     <div class="product row">
                         <div class="swatch col-xs-9 vcenter">
-                            <h3>Colors Available:</h3>
-                            {% if page.multiple_colors %}
-                                {% for color in page.colors %}
-                                    <h5>{{ color.color }}</h5>
+                            {% unless page.colors[0].hex == 'N/A' %}
+                                <h3>Colors Available:</h3>
+                                {% if page.multiple_colors %}
+                                    {% for color in page.colors %}
+                                        <h5>{{ color.color }}</h5>
+                                        <div class="swatches">
+                                            {% assign multiple_colors = color.hex | split: "+" %}
+                                            {% for color in multiple_colors %}
+                                                <div data-toggle="popover" data-content="{{ color.color }}" class="swatch" style="background-color: #{{ color }};"></div>
+                                            {% endfor %}
+                                        </div>
+                                    {% endfor %}
+                                {% else %}
                                     <div class="swatches">
-                                        {% assign multiple_colors = color.hex | split: "+" %}
-                                        {% for color in multiple_colors %}
-                                            <div data-toggle="popover" data-content="{{ color.color }}" class="swatch" style="background-color: #{{ color }};"></div>
+                                        {% for color in page.colors %}
+                                            <div data-toggle="popover" data-content="{{ color.color }}" class="swatch" style="background-color: #{{ color.hex }};"></div>
                                         {% endfor %}
                                     </div>
-                                {% endfor %}
-                            {% else %}
-                                <div class="swatches">
-                                    {% for color in page.colors %}
-                                        <div data-toggle="popover" data-content="{{ color.color }}" class="swatch" style="background-color: #{{ color.hex }};"></div>
-                                    {% endfor %}
-                                </div>
-                            {% endif %}
+                                {% endif %}
+                            {% endunless %}
                         </div>
                         {% if page.product_color_stroke == "foundation" %}
                         <div class="col-xs-3 color-picker-container vcenter">
