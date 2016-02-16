@@ -9,7 +9,7 @@ layout: null
         "title": {{product.title | jsonify}},
         "slug": "{{product.title | jsonify | slugify}}",
         "description": {{product.content | jsonify}},
-        "link": "{{ product.url | replace_first:'/products','#' }}",
+        "link": "{{ product.url }}",
         "feature_image": "{{ product.feature_image }}",
         "seach_omit": "{{ product.search_omit }}"
       }
