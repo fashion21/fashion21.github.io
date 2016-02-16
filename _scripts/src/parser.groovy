@@ -50,26 +50,28 @@ dir.eachFileRecurse (FileType.FILES) { csvFile ->
         "mkdir -p out/$it.key".execute()
     }
     productList.eachWithIndex { product, index ->
-        "mkdir -p out/$product.category".execute()
-        File file = new File("out/$product.category/" + slugify(product.product_name) +'.md')
-        println "out/$product.category/" + slugify(product.product_name) +'.md'
-        file.write ('---\n')
+        if(product.image_name){
+            "mkdir -p out/$product.category".execute()
+            File file = new File("out/$product.category/" + slugify(product.product_name) +'.md')
+            println "out/$product.category/" + slugify(product.product_name) +'.md'
+            file.write ('---\n')
 
-        file << "id: $product.id\n"
-        file << "title: \"$product.product_name\"\n"
-        file << "layout: productItem\n"
-        file << "categories: [\"$product.category\"]\n"
+            file << "id: $product.id\n"
+            file << "title: \"$product.product_name\"\n"
+            file << "layout: productItem\n"
+            file << "categories: [\"$product.category\"]\n"
 //        if (product.top_pick) file << "is_top_pick: $product.top_pick\n"
-        file << "feature_image: \"" + (product.image_name ? "http://res.cloudinary.com/dp79ddrmc/image/upload/v1455006447/products/$product.image_name" : "http://placehold.it/275x335?text=ruuuuuuuuu!!") + "\"\n"
-        if (product.multiple_colors) file << "multiple_colors: $product.multiple_colors\n"
-        file << "colors:\n"
-        product.colors.each{
-            file << "    - color: \"$it.color_name\"\n"
-            file << "      hex: \"$it.color_hex\"\n"
-        }
+            file << "feature_image: \"" + (product.image_name ? "http://res.cloudinary.com/dp79ddrmc/image/upload/v1455006447/products/$product.image_name" : "http://placehold.it/275x335?text=ruuuuuuuuu!!") + "\"\n"
+            if (product.multiple_colors) file << "multiple_colors: $product.multiple_colors\n"
+            file << "colors:\n"
+            product.colors.each{
+                file << "    - color: \"$it.color_name\"\n"
+                file << "      hex: \"$it.color_hex\"\n"
+            }
 
-        file << '---' << '\n'
-        file << product.Description
+            file << '---' << '\n'
+            file << product.Description
+        }
     }
 }
 
