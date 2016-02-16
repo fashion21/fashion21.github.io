@@ -1,0 +1,5 @@
+id,product_name,image_name,Description,category,color_name,color_hex,net_weight_grams,top_pick,whats_new
+31,Color Bar,colorBar.jpg,"Be ready for any occasion with this blush-on and eyeshadow set.  It comes with two powder blush shades and 12 eyeshadow colors that is real value for your money. Set #1 comes in fresh pastel colors, and Set #3 goes all natural with earth tones.",SET,#1,colorBar1.jpg,14g,,
+31,,,,SET,#3,colorBar2.jpg,14g,,
+32,Color Set,colorSet.jpg,"Whether you’re a professional makeup artist or just someone who really loves eyeshadow, this palette is for you. You get a choice of 48 vibrant shades from each of the two available sets—pastels and earth tones—so no matter the event, you’ll always have that perfect shade right at your fingertips.",SET,#1,colorSet1.jpg,56.13g,,
+32,,,,SET,#2,colorSet2.jpg,56.13g,,

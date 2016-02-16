@@ -35,6 +35,13 @@
                                             {% endfor %}
                                         </div>
                                     {% endfor %}
+                                {% elsif page.color_image %}
+                                <div class="swatches">
+                                    {% for color in page.colors %}
+                                    <h5>{{ color.color }}</h5>
+                                    <img class="img-responsive" src="{{ color.hex }}" alt="{{ color.color }}">
+                                    {% endfor %}
+                                </div>
                                 {% else %}
                                     <div class="swatches">
                                         {% for color in page.colors %}

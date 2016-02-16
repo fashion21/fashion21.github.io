@@ -44,6 +44,10 @@ dir.eachFileRecurse (FileType.FILES) { csvFile ->
     productList.findAll { it.colors.findAll { it.color_hex.contains('+') } }.each { product ->
         product.multiple_colors = true
     }
+    productList.findAll { it.colors.findAll { it.color_hex.contains('.jpg') } }.each { product ->
+        product.color_image = true
+        product.colors.collect{ it.color_hex = "http://res.cloudinary.com/dp79ddrmc/image/upload/v1455006447/products/" + it.color_hex }
+    }
 
     'mkdir -p out'.execute()
     productList.groupBy {it.category}.each {
@@ -63,6 +67,7 @@ dir.eachFileRecurse (FileType.FILES) { csvFile ->
 //        if (product.top_pick) file << "is_top_pick: $product.top_pick\n"
             file << "feature_image: \"" + (product.image_name ? "http://res.cloudinary.com/dp79ddrmc/image/upload/v1455006447/products/$product.image_name" : "http://placehold.it/275x335?text=ruuuuuuuuu!!") + "\"\n"
             if (product.multiple_colors) file << "multiple_colors: $product.multiple_colors\n"
+            if (product.color_image) file << "color_image: $product.color_image\n"
             file << "colors:\n"
             product.colors.each{
                 file << "    - color: \"$it.color_name\"\n"
