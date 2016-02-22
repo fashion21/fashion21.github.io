@@ -15,9 +15,9 @@
 - id: 3
   class: grid-item-2
   image: http://res.cloudinary.com/dp79ddrmc/image/upload/v1455097359/whatsnew/3-peachPerfectlipstick.jpg
-  title: Ultimate Cover
-  description: BB Cream and Concealer in one! —For excellent coverage even in the face of sweat and humidity!
-  url: "#"
+  title: Peach Perfect Lipstick
+  description: Greet the day with a bright smile with this peachy-colored lipstick!
+  url: "/products/lips/peach-perfect-lipstick/"
 
 - id: 4
   class: grid-item-1
@@ -63,7 +63,7 @@
   class: grid-item-2
   image: http://res.cloudinary.com/dp79ddrmc/image/upload/v1455097359/whatsnew/10-eyebrowGel.jpg
   title: Eyebrow Gel
-  url: "#"
+  url: "/products/eyes/eyebrow-gel/"
 
 - id: 11
   class: grid-item-2
