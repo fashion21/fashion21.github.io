@@ -4,6 +4,7 @@ title: "Two-Way Cake (Classic)"
 layout: productItem
 categories: ["face"]
 feature_image: "http://res.cloudinary.com/dp79ddrmc/image/upload/v1455006447/products/twoWayCakeClassic.jpg"
+top-pick: true
 colors:
     - color: "#1"
       hex: "f6dbaa"

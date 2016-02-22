@@ -1,11 +1,13 @@
 <div class="container-fluid">
     <div class="row">
-        <img class="top-pick-header center-block" src="/img/top-pick/top-pick.png"/>
+        <img class="top-pick-header center-block" src="/img/top-pick.png"/>
         <div id="product-slider">
-            {% for topPicks in site.data.topPick %}
-            <div class="col-top-pick" style="background-image: url('{{ topPicks.image }}');">
-                <span class="top-pick-title">{{ topPicks.title }}</span>
-            </div>
+            {% for topPicks in site.products %}
+                {% if topPicks.top-pick == true %}
+                    <div class="col-top-pick" style="background-image: url('{{ topPicks.feature_image }}');">
+                        <span class="top-pick-title">{{ topPicks.title }}</span>
+                    </div>
+                {% endif %}
             {% endfor %}
         </div>
     </div>

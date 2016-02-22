@@ -4,6 +4,7 @@ title: "Aqualicious Lipstick"
 layout: productItem
 categories: ["lips"]
 feature_image: "http://res.cloudinary.com/dp79ddrmc/image/upload/v1455006447/products/aqualicious.jpg"
+top-pick: true
 colors:
     - color: "Arctic Stone"
       hex: "a47777"

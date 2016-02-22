@@ -4,6 +4,7 @@ title: "Shaver"
 layout: productItem
 categories: ["accessories"]
 feature_image: "http://res.cloudinary.com/dp79ddrmc/image/upload/v1455006447/products/shaver.jpg"
+top-pick: true
 colors:
     - color: "N/A"
       hex: "N/A"

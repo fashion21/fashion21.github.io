@@ -4,6 +4,7 @@ title: "Eyebrow Pencil"
 layout: productItem
 categories: ["eyes"]
 feature_image: "http://res.cloudinary.com/dp79ddrmc/image/upload/v1455006447/products/eyeBrowPencil.jpg"
+top-pick: true
 colors:
     - color: "Black"
       hex: "000000"
