@@ -13,6 +13,7 @@
         <div class="collapse navbar-collapse" id="navbar-menu-collapse">
             <ul class="nav navbar-nav">
                 {% assign urlArray = page.url | split:"/"  %}
+                 <!--<li><a {% if page.url =='/whatsnew/index.html' %} class="active-text"{% endif %} href="/whatsnew">WHAT'S NEW</a></li>-->
                  <li><a {% if page.url =='/whatsnew/index.html' %} class="active-text"{% endif %} href="/whatsnew">WHAT'S NEW</a></li>
                 <li>
                     <a href="/products" {% if 'products' == urlArray[1] %}class="active-text"{% endif %}>PRODUCTS</a>

@@ -4,9 +4,11 @@
         <div id="product-slider">
             {% for topPicks in site.products %}
                 {% if topPicks.top-pick == true %}
-                    <div class="col-top-pick" style="background-image: url('{{ topPicks.feature_image }}');">
-                        <span class="top-pick-title">{{ topPicks.title }}</span>
-                    </div>
+                    <a href="{{ topPicks.url }}">
+                        <div class="col-top-pick" style="background-image: url('{{ topPicks.feature_image }}');">
+                            <span class="top-pick-title">{{ topPicks.title }}</span>
+                        </div>
+                    </a>
                 {% endif %}
             {% endfor %}
         </div>
