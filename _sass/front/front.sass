@@ -41,35 +41,21 @@ a:focus
 #cover
   height: 400px
   padding-top: 91px
-  .topten-items
-    height: 33.33%
-    margin: 0
-    padding: 0
-    background-position: center
-    background-size: 40% auto
-    background-repeat: no-repeat
-    .topten-title
-      position: absolute
-      bottom: 0
-      left: 0
-      right: 0
-      width: 50%
-      margin: 0 auto
-      text-align: center
-  .full-width
-    height: 100%
-    padding: 0
+
 
 #topPicks
   margin-bottom: 20px
   .top-pick-header
     margin: 3% auto 0
     height: 50px
-  #product-slider
+  #top-pick-content
     .top-pick-item
       position: relative
+      min-height: 1px
       float: left
       width: 20%
+      .top-pick-image
+        max-width: 85%
       .top-pick-title
         color: black
         margin: 2% auto
@@ -80,29 +66,29 @@ a:focus
 
 @media (min-width: 1441px)
   #topPicks
-    .top-pick-header
-      margin: 2% auto
-    #product-slider
-      .col-top-pick
-        height: 400px
+    .top-pick-content
+      .top-pick-header
+        margin: 2% auto
 
-@media (max-width: 767px)
+@media (max-width: 991px)
   #topPicks
-    //.top-pick-header
-    //  margin: 10% auto 0% !important
-    .col-top-pick
-      width: 50% !important
-      background-size: 55% auto
+    #top-pick-content
+      .top-pick-item
+        width: 50% !important
 
 
-
-@media screen and (max-width: 568px)
+@media (max-width: 568px)
   #topPicks
+    #top-pick-content
+      .top-pick-item
+        margin: 5% auto
+        width: 100% !important
+        .top-pick-image
+          max-width: 50%
+
     .top-pick-header
-      margin: 10% auto -15%
-    #product-slider
-      .col-top-pick
-        background-size: 80% auto
+      margin: 10% auto
+
   #ig
     padding-top: 0px
     #ig-header

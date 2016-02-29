@@ -1,14 +1,13 @@
 <div class="container-fluid">
     <div class="row">
         <img class="top-pick-header center-block" src="/img/top-pick.png"/>
-        <div id="product-slider">
+        <div id="top-pick-content">
             {% for topPicks in site.products %}
             {% if topPicks.top-pick == true %}
             <div class="top-pick-item">
                 <a href="{{ topPicks.url }}">
-                    <img class="img-responsive" src="{{ topPicks.feature_image }}"/>
+                    <img class="center-block top-pick-image" src="{{ topPicks.feature_image }}"/>
                     <span class="top-pick-title">{{ topPicks.title }}</span>
-
                 </a>
             </div>
             {% endif %}
