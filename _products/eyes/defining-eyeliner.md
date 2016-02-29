@@ -3,7 +3,7 @@ id: 17
 title: "Defining Eyeliner"
 layout: productItem
 categories: ["eyes"]
-feature_image: "http://res.cloudinary.com/dp79ddrmc/image/upload/v1456200445/products/defining-eyeliner.jpg"
+feature_image: "http://res.cloudinary.com/dp79ddrmc/image/upload/v1456717061/products/defining-eyeliner.jpg"
 top-pick: true
 colors:
     - color: "Black "

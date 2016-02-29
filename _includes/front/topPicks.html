@@ -3,13 +3,15 @@
         <img class="top-pick-header center-block" src="/img/top-pick.png"/>
         <div id="product-slider">
             {% for topPicks in site.products %}
-                {% if topPicks.top-pick == true %}
-                    <a href="{{ topPicks.url }}">
-                        <div class="col-top-pick" style="background-image: url('{{ topPicks.feature_image }}');">
-                            <span class="top-pick-title">{{ topPicks.title }}</span>
-                        </div>
-                    </a>
-                {% endif %}
+            {% if topPicks.top-pick == true %}
+            <div class="top-pick-item">
+                <a href="{{ topPicks.url }}">
+                    <img class="img-responsive" src="{{ topPicks.feature_image }}"/>
+                    <span class="top-pick-title">{{ topPicks.title }}</span>
+
+                </a>
+            </div>
+            {% endif %}
             {% endfor %}
         </div>
     </div>
