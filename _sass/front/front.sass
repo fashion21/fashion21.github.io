@@ -51,21 +51,33 @@ a:focus
   .top-pick-header
     margin: 3% auto
     height: 50px
-  #top-pick-content
-    .top-pick-item
-      position: relative
-      min-height: 1px
+  .grid
+    list-style-type: none
+    margin: 0
+    padding: 0
+    &:after
+      content: ''
+      display: block
+      clear: both
+    .grid-item
       float: left
-      width: 20%
-      .top-pick-image
-        max-width: 85%
-      .top-pick-title
-        color: black
-        margin: 2% auto
-        display: block
-        text-align: center
-        &:hover, &:focus
-          color: black !important
+      background: #ffffff
+      overflow: hidden
+      &.grid-item-1
+        width: 28.333333333333336%
+      &.grid-item-2
+        width: 35.833333333333336%
+      img
+        margin: 0px
+        padding: 0px
+        float: left
+        z-index: 4
+        -webkit-transition: all 0.25s ease-in-out
+        -moz-transition: all 0.25s ease-in-out
+        -o-transition: all 0.25s ease-in-out
+        -ms-transition: all 0.25s ease-in-out
+        transition: all 0.25s ease-in-out
+
 
 @media (min-width: 1441px)
   #topPicks

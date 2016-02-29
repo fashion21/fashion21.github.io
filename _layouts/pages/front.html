@@ -11,6 +11,9 @@ javascripts: |
     <script type="text/javascript" src="/js/search.js"></script>
     <script type="text/javascript" src="/js/socialWidgets.js"></script>
     <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js"></script>
+    <script type="text/javascript" src="/js/isotope.pkgd.min.js"></script>
+    <script type="text/javascript" src="/js/packery-mode.pkgd.min.js"></script>
+    <script src="https://npmcdn.com/imagesloaded@4.1/imagesloaded.pkgd.min.js"></script>
     <script type="text/javascript">
         $(window).scroll(function() {
             if ($(document).scrollTop() > 50) {
@@ -19,7 +22,25 @@ javascripts: |
                 $('nav').removeClass('shrink');
             }
         });
+
+        //isotope
+        $(function() {
+            var $grid = $('.grid').isotope({
+                layoutMode: 'packery',
+                itemSelector: '.grid-item',
+                getSortData: {
+                    number: '.number parseInt'
+                },
+                // sort by color then number
+                sortBy: 'number'
+            });
+
+            $grid.imagesLoaded().progress( function() {
+                $grid.isotope('layout');
+            });
+        });
     </script>
+
 ---
 
 {{ content }}

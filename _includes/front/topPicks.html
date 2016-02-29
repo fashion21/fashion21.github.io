@@ -1,17 +1,18 @@
-<div class="container-fluid">
-    <div class="row">
-        <img class="top-pick-header center-block" src="/img/top-pick.png"/>
-        <div id="top-pick-content">
-            {% for topPicks in site.products %}
-            {% if topPicks.top-pick == true %}
-            <div class="top-pick-item">
-                <a href="{{ topPicks.url }}">
-                    <img class="center-block top-pick-image" src="{{ topPicks.feature_image }}"/>
-                    <span class="top-pick-title">{{ topPicks.title }}</span>
-                </a>
-            </div>
-            {% endif %}
-            {% endfor %}
+<div class="container">
+    <div class="grid">
+        {% assign sorted-topPicks = site.data.test | sort: "id"  %}
+        {% for topPicks in sorted-topPicks %}
+        <div data-number="{{topPicks.id}}" class="grid-item {{ topPicks.class }}">
+            <img class="img-responsive" src="{{ topPicks.image }}"/>
+            <!--<div class="caption hidden-md hidden-sm hidden-xs">-->
+            <!--<div class="blur">-->
+            <!--<div class="caption-text">-->
+            <!--<h1>{{ topPicks.title }}</h1>-->
+            <!--<p>{{ topPicks.description }}</p>-->
+            <!--</div>-->
+            <!--</div>-->
+            <!--</div>-->
         </div>
+        {% endfor %}
     </div>
 </div>
