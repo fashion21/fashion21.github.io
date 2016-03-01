@@ -2,7 +2,7 @@
 title: Fashion 21
 description: >
 baseurl: ""
-url: "http://localhost:4000" # the base hostname & protocol for your site
+url: "www.fashion21cosmetics.com" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
