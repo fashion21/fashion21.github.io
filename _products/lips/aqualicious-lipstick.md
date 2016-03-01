@@ -26,5 +26,9 @@ colors:
       hex: "e93067"
     - color: "Warm Salmon"
       hex: "e67369"
+top-pick-image: http://res.cloudinary.com/dp79ddrmc/image/upload/v1456804124/top-pick/aqualicious.jpg
+class: grid-item-1
+
+
 ---
 Aqualicious feels more like a balm than a lipstick—it’s amazingly moisturizing and contains Vitamin E—but it still provides the rich color of a normal lipstick. This product is perfect for lips that go dry during the day, and it’s available in a wide range of 10 different colors—from pink to nude—to fit any social event.

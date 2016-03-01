@@ -10,5 +10,8 @@ colors:
       hex: "000000"
     - color: "Dark Brown"
       hex: "2a1206"
+top-pick-image: http://res.cloudinary.com/dp79ddrmc/image/upload/v1456804124/top-pick/definingLiner.jpg
+class: grid-item-2
+
 ---
 This twist pen liner is intensely colored and is perfect for giving definition to your eyes. It glides smoothly and gently onto your skin, and is not heavy on the waterline.  You can even use this product to touch up your eyebrows!
