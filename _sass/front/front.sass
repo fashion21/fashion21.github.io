@@ -39,7 +39,7 @@ a:focus
   color: transparent
 
 #cover
-  height: 400px
+  height: 500px
   padding-top: 91px
   .full-width
     height: 100%
@@ -52,7 +52,20 @@ a:focus
     width: 100%
     max-width: 1441px
     .banner-section
-      height: 150px
+      height: 250px
+      position: relative
+      #top-pick-banner
+        position: absolute
+        margin: 0 auto
+        top: 50%
+        width: 30%
+        transform: translateY(-50%)
+        -webkit-transform: translateY(-50%)
+        -moz-transform: translateY(-50%)
+        -o-transform: translateY(-50%)
+        -ms-transform: translateY(-50%)
+        left: 0
+        right: 0
     .grid
       list-style-type: none
       margin: 0
@@ -126,7 +139,7 @@ a:focus
               color: black
               text-align: center
               margin: 0 auto
-              width: 80%
+              max-width: 80%
 
 @media (min-width: 1441px)
   #topPicks
