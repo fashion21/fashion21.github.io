@@ -11,6 +11,7 @@ colors:
       hex: "894c39+563e36 "
     - color: "#2"
       hex: "7b5f56+433d3b"
+top-pick-id: 8
 top-pick-image: http://res.cloudinary.com/dp79ddrmc/image/upload/v1456804124/top-pick/duoEyeBrow.jpg
 class: grid-item-2
 

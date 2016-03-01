@@ -14,6 +14,7 @@ colors:
       hex: "2a1206"
     - color: "Light Brown"
       hex: "3f1a08"
+top-pick-id: 6
 top-pick-image: http://res.cloudinary.com/dp79ddrmc/image/upload/v1456804125/top-pick/eyebrowPencil.jpg
 class: grid-item-2
 

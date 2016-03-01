@@ -8,6 +8,7 @@ top-pick: true
 colors:
     - color: "N/A"
       hex: "N/A"
+top-pick-id: 4
 top-pick-image: http://res.cloudinary.com/dp79ddrmc/image/upload/v1456804125/top-pick/shaver.jpg
 class: grid-item-2
       

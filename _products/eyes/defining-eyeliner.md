@@ -10,6 +10,7 @@ colors:
       hex: "000000"
     - color: "Dark Brown"
       hex: "2a1206"
+top-pick-id: 3
 top-pick-image: http://res.cloudinary.com/dp79ddrmc/image/upload/v1456804124/top-pick/definingLiner.jpg
 class: grid-item-2
 

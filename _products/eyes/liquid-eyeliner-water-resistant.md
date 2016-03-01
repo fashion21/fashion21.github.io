@@ -10,7 +10,7 @@ colors:
       hex: "000000"
     - color: "Brown"
       hex: "4a2310"
-
+top-pick-id: 1
 top-pick-image: http://res.cloudinary.com/dp79ddrmc/image/upload/v1456804124/top-pick/liquidEyeLiner.jpg
 class: grid-item-1
 

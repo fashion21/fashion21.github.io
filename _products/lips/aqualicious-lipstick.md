@@ -26,6 +26,7 @@ colors:
       hex: "e93067"
     - color: "Warm Salmon"
       hex: "e67369"
+top-pick-id: 5
 top-pick-image: http://res.cloudinary.com/dp79ddrmc/image/upload/v1456804124/top-pick/aqualicious.jpg
 class: grid-item-1
 
