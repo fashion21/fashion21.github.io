@@ -1,18 +1,20 @@
 <div class="container">
-    <div class="grid">
-        {% assign sorted-topPicks = site.data.test | sort: "id"  %}
-        {% for topPicks in sorted-topPicks %}
-        <div data-number="{{topPicks.id}}" class="grid-item {{ topPicks.class }}">
-            <img class="img-responsive" src="{{ topPicks.image }}"/>
-            <!--<div class="caption hidden-md hidden-sm hidden-xs">-->
-            <!--<div class="blur">-->
-            <!--<div class="caption-text">-->
-            <!--<h1>{{ topPicks.title }}</h1>-->
-            <!--<p>{{ topPicks.description }}</p>-->
-            <!--</div>-->
-            <!--</div>-->
-            <!--</div>-->
+    <div class="row">
+        <div class="grid">
+            {% assign sorted-topPicks = site.data.test | sort: "id"  %}
+            {% for topPicks in sorted-topPicks %}
+            <div data-number="{{topPicks.id}}" class="grid-item {{ topPicks.class }}">
+                <img class="center-block img-responsive" src="{{ topPicks.image }}"/>
+                <!--<div class="caption hidden-md hidden-sm hidden-xs">-->
+                <!--<div class="blur">-->
+                <!--<div class="caption-text">-->
+                <!--<h1>{{ topPicks.title }}</h1>-->
+                <!--<p>{{ topPicks.description }}</p>-->
+                <!--</div>-->
+                <!--</div>-->
+                <!--</div>-->
+            </div>
+            {% endfor %}
         </div>
-        {% endfor %}
     </div>
 </div>

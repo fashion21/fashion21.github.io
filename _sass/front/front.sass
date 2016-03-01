@@ -48,35 +48,30 @@ a:focus
 
 #topPicks
   margin-bottom: 20px
-  .top-pick-header
-    margin: 3% auto
-    height: 50px
-  .grid
-    list-style-type: none
-    margin: 0
-    padding: 0
-    &:after
-      content: ''
-      display: block
-      clear: both
-    .grid-item
-      float: left
-      background: #ffffff
-      overflow: hidden
-      &.grid-item-1
-        width: 28.333333333333336%
-      &.grid-item-2
-        width: 35.833333333333336%
-      img
-        margin: 0px
-        padding: 0px
+  .container
+    .top-pick-header
+      margin: 3% auto
+      height: 50px
+    .grid
+      list-style-type: none
+      margin: 0
+      padding: 0
+      &:after
+        content: ''
+        display: block
+        clear: both
+      .grid-item
         float: left
-        z-index: 4
-        -webkit-transition: all 0.25s ease-in-out
-        -moz-transition: all 0.25s ease-in-out
-        -o-transition: all 0.25s ease-in-out
-        -ms-transition: all 0.25s ease-in-out
-        transition: all 0.25s ease-in-out
+        overflow: hidden
+        &.grid-item-1
+          width: 28.333333333333336%
+        &.grid-item-2
+          width: 35.833333333333336%
+        img
+          margin: 0
+          padding: 0
+          float: left
+
 
 
 @media (min-width: 1441px)

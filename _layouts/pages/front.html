@@ -27,14 +27,8 @@ javascripts: |
         $(function() {
             var $grid = $('.grid').isotope({
                 layoutMode: 'packery',
-                itemSelector: '.grid-item',
-                getSortData: {
-                    number: '.number parseInt'
-                },
-                // sort by color then number
-                sortBy: 'number'
+                itemSelector: '.grid-item'
             });
-
             $grid.imagesLoaded().progress( function() {
                 $grid.isotope('layout');
             });
