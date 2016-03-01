@@ -9,20 +9,6 @@ $black: black
 $gray: #333333
 $skyblue: #0fb5b3
 
-//test
-#cover-section
-  position: relative
-  height: 100vh
-  margin-top: -90px
-  #video-background
-    position: absolute
-    right: 0
-    bottom: 0
-    min-width: 100%
-    min-height: 100%
-    width: auto
-    height: auto
-
 html, body
   height: auto !important
 
@@ -39,8 +25,12 @@ a:focus
   color: transparent
 
 #cover
-  height: 500px
   padding-top: 91px
+  .cover-bg
+    background-image: url("http://res.cloudinary.com/dp79ddrmc/image/upload/v1455003306/carousel/photo1.jpg")
+    background-attachment: fixed
+    background-size: cover
+    height: 500px
   .full-width
     height: 100%
     padding: 0
