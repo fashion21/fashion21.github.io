@@ -1,5 +1,6 @@
 <div class="container">
     <div class="row">
+        <div class="banner-section"></div>
         <div class="grid">
             {% assign sorted-topPicks = site.products | sort: "top-pick-id"  %}
             {% for topPicks in sorted-topPicks %}
@@ -7,14 +8,13 @@
             <div data-number="{{topPicks.top-pick-id}}" class="grid-item {{ topPicks.class }}">
                 <a href="{{ topPicks.url }}">
                     <img class="center-block img-responsive" src="{{ topPicks.top-pick-image }}"/>
-                    <!--<div class="caption hidden-md hidden-sm hidden-xs">-->
-                    <!--<div class="blur">-->
-                    <!--<div class="caption-text">-->
-                    <!--<h1>{{ topPicks.title }}</h1>-->
-                    <!--<p>{{ topPicks.description }}</p>-->
-                    <!--</div>-->
-                    <!--</div>-->
-                    <!--</div>-->
+                    <div class="caption hidden-md hidden-sm hidden-xs">
+                        <div class="blur">
+                            <div class="caption-text">
+                                <h1>{{ topPicks.title }}</h1>
+                            </div>
+                        </div>
+                    </div>
                 </a>
             </div>
             {% endif %}

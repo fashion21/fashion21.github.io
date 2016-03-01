@@ -49,9 +49,10 @@ a:focus
 #topPicks
   margin-bottom: 20px
   .container
-    .top-pick-header
-      margin: 3% auto
-      height: 50px
+    width: 100%
+    max-width: 1441px
+    .banner-section
+      height: 150px
     .grid
       list-style-type: none
       margin: 0
@@ -67,12 +68,65 @@ a:focus
           width: 28.333333333333336%
         &.grid-item-2
           width: 35.833333333333336%
+        &:hover
+          .caption
+            opacity: 1
+          img
+            opacity: 1
+            transform: scale(1.15, 1.15)
+            -webkit-transform: scale(1.15, 1.15)
+            -moz-transform: scale(1.15, 1.15)
+            -ms-transform: scale(1.15, 1.15)
+            -o-transform: scale(1.15, 1.15)
         img
           margin: 0
           padding: 0
           float: left
+          transition: all 0.45s ease-in-out
+          -webkit-transition: all 0.45s ease-in-out
+          -moz-transition: all 0.45s ease-in-out
+          -o-transition: all 0.45s ease-in-out
+          -ms-transition: all 0.45s ease-in-out
 
-
+      .caption
+        cursor: pointer
+        position: absolute
+        height: 100%
+        width: 100%
+        opacity: 0
+        -webkit-transition: all 0.45s ease-in-out
+        -moz-transition: all 0.45s ease-in-out
+        -o-transition: all 0.45s ease-in-out
+        -ms-transition: all 0.45s ease-in-out
+        transition: all 0.45s ease-in-out
+        .blur
+          background-color: rgba(255, 255, 255, 0.9)
+          height: 100%
+          width: 100%
+          z-index: 5
+          position: absolute
+          top: 50%
+          transform:  translateY(-50%) scale(1.15, 1.15)
+          -webkit-transform: translateY(-50%) scale(1.15, 1.15)
+          -moz-transform: translateY(-50%) scale(1.15, 1.15)
+          -o-transform: translateY(-50%) scale(1.15, 1.15)
+          -ms-transform: translateY(-50%) scale(1.15, 1.15)
+          .caption-text
+            position: relative
+            top: 50%
+            transform: translateY(-50%)
+            -webkit-transform: translateY(-50%)
+            -moz-transform: translateY(-50%)
+            -o-transform: translateY(-50%)
+            -ms-transform: translateY(-50%)
+            h1
+              text-transform: uppercase
+              font-size: 16px
+              z-index: 10
+              color: black
+              text-align: center
+              margin: 10px 0
+              width: 80%
 
 @media (min-width: 1441px)
   #topPicks
