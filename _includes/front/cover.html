@@ -1,23 +1,18 @@
-<!--<div class="container-fluid full-width-height">-->
-    <!--<div class="row row-no-gutter full-width-height">-->
-        <!--<div class="cover-left col-sm-12 full-width" id="cover-carousel">-->
-            <!--<div id="carousel" class="carousel slide" data-ride="carousel">-->
-                <!--<div class="carousel-inner">-->
-                    <!--{% for promoItems in site.data.carousel.promoItems %}-->
-                    <!--<div class="item">-->
-                        <!--<div class="fill" style="background-image:url('{{ promoItems.image }}');">-->
-                            <!--<div class="container">-->
-                            <!--</div>-->
-                        <!--</div>-->
-                    <!--</div>-->
-                    <!--{% endfor %}-->
-                <!--</div>-->
-            <!--</div>-->
-        <!--</div>-->
-    <!--</div>-->
-<!--</div>-->
-<div class="container-fluid">
-    <div class="row">
-        <div class="cover-bg"></div>
+<div class="container-fluid full-width-height">
+    <div class="row row-no-gutter full-width-height">
+        <div class="col-sm-12 full-width" id="cover-carousel">
+            <div id="carousel" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    {% for promoItems in site.data.carousel.promoItems %}
+                    <div class="item">
+                        <div class="fill" style="background-image:url('{{ promoItems.image }}');">
+                            <div class="container">
+                            </div>
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
     </div>
 </div>
