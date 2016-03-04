@@ -3,7 +3,7 @@ id: 3
 title: "Perfect Stick"
 layout: productItem
 categories: ["face"]
-feature_image: "http://res.cloudinary.com/dp79ddrmc/image/upload/v1455006447/products/perfectStick.jpg"
+feature_image: "http://res.cloudinary.com/dp79ddrmc/image/upload/products/perfectStick.jpg"
 colors:
     - color: "Almond"
       hex: "ebbe8e"

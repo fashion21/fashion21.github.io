@@ -3,7 +3,7 @@ id: 77
 title: "Body Gel"
 layout: productItem
 categories: ["skin"]
-feature_image: "http://res.cloudinary.com/dp79ddrmc/image/upload/v1455006447/products/bodyGel.jpg"
+feature_image: "http://res.cloudinary.com/dp79ddrmc/image/upload/products/bodyGel.jpg"
 colors:
     - color: "White"
       hex: "ffffff"

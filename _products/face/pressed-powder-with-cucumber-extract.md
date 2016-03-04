@@ -3,7 +3,7 @@ id: 5
 title: "Pressed Powder with Cucumber Extract"
 layout: productItem
 categories: ["face"]
-feature_image: "http://res.cloudinary.com/dp79ddrmc/image/upload/v1455006447/products/pressedPowderCucumber.jpg"
+feature_image: "http://res.cloudinary.com/dp79ddrmc/image/upload/products/pressedPowderCucumber.jpg"
 colors:
     - color: "#1"
       hex: "f4c0a1"

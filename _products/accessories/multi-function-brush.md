@@ -3,7 +3,7 @@ id: 63
 title: "Multi-Function Brush"
 layout: productItem
 categories: ["accessories"]
-feature_image: "http://res.cloudinary.com/dp79ddrmc/image/upload/v1455006447/products/multiFunctionBrush.jpg"
+feature_image: "http://res.cloudinary.com/dp79ddrmc/image/upload/products/multiFunctionBrush.jpg"
 colors:
     - color: "Set #1"
       hex: "N/A"

@@ -3,7 +3,7 @@ id: 39
 title: "Defining Lip Liner"
 layout: productItem
 categories: ["lips"]
-feature_image: "http://res.cloudinary.com/dp79ddrmc/image/upload/v1455006447/products/definingLipLiner.jpg"
+feature_image: "http://res.cloudinary.com/dp79ddrmc/image/upload/products/definingLipLiner.jpg"
 colors:
     - color: ""
       hex: "9e4749"

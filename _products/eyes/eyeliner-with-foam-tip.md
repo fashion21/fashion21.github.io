@@ -3,7 +3,7 @@ id: 24
 title: "Eyeliner with Foam Tip"
 layout: productItem
 categories: ["eyes"]
-feature_image: "http://res.cloudinary.com/dp79ddrmc/image/upload/v1455006447/products/eyelinerFoamTip.jpg"
+feature_image: "http://res.cloudinary.com/dp79ddrmc/image/upload/products/eyelinerFoamTip.jpg"
 colors:
     - color: "Black"
       hex: "000000"

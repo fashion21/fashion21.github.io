@@ -3,7 +3,7 @@ id: 25
 title: "Eyeshadow Bar"
 layout: productItem
 categories: ["eyes"]
-feature_image: "http://res.cloudinary.com/dp79ddrmc/image/upload/v1455006447/products/eyeShadowBar.jpg"
+feature_image: "http://res.cloudinary.com/dp79ddrmc/image/upload/products/eyeShadowBar.jpg"
 multiple_colors: true
 colors:
     - color: "#1"

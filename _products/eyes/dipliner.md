@@ -3,7 +3,7 @@ id: 18
 title: "Dipliner"
 layout: productItem
 categories: ["eyes"]
-feature_image: "http://res.cloudinary.com/dp79ddrmc/image/upload/v1455006447/products/dipliner.jpg"
+feature_image: "http://res.cloudinary.com/dp79ddrmc/image/upload/products/dipliner.jpg"
 top-pick: true
 colors:
     - color: "Black"

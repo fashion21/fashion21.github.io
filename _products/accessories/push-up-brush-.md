@@ -3,7 +3,7 @@ id: 67
 title: "Push-Up Brush "
 layout: productItem
 categories: ["accessories"]
-feature_image: "http://res.cloudinary.com/dp79ddrmc/image/upload/v1455006447/products/pushUpBrush.jpg"
+feature_image: "http://res.cloudinary.com/dp79ddrmc/image/upload/products/pushUpBrush.jpg"
 colors:
     - color: "N/A"
       hex: "N/A"

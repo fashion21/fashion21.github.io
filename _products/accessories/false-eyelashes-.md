@@ -3,7 +3,7 @@ id: 54
 title: "False Eyelashes "
 layout: productItem
 categories: ["accessories"]
-feature_image: "http://res.cloudinary.com/dp79ddrmc/image/upload/v1455006447/products/falseEyelashes.jpg"
+feature_image: "http://res.cloudinary.com/dp79ddrmc/image/upload/products/falseEyelashes.jpg"
 colors:
     - color: "#1"
       hex: "N/A"

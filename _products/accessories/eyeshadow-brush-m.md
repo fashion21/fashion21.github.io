@@ -3,7 +3,7 @@ id: 52
 title: "Eyeshadow Brush (S) (M)"
 layout: productItem
 categories: ["accessories"]
-feature_image: "http://res.cloudinary.com/dp79ddrmc/image/upload/v1455006447/products/eyeshadowBrush.jpg"
+feature_image: "http://res.cloudinary.com/dp79ddrmc/image/upload/products/eyeshadowBrush.jpg"
 colors:
     - color: "N/A"
       hex: "N/A"

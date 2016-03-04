@@ -3,7 +3,7 @@ id: 15
 title: "Auto Eyebrow Pen"
 layout: productItem
 categories: ["eyes"]
-feature_image: "http://res.cloudinary.com/dp79ddrmc/image/upload/v1455006447/products/autoEyebrowPen.jpg"
+feature_image: "http://res.cloudinary.com/dp79ddrmc/image/upload/products/autoEyebrowPen.jpg"
 colors:
     - color: "Black"
       hex: "000000"

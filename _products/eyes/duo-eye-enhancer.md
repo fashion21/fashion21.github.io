@@ -3,7 +3,7 @@ id: 21
 title: "Duo Eye Enhancer"
 layout: productItem
 categories: ["eyes"]
-feature_image: "http://res.cloudinary.com/dp79ddrmc/image/upload/v1455006447/products/duoEyeEnhancer.jpg"
+feature_image: "http://res.cloudinary.com/dp79ddrmc/image/upload/products/duoEyeEnhancer.jpg"
 colors:
     - color: "Blonde"
       hex: "916e40"

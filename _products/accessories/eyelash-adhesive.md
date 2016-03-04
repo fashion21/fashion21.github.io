@@ -3,7 +3,7 @@ id: 51
 title: "Eyelash Adhesive"
 layout: productItem
 categories: ["accessories"]
-feature_image: "http://res.cloudinary.com/dp79ddrmc/image/upload/v1455006447/products/eyelashAdhesive.jpg"
+feature_image: "http://res.cloudinary.com/dp79ddrmc/image/upload/products/eyelashAdhesive.jpg"
 colors:
     - color: "N/A"
       hex: "N/A"

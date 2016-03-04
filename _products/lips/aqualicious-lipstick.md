@@ -3,7 +3,7 @@ id: 42
 title: "Aqualicious Lipstick"
 layout: productItem
 categories: ["lips"]
-feature_image: "http://res.cloudinary.com/dp79ddrmc/image/upload/v1455006447/products/aqualicious.jpg"
+feature_image: "http://res.cloudinary.com/dp79ddrmc/image/upload/products/aqualicious.jpg"
 top-pick: true
 colors:
     - color: "Arctic Stone"

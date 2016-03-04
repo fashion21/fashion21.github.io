@@ -3,7 +3,7 @@ id: 41
 title: "All Day Matte Lipstick"
 layout: productItem
 categories: ["lips"]
-feature_image: "http://res.cloudinary.com/dp79ddrmc/image/upload/v1455006447/products/allDayMatteLipstick.jpg"
+feature_image: "http://res.cloudinary.com/dp79ddrmc/image/upload/products/allDayMatteLipstick.jpg"
 colors:
     - color: "Bliss"
       hex: "af1010"

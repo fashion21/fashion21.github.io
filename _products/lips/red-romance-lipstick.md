@@ -3,7 +3,7 @@ id: 46
 title: "Red Romance Lipstick"
 layout: productItem
 categories: ["lips"]
-feature_image: "http://res.cloudinary.com/dp79ddrmc/image/upload/v1455006447/products/redRomance.jpg"
+feature_image: "http://res.cloudinary.com/dp79ddrmc/image/upload/products/redRomance.jpg"
 colors:
     - color: "Cherie Amour"
       hex: "470707"

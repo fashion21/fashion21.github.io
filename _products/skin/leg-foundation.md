@@ -3,7 +3,7 @@ id: 78
 title: "Leg Foundation"
 layout: productItem
 categories: ["skin"]
-feature_image: "http://res.cloudinary.com/dp79ddrmc/image/upload/v1455006447/products/legFoundation.jpg"
+feature_image: "http://res.cloudinary.com/dp79ddrmc/image/upload/products/legFoundation.jpg"
 colors:
     - color: ""
       hex: "f9cca3"

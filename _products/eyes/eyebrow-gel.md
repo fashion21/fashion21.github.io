@@ -3,7 +3,7 @@ id: 22
 title: "Eyebrow Gel"
 layout: productItem
 categories: ["eyes"]
-feature_image: "http://res.cloudinary.com/dp79ddrmc/image/upload/v1455006447/products/eyebrowGel.jpg"
+feature_image: "http://res.cloudinary.com/dp79ddrmc/image/upload/products/eyebrowGel.jpg"
 colors:
     - color: "Blonde"
       hex: "e9af5b"
