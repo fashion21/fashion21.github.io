@@ -20,7 +20,7 @@ body * {
 
 #ibacordotcom-content {
 	margin: 0 100px;
-	background: #000
+	background: #111
 }
 
 #ibacordotcom-content span.tombol {
@@ -76,19 +76,14 @@ body * {
 }
 
 div.ibacordotcom-vid-top {
-	color: #c0c0c0;
-	background:#000;
-	padding:20px;
-	display:block;
-	overflow:hidden;
-	*overflow:visible;
+	visibility: hidden;
+	height: 0!important;
 }
 
 div.ibacordotcom-vid-bottom {
 	color: #c0c0c0;
 	background:#111;
 	display:block;
-	overflow-y: scroll;
 	height:435px
 }
 
@@ -143,7 +138,7 @@ iframe.ibacordotcom-vid-iframe {
 	body {font-size: 12px;line-height: 22px}
 	#ibacordotcom-content {margin:0}
 	.ibacordotcom-vid-katuhu{margin:0}
-	.ibacordotcom-vid-kenca {margin:0 0 20px 0}
+	.ibacordotcom-vid-kenca {margin:0}
 	.ibacordotcom-unit{width:auto;margin-left:0;display:block;margin-top:0}
 	iframe.ibacordotcom-vid-iframe {height: 350px;}
 	div.ibacordotcom-vid-bottom{height: 285px}
