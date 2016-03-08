@@ -1,7 +1,47 @@
-<!-- -&#45;&#45;-->
-<!--layout: pages/video-->
-<!-- -&#45;&#45;-->
+---
+permalink: video/index.html
+css: /css/video.css
+---
+<html>
+<head>
 
-<!--<div class="videoWrapper">-->
-    <!--<iframe width="1280" height="720" src="https://www.youtube.com/embed/1iYUQW6RovY?list=PLltfcKZq9w2RIFNNVAop0mxCAC5ruK_Gk" frameborder="0" allowfullscreen></iframe>-->
-<!--</div>-->
+    <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+    <meta name="viewport" content="width=device-width initial-scale=1.0 maximum-scale=1.0 user-scalable=yes" />
+    <title>jQuery Youtube Channels Playlist - iBacor.com</title>
+    <link type="text/css" rel="stylesheet" href="/css/ycp-2.css" />
+    <link type="text/css" rel="stylesheet" href="{{ page.css }}" />
+
+
+</head>
+<body>
+{% include navbar/navbar.html %}
+{% include sticky-social.html %}
+<div id="video-container" class="container">
+    <div id="ibacordotcom-content">
+        <div class="ibacordotcom-unit ibacordotcom-vid-kenca">
+            <div class="ibacordotcom_vid_play"></div>
+        </div>
+        <div class = "ibacordotcom-unit ibacordotcom-vid-katuhu">
+            <div class="ibacordotcom_youtube_channels"></div>
+        </div>
+    </div>
+</div>
+{% include footer.html %}
+{% include search/searchModal.html %}
+
+<script>(function(){var qs,js,q,s,d=document,gi=d.getElementById,ce=d.createElement,gt=d.getElementsByTagName,id='typef_orm',b='https://s3-eu-west-1.amazonaws.com/share.typeform.com/';if(!gi.call(d,id)){js=ce.call(d,'script');js.id=id;js.src=b+'share.js';q=gt.call(d,'script')[0];q.parentNode.insertBefore(js,q)}})()</script>
+<script src="//code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="/js/ycp-2.js"></script>
+
+<script>
+    ibacor_ycp(
+            channels_name = 'cosrev05', //example
+            type = 'forUsername', // type='forUsername' (by user) or type='id' (by channel)
+            list_count = 2, // number of videos playlist
+            autoplay = true, //true or false
+            apikey = 'AIzaSyBhwF6H4ad5rAnwE25Z07jVIJBzFcH7ef4'
+    );
+</script>
+
+</body>
+</html>

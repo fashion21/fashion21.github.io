@@ -4,11 +4,20 @@ title: Video
 css: /css/video.css
 head: |
 javascripts: |
-    <script type="text/javascript" src="/js/jquery-1.11.3.js"></script>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script type="text/javascript" src="/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="/js/socialWidgets.js"></script>
     <script type="text/javascript" src="/js/search.js"></script>
+    <script type="text/javascript" src="/js/ycp-2.js"></script>
     <script type="text/javascript">
+        ibacor_ycp(
+                channels_name = 'vevouk', //example
+                type = 'forUsername', // type='forUsername' (by user) or type='id' (by channel)
+                list_count = 10, // number of videos playlist
+                autoplay = true, //true or false
+                apikey = 'AIzaSyCj2GrDSBy6ISeGg3aWUM4mn3izlA1wgt0'
+        );
+
         $(window).scroll(function() {
             if ($(document).scrollTop() > 50) {
                 $('nav').addClass('shrink');
@@ -17,6 +26,7 @@ javascripts: |
             }
         });
     </script>
+
 ---
 
 {{ content }}
