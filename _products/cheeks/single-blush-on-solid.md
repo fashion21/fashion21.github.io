@@ -3,7 +3,7 @@ id: 37
 title: "Single Blush-On (solid)"
 layout: productItem
 categories: ["cheeks"]
-feature_image: "http://res.cloudinary.com/dp79ddrmc/image/upload/products/singleBlushOnSolid.jpg"
+feature_image: "https://res.cloudinary.com/dp79ddrmc/image/upload/products/singleBlushOnSolid.jpg"
 colors:
     - color: "#1"
       hex: "f7a5a6"

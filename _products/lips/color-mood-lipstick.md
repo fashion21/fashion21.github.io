@@ -3,7 +3,7 @@ id: 43
 title: "Color Mood Lipstick"
 layout: productItem
 categories: ["lips"]
-feature_image: "http://res.cloudinary.com/dp79ddrmc/image/upload/products/colorMood.jpg"
+feature_image: "https://res.cloudinary.com/dp79ddrmc/image/upload/products/colorMood.jpg"
 colors:
     - color: "Bad Apple"
       hex: "802519"

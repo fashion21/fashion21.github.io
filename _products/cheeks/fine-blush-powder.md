@@ -3,7 +3,7 @@ id: 35
 title: "Fine Blush Powder"
 layout: productItem
 categories: ["cheeks"]
-feature_image: "http://res.cloudinary.com/dp79ddrmc/image/upload/products/fineBlushPowder.jpg"
+feature_image: "https://res.cloudinary.com/dp79ddrmc/image/upload/products/fineBlushPowder.jpg"
 colors:
     - color: "#2"
       hex: "f5969f"

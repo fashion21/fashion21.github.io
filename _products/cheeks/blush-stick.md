@@ -3,7 +3,7 @@ id: 33
 title: "Blush Stick"
 layout: productItem
 categories: ["cheeks"]
-feature_image: "http://res.cloudinary.com/dp79ddrmc/image/upload/products/blushStick.jpg"
+feature_image: "https://res.cloudinary.com/dp79ddrmc/image/upload/products/blushStick.jpg"
 colors:
     - color: "#1"
       hex: "fdac9a"

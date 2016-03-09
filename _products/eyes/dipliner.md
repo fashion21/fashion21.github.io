@@ -3,7 +3,7 @@ id: 18
 title: "Dipliner"
 layout: productItem
 categories: ["eyes"]
-feature_image: "http://res.cloudinary.com/dp79ddrmc/image/upload/products/dipliner.jpg"
+feature_image: "https://res.cloudinary.com/dp79ddrmc/image/upload/products/dipliner.jpg"
 top-pick: true
 colors:
     - color: "Black"
@@ -11,7 +11,7 @@ colors:
     - color: "Brown"
       hex: "2a1206"
 top-pick-id: 2
-top-pick-image: http://res.cloudinary.com/dp79ddrmc/image/upload/v1456804124/top-pick/dipLiner.jpg
+top-pick-image: https://res.cloudinary.com/dp79ddrmc/image/upload/v1456804124/top-pick/dipLiner.jpg
 class: grid-item-2
 
 ---

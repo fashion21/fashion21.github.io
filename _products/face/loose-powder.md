@@ -3,7 +3,7 @@ id: 2
 title: "Loose Powder"
 layout: productItem
 categories: ["face"]
-feature_image: "http://res.cloudinary.com/dp79ddrmc/image/upload/products/loosePowder.jpg"
+feature_image: "https://res.cloudinary.com/dp79ddrmc/image/upload/products/loosePowder.jpg"
 colors:
     - color: "#1"
       hex: "e2be9a"

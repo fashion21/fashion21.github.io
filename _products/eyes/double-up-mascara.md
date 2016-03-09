@@ -3,13 +3,13 @@ id: 19
 title: "Double-Up Mascara"
 layout: productItem
 categories: ["eyes"]
-feature_image: "http://res.cloudinary.com/dp79ddrmc/image/upload/products/doubleUpMascara.jpg"
+feature_image: "https://res.cloudinary.com/dp79ddrmc/image/upload/products/doubleUpMascara.jpg"
 top-pick: true
 colors:
     - color: "Black"
       hex: "000000"
 top-pick-id: 9
-top-pick-image: http://res.cloudinary.com/dp79ddrmc/image/upload/v1456804124/top-pick/doubleUpMascara.jpg
+top-pick-image: https://res.cloudinary.com/dp79ddrmc/image/upload/v1456804124/top-pick/doubleUpMascara.jpg
 class: grid-item-2
 
 ---

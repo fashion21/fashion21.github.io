@@ -3,7 +3,7 @@ id: 10
 title: "Two-Way Cake with Papaya Extract"
 layout: productItem
 categories: ["face"]
-feature_image: "http://res.cloudinary.com/dp79ddrmc/image/upload/products/twoWayCakePapaya.jpg"
+feature_image: "https://res.cloudinary.com/dp79ddrmc/image/upload/products/twoWayCakePapaya.jpg"
 top-pick: true
 colors:
     - color: "#1"
@@ -13,7 +13,7 @@ colors:
     - color: "#3"
       hex: "d89f6e"
 top-pick-id: 7
-top-pick-image: http://res.cloudinary.com/dp79ddrmc/image/upload/v1456804125/top-pick/twoWayCake.jpg
+top-pick-image: https://res.cloudinary.com/dp79ddrmc/image/upload/v1456804125/top-pick/twoWayCake.jpg
 class: grid-item-1
 
 ---

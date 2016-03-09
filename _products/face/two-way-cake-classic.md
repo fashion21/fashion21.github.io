@@ -3,7 +3,7 @@ id: 6
 title: "Two-Way Cake (Classic)"
 layout: productItem
 categories: ["face"]
-feature_image: "http://res.cloudinary.com/dp79ddrmc/image/upload/products/twoWayCakeClassic.jpg"
+feature_image: "https://res.cloudinary.com/dp79ddrmc/image/upload/products/twoWayCakeClassic.jpg"
 top-pick: true
 colors:
     - color: "#1"
@@ -15,7 +15,7 @@ colors:
     - color: "#4"
       hex: "f1c190"
 top-pick-id: 10
-top-pick-image: http://res.cloudinary.com/dp79ddrmc/image/upload/v1456804125/top-pick/twoWayCakeClassic.jpg
+top-pick-image: https://res.cloudinary.com/dp79ddrmc/image/upload/v1456804125/top-pick/twoWayCakeClassic.jpg
 class: grid-item-1
 
 ---

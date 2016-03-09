@@ -3,7 +3,7 @@ id: 1
 title: "Cake Foundation"
 layout: productItem
 categories: ["face"]
-feature_image: "http://res.cloudinary.com/dp79ddrmc/image/upload/products/cakeFoundation.jpg"
+feature_image: "https://res.cloudinary.com/dp79ddrmc/image/upload/products/cakeFoundation.jpg"
 colors:
     - color: "#1"
       hex: "fed8b1"

@@ -3,7 +3,7 @@ id: 42
 title: "Aqualicious Lipstick"
 layout: productItem
 categories: ["lips"]
-feature_image: "http://res.cloudinary.com/dp79ddrmc/image/upload/products/aqualicious.jpg"
+feature_image: "https://res.cloudinary.com/dp79ddrmc/image/upload/products/aqualicious.jpg"
 top-pick: true
 colors:
     - color: "Arctic Stone"
@@ -27,7 +27,7 @@ colors:
     - color: "Warm Salmon"
       hex: "e67369"
 top-pick-id: 5
-top-pick-image: http://res.cloudinary.com/dp79ddrmc/image/upload/v1456804124/top-pick/aqualicious.jpg
+top-pick-image: https://res.cloudinary.com/dp79ddrmc/image/upload/v1456804124/top-pick/aqualicious.jpg
 class: grid-item-1
 
 

@@ -3,7 +3,7 @@ id: 29
 title: "Twist Eye Pencil"
 layout: productItem
 categories: ["eyes"]
-feature_image: "http://res.cloudinary.com/dp79ddrmc/image/upload/products/twistEyePencil.jpg"
+feature_image: "https://res.cloudinary.com/dp79ddrmc/image/upload/products/twistEyePencil.jpg"
 colors:
     - color: "Aqua"
       hex: "67cbdc"

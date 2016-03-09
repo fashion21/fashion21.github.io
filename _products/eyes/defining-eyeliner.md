@@ -3,7 +3,7 @@ id: 17
 title: "Defining Eyeliner"
 layout: productItem
 categories: ["eyes"]
-feature_image: "http://res.cloudinary.com/dp79ddrmc/image/upload/v1456717061/products/defining-eyeliner.jpg"
+feature_image: "https://res.cloudinary.com/dp79ddrmc/image/upload/v1456717061/products/defining-eyeliner.jpg"
 top-pick: true
 colors:
     - color: "Black "
@@ -11,7 +11,7 @@ colors:
     - color: "Dark Brown"
       hex: "2a1206"
 top-pick-id: 3
-top-pick-image: http://res.cloudinary.com/dp79ddrmc/image/upload/v1456804124/top-pick/definingLiner.jpg
+top-pick-image: https://res.cloudinary.com/dp79ddrmc/image/upload/v1456804124/top-pick/definingLiner.jpg
 class: grid-item-2
 
 ---

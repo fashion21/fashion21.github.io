@@ -3,7 +3,7 @@ id: 8
 title: "Two-Way Cake with Milk Moisturizers"
 layout: productItem
 categories: ["face"]
-feature_image: "http://res.cloudinary.com/dp79ddrmc/image/upload/products/twoWayCakeMilk.jpg"
+feature_image: "https://res.cloudinary.com/dp79ddrmc/image/upload/products/twoWayCakeMilk.jpg"
 colors:
     - color: "#1"
       hex: "fdd8b4"

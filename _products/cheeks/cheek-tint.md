@@ -3,7 +3,7 @@ id: 34
 title: "Cheek Tint"
 layout: productItem
 categories: ["cheeks"]
-feature_image: "http://res.cloudinary.com/dp79ddrmc/image/upload/products/cheekTint.jpg"
+feature_image: "https://res.cloudinary.com/dp79ddrmc/image/upload/products/cheekTint.jpg"
 colors:
     - color: "#2"
       hex: "c90d0d "

@@ -3,7 +3,7 @@ id: 30
 title: "Water-Resistant Mascara with Lash Conditioner"
 layout: productItem
 categories: ["eyes"]
-feature_image: "http://res.cloudinary.com/dp79ddrmc/image/upload/products/waterResistantMascara.jpg"
+feature_image: "https://res.cloudinary.com/dp79ddrmc/image/upload/products/waterResistantMascara.jpg"
 colors:
     - color: "Black"
       hex: "000000"

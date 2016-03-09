@@ -3,7 +3,7 @@ id: 23
 title: "Eyebrow Pencil"
 layout: productItem
 categories: ["eyes"]
-feature_image: "http://res.cloudinary.com/dp79ddrmc/image/upload/products/eyeBrowPencil.jpg"
+feature_image: "https://res.cloudinary.com/dp79ddrmc/image/upload/products/eyeBrowPencil.jpg"
 top-pick: true
 colors:
     - color: "Black"
@@ -15,7 +15,7 @@ colors:
     - color: "Light Brown"
       hex: "3f1a08"
 top-pick-id: 6
-top-pick-image: http://res.cloudinary.com/dp79ddrmc/image/upload/v1456804125/top-pick/eyebrowPencil.jpg
+top-pick-image: https://res.cloudinary.com/dp79ddrmc/image/upload/v1456804125/top-pick/eyebrowPencil.jpg
 class: grid-item-2
 
 
