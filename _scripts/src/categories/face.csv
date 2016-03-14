@@ -49,15 +49,15 @@ id,product_name,image_name,Description,category,color_name,color_hex,net_weight_
 13,,,,FACE,#2,f2c17c,11g,,,,
 13,,,,FACE,#3,f8c78f,11g,,,,
 13,,,,FACE,#4,f6b880,11g,,,,
-14,Ultimate Cover,,The total face coverage you'll ever need! The BB Cream and Concealer can be applied separately or used together to achieve a blemished-free look. With a lightweight formula that covers evenly while keeping color true even through sweat and humidity.,FACE,#1,e9b876+cd894a,"concealer: 5.5g
-bb: 20g",,,"concealer: e9b876 
+14,Ultimate Cover,ultimateCover.jpg,"There’s no need to look far for a great BB cream and concealer—it’s all in the Ultimate Cover. Our lightweight formula provides excellent coverage that maintains its color even in the face of sweat and humidity. Both products can either be applied separately or combined for the smoothest evenly-toned and blemish-free look, and our three-color range fits any skin tone. It comes with SPF 30+.",FACE,#1,e9b876+cd894a,"concealer: 5.5g
+bb: 20g",,1,"concealer: e9b876 
 bb: cd894a","concealer: 5.5g
 bb: 20g"
 14,,,,FACE,#2,e09f4b+c67941,"concealer: 5.5g
-bb: 20g",,,"concealer: e09f4b
+bb: 20g",,1,"concealer: e09f4b
 bb: c67941","concealer: 5.5g
 bb: 20g"
 14,,,,FACE,#3,a6631f+b06732,"concealer: 5.5g
-bb: 20g",,,"concealer: a6631f
+bb: 20g",,1,"concealer: a6631f
 bb: b06732","concealer: 5.5g
 bb: 20g"
