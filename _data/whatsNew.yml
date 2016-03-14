@@ -1,9 +1,9 @@
 - id: 1
   class: grid-item-1
-  image: http://res.cloudinary.com/dp79ddrmc/image/upload/v1455097359/whatsnew/1-eyelashCurler.jpg
-  title: Metal Eyelash Curler
-  description: Achieve superb curled eyelashes with this lightweight metal eyelash curler!
-  url: "#"
+  image: http://res.cloudinary.com/dp79ddrmc/image/upload/v1455097359/whatsnew//1-ultimateCover.jpg
+  title: Ultimate Cover
+  description: BB Cream and Concealer in one! —For excellent coverage even in the face of sweat and humidity with SPF 30+!
+  url: "/products/face/ultimate-cover/"
 
 - id: 2
   class: grid-item-2
@@ -48,10 +48,10 @@
 
 - id: 8
   class: grid-item-1
-  image: http://res.cloudinary.com/dp79ddrmc/image/upload/v1455097359/whatsnew/8-eyelashAdhesive.jpg
-  title: Mini Eyelash Adhesive
-  description: Make sure your false lashes stay put for a long time with this easy to bring mini eyelash adhesive!
-  url: /products/accessories/eyelash-adhesive/
+  image: http://res.cloudinary.com/dp79ddrmc/image/upload/v1455097359/whatsnew/1-eyelashCurler.jpg
+  title: Metal Eyelash Curler
+  description: Achieve superb curled eyelashes with this lightweight metal eyelash curler!
+  url: "/products/accessories/metal-eyelash-curler/"
 
 - id: 9
   class: grid-item-1
@@ -67,9 +67,10 @@
 
 - id: 11
   class: grid-item-2
-  image: http://res.cloudinary.com/dp79ddrmc/image/upload/v1455097359/whatsnew/9-pushUpBrush.jpg
-  title: Push Up Brush
-  url: /products/accessories/push-up-brush-/
+  image: http://res.cloudinary.com/dp79ddrmc/image/upload/v1455097359/whatsnew/9-eyelashAdhesive.jpg
+  title: Mini Eyelash Adhesive
+  description: Make sure your false lashes stay put for a long time with this easy to bring mini eyelash adhesive!
+  url: /products/accessories/eyelash-adhesive/
 
 - id: 12
   class: grid-item-1
