@@ -1,52 +1,20 @@
 <div class="container">
-    <h4>SITE MAP</h4>
     <div class="content-section">
-        <h5>ABOUT FASHION21</h5>
-        <ul>
-            {% for aboutItems in site.data.sitemap.about %}
-            <li>
-                <a href="{{ aboutItems.url }}">{{ aboutItems.item }}</a>
-            </li>
+        <h4>SITE MAP</h4>
+        {% for sitemap in site.data.sitemap %}
+        <h4>
+            <a href="{{ sitemap.url }}">
+                {{ sitemap.name | upcase }}
+            </a>
+        </h4>
+            {% for sitemap-item in sitemap.products %}
+            <h5>
+                <a href="{{ site-item.url }}">
+                    {{ sitemap-item.name | upcase }}
+                </a>
+            </h5>
             {% endfor %}
-        </ul>
+        {% endfor %}
     </div>
-
-    <div class="content-section">
-        <h5>PRODUCTS</h5>
-        <ul>
-            <li>
-                {% for products in site.data.sitemap.product %}
-                <ul>
-                    <h6>{{ products.category | upcase }}</h6>
-                    <li>
-                        <a href="">{{ products.item1 }}</a>
-                    </li>
-                    <li>
-                        <a href="">{{ products.item2 }}</a>
-                    </li>
-                    <li>
-                        <a href="">{{ products.item3 }}</a>
-                    </li>
-                    <li>
-                        <a href="">{{ products.item4 }}</a>
-                    </li>
-                </ul>
-                {% endfor %}
-            </li>
-
-            <li>
-                <h5>VIDEOS</h5>
-                <ul>
-                    {% for videos in site.data.sitemap.videos %}
-                    <li>
-                        <a href="">{{ videos.item }}</a>
-                    </li>
-                    {% endfor %}
-                </ul>
-            </li>
-            <li>
-                <h5>WHATS NEW</h5>
-            </li>
-        </ul>
-    </div>
+</div>
 </div>
