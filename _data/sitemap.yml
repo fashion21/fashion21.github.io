@@ -1,0 +1,48 @@
+- name: Home
+  url: /
+
+- name: Top Picks
+  url: /#topPicks/
+
+- name: What's New
+  url: /whatsnew/
+
+- name: Products
+  url: /products/
+  products:
+    - name: Face
+      url: /products/face/
+
+    - name: Lips
+      url: /products/lips/
+
+    - name: Eyes
+      url: /products/eyes/
+
+    - name: Cheeks
+      url: /products/cheeks/
+
+    - name: Set
+      url: /products/set/
+
+    - name: Skin
+      url: /products/skin/
+
+    - name: Accessories
+      url: /products/accessories/
+
+- name: Videos
+  url: /video/
+
+- name: About
+  url: /about/
+
+- name: Terms and Conditions
+  url: /terms/
+
+- name: Site Map
+  url: /sitemap/
+
+- name: Store Locator
+  url: /storelocator/
+
