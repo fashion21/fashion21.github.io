@@ -25,23 +25,28 @@ a:focus
     padding: 0
 
 #topPicks
-  margin-bottom: 20px
+  margin-bottom: -40px
+  .banner-section
+    position: relative
+    height: 110px
+    background-image: url('/img/top-pick-bg.png')
+    background-position: top center
+    background-size: cover
+    top: -80px
+    #top-pick-banner
+      position: absolute
+      top: 50%
+      width: 200px
+      transform: translateY(-50%)
+      -webkit-transform: translateY(-50%)
+      -moz-transform: translateY(-50%)
+      -o-transform: translateY(-50%)
+      -ms-transform: translateY(-50%)
+      left: 2%
+      right: 0
   .container
-    .banner-section
-      height: 250px
-      position: relative
-      #top-pick-banner
-        position: absolute
-        margin: 0 auto
-        top: 50%
-        width: 400px
-        transform: translateY(-50%)
-        -webkit-transform: translateY(-50%)
-        -moz-transform: translateY(-50%)
-        -o-transform: translateY(-50%)
-        -ms-transform: translateY(-50%)
-        left: 0
-        right: 0
+    position: relative
+    top: -80px
     .grid
       list-style-type: none
       margin: 0
@@ -140,16 +145,17 @@ a:focus
 
 @media (max-width: 767px)
   #topPicks
-    .container
-      .banner-section
-        height: 200px
-        #top-pick-banner
-          width: 300px
+    .banner-section
+      #top-pick-banner
+        top: 35%
+        width: 150px
+        left: 2%
+        right: 0
+        transform: none
 
 @media (max-width: 568px)
   #cover
-    height: 280px
-
+    height: 400px
   #topPicks
     .container
       .banner-section

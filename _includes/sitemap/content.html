@@ -9,7 +9,7 @@
         </h4>
             {% for sitemap-item in sitemap.products %}
             <h5>
-                <a href="{{ site-item.url }}">
+                <a href="{{ sitemap-item.url }}">
                     {{ sitemap-item.name | upcase }}
                 </a>
             </h5>
