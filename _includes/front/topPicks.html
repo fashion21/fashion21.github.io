@@ -1,7 +1,9 @@
 <div class="banner-section">
-    <img id="top-pick-banner" src="/img/top-picks.png"/>
+    <div class="container">
+        <img id="top-pick-banner" src="/img/top-picks.png"/>
+    </div>
 </div>
-<div class="container">
+<div class="top-pick-container container">
     <div class="row">
         <div class="grid">
             {% assign sorted-topPicks = site.products | sort: "top-pick-id"  %}

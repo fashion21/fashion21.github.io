@@ -40,18 +40,21 @@ a:focus
     background-position: top center
     background-size: cover
     top: -80px
-    #top-pick-banner
-      position: absolute
-      top: 50%
-      width: 200px
-      transform: translateY(-50%)
-      -webkit-transform: translateY(-50%)
-      -moz-transform: translateY(-50%)
-      -o-transform: translateY(-50%)
-      -ms-transform: translateY(-50%)
-      left: 2%
-      right: 0
-  .container
+    .container
+      padding: 0
+      height: inherit
+      #top-pick-banner
+        width: 140px
+        margin-left: -10px
+        position: absolute
+        top: 50%
+        transform: translateY(-50%)
+        -webkit-transform: translateY(-50%)
+        -moz-transform: translateY(-50%)
+        -o-transform: translateY(-50%)
+        -ms-transform: translateY(-50%)
+
+  .top-pick-container
     position: relative
     //max-width: 1441px
     //width: 100%
@@ -142,7 +145,7 @@ a:focus
     padding-top: 0 !important
     height: 450px
   #topPicks
-    .container
+    .top-pick-container
       width: 100%
       .banner-section
         height: 250px
@@ -157,25 +160,25 @@ a:focus
 @media (max-width: 767px)
   #topPicks
     .banner-section
-      #top-pick-banner
-        top: 35%
-        width: 150px
-        left: 2%
-        right: 0
-        transform: none
+      .container
+        #top-pick-banner
+          top: 30%
+          left: 2%
+          right: 0
+          transform: none
 
 @media (max-width: 568px)
   #cover
     height: 400px
   #topPicks
-    .container
+    .top-pick-container
       .banner-section
         height: 130px
         #top-pick-banner
           width: 200px
 
   #topPicks
-    .container
+    .top-pick-container
       .banner-section
         height: 130px
         #top-pick-banner
