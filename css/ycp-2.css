@@ -84,7 +84,8 @@ div.ibacordotcom-vid-bottom {
 	color: #c0c0c0;
 	background:#111;
 	display:block;
-	/*height:435px*/
+	height: 426px;
+	overflow-y: scroll;
 }
 
 .ibacordotcom_youtube_thumb img {
