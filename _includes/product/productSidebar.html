@@ -5,8 +5,8 @@
     {% if productCategory == page.categories[0] %}
     <a href="{{ product.url }}">
         <li class="list-group-item">
-            {{ product.title }}
-            <span class="glyphicon glyphicon-play"></span>
+            <span class="product-text">{{ product.title }}</span>
+            <span class="glyphicon glyphicon-play product-icon"></span>
         </li>
     </a>
     {% endif %}
