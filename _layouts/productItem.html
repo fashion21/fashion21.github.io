@@ -82,7 +82,7 @@
             <h3 class="text-center">YOU MAY ALSO LIKE</h3>
             <ul id="product-img-slider">
                 {% for product in site.products %}
-                {% if product.is_top_pick == true %}
+                {% if page.categories == product.categories %}
                 <li class="text-center">
                     <a href="{{ product.url }}">
                         <img src="{{ product.feature_image }}"/>
@@ -104,6 +104,7 @@
 <!--<script type="text/javascript" src="/js/socialWidgets.js"></script>-->
 <script type="text/javascript" src="/js/search.js"></script>
 <script type="text/javascript" src="/js/lightslider.min.js"></script>
+<script type="text/javascript" src="/js/lightImageSlider.js"></script>
 <script type="text/javascript" src="/js/productItem.js"></script>
 <script>(function(){var qs,js,q,s,d=document,gi=d.getElementById,ce=d.createElement,gt=d.getElementsByTagName,id='typef_orm',b='https://s3-eu-west-1.amazonaws.com/share.typeform.com/';if(!gi.call(d,id)){js=ce.call(d,'script');js.id=id;js.src=b+'share.js';q=gt.call(d,'script')[0];q.parentNode.insertBefore(js,q)}})()</script>
 
