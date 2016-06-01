@@ -1,80 +1,80 @@
 - id: 1
   class: grid-item-1
-  image: http://res.cloudinary.com/dp79ddrmc/image/upload/v1455097359/whatsnew//1-ultimateCover.jpg
+  image: https://res.cloudinary.com/dp79ddrmc/image/upload/whatsnew/1-ultimateCover.jpg
   title: Ultimate Cover
   description: BB Cream and Concealer in one! —For excellent coverage even in the face of sweat and humidity with SPF 30+!
   url: "/products/face/ultimate-cover/"
 
 - id: 2
   class: grid-item-2
-  image: http://res.cloudinary.com/dp79ddrmc/image/upload/v1455097359/whatsnew/2-twistEyePencil.jpg
+  image: https://res.cloudinary.com/dp79ddrmc/image/upload/whatsnew/2-twistEyePencil.jpg
   title: Twist Eye Pencil
   description: Eye-catching eye pencil with sharpener that can also double as an eyeshadow.
   url: /products/eyes/twist-eye-pencil/
 
 - id: 3
   class: grid-item-2
-  image: http://res.cloudinary.com/dp79ddrmc/image/upload/v1455097359/whatsnew/3-peachPerfectlipstick.jpg
+  image: https://res.cloudinary.com/dp79ddrmc/image/upload/whatsnew/3-peachPerfectLipstick.jpg
   title: Peach Perfect Lipstick
   description: Greet the day with a bright smile with this peachy-colored lipstick!
   url: "/products/lips/peach-perfect-lipstick/"
 
 - id: 4
   class: grid-item-1
-  image: http://res.cloudinary.com/dp79ddrmc/image/upload/v1455097359/whatsnew/4-eyeShadowKit.jpg
+  image: https://res.cloudinary.com/dp79ddrmc/image/upload/whatsnew/4-eyeShadowKit.jpg
   title: Eyeshadow Kit
   description: Experiment with colors and textures to highlight your lids with this one kit wonder!
   url: "#"
 
 - id: 5
   class: grid-item-3
-  image: http://res.cloudinary.com/dp79ddrmc/image/upload/v1455097359/whatsnew/6-redRomance.jpg
+  image: https://res.cloudinary.com/dp79ddrmc/image/upload/whatsnew/6-redRomance.jpg
   title: Red Romance Lipstick
   description: Be on top of your game in love and life with this intensely colored red lipstick!
   url: /products/lips/red-romance-lipstick/
 
 - id: 6
   class: grid-item-1
-  image: http://res.cloudinary.com/dp79ddrmc/image/upload/v1455097359/whatsnew/5-fakeLashes.jpg
+  image: https://res.cloudinary.com/dp79ddrmc/image/upload/whatsnew/5-fakeLashes.jpg
   title: False Lashes
   url: /products/accessories/false-eyelashes-/
 
 - id: 7
   class: grid-item-3
-  image: http://res.cloudinary.com/dp79ddrmc/image/upload/v1455097359/whatsnew/7-kabukiBrush.jpg
+  image: https://res.cloudinary.com/dp79ddrmc/image/upload/whatsnew/7-kabukiBrush.jpg
   title: Kabuki Brush
   description: The perfect brush for creating an excellent finish to polish off your look!
   url: /products/accessories/kabuki-brush/
 
 - id: 8
   class: grid-item-1
-  image: http://res.cloudinary.com/dp79ddrmc/image/upload/v1455097359/whatsnew/1-eyelashCurler.jpg
+  image: https://res.cloudinary.com/dp79ddrmc/image/upload/whatsnew/1-eyelashCurler.jpg
   title: Metal Eyelash Curler
   description: Achieve superb curled eyelashes with this lightweight metal eyelash curler!
   url: "/products/accessories/metal-eyelash-curler/"
 
 - id: 9
   class: grid-item-1
-  image: http://res.cloudinary.com/dp79ddrmc/image/upload/v1455097359/whatsnew/11-multiFunctionBrush.jpg
+  image: https://res.cloudinary.com/dp79ddrmc/image/upload/whatsnew/11-multiFunctionBrush.jpg
   title: Multi Function Brush
   url: /products/accessories/multi-function-brush/
 
 - id: 10
   class: grid-item-2
-  image: http://res.cloudinary.com/dp79ddrmc/image/upload/v1455097359/whatsnew/10-eyebrowGel.jpg
+  image: https://res.cloudinary.com/dp79ddrmc/image/upload/whatsnew/10-eyebrowGel.jpg
   title: Eyebrow Gel
   url: "/products/eyes/eyebrow-gel/"
 
 - id: 11
   class: grid-item-2
-  image: http://res.cloudinary.com/dp79ddrmc/image/upload/v1455097359/whatsnew/9-eyelashAdhesive.jpg
+  image: https://res.cloudinary.com/dp79ddrmc/image/upload/whatsnew/9-eyelashAdhesive.jpg
   title: Mini Eyelash Adhesive
   description: Make sure your false lashes stay put for a long time with this easy to bring mini eyelash adhesive!
   url: /products/accessories/eyelash-adhesive/
 
 - id: 12
   class: grid-item-1
-  image: http://res.cloudinary.com/dp79ddrmc/image/upload/v1455097359/whatsnew/12-eyeShadowBrush.jpg
+  image: https://res.cloudinary.com/dp79ddrmc/image/upload/whatsnew/12-eyeShadowBrush.jpg
   title: Eyeshadow Brush
   description: A great blending brush for achieving full coverage on your eyelids! Comes in Small and Medium sizes.
   url: /products/accessories/eyeshadow-brush-m/
