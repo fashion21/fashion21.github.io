@@ -5,6 +5,4 @@ _site
 /img/top-pick/
 dummypic/*
 _scripts/src/out/*
-Gemfile
-Gemfile.lock
 .jekyll-metadata
