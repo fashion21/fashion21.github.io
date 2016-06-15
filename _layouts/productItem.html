@@ -14,20 +14,20 @@
     <div class="item col-md-9 col-lg-9 col-sm-8">
         <div class="col-md-6">
             <div class="thumbnail">
-                <img class="group list-group-image" src="{{ layout.feature_image }}" alt="">
+                <img class="group list-group-image" src="{{ page.feature_image }}" alt="">
             </div>
         </div>
         <div class="col-md-6">
             <div class="caption">
-                <h2>{{ layout.title}}</h2>
+                <h2>{{ page.title}}</h2>
                 <p>{{ content }}</p>
                 <p>
                     <div class="product row">
                         <div class="swatch col-xs-9 vcenter">
-                            {% unless layout.colors[0].hex == 'N/A' %}
+                            {% unless page.colors[0].hex == 'N/A' %}
                                 <h3>Colors Available:</h3>
-                                {% if layout.multiple_colors %}
-                                    {% for color in layout.colors %}
+                                {% if page.multiple_colors %}
+                                    {% for color in page.colors %}
                                         <h5>{{ color.color }}</h5>
                                         <div class="swatches">
                                             {% assign multiple_colors = color.hex | split: "+" %}
@@ -36,34 +36,34 @@
                                             {% endfor %}
                                         </div>
                                     {% endfor %}
-                                {% elsif layout.color_image %}
+                                {% elsif page.color_image %}
                                 <div class="swatches">
-                                    {% for color in layout.colors %}
+                                    {% for color in page.colors %}
                                     <h5>{{ color.color }}</h5>
                                     <img class="img-responsive" src="{{ color.hex }}" alt="{{ color.color }}">
                                     {% endfor %}
                                 </div>
                                 {% else %}
                                     <div class="swatches">
-                                        {% for color in layout.colors %}
+                                        {% for color in page.colors %}
                                             <div data-toggle="popover" data-content="{{ color.color }}" class="swatch" style="background-color: #{{ color.hex }};"></div>
                                         {% endfor %}
                                     </div>
                                 {% endif %}
                             {% endunless %}
                         </div>
-                        {% if layout.product_color_stroke == "foundation" %}
+                        {% if page.product_color_stroke == "foundation" %}
                         <div class="col-xs-3 color-picker-container vcenter">
                             <div class="color-picker">
                                 <img class="img-responsive" src="/img/Foundation/FoundationColorTemplateShadows.png">
-                                <img id="preview-color" class="img-responsive" src="/img/Foundation/FoundationColorTemplateAlpha.png" style="background-color: #{{ layout.colors[0].hex }};">
+                                <img id="preview-color" class="img-responsive" src="/img/Foundation/FoundationColorTemplateAlpha.png" style="background-color: #{{ page.colors[0].hex }};">
                             </div>
                         </div>
-                        {% elsif layout.product_color_stroke == "brush" %}
+                        {% elsif page.product_color_stroke == "brush" %}
                         <div class="col-xs-3 color-picker-container vcenter">
                             <div class="color-picker">
                                 <img class="img-responsive" src="/img/Brush/BrushColorTemplateShadows.png">
-                                <img id="preview-color" class="img-responsive" src="/img/Brush/BrushColorTemplateAlpha.png" style="background-color: #{{ layout.colors[0].hex }};">
+                                <img id="preview-color" class="img-responsive" src="/img/Brush/BrushColorTemplateAlpha.png" style="background-color: #{{ page.colors[0].hex }};">
                             </div>
                         </div>
                         {% endif %}
@@ -82,7 +82,7 @@
             <h3 class="text-center">YOU MAY ALSO LIKE</h3>
             <ul id="product-img-slider">
                 {% for product in site.products %}
-                {% if layout.categories == product.categories %}
+                {% if page.categories == product.categories %}
                 <li class="text-center">
                     <a href="{{ product.url }}">
                         <img src="{{ product.feature_image }}"/>
