@@ -7,10 +7,10 @@
                 {{ sitemap.name | upcase }}
             </a>
         </h4>
-            {% for sitemap-item in sitemap.products %}
+            {% for sitemapItem in sitemap.products %}
             <h5>
-                <a href="{{ sitemap-item.url }}">
-                    {{ sitemap-item.name | upcase }}
+                <a href="{{ sitemapItem.url }}">
+                    {{ sitemapItem.name | upcase }}
                 </a>
             </h5>
             {% endfor %}
