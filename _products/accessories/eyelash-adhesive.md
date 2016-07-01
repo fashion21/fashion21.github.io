@@ -10,5 +10,5 @@ colors:
     hex: N/A
 published: true
 ---
-Getting beautiful lashes was never this easy. Our eyelash adhesive is easy to apply, makes sure our top-quality falsies stay put for a long time, and doesn't harm your eyes. Also available in smaller tube of 1.3 grams!
+Getting beautiful lashes was never this easy. Our eyelash adhesive is easy to apply, makes sure our top-quality falsies stay put for a long time, and doesn't harm your eyes. Also available in smaller tube of 1.3 grams.
 
