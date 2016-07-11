@@ -1,7 +1,7 @@
 ---
 id: 54
 title: "False Eyelashes "
-layout: productItem
+layout: product-item
 categories: ["accessories"]
 feature_image: "https://res.cloudinary.com/dp79ddrmc/image/upload/products/falseEyelashes.jpg"
 colors:

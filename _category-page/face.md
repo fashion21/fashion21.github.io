@@ -1,7 +1,7 @@
 ---
 rank: 1
 title: face
-layout: productItemCategory
+layout: product-item-category
 category-image: http://lorempixel.com/360/210/fashion/5
 category-header-image: category-header/face.png
 is-promo: true

@@ -1,7 +1,7 @@
 ---
 id: 42
 title: "Aqualicious Lipstick"
-layout: productItem
+layout: product-item
 categories: ["lips"]
 feature_image: "https://res.cloudinary.com/dp79ddrmc/image/upload/products/aqualicious.jpg"
 top-pick: true

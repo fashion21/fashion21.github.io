@@ -1,7 +1,7 @@
 ---
 id: 41
 title: "All Day Matte Lipstick"
-layout: productItem
+layout: product-item
 categories: ["lips"]
 feature_image: "https://res.cloudinary.com/dp79ddrmc/image/upload/products/allDayMatteLipstick.jpg"
 colors:

@@ -1,7 +1,7 @@
 ---
 id: 67
 title: "Push-Up Brush "
-layout: productItem
+layout: product-item
 categories: ["accessories"]
 feature_image: "https://res.cloudinary.com/dp79ddrmc/image/upload/products/pushUpBrush.jpg"
 colors:

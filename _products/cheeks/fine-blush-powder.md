@@ -1,7 +1,7 @@
 ---
 id: 35
 title: "Fine Blush Powder"
-layout: productItem
+layout: product-item
 categories: ["cheeks"]
 feature_image: "https://res.cloudinary.com/dp79ddrmc/image/upload/products/fineBlushPowder.jpg"
 colors:

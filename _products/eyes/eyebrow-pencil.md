@@ -1,7 +1,7 @@
 ---
 id: 23
 title: "Eyebrow Pencil"
-layout: productItem
+layout: product-item
 categories: ["eyes"]
 feature_image: "https://res.cloudinary.com/dp79ddrmc/image/upload/products/eyeBrowPencil.jpg"
 top-pick: true

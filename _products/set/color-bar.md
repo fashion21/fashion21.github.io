@@ -1,7 +1,7 @@
 ---
 id: 31
 title: "Color Bar"
-layout: productItem
+layout: product-item
 categories: ["set"]
 feature_image: "https://res.cloudinary.com/dp79ddrmc/image/upload/products/colorBar.jpg"
 color_image: true

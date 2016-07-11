@@ -1,7 +1,7 @@
 ---
 id: 31
 title: "Eyeshadow Kit"
-layout: productItem
+layout: product-item
 categories: ["eyes"]
 feature_image: "https://res.cloudinary.com/dp79ddrmc/image/upload/eyeshadowKit_hceiif.jpg"
 multiple_colors: true

@@ -1,7 +1,7 @@
 ---
 id: 20
 title: "Duo Eyebrow Powder"
-layout: productItem
+layout: product-item
 categories: ["eyes"]
 feature_image: "https://res.cloudinary.com/dp79ddrmc/image/upload/products/duoEyebrow.jpg"
 multiple_colors: true

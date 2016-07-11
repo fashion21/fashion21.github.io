@@ -1,7 +1,7 @@
 ---
 id: 66
 title: "Metal Eyelash Curler"
-layout: productItem
+layout: product-item
 categories: ["accessories"]
 feature_image: "https://res.cloudinary.com/dp79ddrmc/image/upload/products/metalEyelashCurler.jpg"
 colors:

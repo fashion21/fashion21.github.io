@@ -1,7 +1,7 @@
 ---
 id: 27
 title: "Liquid Eyeliner Water-Resistant"
-layout: productItem
+layout: product-item
 categories: ["eyes"]
 feature_image: "https://res.cloudinary.com/dp79ddrmc/image/upload/products/liquidEyelinerWaterResistant.jpg"
 top-pick: true

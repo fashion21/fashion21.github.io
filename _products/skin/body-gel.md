@@ -1,7 +1,7 @@
 ---
 id: 77
 title: "Body Gel"
-layout: productItem
+layout: product-item
 categories: ["skin"]
 feature_image: "https://res.cloudinary.com/dp79ddrmc/image/upload/products/bodyGel.jpg"
 colors:

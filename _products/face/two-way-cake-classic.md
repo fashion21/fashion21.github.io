@@ -1,7 +1,7 @@
 ---
 id: 6
 title: "Two-Way Cake (Classic)"
-layout: productItem
+layout: product-item
 categories: ["face"]
 feature_image: "https://res.cloudinary.com/dp79ddrmc/image/upload/products/twoWayCakeClassic.jpg"
 top-pick: true

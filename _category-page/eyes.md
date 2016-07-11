@@ -1,7 +1,7 @@
 ---
 rank: 3
 title: eyes
-layout: productItemCategory
+layout: product-item-category
 category-image: http://lorempixel.com/360/210/fashion/4
 category-header-image: category-header/eyes.png
 is-promo: true

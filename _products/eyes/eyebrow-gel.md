@@ -1,7 +1,7 @@
 ---
 id: 22
 title: "Eyebrow Gel"
-layout: productItem
+layout: product-item
 categories: ["eyes"]
 feature_image: "https://res.cloudinary.com/dp79ddrmc/image/upload/products/eyebrowGel.jpg"
 colors:

@@ -1,7 +1,7 @@
 ---
 rank: 4
 title: cheeks
-layout: productItemCategory
+layout: product-item-category
 category-image: http://lorempixel.com/360/210/fashion/3
 category-header-image: category-header/cheeks.png
 is-promo: true

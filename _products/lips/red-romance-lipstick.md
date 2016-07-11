@@ -1,7 +1,7 @@
 ---
 id: 46
 title: "Red Romance Lipstick"
-layout: productItem
+layout: product-item
 categories: ["lips"]
 feature_image: "https://res.cloudinary.com/dp79ddrmc/image/upload/products/redRomance.jpg"
 colors:

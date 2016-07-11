@@ -1,7 +1,7 @@
 ---
 id: 43
 title: "Color Mood Lipstick"
-layout: productItem
+layout: product-item
 categories: ["lips"]
 feature_image: "https://res.cloudinary.com/dp79ddrmc/image/upload/products/colorMood.jpg"
 colors:

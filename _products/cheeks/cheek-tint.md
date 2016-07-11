@@ -1,7 +1,7 @@
 ---
 id: 34
 title: "Cheek Tint"
-layout: productItem
+layout: product-item
 categories: ["cheeks"]
 feature_image: "https://res.cloudinary.com/dp79ddrmc/image/upload/products/cheekTint.jpg"
 colors:

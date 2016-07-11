@@ -1,7 +1,7 @@
 ---
 id: 26
 title: "Eyeshadow Pop"
-layout: productItem
+layout: product-item
 categories: ["eyes"]
 feature_image: "https://res.cloudinary.com/dp79ddrmc/image/upload/products/eyeShadowPop.jpg"
 colors:

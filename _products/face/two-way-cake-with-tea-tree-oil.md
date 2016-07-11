@@ -1,7 +1,7 @@
 ---
 id: 12
 title: "Two-Way Cake with Tea-Tree Oil"
-layout: productItem
+layout: product-item
 categories: ["face"]
 feature_image: "https://res.cloudinary.com/dp79ddrmc/image/upload/products/twoWayCakeTeaTree.jpg"
 colors:

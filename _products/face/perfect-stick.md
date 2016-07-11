@@ -1,7 +1,7 @@
 ---
 id: 3
 title: "Perfect Stick"
-layout: productItem
+layout: product-item
 categories: ["face"]
 feature_image: "https://res.cloudinary.com/dp79ddrmc/image/upload/products/perfectStick.jpg"
 colors:

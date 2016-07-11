@@ -1,7 +1,7 @@
 ---
 id: 4
 title: "Perfect Stick with Tea-Tree Oil"
-layout: productItem
+layout: product-item
 categories: ["face"]
 feature_image: "https://res.cloudinary.com/dp79ddrmc/image/upload/products/perfectStickTeaTree.jpg"
 colors:

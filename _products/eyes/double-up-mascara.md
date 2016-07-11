@@ -1,7 +1,7 @@
 ---
 id: 19
 title: "Double-Up Mascara"
-layout: productItem
+layout: product-item
 categories: ["eyes"]
 feature_image: "https://res.cloudinary.com/dp79ddrmc/image/upload/products/doubleUpMascara.jpg"
 top-pick: true

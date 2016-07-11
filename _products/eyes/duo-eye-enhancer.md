@@ -1,7 +1,7 @@
 ---
 id: 21
 title: "Duo Eye Enhancer"
-layout: productItem
+layout: product-item
 categories: ["eyes"]
 feature_image: "https://res.cloudinary.com/dp79ddrmc/image/upload/products/duoEyeEnhancer.jpg"
 colors:

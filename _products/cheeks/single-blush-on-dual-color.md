@@ -1,7 +1,7 @@
 ---
 id: 81
 title: "Single Blush-On (dual color)"
-layout: productItem
+layout: product-item
 categories: ["cheeks"]
 feature_image: "https://res.cloudinary.com/dp79ddrmc/image/upload/products/singleBlushOnDual.jpg"
 multiple_colors: true

@@ -1,7 +1,7 @@
 ---
 rank: 7
 title: accessories
-layout: productItemCategory
+layout: product-item-category
 category-image: http://lorempixel.com/360/210/fashion/1
 category-header-image: category-header/accessories.png
 is-promo: true

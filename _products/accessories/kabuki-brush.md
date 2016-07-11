@@ -1,7 +1,7 @@
 ---
 id: 55
 title: "Kabuki Brush"
-layout: productItem
+layout: product-item
 categories: ["accessories"]
 feature_image: "https://res.cloudinary.com/dp79ddrmc/image/upload/products/kabukiBrush.jpg"
 colors:

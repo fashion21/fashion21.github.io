@@ -1,7 +1,7 @@
 ---
 id: 17
 title: "Defining Eyeliner"
-layout: productItem
+layout: product-item
 categories: ["eyes"]
 feature_image: "https://res.cloudinary.com/dp79ddrmc/image/upload/v1456717061/products/defining-eyeliner.jpg"
 top-pick: true
