@@ -3,7 +3,7 @@ id: 27
 title: "Liquid Eyeliner Water-Resistant"
 layout: product-item
 categories: ["eyes"]
-feature_image: "https://res.cloudinary.com/dp79ddrmc/image/upload/products/liquidEyelinerWaterResistant.jpg"
+feature_image: "http://res.cloudinary.com/f21cosmetics/image/upload/v1475046517/liquid-eyeliner_b2sa1w.jpg"
 top-pick: true
 colors:
     - color: "Black"
