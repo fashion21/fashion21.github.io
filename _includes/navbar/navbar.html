@@ -14,15 +14,15 @@
             <ul class="nav navbar-nav">
                 {% assign urlArray = page.url | split:"/"  %}
                  <!--<li><a {% if page.url =='/whatsnew/index.html' %} class="active-text"{% endif %} href="/whatsnew">WHAT'S NEW</a></li>-->
-                 <li><a {% if page.url =='/whatsnew/index.html' %} class="active-text"{% endif %} href="/whatsnew">WHAT'S NEW</a></li>
+                 <li><a {% if page.url =='/whatsnew/' %} class="active-text"{% endif %} href="/whatsnew">WHAT'S NEW</a></li>
                 <li>
-                    <a href="/products" {% if 'products' == urlArray[1] %}class="active-text"{% endif %}>PRODUCTS</a>
+                    <a href="/promotion/" {% if page.url =='/promotion/' %} class="active-text"{% endif %} >PROMOTION</a>
                 </li>
-                <li><a href="/video/index.html">VIDEOS</a></li>
+                <li><a href="/products/" {% if 'products' == urlArray[1] %}class="active-text"{% endif %}>PRODUCTS</a></li>
                 <li><a href="/"><img src="/img/brand-logo.png" class="brand-logo-small"/></a></li>
 
                 <li>
-                    <a {% if page.url =='/about/index.html' %} class="active-text"{% endif %} href="/about">ABOUT</a>
+                    <a {% if page.url =='/video/' %} class="active-text"{% endif %} href="/video/">VIDEOS</a>
                 </li>
 
                 <li>
