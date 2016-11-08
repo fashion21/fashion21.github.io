@@ -1,9 +1,5 @@
-- name: "TRIO ES, BLUSH PP"
-  price: 125
-  description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
-  image: "http://lorempixel.com/800/600/"
+- title: "Fashion21 Teachers Day Promo"
+  image: "/img/promotion/f21_teacher.jpg"
 
-- name: "P.POWDER, BLUSH PP"
-  price: 165
-  description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
-  image: "http://lorempixel.com/800/600/"
+- title: "Fashion21 Breast Cancer Promo"
+  image: "/img/promotion/f21-breast-cancer-promo.jpg"
