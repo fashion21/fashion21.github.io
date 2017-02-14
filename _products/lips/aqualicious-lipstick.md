@@ -5,7 +5,7 @@ layout: product-item
 categories:
   - lips
 feature_image: 'https://res.cloudinary.com/dp79ddrmc/image/upload/products/aqualicious.jpg'
-top-pick: true
+top-pick: false
 colors:
   - color: Arctic Stone
     hex: a47777
