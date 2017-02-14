@@ -5,7 +5,7 @@ layout: product-item
 categories:
   - eyes
 feature_image: 'https://res.cloudinary.com/dp79ddrmc/image/upload/products/eyeBrowPencil.jpg'
-top-pick: false
+top-pick: true
 colors:
   - color: Black
     hex: '000000'
