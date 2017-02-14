@@ -6,7 +6,7 @@ categories:
   - face
 feature_image: >-
   https://res.cloudinary.com/dp79ddrmc/image/upload/products/twoWayCakeClassic.jpg
-top-pick: false
+top-pick: true
 colors:
   - color: '#1'
     hex: f6dbaa
