@@ -16,7 +16,7 @@ colors:
     hex: a6631f+b06732
 published: true
 top-pick: true
-top-pick-id: 5
+top-pick-id: 10
 top-pick-image: >-
   https://res.cloudinary.com/f21cosmetics/image/upload/v1487061370/tp-ultimate-cover.jpg
 class: grid-item-1
