@@ -20,7 +20,7 @@ colors:
     hex: debd9c
 published: true
 top-pick: true
-top-pick-id: 10
+top-pick-id: 5
 top-pick-image: >-
   https://res.cloudinary.com/f21cosmetics/image/upload/v1487061369/tp-perfect-stick.jpg
 class: grid-item-1
