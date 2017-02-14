@@ -9,7 +9,7 @@
   class: grid-item-2
   image: https://res.cloudinary.com/f21cosmetics/image/upload/v1487045910/2-paddleBrush.jpg
   title: Paddle Brush
-  description: The perfect brush for blending powder and cream type makeup. 
+  description: The perfect brush for blending powder and cream type makeup! 
   url: /products/accessories/paddle-brush/
 
 - id: 3
@@ -24,7 +24,7 @@
   image: https://res.cloudinary.com/dp79ddrmc/image/upload/whatsnew/4-eyeShadowKit.jpg
   title: Eyeshadow Kit
   description: Experiment with colors and textures to highlight your lids with this one kit wonder!
-  url: "#"
+  url: "/products/eyes/eyeshadow-kit/"
 
 - id: 5
   class: grid-item-3
