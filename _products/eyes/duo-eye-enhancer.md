@@ -23,6 +23,6 @@ top-pick: true
 top-pick-id: 6
 top-pick-image: >-
   https://res.cloudinary.com/f21cosmetics/image/upload/v1487061367/tp-duo-eye-enhancer.jpg
-class: grid-item-2
+class: grid-item-1
 ---
 This dual-purpose eye pencil is gentle on the skin during application, and doesn’t feel greasy despite its creamy texture.  While it’s got its glitter on, don’t let that stop you from using it on your brows—the glittery element actually helps make your brows look fuller! . This eye enhancer comes in five natural shades that will complement any brow color, hair color, and skin tone, as well as a brush for the brows.
