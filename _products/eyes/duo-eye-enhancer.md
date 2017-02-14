@@ -19,7 +19,7 @@ colors:
   - color: Natural Black
     hex: '000000'
 published: true
-top-pick: false
+top-pick: true
 top-pick-id: 6
 top-pick-image: >-
   https://res.cloudinary.com/f21cosmetics/image/upload/v1487061367/tp-duo-eye-enhancer.jpg
