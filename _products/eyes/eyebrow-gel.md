@@ -19,7 +19,7 @@ colors:
   - color: Copper Brown
     hex: AE6938
 published: true
-top-pick: true
+top-pick: false
 top-pick-id: 8
 top-pick-image: >-
   https://res.cloudinary.com/f21cosmetics/image/upload/v1487061370/tp-eyebrow-gel.jpg
