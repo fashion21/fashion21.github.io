@@ -6,7 +6,7 @@ categories:
   - eyes
 feature_image: >-
   https://res.cloudinary.com/dp79ddrmc/image/upload/v1456717061/products/defining-eyeliner.jpg
-top-pick: true
+top-pick: false
 colors:
   - color: 'Black '
     hex: '000000'
