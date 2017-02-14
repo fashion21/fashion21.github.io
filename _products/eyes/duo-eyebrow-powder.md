@@ -6,7 +6,7 @@ categories:
   - eyes
 feature_image: 'https://res.cloudinary.com/dp79ddrmc/image/upload/products/duoEyebrow.jpg'
 multiple_colors: true
-top-pick: true
+top-pick: false
 colors:
   - color: '#1'
     hex: '894c39+563e36 '
