@@ -7,14 +7,14 @@
 
 - id: 2
   class: grid-item-2
-  image: https://res.cloudinary.com/dp79ddrmc/image/upload/whatsnew/2-twistEyePencil.jpg
-  title: Twist Eye Pencil
-  description: Eye-catching eye pencil with sharpener that can also double as an eyeshadow.
-  url: /products/eyes/twist-eye-pencil/
+  image: https://res.cloudinary.com/f21cosmetics/image/upload/v1487045910/2-paddleBrush.jpg
+  title: Paddle Brush
+  description: The perfect brush for blending powder and cream type makeup. 
+  url: /products/accessories/paddle-brush/
 
 - id: 3
   class: grid-item-2
-  image: https://res.cloudinary.com/dp79ddrmc/image/upload/whatsnew/3-peachPerfectLipstick.jpg
+  image: https://res.cloudinary.com/f21cosmetics/image/upload/v1487045915/3-peachPerfect.jpg
   title: Peach Perfect Lipstick
   description: Greet the day with a bright smile with this peachy-colored lipstick!
   url: "/products/lips/peach-perfect-lipstick/"
@@ -28,10 +28,10 @@
 
 - id: 5
   class: grid-item-3
-  image: https://res.cloudinary.com/dp79ddrmc/image/upload/whatsnew/6-redRomance.jpg
-  title: Red Romance Lipstick
-  description: Be on top of your game in love and life with this intensely colored red lipstick!
-  url: /products/lips/red-romance-lipstick/
+  image: https://res.cloudinary.com/f21cosmetics/image/upload/v1487045915/6-waterdropBlender.jpg
+  title: Waterdrop Blender
+  description: Get the airbrush finish look with this wonder makeup sponge!
+  url: /products/accessories/waterdrop-blender/
 
 - id: 6
   class: grid-item-1
@@ -61,9 +61,10 @@
 
 - id: 10
   class: grid-item-2
-  image: https://res.cloudinary.com/dp79ddrmc/image/upload/whatsnew/10-eyebrowGel.jpg
-  title: Eyebrow Gel
-  url: "/products/eyes/eyebrow-gel/"
+  image: https://res.cloudinary.com/f21cosmetics/image/upload/v1487045913/10-pinkObsession.jpg
+  title: Pink Obsession
+  description: Stay with the trend and find that perfect pink just for you!
+  url: "/products/lips/pink-obsession-lipstick/"
 
 - id: 11
   class: grid-item-2
