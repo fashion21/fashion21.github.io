@@ -5,7 +5,7 @@ layout: product-item
 categories:
   - accessories
 feature_image: 'https://res.cloudinary.com/dp79ddrmc/image/upload/products/shaver.jpg'
-top-pick: true
+top-pick: false
 colors:
   - color: N/A
     hex: N/A
