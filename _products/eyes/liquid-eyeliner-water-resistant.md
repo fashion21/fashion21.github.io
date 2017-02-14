@@ -6,7 +6,7 @@ categories:
   - eyes
 feature_image: >-
   http://res.cloudinary.com/f21cosmetics/image/upload/v1475046517/liquid-eyeliner_b2sa1w.jpg
-top-pick: true
+top-pick: false
 colors:
   - color: Black
     hex: '000000'
