@@ -39,43 +39,43 @@
   title: False Lashes
   url: /products/accessories/false-eyelashes-/
 
-- id: 7
-  class: grid-item-3
-  image: https://res.cloudinary.com/dp79ddrmc/image/upload/whatsnew/7-kabukiBrush.jpg
-  title: Kabuki Brush
-  description: The perfect brush for creating an excellent finish to polish off your look!
-  url: /products/accessories/kabuki-brush/
+#- id: 7
+#  class: grid-item-3
+#  image: https://res.cloudinary.com/dp79ddrmc/image/upload/whatsnew/7-kabukiBrush.jpg
+#  title: Kabuki Brush
+#  description: The perfect brush for creating an excellent finish to polish off your look!
+#  url: /products/accessories/kabuki-brush/
 
-- id: 8
-  class: grid-item-1
-  image: https://res.cloudinary.com/dp79ddrmc/image/upload/whatsnew/1-eyelashCurler.jpg
-  title: Metal Eyelash Curler
-  description: Achieve superb curled eyelashes with this lightweight metal eyelash curler!
-  url: "/products/accessories/metal-eyelash-curler/"
+#- id: 8
+#  class: grid-item-1
+#  image: https://res.cloudinary.com/dp79ddrmc/image/upload/whatsnew/1-eyelashCurler.jpg
+#  title: Metal Eyelash Curler
+#  description: Achieve superb curled eyelashes with this lightweight metal eyelash curler!
+#  url: "/products/accessories/metal-eyelash-curler/"
 
-- id: 9
-  class: grid-item-1
-  image: https://res.cloudinary.com/dp79ddrmc/image/upload/whatsnew/11-multiFunctionBrush.jpg
-  title: Multi Function Brush
-  url: /products/accessories/multi-function-brush/
+#- id: 9
+#  class: grid-item-1
+#  image: https://res.cloudinary.com/dp79ddrmc/image/upload/whatsnew/11-multiFunctionBrush.jpg
+#  title: Multi Function Brush
+#  url: /products/accessories/multi-function-brush/
 
-- id: 10
-  class: grid-item-2
-  image: https://res.cloudinary.com/f21cosmetics/image/upload/v1487045913/10-pinkObsession.jpg
-  title: Pink Obsession
-  description: Stay with the trend and find that perfect pink just for you!
+#- id: 10
+#  class: grid-item-2
+#  image: https://res.cloudinary.com/f21cosmetics/image/upload/v1487045913/10-pinkObsession.jpg
+#  title: Pink Obsession
+#  description: Stay with the trend and find that perfect pink just for you!
   url: "/products/lips/pink-obsession-lipstick/"
 
-- id: 11
-  class: grid-item-2
-  image: https://res.cloudinary.com/dp79ddrmc/image/upload/whatsnew/9-eyelashAdhesive.jpg
-  title: Mini Eyelash Adhesive
-  description: Make sure your false lashes stay put for a long time with this easy to bring mini eyelash adhesive!
-  url: /products/accessories/eyelash-adhesive/
+#- id: 11
+#  class: grid-item-2
+#  image: https://res.cloudinary.com/dp79ddrmc/image/upload/whatsnew/9-eyelashAdhesive.jpg
+#  title: Mini Eyelash Adhesive
+#  description: Make sure your false lashes stay put for a long time with this easy to bring mini eyelash adhesive!
+#  url: /products/accessories/eyelash-adhesive/
 
-- id: 12
-  class: grid-item-1
-  image: https://res.cloudinary.com/dp79ddrmc/image/upload/whatsnew/12-eyeShadowBrush.jpg
-  title: Eyeshadow Brush
-  description: A great blending brush for achieving full coverage on your eyelids! Comes in Small and Medium sizes.
-  url: /products/accessories/eyeshadow-brush-m/
+#- id: 12
+#  class: grid-item-1
+#  image: https://res.cloudinary.com/dp79ddrmc/image/upload/whatsnew/12-eyeShadowBrush.jpg
+#  title: Eyeshadow Brush
+#  description: A great blending brush for achieving full coverage on your eyelids! Comes in Small and Medium sizes.
+#  url: /products/accessories/eyeshadow-brush-m/
