@@ -35,7 +35,7 @@
 
 - id: 6
   class: grid-item-1
-  image: http://res.cloudinary.com/f21cosmetics/image/upload/v1487243331/5-pinkObsession.jpg
+  image: https://res.cloudinary.com/f21cosmetics/image/upload/v1487243331/5-pinkObsession.jpg
   title: Pink Obsession
   description: Stay with the trend and find that perfect pink just for you!
   url: "/products/lips/pink-obsession-lipstick/"
