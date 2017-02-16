@@ -1,9 +1,9 @@
 - id: 1
   class: grid-item-1
-  image: https://res.cloudinary.com/dp79ddrmc/image/upload/whatsnew/1-ultimateCover.jpg
-  title: Ultimate Cover
-  description: BB Cream and Concealer in one! —For excellent coverage even in the face of sweat and humidity with SPF 30+!
-  url: "/products/face/ultimate-cover/"
+  image: https://res.cloudinary.com/f21cosmetics/image/upload/v1487243330/1-mulberry.jpg
+  title: All Day Matte
+  description: Introducing new shade: Mulberry! Fall in love all over with this intense, matte-finish lipstick!
+  url: "/products/lips/all-day-matte-lipstick/"
 
 - id: 2
   class: grid-item-2
@@ -21,10 +21,10 @@
 
 - id: 4
   class: grid-item-1
-  image: https://res.cloudinary.com/dp79ddrmc/image/upload/whatsnew/4-eyeShadowKit.jpg
-  title: Eyeshadow Kit
-  description: Experiment with colors and textures to highlight your lids with this one kit wonder!
-  url: "/products/eyes/eyeshadow-kit/"
+  image: https://res.cloudinary.com/f21cosmetics/image/upload/v1487243331/4-definingLipliner.jpg
+  title: Defining Lipliner  
+  description: Introducing three new shades!
+  url: "/products/lips/defining-lip-liner/"
 
 - id: 5
   class: grid-item-3
@@ -35,9 +35,10 @@
 
 - id: 6
   class: grid-item-1
-  image: https://res.cloudinary.com/dp79ddrmc/image/upload/whatsnew/5-fakeLashes.jpg
-  title: False Lashes
-  url: /products/accessories/false-eyelashes-/
+  image: http://res.cloudinary.com/f21cosmetics/image/upload/v1487243331/5-pinkObsession.jpg
+  title: Pink Obsession
+  description: Stay with the trend and find that perfect pink just for you!
+  url: /products/lips/pink-obsession-lipstick/
 
 #- id: 7
 #  class: grid-item-3
