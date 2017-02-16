@@ -1,39 +1,39 @@
-- id: 13
+- id: 1
   class: grid-item-1
   image: https://res.cloudinary.com/f21cosmetics/image/upload/v1487243330/1-mulberry.jpg
   title: All Day Matte
   description: Introducing new shade: Mulberry! Fall in love all over with this intense, matte-finish lipstick!
   url: "/products/lips/all-day-matte-lipstick/"
 
-- id: 14
+- id: 2
   class: grid-item-2
   image: https://res.cloudinary.com/f21cosmetics/image/upload/v1487045910/2-paddleBrush.jpg
   title: Paddle Brush
   description: The perfect brush for blending powder and cream type makeup! 
   url: "/products/accessories/paddle-brush/"
 
-- id: 15
+- id: 3
   class: grid-item-2
   image: https://res.cloudinary.com/f21cosmetics/image/upload/v1487045915/3-peachPerfect.jpg
   title: Peach Perfect Lipstick
   description: Greet the day with a bright smile with this peachy-colored lipstick!
   url: "/products/lips/peach-perfect-lipstick/"
 
-- id: 16
+- id: 4
   class: grid-item-1
   image: https://res.cloudinary.com/f21cosmetics/image/upload/v1487243331/4-definingLipliner.jpg
   title: Defining Lipliner  
   description: Introducing three new shades!
   url: "/products/lips/defining-lip-liner/"
 
-- id: 17
+- id: 5
   class: grid-item-3
   image: https://res.cloudinary.com/f21cosmetics/image/upload/v1487045915/6-waterdropBlender.jpg
   title: Waterdrop Blender
   description: Get the airbrush finish look with this wonder makeup sponge!
   url: "/products/accessories/waterdrop-blender/"
 
-- id: 18
+- id: 6
   class: grid-item-1
   image: http://res.cloudinary.com/f21cosmetics/image/upload/v1487243331/5-pinkObsession.jpg
   title: Pink Obsession
