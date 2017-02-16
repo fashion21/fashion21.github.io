@@ -22,7 +22,7 @@ published: true
 top-pick: true
 top-pick-id: 8
 top-pick-image: >-
-  https://res.cloudinary.com/f21cosmetics/image/upload/v1487061370/tp-eyebrow-gel.jpg
+  https://res.cloudinary.com/f21cosmetics/image/upload/v1487229561/tp-eyebrow-gel2.jpg
 class: grid-item-2
 ---
 This eyebrow gel is perfect for adding fullness to your brows. It comes in six natural shades to complement your hair and skin. The mascara-like applicator keeps you from putting on too much product by accident, and it’s smudge-proof too.
