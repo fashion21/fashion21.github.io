@@ -22,7 +22,7 @@ published: true
 top-pick: true
 top-pick-id: 5
 top-pick-image: >-
-  https://res.cloudinary.com/f21cosmetics/image/upload/v1487061369/tp-perfect-stick.jpg
+  https://res.cloudinary.com/f21cosmetics/image/upload/v1487229558/tp-perfect-stick2.jpg
 class: grid-item-1
 ---
 Early days are the worst, especially when you’ve had a night out. That’s why our Perfect Stick is perfect for times like this—a swipe of this foundation and concealer combo will banish the bags under your eyes and make you look like you never lost a second of sleep. It also works perfectly as a foundation for the whole face to even out your skintone. It contains SPF 50+ to battle the sun. And since this product is in stick form, you can bring it with you anywhere and never have to worry about coverage again.  It comes in six easy-blending shades for that perfect match to your skin.
