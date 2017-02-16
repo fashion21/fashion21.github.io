@@ -13,7 +13,7 @@ published: true
 top-pick: true
 top-pick-id: 3
 top-pick-image: >-
-  https://res.cloudinary.com/f21cosmetics/image/upload/v1487061367/tp-defining-lipliner.jpg
+  https://res.cloudinary.com/f21cosmetics/image/upload/v1487229555/tp-defining-lipliner2.jpg
 class: grid-item-2
 ---
 This lipliner may come in only one color, but it’s a stunning one that definitely fits all. It gives lips a pinkish, natural contour that perfectly complements your skin and other Fashion 21 lipstick shades.
