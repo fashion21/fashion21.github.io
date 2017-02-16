@@ -10,7 +10,7 @@
   image: https://res.cloudinary.com/f21cosmetics/image/upload/v1487045910/2-paddleBrush.jpg
   title: Paddle Brush
   description: The perfect brush for blending powder and cream type makeup! 
-  url: /products/accessories/paddle-brush/
+  url: "/products/accessories/paddle-brush/"
 
 - id: 3
   class: grid-item-2
@@ -31,14 +31,14 @@
   image: https://res.cloudinary.com/f21cosmetics/image/upload/v1487045915/6-waterdropBlender.jpg
   title: Waterdrop Blender
   description: Get the airbrush finish look with this wonder makeup sponge!
-  url: /products/accessories/waterdrop-blender/
+  url: "/products/accessories/waterdrop-blender/"
 
 - id: 6
   class: grid-item-1
   image: http://res.cloudinary.com/f21cosmetics/image/upload/v1487243331/5-pinkObsession.jpg
   title: Pink Obsession
   description: Stay with the trend and find that perfect pink just for you!
-  url: /products/lips/pink-obsession-lipstick/
+  url: "/products/lips/pink-obsession-lipstick/"
 
 #- id: 7
 #  class: grid-item-3
