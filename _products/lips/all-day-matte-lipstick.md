@@ -37,6 +37,8 @@ colors:
     hex: c90d0d
   - color: Pomelo
     hex: ff5380
+  - color: Mulberry
+    hex: 783c55
 published: true
 top-pick: true
 top-pick-id: 2
