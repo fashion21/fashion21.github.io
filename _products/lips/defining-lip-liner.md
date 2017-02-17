@@ -7,8 +7,14 @@ categories:
 feature_image: >-
   https://res.cloudinary.com/dp79ddrmc/image/upload/products/definingLipLiner.jpg
 colors:
-  - color: ''
+  - color: No. 1
     hex: 9e4749
+  - color: No. 2
+    hex: 732626
+  - color: No. 3
+    hex: 8b4545
+  - color: No.4
+    hex: 5e201e
 published: true
 top-pick: true
 top-pick-id: 3
