@@ -2,61 +2,61 @@
   class: grid-item-1
   image: https://res.cloudinary.com/f21cosmetics/image/upload/v1487243330/1-mulberry.jpg
   title: All Day Matte
-  description: Introducing new shade: Mulberry! Fall in love all over with this intense, matte-finish lipstick!
+  description: "Introducing new shade: Mulberry! Fall in love all over with this intense, matte-finish lipstick!"
   url: "/products/lips/all-day-matte-lipstick/"
 
 - id: 2
   class: grid-item-2
   image: https://res.cloudinary.com/f21cosmetics/image/upload/v1487045910/2-paddleBrush.jpg
   title: Paddle Brush
-  description: The perfect brush for blending powder and cream type makeup! 
+  description: "The perfect brush for blending powder and cream type makeup!"
   url: "/products/accessories/paddle-brush/"
 
 - id: 3
   class: grid-item-2
   image: https://res.cloudinary.com/f21cosmetics/image/upload/v1487045915/3-peachPerfect.jpg
   title: Peach Perfect Lipstick
-  description: Greet the day with a bright smile with this peachy-colored lipstick!
+  description: "Greet the day with a bright smile with this peachy-colored lipstick!"
   url: "/products/lips/peach-perfect-lipstick/"
 
 - id: 4
   class: grid-item-1
   image: https://res.cloudinary.com/f21cosmetics/image/upload/v1487243331/4-definingLipliner.jpg
   title: Defining Lipliner  
-  description: Introducing three new shades!
+  description: "Introducing three new shades!"
   url: "/products/lips/defining-lip-liner/"
 
 - id: 5
   class: grid-item-3
   image: https://res.cloudinary.com/f21cosmetics/image/upload/v1487045915/6-waterdropBlender.jpg
   title: Waterdrop Blender
-  description: Get the airbrush finish look with this wonder makeup sponge!
+  description: "Get the airbrush finish look with this wonder makeup sponge!"
   url: "/products/accessories/waterdrop-blender/"
 
 - id: 6
   class: grid-item-1
   image: http://res.cloudinary.com/f21cosmetics/image/upload/v1487243331/5-pinkObsession.jpg
   title: Pink Obsession
-  description: Stay with the trend and find that perfect pink just for you!
+  description: "Stay with the trend and find that perfect pink just for you!"
   url: "/products/lips/pink-obsession-lipstick/"
 
 - id: 7
   class: grid-item-3
   image: https://res.cloudinary.com/dp79ddrmc/image/upload/whatsnew/7-kabukiBrush.jpg
   title: Kabuki Brush
-  description: The perfect brush for creating an excellent finish to polish off your look!
+  description: "The perfect brush for creating an excellent finish to polish off your look!"
   url: /products/accessories/kabuki-brush/
 
 - id: 8
   class: grid-item-1
   image: https://res.cloudinary.com/dp79ddrmc/image/upload/whatsnew/1-eyelashCurler.jpg
   title: Metal Eyelash Curler
-  description: Achieve superb curled eyelashes with this lightweight metal eyelash curler!
+  description: "Achieve superb curled eyelashes with this lightweight metal eyelash curler!"
   url: "/products/accessories/metal-eyelash-curler/"
 
 - id: 9
   class: grid-item-1
-  image: https://res.cloudinary.com/dp79ddrmc/image/upload/whatsnew/11-multiFunctionBrush.jpg
+  image: "https://res.cloudinary.com/dp79ddrmc/image/upload/whatsnew/11-multiFunctionBrush.jpg"
   title: Multi Function Brush
   url: /products/accessories/multi-function-brush/
 
@@ -64,19 +64,19 @@
   class: grid-item-2
   image: https://res.cloudinary.com/f21cosmetics/image/upload/v1487045913/10-pinkObsession.jpg
   title: Pink Obsession
-  description: Stay with the trend and find that perfect pink just for you!
+  description: "Stay with the trend and find that perfect pink just for you!"
   url: "/products/lips/pink-obsession-lipstick/"
 
 - id: 11
   class: grid-item-2
   image: https://res.cloudinary.com/dp79ddrmc/image/upload/whatsnew/9-eyelashAdhesive.jpg
   title: Mini Eyelash Adhesive
-  description: Make sure your false lashes stay put for a long time with this easy to bring mini eyelash adhesive!
+  description: "Make sure your false lashes stay put for a long time with this easy to bring mini eyelash adhesive!"
   url: /products/accessories/eyelash-adhesive/
 
 - id: 12
   class: grid-item-1
   image: https://res.cloudinary.com/dp79ddrmc/image/upload/whatsnew/12-eyeShadowBrush.jpg
   title: Eyeshadow Brush
-  description: A great blending brush for achieving full coverage on your eyelids! Comes in Small and Medium sizes.
+  description: "A great blending brush for achieving full coverage on your eyelids! Comes in Small and Medium sizes."
   url: /products/accessories/eyeshadow-brush-m/
