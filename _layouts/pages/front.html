@@ -29,7 +29,9 @@ javascripts: |
                 layoutMode: 'packery',
                 itemSelector: '.grid-item'
             });
-
+            $grid.imagesLoaded().progress( function() {
+                $grid.isotope('layout');
+            });
         });
 
         $(window).load(function(){
