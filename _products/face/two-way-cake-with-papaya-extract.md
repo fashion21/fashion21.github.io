@@ -12,7 +12,7 @@ colors:
       hex: "e1a975"
     - color: "#3"
       hex: "d89f6e"
-top-pick-id: 7
+top-pick-id: 10
 top-pick-image: https://res.cloudinary.com/dp79ddrmc/image/upload/v1456804125/top-pick/twoWayCake.jpg
 class: grid-item-1
 

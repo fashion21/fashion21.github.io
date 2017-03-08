@@ -6,7 +6,7 @@
 <div class="top-pick-container container">
     <div class="row">
         <div class="grid">
-            {% assign sorted-topPicks = site.products | sort: "top-pick-id"  %}
+            {% assign sorted-topPicks = site.products | sort: 'top-pick-id'  %}
             {% for topPicks in sorted-topPicks %}
             {% if topPicks.top-pick == true  %}
             <div data-number="{{topPicks.top-pick-id}}" class="grid-item {{ topPicks.class }}">

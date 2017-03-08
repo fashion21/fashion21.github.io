@@ -20,7 +20,7 @@ colors:
     hex: AE6938
 published: true
 top-pick: true
-top-pick-id: 8
+top-pick-id: 6
 top-pick-image: >-
   https://res.cloudinary.com/f21cosmetics/image/upload/v1487229561/tp-eyebrow-gel2.jpg
 class: grid-item-2

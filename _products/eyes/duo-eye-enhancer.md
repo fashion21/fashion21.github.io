@@ -20,7 +20,7 @@ colors:
     hex: '000000'
 published: true
 top-pick: true
-top-pick-id: 6
+top-pick-id: 7 
 top-pick-image: >-
   https://res.cloudinary.com/f21cosmetics/image/upload/v1487229557/tp-duo-eye-enhancer2.jpg
 class: grid-item-2

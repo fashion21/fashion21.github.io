@@ -17,7 +17,7 @@ colors:
     hex: 5e201e
 published: true
 top-pick: true
-top-pick-id: 3
+top-pick-id: 4
 top-pick-image: >-
   https://res.cloudinary.com/f21cosmetics/image/upload/v1487229555/tp-defining-lipliner2.jpg
 class: grid-item-2
