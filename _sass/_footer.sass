@@ -10,7 +10,7 @@ footer
       margin-left: 20px
       margin-right: 0px
       height: 44px
-      border-bottom: 42px solid #eb0029
+      border-bottom: 80px solid #eb0029
       border-left: 21px solid #FFFFFF
       .footer-links
         padding-left: 0px
@@ -32,6 +32,12 @@ footer
 
           a:hover
             text-decoration: none
+      #copyright
+        color: #FFFFFF
+        display: block
+        text-align: center
+        font-size: 14px
+        margin-top: 15px
     #social-media
       margin: 0 auto
       ul
@@ -56,22 +62,27 @@ footer
         ul
           li
             display: inline-block
-@media screen and (max-width: 540px)
+@media screen and (max-width: 568px)
   footer
     .container
       #footer-links-container
         margin-left: 5px
         .footer-links
           font-size: 10px
+        #copyright
+          font-size: 10px
 @media screen and (max-width: 400px)
   footer
     #footer-links-container
       margin-left: 0px
       border-left: none
+
 @media screen and (max-width: 370px)
   footer
     .container
       #footer-links-container
+        margin-left: 0
+        border-left: none
         .footer-links
           li
             padding: 14px 8px 0
