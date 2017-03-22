@@ -3,7 +3,7 @@ layout: null
 ---
 {% assign first = true %}
 [
-  {% for storeLocation in site.data.storeLocations.storeLocations %}
+  {% for storeLocation in site.data.store-locations.store-locations %}
     {% if storeLocation.name != null and storeLocation.name != empty %}
       {% unless first %},{% endunless %}{
       "id": {{storeLocation.id | jsonify}},
