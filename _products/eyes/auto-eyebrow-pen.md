@@ -3,7 +3,7 @@ id: 15
 title: "Auto Eyebrow Pen"
 layout: product-item
 categories: ["eyes"]
-feature_image: "http://res.cloudinary.com/f21cosmetics/image/upload/v1475046516/auto-eyebrow-pen_m26oxn.jpg"
+feature_image: "https://res.cloudinary.com/f21cosmetics/image/upload/v1475046516/auto-eyebrow-pen_m26oxn.jpg"
 colors:
     - color: "Black"
       hex: "000000"

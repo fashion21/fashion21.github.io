@@ -5,7 +5,7 @@ layout: product-item
 categories:
   - face
 feature_image: >-
-  http://res.cloudinary.com/dp79ddrmc/image/upload/v1455006447/products/ultimateCover.jpg
+  https://res.cloudinary.com/dp79ddrmc/image/upload/v1455006447/products/ultimateCover.jpg
 multiple_colors: true
 colors:
   - color: '#1'

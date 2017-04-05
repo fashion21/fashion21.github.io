@@ -1,14 +1,14 @@
 - name: "F21 Lip & Cheek Gel #1"
   price: 140
   description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
-  image: "http://lorempixel.com/800/600/"
+  image: "https://lorempixel.com/800/600/"
 
 - name: "F21 Lip & Cheek Gel #2"
   price: 140
   description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
-  image: "http://lorempixel.com/800/600/"
+  image: "https://lorempixel.com/800/600/"
 
 - name: "F21 Lip & Cheek Tint #2"
   price: 140
   description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
-  image: "http://lorempixel.com/800/600/"
+  image: "https://lorempixel.com/800/600/"

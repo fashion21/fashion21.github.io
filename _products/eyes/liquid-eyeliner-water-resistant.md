@@ -5,7 +5,7 @@ layout: product-item
 categories:
   - eyes
 feature_image: >-
-  http://res.cloudinary.com/f21cosmetics/image/upload/v1475046517/liquid-eyeliner_b2sa1w.jpg
+  https://res.cloudinary.com/f21cosmetics/image/upload/v1475046517/liquid-eyeliner_b2sa1w.jpg
 top-pick: false
 colors:
   - color: Black
