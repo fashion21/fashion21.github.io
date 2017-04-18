@@ -1,6 +1,6 @@
 ---
 published: true
-title: screw-slanting-brush
+title: Screw/Slanting Brush
 id: 70
 layout: product-item
 categories:
