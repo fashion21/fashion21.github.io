@@ -1,143 +1,180 @@
-/* Custom your style */
+/******************************************************
+* #### jQuery-Youtube-Channels-Playlist v06 ####
+* Coded by Ican Bachors 2014.
+* http://ibacor.com/labs/jquery-youtube-channels-playlist/
+* Updates will be posted to this site.
+******************************************************/
 
-html, body {
-	padding: 0;
-	margin: 0;
-}
-
-body {
-	background: #ebebeb;
-	font-family: Arial,sans-serif;
-	font-size: 16px;
+.ycp {
+	font-family: sans-serif;
+	font-size: 1em;
 	color: #444;
-	position: relative;
-	-webkit-text-size-adjust: none;
+	background: #000;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	align-items: flex-start;
 }
 
-body * {
-	text-shadow: none;
+.ycp span.tombol {
+	margin-right: 20px;
 }
 
-#ibacordotcom-content {
-	margin: 0 100px;
-	background: #111
+.ycp span.about {
+	float: right;
+	background: #111;
+	padding: 2px;
+	border-radius: 50%;
+	width: 20px;
+	height: 20px;
+	text-align: center;
 }
 
-#ibacordotcom-content span.tombol {
-	margin-right: 20px
-}
-
-#ibacordotcom-content a  {
+.ycp a {
 	text-decoration: none;
 }
 
-#ibacordotcom-content a img {
+.ycp a img {
 	border: 0;
 }
 
-.ibacordotcom-unit {
-	display: inline-block;
-	*display: inline;
-	*zoom: 1;
-	vertical-align: top;
+.ycp .unit {
+	box-sizing: border-box;
+}
+
+.ycp .katuhu {
+	width: 35%;
+}
+
+.ycp .kenca {
+	width: 65%;
+	height: 528px
+}
+
+.ycp .kenca .ycp_vid_play {
+	width: 100%;
+	height: 100%;
+	cursor: pointer;
+	background: rgba(17,17,17,0.7);
+}
+
+.ycp .kenca .ycp_vid_play a {
+	color: #fff
+}
+
+.ycp .kenca .ycp_vid_play a::before {
+	color: rgba(230,35,29,0.8);
+	content: "\25B6";
+	z-index: 100;
+	font-size: 50px;
+	position: relative;
+	left: 20px;
+	top: 10px;
+	margin-right: 25px
+}
+
+.ycp .thumb {
+	float: left;
+	margin-right: 10px;
+	position: relative;
+	height: 61px;
+	background: #1a1a1a;
+}
+
+.ycp .thumb span {
+	position: absolute;
+	right: 2px;
+	bottom: 0px;
+	padding: 2px;
+	background: #000;
+	color: silver;
+	font-size: 0.8em;
+}
+
+.ycp .play {
+	margin: 0;
+	padding: 10px;
+	display: block;
 	overflow: hidden;
 	*overflow: visible;
 }
 
-.ibacordotcom-vid-katuhu {
-	width:33.45%;
-	float:right;
+.ycp .vid-top {
+	color: #767676;
+	background: #222;
+	padding: 15px 10px;
+	display: block;
+	overflow: hidden;
+	*overflow: visible;
+	height: 48px
 }
 
-.ibacordotcom-vid-kenca {
-	width:66.50%;
+.ycp .vid-top div.title {
+	color: #fff;
+	border-bottom: 1px solid #111;
+	padding-bottom: 5px;
+	margin-bottom: 5px
 }
 
-.ibacordotcom_youtube_thumb{float:left;margin-right:10px;}
-
-.ibacordotcom_youtube_thumb {
-    position: relative;
+.ycp .vid-bottom {
+	color: #ddd;
+	background: #111;
+	display: block;
+	overflow-y: scroll;
+	height: 450px;
 }
 
-.ibacordotcom_youtube_thumb span {
-    position: absolute;
-    right: 1px;
-    bottom: 10px;
-	padding:0 5px 0 5px;
+.ycp div.title {
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+.ycp span.mute,
+.ycp span.about a {
+	color: #767676;
+	font-size: 0.8em;
+}
+
+.ycp .thumb img {
+	width: 80px;
+	height: 100%;
+	border: 2px solid #000
+}
+
+.ycp .play:hover,
+.ycp .vid-active {
 	background: #000;
 }
 
-.ibacordotcom-play {
-	margin:0;
-	padding:10px;
-	display:block;
-	overflow:hidden;
-	*overflow:visible;
+.ycp .vid-active .thumb img {
+	border: 2px solid #e6231d
 }
 
-div.ibacordotcom-vid-top {
-	visibility: hidden;
-	height: 0!important;
+.ycp .vid-prev,
+.ycp .vid-next,
+.ycp .play {
+	cursor: pointer;
 }
 
-div.ibacordotcom-vid-bottom {
-	color: #c0c0c0;
-	background:#111;
-	display:block;
-	height: 426px;
-	overflow-y: scroll;
-}
-
-.ibacordotcom_youtube_thumb img {
-	width: 100px;
-}
-
-div.ibacordotcom-play:hover {
-	background:#333;
-}
-
-.ibacordotcom-vid-active {
-	background:#222;
-}
-
-.ibacordotcom-vid-active img{
-	border :2px solid #e42b28;
-}
-
-.ibacordotcom_vid_prev,.ibacordotcom_vid_next,.ibacordotcom-play{
-	cursor:pointer
-}
-
-iframe.ibacordotcom-vid-iframe {
+.ycp .vid-iframe {
 	width: 100%;
-	height: 500px;
-	border:0
-}
-@media only screen and (max-width: 1200px) {
-	#ibacordotcom-content {margin:50px}
-	.ibacordotcom-vid-katuhu {width:100%}
-	.ibacordotcom-vid-kenca {width:100%}
+	height: 100%;
+	border: 0;
 }
 
-@media only screen and (min-width: 768px) and (max-width: 959px) {
-	body {font-size: 14px;line-height: 24px}
-}
+@media screen and (max-width:767px) {
+	.ycp .katuhu {
+		width: 100%;
+	}
 
-@media only screen and (min-width: 480px) and (max-width: 767px) {
-	body {font-size: 14px;line-height: 24px}
-	#ibacordotcom-content {margin:5px}
-	.ibacordotcom-vid-katuhu {width:100%}
-	.ibacordotcom-vid-kenca {width:100%;margin-bottom:20px}
-	iframe.ibacordotcom-vid-iframe {height: 450px;}
-	div.ibacordotcom-vid-bottom{height: 385px}
-}
+	.ycp .kenca {
+		width: 100%;
+		height: 350px;
+	}
 
-@media screen and (max-width:479px){
-	body {font-size: 12px;line-height: 22px}
-	#ibacordotcom-content {margin:0}
-	.ibacordotcom-vid-katuhu{margin:0}
-	.ibacordotcom-vid-kenca {margin:0}
-	.ibacordotcom-unit{width:auto;margin-left:0;display:block;margin-top:0}
-	iframe.ibacordotcom-vid-iframe {height: 350px;}
-	div.ibacordotcom-vid-bottom{height: 285px}
+	.ycp .vid-bottom {
+		height: 300px;
+	};
 }
