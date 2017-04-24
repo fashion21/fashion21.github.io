@@ -6,28 +6,7 @@ fs.init = function() {
 };
 
 fs.loadStoreLocatorMap = function(){
-    var isDraggable = $(document).width() > 480 ? true : false;
-    $('#map-container').storeLocator({
-        'fullMapStart': true,
-        'storeLimit': 100,
-        'dataType': 'json',
-        'dataLocation': '/feeds/locations.json',
-        'mapSettings' : {
-            draggable: isDraggable,
-            zoom : 12,
-            mapTypeId: google.maps.MapTypeId.ROADMAP,
-            disableDoubleClickZoom: true,
-            scrollwheel: false,
-            navigationControl: false,
-            zoomControlOptions: {
-                style: google.maps.ZoomControlStyle.LARGE,
-                position: google.maps.ControlPosition.RIGHT_TOP
-            },
-            panControlOptions: {
-                position: google.maps.ControlPosition.RIGHT_TOP
-            }
-        }
-    });
+
 };
 
 fs.resetMap = function(){
