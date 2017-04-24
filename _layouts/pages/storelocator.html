@@ -7,36 +7,9 @@ javascripts: |
     <script type="text/javascript" src="/js/jquery-1.11.3.js"></script>
     <script type="text/javascript" src="/js/bootstrap.min.js"></script>
     <script src="https://maps.google.com/maps/api/js?sensor=false"></script>
-    <script type="text/javascript" src="/js/plugins/storelocator/jquery.storelocator.js"></script>
+    <script type="text/javascript" src="/js/plugins/storeLocator/jquery.storelocator.js"></script>
     <script type="text/javascript" src="/js/libs/handlebars.min.js"></script>
     <script type="text/javascript" src="/js/storelocator.js"></script>
-
-    <script type="text/javascript">
-        $(function() {
-            var isDraggable = $(document).width() > 480 ? true : false;
-            $('#map-container').storeLocator({
-                'fullMapStart': true,
-                'storeLimit': 100,
-                'dataType': 'json',
-                'dataLocation': '/feeds/locations.json',
-                'mapSettings' : {
-                    draggable: isDraggable,
-                    zoom : 12,
-                    mapTypeId: google.maps.MapTypeId.ROADMAP,
-                    disableDoubleClickZoom: true,
-                    scrollwheel: false,
-                    navigationControl: false,
-                    zoomControlOptions: {
-                        style: google.maps.ZoomControlStyle.LARGE,
-                        position: google.maps.ControlPosition.RIGHT_TOP
-                    },
-                    panControlOptions: {
-                        position: google.maps.ControlPosition.RIGHT_TOP
-                    }
-                }
-            });
-        });
-    </script>
     <script type="text/javascript" src="/js/search.js"></script>
     <script type="text/javascript">
         $(window).scroll(function() {
