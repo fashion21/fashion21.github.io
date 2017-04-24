@@ -4,6 +4,9 @@
 @import "../footer"
 @import "../modal"
 
+body
+  margin-top: 91px !important
+
 .container
   width: 100%
 .map-wrapper
@@ -220,3 +223,14 @@ $screen-md-max: ($screen-lg-min - 1)
 ::-webkit-scrollbar-track
   border-radius: 10px
   background-color: #ffffff
+
+@media (max-width: 991px)
+  .bh-sl-container
+    .bh-sl-loc-list
+      height: 350px
+      margin-bottom: 30px
+
+@media (max-width: 568px)
+  .bh-sl-container
+    .bh-sl-loc-list
+      height: 300px
