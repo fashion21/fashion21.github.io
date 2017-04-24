@@ -7,6 +7,18 @@ javascripts: |
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script type="text/javascript" src="/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="/js/search.js"></script>
+    <script src="/js/ycp.js"></script>
+
+    <script>
+        $(function() {
+            $("#video-content").ycp({
+                apikey : 'AIzaSyBhwF6H4ad5rAnwE25Z07jVIJBzFcH7ef4',
+                playlist : 50,
+                autoplay : true,
+                related : true
+            });
+        });
+    </script>
 ---
 
 {{ content }}
