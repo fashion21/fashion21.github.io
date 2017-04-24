@@ -17,7 +17,7 @@ css: /css/video.css
 {% include navbar/navbar.html %}
 {% include sticky-social.html %}
 <div id="video-container" class="container">
-    <div id="unix" data-ycp_title = 'Fashion21Cosmetics Videos' data-ycp_channel="cosrev05"></div>
+    <div id="video-content" data-ycp_title = 'Fashion21Cosmetics Videos' data-ycp_channel="cosrev05"></div>
 </div>
 {% include footer.html %}
 {% include search/search-modal.html %}
@@ -28,7 +28,7 @@ css: /css/video.css
 
 <script>
     $(function() {
-        $("#unix").ycp({
+        $("#video-content").ycp({
             apikey : 'AIzaSyBhwF6H4ad5rAnwE25Z07jVIJBzFcH7ef4',
             playlist : 50,
             autoplay : true,
