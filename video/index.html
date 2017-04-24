@@ -17,31 +17,24 @@ css: /css/video.css
 {% include navbar/navbar.html %}
 {% include sticky-social.html %}
 <div id="video-container" class="container">
-    <div id="ibacordotcom-content">
-        <div class="ibacordotcom-unit ibacordotcom-vid-kenca">
-            <div class="ibacordotcom_vid_play"></div>
-        </div>
-        <div class = "ibacordotcom-unit ibacordotcom-vid-katuhu">
-            <div class="ibacordotcom_youtube_channels"></div>
-        </div>
-    </div>
+    <div id="unix" data-ycp_title = 'Fashion21Cosmetics Videos' data-ycp_channel="cosrev05"></div>
 </div>
 {% include footer.html %}
 {% include search/search-modal.html %}
 
 <script>(function(){var qs,js,q,s,d=document,gi=d.getElementById,ce=d.createElement,gt=d.getElementsByTagName,id='typef_orm',b='https://s3-eu-west-1.amazonaws.com/share.typeform.com/';if(!gi.call(d,id)){js=ce.call(d,'script');js.id=id;js.src=b+'share.js';q=gt.call(d,'script')[0];q.parentNode.insertBefore(js,q)}})()</script>
 <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-<script src="/js/ycp-2.js"></script>
+<script src="/js/ycp.js"></script>
 
 <script>
-    ibacor_ycp(
-            channels_name = 'cosrev05', //example
-            type = 'forUsername', // type='forUsername' (by user) or type='id' (by channel)
-            list_count = 50, // number of videos playlist
-            autoplay = true, //true or false
-            apikey = 'AIzaSyBhwF6H4ad5rAnwE25Z07jVIJBzFcH7ef4'
-    );
+    $(function() {
+        $("#unix").ycp({
+            apikey : 'AIzaSyBhwF6H4ad5rAnwE25Z07jVIJBzFcH7ef4',
+            playlist : 50,
+            autoplay : true,
+            related : true
+        });
+    });
 </script>
-
 </body>
 </html>
