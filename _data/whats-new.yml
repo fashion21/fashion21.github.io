@@ -14,10 +14,10 @@
 
 - id: 3
   class: grid-item-2
-  image: https://res.cloudinary.com/f21cosmetics/image/upload/v1487045915/3-peachPerfect.jpg
-  title: Peach Perfect Lipstick
-  description: "Greet the day with a bright smile with this peachy-colored lipstick!"
-  url: "/products/lips/peach-perfect-lipstick/"
+  image: https://res.cloudinary.com/f21cosmetics/image/upload/v1495528313/3-contourKit.jpg
+  title: Contour Kit
+  description: "A three-shade-palette that gives you a natural sculpted look!"
+  url: "/products/cheeks/contour-kit/"
 
 - id: 4
   class: grid-item-1
