@@ -14,10 +14,10 @@
 
 - id: 3
   class: grid-item-2
-  image: https://res.cloudinary.com/f21cosmetics/image/upload/v1495528313/3-contourKit.jpg
-  title: Contour Kit
+  image: https://res.cloudinary.com/f21cosmetics/image/upload/v1495528313/3-contouringKit.jpg
+  title: Contouring Kit
   description: "A three-shade-palette that gives you a natural sculpted look!"
-  url: "/products/cheeks/contour-kit/"
+  url: "/products/cheeks/contouring-kit/"
 
 - id: 4
   class: grid-item-1
