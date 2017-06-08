@@ -1,7 +1,8 @@
 #- image: https://res.cloudinary.com/dp79ddrmc/image/upload/carousel/banner-1.jpg
 #- image: https://res.cloudinary.com/dp79ddrmc/image/upload/carousel/banner-2.jpg
 #- image: https://res.cloudinary.com/dp79ddrmc/image/upload/carousel/banner-3.jpg
+#- image: /img/carousel/img1.jpg
 #- image: /img/carousel/img4.jpg
-- image: /img/carousel/img1.jpg
+- image: /img/carousel/img7.jpg
 - image: /img/carousel/img2.jpg
 - image: /img/carousel/img3.jpg
