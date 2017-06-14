@@ -2,8 +2,7 @@
 id: 2
 title: Loose Powder
 layout: product-item
-categories:
-  - face
+categories: ["face"]
 feature_image: 'https://res.cloudinary.com/dp79ddrmc/image/upload/products/loosePowder.jpg'
 colors:
   - color: '#1'

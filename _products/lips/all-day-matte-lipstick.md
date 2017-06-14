@@ -2,10 +2,8 @@
 id: 41
 title: All Day Matte Lipstick
 layout: product-item
-categories:
-  - lips
-feature_image: >-
-  https://res.cloudinary.com/dp79ddrmc/image/upload/products/allDayMatteLipstick.jpg
+categories: ["lips"]
+feature_image: "https://res.cloudinary.com/dp79ddrmc/image/upload/products/allDayMatteLipstick.jpg"
 colors:
   - color: Bliss
     hex: af1010
@@ -42,8 +40,7 @@ colors:
 published: true
 top-pick: true
 top-pick-id: 2
-top-pick-image: >-
-  https://res.cloudinary.com/f21cosmetics/image/upload/v1487229555/tp-all-day-matte2.jpg
+top-pick-image: "https://res.cloudinary.com/f21cosmetics/image/upload/v1487229555/tp-all-day-matte2.jpg"
 class: grid-item-2
 ---
 One swipe of this matte lipstick gives full, intensely colored, and lasting coverage to your lips. And it doesn’t just look good—the formula is light on the lips and does not dry them out. The All-Day Matte Lipstick comes in 15 brownish, reddish, and pinkish shades that fit any mood for any event, any day and night.

@@ -3,10 +3,8 @@ published: true
 id: 12
 title: Two-Way Cake with Tea-Tree Oil
 layout: product-item
-categories:
-  - face
-feature_image: >-
-  https://res.cloudinary.com/f21cosmetics/image/upload/v1492507397/twc-teatree.jpg
+categories: ["face"]
+feature_image: "https://res.cloudinary.com/f21cosmetics/image/upload/v1492507397/twc-teatree.jpg"
 colors:
   - color: '#1'
     hex: f7a472

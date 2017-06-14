@@ -3,8 +3,7 @@ published: true
 id: 8
 title: Two-Way Cake with Milk Moisturizers
 layout: product-item
-categories:
-  - face
+categories: ["face"]
 feature_image: 'https://res.cloudinary.com/f21cosmetics/image/upload/v1492507397/twc-milk.jpg'
 colors:
   - color: '#1'

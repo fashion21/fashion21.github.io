@@ -2,10 +2,8 @@
 id: 27
 title: Liquid Eyeliner Water-Resistant
 layout: product-item
-categories:
-  - eyes
-feature_image: >-
-  https://res.cloudinary.com/f21cosmetics/image/upload/v1475046517/liquid-eyeliner_b2sa1w.jpg
+categories: ["eyes"]
+feature_image: "https://res.cloudinary.com/f21cosmetics/image/upload/v1475046517/liquid-eyeliner_b2sa1w.jpg"
 top-pick: false
 colors:
   - color: Black
@@ -13,8 +11,7 @@ colors:
   - color: Brown
     hex: 4a2310
 top-pick-id: 1
-top-pick-image: >-
-  https://res.cloudinary.com/dp79ddrmc/image/upload/v1456804124/top-pick/liquidEyeLiner.jpg
+top-pick-image: "https://res.cloudinary.com/dp79ddrmc/image/upload/v1456804124/top-pick/liquidEyeLiner.jpg"
 class: grid-item-1
 published: true
 ---

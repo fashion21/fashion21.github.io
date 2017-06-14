@@ -3,8 +3,7 @@ published: false
 id: 29
 title: Twist Eye Pencil
 layout: product-item
-categories:
-  - eyes
+categories: ["eyes"]
 feature_image: 'https://res.cloudinary.com/dp79ddrmc/image/upload/products/twistEyePencil.jpg'
 colors:
   - color: Aqua

@@ -3,10 +3,8 @@ published: true
 id: 5
 title: Pressed Powder with Cucumber Extract
 layout: product-item
-categories:
-  - face
-feature_image: >-
-  https://res.cloudinary.com/f21cosmetics/image/upload/v1492504988/pressedPowder-cucumber.jpg
+categories: ["face"]
+feature_image: "https://res.cloudinary.com/f21cosmetics/image/upload/v1492504988/pressedPowder-cucumber.jpg"
 colors:
   - color: '#1'
     hex: f4c0a1

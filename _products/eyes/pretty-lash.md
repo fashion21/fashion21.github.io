@@ -2,8 +2,7 @@
 id: 28
 title: Pretty Lash
 layout: product-item
-categories:
-  - eyes
+categories: ["eyes"]
 feature_image: 'https://res.cloudinary.com/dp79ddrmc/image/upload/products/prettyLash.jpg'
 colors:
   - color: Black

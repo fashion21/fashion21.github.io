@@ -9,7 +9,7 @@ colors:
     - color: "Black"
       hex: "000000"
 top-pick-id: 8
-top-pick-image: https://res.cloudinary.com/dp79ddrmc/image/upload/v1456804124/top-pick/doubleUpMascara.jpg
+top-pick-image: "https://res.cloudinary.com/dp79ddrmc/image/upload/v1456804124/top-pick/doubleUpMascara.jpg"
 class: grid-item-2
 
 ---

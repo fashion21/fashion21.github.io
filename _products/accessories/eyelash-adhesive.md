@@ -3,10 +3,8 @@ published: true
 id: 51
 title: Eyelash Adhesive
 layout: product-item
-categories:
-  - accessories
-feature_image: >-
-  https://res.cloudinary.com/f21cosmetics/image/upload/v1492497557/eyelash-adhesive-black.jpg
+categories: ["accessories"]
+feature_image: "https://res.cloudinary.com/f21cosmetics/image/upload/v1492497557/eyelash-adhesive-black.jpg"
 colors:
   - color: N/A
     hex: N/A

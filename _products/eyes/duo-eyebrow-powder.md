@@ -2,8 +2,7 @@
 id: 20
 title: Duo Eyebrow Powder
 layout: product-item
-categories:
-  - eyes
+categories: ["eyes"]
 feature_image: 'https://res.cloudinary.com/dp79ddrmc/image/upload/products/duoEyebrow.jpg'
 multiple_colors: true
 top-pick: false
@@ -13,8 +12,7 @@ colors:
   - color: '#2'
     hex: 7b5f56+433d3b
 top-pick-id: 8
-top-pick-image: >-
-  https://res.cloudinary.com/dp79ddrmc/image/upload/v1456804124/top-pick/duoEyeBrow.jpg
+top-pick-image: "https://res.cloudinary.com/dp79ddrmc/image/upload/v1456804124/top-pick/duoEyeBrow.jpg"
 class: grid-item-2
 published: true
 ---
