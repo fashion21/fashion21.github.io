@@ -1,11 +1,11 @@
 ---
 published: true
-title: Contouring Kit
+title: "Contouring Kit"
 id: 38
 layout: product-item
 categories: ["cheeks"]
 feature_image: "https://res.cloudinary.com/f21cosmetics/image/upload/v1495526545/contouring-kit.jpg"
-
+multiple_colors: true
 colors:
     - color: '#1'
       hex: "ecbea8"
