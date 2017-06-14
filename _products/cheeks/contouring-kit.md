@@ -1,7 +1,7 @@
 ---
-published: true
-title: "Contouring Kit"
+
 id: 38
+title: "Contouring Kit"
 layout: product-item
 categories: ["cheeks"]
 feature_image: "https://res.cloudinary.com/f21cosmetics/image/upload/v1495526545/contouring-kit.jpg"
