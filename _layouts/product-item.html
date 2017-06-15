@@ -24,7 +24,7 @@
     <div class="item col-md-9 col-lg-9 col-sm-8">
         <div class="col-md-6">
             <div class="thumbnail">
-                <img class="group list-group-image" src="{{ page.feature_image }}" alt="">
+                <img class="group list-group-image" src="{{ page.feature_image }}" alt="{{ page.title }}">
             </div>
         </div>
         <div class="col-md-6">
@@ -50,7 +50,7 @@
                                 <div class="swatches">
                                     {% for color in page.colors %}
                                     <h5>{{ color.color }}</h5>
-                                    <img class="img-responsive" src="{{ color.hex }}" alt="{{ color.color }}">
+                                    <img class="img-responsive" src="{{ color.hex }}" alt="{{ color.color }}" alt="Product color">
                                     {% endfor %}
                                 </div>
                                 {% else %}
@@ -65,15 +65,15 @@
                         {% if page.product_color_stroke == "foundation" %}
                         <div class="col-xs-3 color-picker-container vcenter">
                             <div class="color-picker">
-                                <img class="img-responsive" src="/img/Foundation/FoundationColorTemplateShadows.png">
-                                <img id="preview-color" class="img-responsive" src="/img/Foundation/FoundationColorTemplateAlpha.png" style="background-color: #{{ page.colors[0].hex }};">
+                                <img class="img-responsive" src="/img/Foundation/FoundationColorTemplateShadows.png" alt="Product Image">
+                                <img id="preview-color" class="img-responsive" src="/img/Foundation/FoundationColorTemplateAlpha.png" alt="Product Image" style="background-color: #{{ page.colors[0].hex }};">
                             </div>
                         </div>
                         {% elsif page.product_color_stroke == "brush" %}
                         <div class="col-xs-3 color-picker-container vcenter">
                             <div class="color-picker">
-                                <img class="img-responsive" src="/img/Brush/BrushColorTemplateShadows.png">
-                                <img id="preview-color" class="img-responsive" src="/img/Brush/BrushColorTemplateAlpha.png" style="background-color: #{{ page.colors[0].hex }};">
+                                <img class="img-responsive" src="/img/Brush/BrushColorTemplateShadows.png" alt="Product Image">
+                                <img id="preview-color" class="img-responsive" src="/img/Brush/BrushColorTemplateAlpha.png" alt="Product Image" style="background-color: #{{ page.colors[0].hex }};">
                             </div>
                         </div>
                         {% endif %}
@@ -95,7 +95,7 @@
                 {% if page.categories == product.categories %}
                 <li class="text-center">
                     <a href="{{ product.url }}">
-                        <img src="{{ product.feature_image }}"/>
+                        <img src="{{ product.feature_image }}"  alt="{{ product.title }}"/>
                         <h3>{{ product.title }}</h3>
                     </a>
                 </li>

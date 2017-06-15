@@ -13,11 +13,11 @@
                 {% for category in categories %}
                     {% if page.categories[0] == category.title or page.title == category.title %}
                     {% assign category-header-image = category.category-header-image %}
-                        <img src="/img/{{ category-header-image }}">
+                        <img src="/img/{{ category-header-image }}" alt="Product Type">
                     {% endif %}
                 {% endfor %}
                 {% if !page.category-header-image %}
-                    <img src="/img/{{ page.category-header-image }}">
+                    <img src="/img/{{ page.category-header-image }}" alt="Product Type">
                 {% endif %}
             </nav>
         </div>
@@ -47,9 +47,9 @@
     </ul>
     <h1>{{ site.products.title }}</h1>
     {% if !page.category-header-image %}
-        <img src="/img/{{ page.category-header-image }}">
+        <img src="/img/{{ page.category-header-image }}" alt="Product Type">
     {% else if %}
-        <img src="/img/{{ category-header-image }}">
+        <img src="/img/{{ category-header-image }}" alt="Product Type">
     {% endif %}
 </nav>
 
