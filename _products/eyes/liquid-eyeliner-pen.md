@@ -11,7 +11,7 @@ colors:
   - color: Black
     hex: '000000'
 top-pick: false
-top-pick-id: 8
+top-pick-id: 3
 top-pick-image: >-
   https://res.cloudinary.com/f21cosmetics/image/upload/v1506406920/tp-liquid-pen.jpg
 class: grid-item-2
