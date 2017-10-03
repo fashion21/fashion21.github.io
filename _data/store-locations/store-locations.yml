@@ -82,12 +82,6 @@
   lng: 123.8940956
   address: "1st Floor Robinsons Dept. Store Gen. Maxilom cor. Jones Avenue & F. Ramos St., Cebu City, Cebu."
 
-- id: 40
-  name: "Robinsons Galleria Cebu"
-  lat: 10.3093646
-  lng: 123.8940956
-  address: "1st Floor Robinsons Dept. Store Gen. Maxilom cor. Jones Avenue & F. Ramos St., Cebu City, Cebu."
-
 - id: 41
   name: "Robinsons Centrio"
   lat: 8.4849767
@@ -111,6 +105,12 @@
   lat: 14.5898444
   lng: 121.0605544
   address: "Robinsons Galleria, G/F Robinsons Dept. Store, Cosmetic Section Ortigas Avenue Cor. Edsa, Quezon City, Metro Manila."
+
+- id: 40
+  name: "Robinsons Galleria Cebu"
+  lat: 10.3093646
+  lng: 123.8940956
+  address: "1st Floor Robinsons Dept. Store Gen. Maxilom cor. Jones Avenue & F. Ramos St., Cebu City, Cebu."
 
 - id: 46
   name: "Robinsons Imus"
