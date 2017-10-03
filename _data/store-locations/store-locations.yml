@@ -335,6 +335,12 @@
   lat: 14.485372
   lng: 121.042898
   address: "SM Bicutan, Dona Soledad Ave, Bicutan, Parañaque, 1700 Metro Manila."
+  
+- id: 28
+  name: "Watsons Cabanatuan"
+  lat: 15.460737
+  lng: 120.948915
+  address: "Savemore Megacenter, General Tinio corner Melencio Streets, Cabanatuan City, Nueva Ecija 3100."
 
 - id: 29
   name: "Watsons Davao (ECO)"
