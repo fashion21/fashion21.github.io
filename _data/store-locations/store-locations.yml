@@ -35,10 +35,17 @@
   address: "Within KCC Marbel Branch, Cosmetics Section, KCC Shopping Center National Highway, Gen. San Drive, Koronadal City, South Cotabato."
 
 - id: 63
+  name: "Landmark Festival"
+  lat: 14.4168364
+  lng: 121.0431133
+  address: "Festival Mall, Civic Dr, Alabang, Muntinlupa, Metro Manila."
+
+- id: 63
   name: "Landmark Makati"
   lat: 14.6039369
   lng: 121.0284803
   address: "Ground Floor, Cosmetics Section, Landmark Makati Commercial Center, Makati City, Metro Manila."
+
 
 - id: 57
   name: "Landmark Trinoma"
