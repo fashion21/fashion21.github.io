@@ -10,6 +10,12 @@
   lng: 120.6100922
   address: "Ground  Floor, Cosmetics Section, Metro Angeles Marquee Mall, Don Bonifacio Street, Pulong Maragul Angeles City, Pampanga."
 
+- id: 50
+  name: "Gaisano Iligan"
+  lat: 8.231
+  lng: 124.2416
+  address: "Gaisano Mall, Villaverde Rd, Iligan City, Lanao del Norte."
+
 - id: 49
   name: "Gaisano Legaspi"
   lat: 13.1442175
@@ -118,6 +124,12 @@
   lat: 10.3093646
   lng: 123.8940956
   address: "1st Floor Robinsons Dept. Store Gen. Maxilom cor. Jones Avenue & F. Ramos St., Cebu City, Cebu."
+
+- id: 46
+  name: "Robinsons Iligan"
+  lat: 8.2154
+  lng: 124.2382
+  address: "Macapagal Ave, Iligan City, Lanao del Norte."  
 
 - id: 46
   name: "Robinsons Imus"
@@ -349,6 +361,19 @@
   lng: 120.948915
   address: "Savemore Megacenter, General Tinio corner Melencio Streets, Cabanatuan City, Nueva Ecija 3100."
 
+- id: 28
+  name: "Watsons CDO Downtown Premier"
+  lat: 8.4774
+  lng: 124.6766
+  address: "Claro M. Recto Ave., corner Osmeña St., Cagayan de Oro, Misamis Oriental."
+
+- id: 28
+  name: "Watsons Clark"
+  lat: 15.168155
+  lng: 120.580084
+  address: "G/F Mall Area, SM City Clark Pampanga, Mc Arthur Hi-way, Clark Special Economic Zone, Angeles City, Pampanga."
+
+
 - id: 29
   name: "Watsons Davao (ECO)"
   lat: 7.0499142
@@ -373,6 +398,13 @@
   lng: 121.0529986
   address: "Gateway Level 2, Space 201-C, Gateway Mall Araneta Center, Cubao, Quezon City."
 
+- id: 32
+  name: "Watsons Iloilo"
+  lat: 10.7203632
+  lng: 122.5611398
+  address: "SM Hypermarket Comm Civil Cor Jalandoni Sts, Jaro Iloilo City, Jaro, 5000 Iloilo."
+
+
 - id: 33
   name: "Watsons Lee Super Plaza"
   lat: 9.307925
@@ -391,11 +423,25 @@
   lng: 120.9561226
   address: "SM Marilao Mall, G/F Cosmetics Section, SM City Marilao, Mc Arthur Highway, Brgy. Lias, Marilao, Bulacan."
 
+- id: 34
+  name: "Watsons Market Market"
+  lat: 14.550485
+  lng: 121.056289
+  address: "G/F Market-Market C5 Fort Bonifacio Global City Taguig Metro Manila, Taguig, 1604 Metro Manila."
+
+
 - id: 35
   name: "Watsons Megamall"
   lat: 14.5857417
   lng: 121.0571099
   address: "SM Megamall Building A, Outlet 3 Unit 251 EDSA Cor. Doña Julia Vargas Avenue Mandaluyong City."
+
+- id: 35
+  name: "Watsons NCCC MAA"
+  lat: 7.0627
+  lng: 125.5934
+  address: "Corner Ma-a, Gen. Douglas MacArthur Hwy, Talomo, Davao City, Davao del Sur."
+
 
 - id: 35
   name: "Watsons Palawan"
