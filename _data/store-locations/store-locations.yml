@@ -260,38 +260,38 @@
   address: "G/F, Aido Cosmetic Section SM-Cubao Times Street, Camp Murphy Subdivision Quezon City, Metro Manila."
 
 - id: 44
-  name: "SM Dasmariñas Deparment Store"
+  name: "SM Dasmariñas Department Store"
   lat: 14.3014646
   lng: 120.956659
   address: "SM City Dasmariñas Department Store Upper Ground Floor Cosmetics Section Governor's Drive, Brgy. Pala-Pala Dasmariñas, Cavite City."
 
 - id: 45
-  name: "SM Fairview Deparment Store"
+  name: "SM Fairview Department Store"
   lat: 14.7334827
   lng: 121.0584519
   address: "G/F, Cosmetics Department, Sm Fairview, Quirino Hi-way Cor. Regalado Avenue, Novaliches, Quezon City."
 
 - id: 46
-  name: "SM Harrison Plaza Deparment Store"
+  name: "SM Harrison Plaza Department Store"
   lat: 14.5656966
   lng: 120.9903035
   address: "G/F, Cosmetics Department, Sm Fairview, Quirino Hi-way Cor. Regalado Avenue, Novaliches, Quezon City."
   
 - id: 47
-  name: "SM Iloilo Deparment Store"
+  name: "SM Iloilo Department Store"
   lat: 10.7141404
   lng: 122.5510897
   address: "Upper Ground Floor, SM City Iloilo Dept. Store, SM City Iloilo, Benigno Aquino Ave., Manduriao, Iloilo City."
 
 
 - id: 48
-  name: "SM Lipa Deparment Store"
+  name: "SM Lipa Department Store"
   lat: 13.954607
   lng: 121.162839
   address: "G/F, SM Lipa Dept. Store Ayala Highway (formerly J.P. Laurel Highway) Brgy. Maraouy, Lipa City, Batangas."
 
 - id: 49
-  name: "SM Makati Deparment Store"
+  name: "SM Makati Department Store"
   lat: 14.5542141
   lng: 121.0301329
   address: "G/F, SM Makati Main Building (Cosmetic) Cor. East & Hotel Drive, Makati Commercial Center Makati City, Metro Manila"
@@ -303,7 +303,7 @@
   address: "Ground Floor, Cosmetics Section, SM Mall of Asia, SM Central Business Park Bay, Pasay City."
 
 - id: 51
-  name: "SM Manila Deparment Store"
+  name: "SM Manila Department Store"
   lat: 14.5896925
   lng: 120.9831071
   address: "Ground Floor, Cosmetics Section of SM City Manila, Concepcion St. Cor. Arroceros & San Marcelino Sts., Concepcion, Manila, Metro Manila."
@@ -315,26 +315,26 @@
   address: "M-Plus, 93 Marikina-Infanta Hwy, Antipolo, 1870 Rizal."
 
 - id: 53
-  name: "SM Megamall Deparment Store"
+  name: "SM Megamall Department Store"
   lat: 14.58444
   lng: 121.0564868
   address: "G/F SM Megamall 'B' EDSA Cor. Doña Julia Vargas Avenue Mandaluyong City, Metro Manila."
 
 
 - id: 54
-  name: "SM Naga Deparment Store"
+  name: "SM Naga Department Store"
   lat: 13.6211742
   lng: 123.19042
   address: "Ground Floor, SM City Naga Barangay Triangulo Central Business District 2 Naga City."
 
 - id: 55
-  name: "SM North Edsa Deparment Store"
+  name: "SM North Edsa Department Store"
   lat: 14.6568203
   lng: 121.0303956
   address: "SM Dept. Store, SM City North Edsa (Main Bldg.) Edsa Cor. North Avenue, Bago-Bantay, Pag-asa & Project 6, Quezon City, Metro Manila."
 
 - id: 56
-  name: "SM Pampanga Deparment Store"
+  name: "SM Pampanga Department Store"
   lat: 15.0527215
   lng: 120.6986495
   address: "Upper Ground Floor, Cosmetics Section SM City Pampanga Brgy. San Fernando, Pampanga City."
@@ -346,7 +346,7 @@
   address: "Ground Floor, Cosmetics Section SM Quiapo, #8195 MDC Building C. Palanca St., Quiapo, Manila, Metro Manila."
 
 - id: 58
-  name: "SM San Lazaro Deparment Store"
+  name: "SM San Lazaro Department Store"
   lat: 14.6182479
   lng: 120.9859595
   address: "Ground Floor, Cosmetics Section, SM City San Lazaro A.H. Lacson Extension, San Lazaro, Manila."
@@ -358,25 +358,25 @@
   address: "Cebu South Coastal Rd, Cebu City, Cebu."
 
 - id: 60
-  name: "SM Sta. Mesa Deparment Store"
+  name: "SM Sta. Mesa Department Store"
   lat: 14.6043613
   lng: 121.018829
   address: "Upper Ground Floor, Cosmetics Section, SM Centerpoint Department Store, Aurora Blvd. Cor. G. Araneta, Galas and Santol Subd., Quezon City, Metro Manila."
 
 - id: 61
-  name: "SM Sta. Rosa Deparment Store"
+  name: "SM Sta. Rosa Department Store"
   lat: 14.3128535
   lng: 121.0986793
   address: "Upper Ground Floor, Cosmetics Section, SM City Sta. Rosa Department Store SM City Sta. Rosa, Barrio Tagapo, Sta. Rosa Laguna."
 
 - id: 62
-  name: "SM Southmall Deparment Store"
+  name: "SM Southmall Department Store"
   lat: 14.5656966
   lng: 120.9903035
   address: "Ground Floor, SM Southmall Alabang Dept. Store, Alabang Zapote Road, Almanza, Las Piñas City."
 
 - id: 63
-  name: "SM Tarlac Deparment Store"
+  name: "SM Tarlac Department Store"
   lat: 15.4762481
   lng: 120.59558
   address: "Upper Gound Floor, Cosmetics Section, SM City Tarlac Department Store McArthur Highway, San Roque, Tarlac City, Tarlac."
