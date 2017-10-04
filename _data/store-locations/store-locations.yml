@@ -106,6 +106,18 @@
   lat: 16.02262
   lng: 120.358813
   address: "2nd Level, Cosmetics Section, Within Robinsons Nepo Mall, Arellano Street Corner AB Fernandez Ave., Dagupan City."
+  
+- id: 42
+  name: "Robinsons Delgado"
+  lat: 10.6952
+  lng: 122.5647
+  address: "Iloilo City Proper, Iloilo City, Iloilo."
+  
+- id: 42
+  name: "Robinsons Festival"
+  lat: 14.416334
+  lng: 121.039192
+  address: "Festival Supermall, Corporate Avenue, Alabang, Muntinlupa City."
 
 - id: 44
   name: "Robinsons Filinvest"
@@ -129,13 +141,25 @@
   name: "Robinsons Iligan"
   lat: 8.2154
   lng: 124.2382
-  address: "Macapagal Ave, Iligan City, Lanao del Norte."  
+  address: "Macapagal Ave, Iligan City, Lanao del Norte." 
+  
+- id: 46
+  name: "Robinsons Ilocos Norte"
+  lat: 18.1911
+  lng: 120.584
+  address: "Brgy. 51-B, Laoag City, Ilocos Norte." 
 
 - id: 46
   name: "Robinsons Imus"
   lat: 14.3711
   lng: 120.9695468
   address: "2nd Floor Robinsons Place Imus E. Aguinaldo Highway, Imus, Cavite."
+
+- id: 43
+  name: "Robinsons Malolos"
+  lat: 14.850454
+  lng: 120.823768
+  address: "Robinsons Place Malolos, Mac Arthur Hi-way, Malolos, 3000 Bulacan."
 
 - id: 43
   name: "Robinsons Manila"
