@@ -25,7 +25,7 @@ colors:
 top-pick: true
 top-pick-id: 3
 top-pick-image: >-
-  https://res.cloudinary.com/f21cosmetics/image/upload/v1513133269/tp-color-matte.jpg
+  https://res.cloudinary.com/f21cosmetics/image/upload/v1513133557/tp-color-matte.jpg
 class: grid-item-2
 ---
 This absolutely kiss-proof and highly pigmented matte liquid lipstick is super lightweight, you won't even feel you're wearing it. It provides full coverage color in just a single swipe on your lips. Available in 7 vibrant colors that will stay all day long.
