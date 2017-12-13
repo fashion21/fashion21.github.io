@@ -1,26 +1,28 @@
 ---
+published: true
 id: 21
 title: Duo Eye Enhancer
 layout: product-item
-categories: ["eyes"]
+categories:
+  - eyes
 feature_image: 'https://res.cloudinary.com/dp79ddrmc/image/upload/products/duoEyeEnhancer.jpg'
 colors:
   - color: Blonde
-    hex: 916e40
+    hex: 9.16e+42
   - color: Dark Copper
-    hex: 593e29
+    hex: 5.93e+31
   - color: Honey Blonde
-    hex: 7e6341
+    hex: .inf
   - color: Light Brown
     hex: 3f1a08
   - color: Mahogany Brown
     hex: 4d2b10
   - color: Natural Black
     hex: '000000'
-published: true
 top-pick: true
-top-pick-id: 7 
-top-pick-image: "https://res.cloudinary.com/f21cosmetics/image/upload/v1487229557/tp-duo-eye-enhancer2.jpg"
+top-pick-id: 7
+top-pick-image: >-
+  https://res.cloudinary.com/f21cosmetics/image/upload/v1487229557/tp-duo-eye-enhancer2.jpg
 class: grid-item-2
 ---
 This dual-purpose eye pencil is gentle on the skin during application, and doesn’t feel greasy despite its creamy texture.  While it’s got its glitter on, don’t let that stop you from using it on your brows—the glittery element actually helps make your brows look fuller! . This eye enhancer comes in five natural shades that will complement any brow color, hair color, and skin tone, as well as a brush for the brows.
