@@ -6,7 +6,7 @@ layout: product-item
 categories:
   - lips
 feature_image: >-
-  https://res.cloudinary.com/f21cosmetics/image/upload/v1513133557/tp-color-matte.jpg
+  https://res.cloudinary.com/f21cosmetics/image/upload/v1513130357/color-matte.jpg
 colors:
   - color: Autumn
     hex: ce4f2e
