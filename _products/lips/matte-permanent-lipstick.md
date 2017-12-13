@@ -29,9 +29,9 @@ colors:
   - color: Wildberry Jam
     hex: 8b0021
 top-pick: true
-top-pick-id: 2
+top-pick-id: 4
 top-pick-image: >-
-  https://res.cloudinary.com/f21cosmetics/image/upload/v1487229555/tp-all-day-matte2.jpg
+  https://res.cloudinary.com/f21cosmetics/image/upload/v1513133906/tp-matte-permanent.jpg
 class: grid-item-2
 ---
 Pucker up those lips with this new matte lipstick that gives you a long-wearing and color-rich finish. The intense Matte Permanent Lipstick comes with 10 wearable shades, perfect for all your occasions from day to night!
