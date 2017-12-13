@@ -15,7 +15,7 @@ colors:
     hex: e09f4b+c67941
   - color: '#3'
     hex: a6631f+b06732
-top-pick: true
+top-pick: false
 top-pick-id: 10
 top-pick-image: >-
   https://res.cloudinary.com/f21cosmetics/image/upload/v1487229559/tp-ultimate-cover2.jpg
