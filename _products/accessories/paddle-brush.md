@@ -1,15 +1,18 @@
 ---
+published: true
 id: 55
 title: Paddle Brush
 layout: product-item
-categories: ["accessories"]
-feature_image: "https://res.cloudinary.com/f21cosmetics/image/upload/v1486632600/paddle-brush.jpg"
+categories:
+  - accessories
+feature_image: >-
+  https://res.cloudinary.com/f21cosmetics/image/upload/v1486632600/paddle-brush.jpg
 colors:
   - color: N/A
     hex: N/A
-published: true
 top-pick-id: 1
-top-pick-image: "https://res.cloudinary.com/f21cosmetics/image/upload/v1487229555/tp-paddle-brush2.jpg"
+top-pick-image: >-
+  https://res.cloudinary.com/f21cosmetics/image/upload/v1487229555/tp-paddle-brush2.jpg
 class: grid-item-1
 top-pick: true
 ---
