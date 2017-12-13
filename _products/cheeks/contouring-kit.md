@@ -11,7 +11,7 @@ multiple_colors: true
 colors:
   - color: ''
     hex: ecbea8+f6ede5+d2a285
-top-pick: false
+top-pick: true
 top-pick-id: 10
 top-pick-image: >-
   https://res.cloudinary.com/f21cosmetics/image/upload/v1513134746/tp-contour-kit.jpg
