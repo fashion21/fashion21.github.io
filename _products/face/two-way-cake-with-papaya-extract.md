@@ -14,7 +14,7 @@ colors:
   - color: '#3'
     hex: d89f6e
 top-pick-id: 9
-top-pick-image: "https://res.cloudinary.com/dp79ddrmc/image/upload/v1456804125/top-pick/twoWayCake.jpg"
+top-pick-image: "https://res.cloudinary.com/f21cosmetics/image/upload/v1513242643/tp-papaya.jpg"
 class: grid-item-1
 ---
 Walking around with naturally white, glowing skin is easy when you use our two-way cake with natural papaya essence, which is known to help lighten skin tone. This powder comes in three natural shades that can be blended perfectly into your skin.
