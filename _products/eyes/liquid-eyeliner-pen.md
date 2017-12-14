@@ -13,7 +13,7 @@ colors:
 top-pick: true
 top-pick-id: 7
 top-pick-image: >-
-  https://res.cloudinary.com/f21cosmetics/image/upload/v1513157433/tp-liquid-pen.jpg
+  https://res.cloudinary.com/f21cosmetics/image/upload/v1513242643/tp-liquid-pen.jpg
 class: grid-item-2
 ---
 This felt-tip precise liner pen delivers rich, intense dramatic definition on the eyes and lets you create versatile, eye-catching liner looks. Constructed like a regular pen, it lets you maneuver the precise liner so whether you’re a makeup newbie or a seasoned makeup gal, you can achieve perfect liner looks every time.
