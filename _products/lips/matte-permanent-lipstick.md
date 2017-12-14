@@ -31,7 +31,7 @@ colors:
 top-pick: true
 top-pick-id: 4
 top-pick-image: >-
-  https://res.cloudinary.com/f21cosmetics/image/upload/v1513133906/tp-matte-permanent.jpg
+  https://res.cloudinary.com/f21cosmetics/image/upload/v1513242644/tp-matte-permanent.jpg
 class: grid-item-2
 ---
 Pucker up those lips with this new matte lipstick that gives you a long-wearing and color-rich finish. The intense Matte Permanent Lipstick comes with 10 wearable shades, perfect for all your occasions from day to night!
