@@ -7,21 +7,13 @@ feature_image: 'https://res.cloudinary.com/dp79ddrmc/image/upload/products/aqual
 top-pick: false
 colors:
   - color: Arctic Stone
-    hex: a47777
-  - color: Feather Star
-    hex: e0467e
-  - color: Hawaiian Berry
-    hex: d2596f
+    hex: a47777    
   - color: Hot Lagoon
     hex: a22d43
   - color: Little Mermaid
     hex: ee6992
   - color: Persian Peach
-    hex: d6756e
-  - color: Red Sea
-    hex: d3272f
-  - color: Southern Ruby
-    hex: ef4257
+    hex: d6756e    
   - color: Tropical Pink
     hex: e93067
   - color: Warm Salmon
