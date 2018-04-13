@@ -6,9 +6,7 @@ categories: ["lips"]
 feature_image: "https://res.cloudinary.com/dp79ddrmc/image/upload/products/redRomance.jpg"
 colors:
     - color: "Cherie Amour"
-      hex: "470707"
-    - color: "First Crush"
-      hex: "b51010"
+      hex: "470707"    
     - color: "Heartthrob"
       hex: "890404"
     - color: "Miss Valentine"
