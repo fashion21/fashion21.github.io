@@ -1,6 +1,6 @@
 ---
 id: 77
-title: Body Gels
+title: Body Gel
 layout: product-item
 categories:
 - skin
