@@ -1,0 +1,17 @@
+- id: 1
+  link: "/promotion/"
+  name: Promo
+
+- id: 2
+
+- id: 3
+  link: "/blog/"
+  name: Blog
+
+- id: 4
+  link: "/"
+  logo: "/img/brand-logo.png"
+
+- id: 5
+  link: "/storelocator/"
+  name: Store
