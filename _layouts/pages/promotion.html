@@ -17,18 +17,6 @@ javascripts: |
                 $('nav').removeClass('shrink');
             }
         });
-
-        //isotope
-        $(function() {
-            var $grid = $('.grid').isotope({
-                layoutMode: 'packery',
-                itemSelector: '.grid-item'
-            });
-
-            $grid.imagesLoaded().progress( function() {
-                $grid.isotope('layout');
-            });
-        });
     </script>
 ---
 {{ content }}
