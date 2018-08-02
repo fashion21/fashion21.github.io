@@ -36,6 +36,12 @@ nav.navbar-default
   .mobile
     display: none
 
+@media screen and (max-width: 1200px)
+  .category-menu
+    margin-top: 74px
+    &.shrink
+      margin-top: 64px!important
+
 @media screen and (max-width: 991px)
   nav.navbar-default
     .mobile
@@ -43,24 +49,38 @@ nav.navbar-default
   .category-menu
     img
       display: none
+
 @media screen and (max-width: 767px)
   nav.navbar-default
     &.shrink
-      #navbar-category-collapse
-        li
-          margin: 0 !important
+      .container
+        #navbar-category-collapse
+          .navbar-nav
+            margin: 122px auto 10px !important
+            li
+              margin: 12px 10px !important
     .container
       #navbar-menu-collapse
         margin-top: 38px
       #navbar-category-collapse
         overflow: hidden
         .navbar-nav
-          margin: 114px auto 0px !important
+          transition: all 200ms ease
+          -moz-transition: all 200ms ease
+          -webkit-transition: all 200ms ease
+          -o-transition: all 200ms ease
+          -ms-transition: all 200ms ease
+          margin: 130px auto 10px!important
           li
             transition: all 200ms ease
+            -moz-transition: all 200ms ease
+            -webkit-transition: all 200ms ease
+            -o-transition: all 200ms ease
+            -ms-transition: all 200ms ease
             display: inline-block
-            margin: 10px
+            margin: 12px 10px
             a
+              color: #000
               font-size: 14px
               text-decoration: none
       .nav-hidden
@@ -75,6 +95,10 @@ nav.navbar-default
     display: block
     &.shrink
       transition: all 200ms ease
+      -moz-transition: all 200ms ease
+      -webkit-transition: all 200ms ease
+      -o-transition: all 200ms ease
+      -ms-transition: all 200ms ease
       margin-top: 61px !important
       a
         font-size: 14.5px !important
