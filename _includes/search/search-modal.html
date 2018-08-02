@@ -2,19 +2,40 @@
     <div class="modal-content">
         <div class="container-fluid">
             <div class="modal-header">
-                <form method="get" data-search-form>
+                <form method="get" action="/search" data-search-form>
                     <div class="input-group">
-                        <input type="text" class="form-control" placeholder="Search Products..." data-search-input/>
+                        <input type="text" type="search" name="q" id="q" class="form-control" placeholder="Search Products..." data-search-input/>
                           <span class="input-group-btn">
-                            <button class="btn btn-default" type="submit"><span class="glyphicon glyphicon-search"/></button>
+                            <button class="btn btn-default"  type="submit" value="Search"><span class="glyphicon glyphicon-search"/></button>
                             <button class="btn btn-default" data-dismiss="modal" aria-label="Close"><span class="glyphicon glyphicon-remove"/></button>
                           </span>
                     </div>
                 </form>
             </div>
             <div class="modal-body" >
-                {% include search/search-modal-body.html %}
+                <p data-search-found>
+                    <span data-search-found-count></span> result(s) found for &ldquo;<span data-search-found-term></span>&rdquo;.
+                </p>
+                <div data-search-results></div>
+                <div>
+                    <script type="text/x-template" id="search-result">
+                        <div class="product-result-container">
+                            <div class="product-item col-md-3 col-sm-6 col-xs-12">
+                                <a href="##Url##" class="product-url" alt="##Title##">
+                                    <img src="##Feature_image##" class="product-image img-responsive center-block"/>
+                                    <h1 class="product-title text-center"> ##Title##</h1>
+                                </a>
+                            </div>
+                        </div>
+                    </script>
+                </div>
             </div>
         </div>
     </div>
 </div>
+
+
+
+
+
+
