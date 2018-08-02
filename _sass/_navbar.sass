@@ -6,13 +6,16 @@ nav
   transition: all 300ms ease
   background: #FFFFFF
   &.shrink
-    a
-      margin: 15px 0 15px 0 !important
-      padding-top: 0px !important
-      padding-bottom: 0px !important
-      font-size: 8px
-      img
-        height: 30px !important
+    .container
+      .navbar-nav
+        .navbar-item
+          .navbar-link
+            margin: 15px 0 15px 0 !important
+            padding-top: 0px !important
+            padding-bottom: 0px !important
+            font-size: 8px
+            .brand-logo-small
+              height: 30px !important
   &.navbar-default
     font-family: Avenir-medium
     color: #000
@@ -25,9 +28,9 @@ nav
       width: 100%
       .mobile-nav-brand
         display: inline-block
-        img
+        .brand-logo
           display: none
-      button
+      .navbar-toggle
         top: 0
         right: 0
         //margin-top: 17px
@@ -36,18 +39,18 @@ nav
         float: none
         margin: 0px auto 0px
         display: table
-        li
+        .navbar-item
           display: inline-block
           padding: 0 25px
           min-width: 141px
           text-align: center
           &.shop-link
             background-color: red
-            a
+            .navbar-link
               color: white
               &:hover, &:active, &:focus, &:visited
                 color: white
-          a
+          .navbar-link
             outline: none
             margin: 25px 0 25px 0
             font-size: 14px
@@ -56,7 +59,7 @@ nav
             transition: all 300ms ease
             &:hover
               color: #eb0029
-            img
+            .brand-logo-small
               transition: all 300ms ease
               height: 40px
               margin-top: -15px
@@ -84,13 +87,13 @@ nav
     float: none !important
     margin: 40px auto 0
     display: table
-    li
+    .navbar-item
       transform: none
       top: auto !important
       display: table
       float: none
       margin-bottom: 11px
-      a
+      .navbar-link
         font-size: 1.2em
         padding-top: 10px
         padding-bottom: 10px
@@ -105,11 +108,11 @@ nav
       .navbar-toggle
         margin-top: 18px !important
       .mobile-nav-brand
-        img
+        .brand-logo
           height: 30px !important
       .navbar-toggle
         margin: 8px 15px 8px 0
-      a
+      .navbar-link
         padding-top: 0px !important
         padding-bottom: 0px !important
         margin: 15px 0 15px 0 !important
@@ -121,7 +124,7 @@ nav
       .mobile-nav-brand
         float: none
         display: inline-block
-        img
+        .brand-logo
           transition: all 300ms ease
           display: block
           height: 40px
@@ -137,14 +140,14 @@ nav
           border-radius: 1px
           height: 2px
       .navbar-nav
-        li
+        .navbar-item
           text-align: center
           display: block
-          a
+          .navbar-link
             font-size: 16px
             padding: 0px
             margin: 25px 0 25px 0
             color: #000
-            img
+            .brand-logo-small
               display: none
 //@media screen and (max-width: 767px)
