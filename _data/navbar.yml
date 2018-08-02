@@ -1,12 +1,12 @@
 - id: 1
   link: "/promotion/"
-  name: Promo
+  name: Promos
 
 - id: 2
 
 - id: 3
   link: "/blog/"
-  name: Blog
+  name: Blogs
 
 - id: 4
   link: "/"
@@ -14,4 +14,4 @@
 
 - id: 5
   link: "/storelocator/"
-  name: Store
+  name: Stores
