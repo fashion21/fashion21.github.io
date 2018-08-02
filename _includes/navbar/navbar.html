@@ -10,26 +10,60 @@
                 <a href="/"><img src="/img/brand-logo.png" alt="Brand Logo"></a>
             </div>
         </div>
+        <!--<div class="collapse navbar-collapse" id="navbar-menu-collapse">-->
+            <!--<ul class="nav navbar-nav">-->
+
+                 <!--&lt;!&ndash;<li><a {% if page.url =='/whatsnew/index.html' %} class="active-text"{% endif %} href="/whatsnew">WHAT'S NEW</a></li>&ndash;&gt;-->
+                 <!--<li><a {% if page.url =='/whatsnew/' %} class="active-text"{% endif %} href="/whatsnew">WHAT'S NEW</a></li>-->
+                <!--<li>-->
+                    <!--<a href="/promotion/" {% if page.url =='/promotion/' %} class="active-text"{% endif %} >PROMOS</a>-->
+                <!--</li>-->
+                <!--<li><a href="/products/" {% if 'products' == urlArray[1] %}class="active-text"{% endif %}>PRODUCTS</a></li>-->
+                <!--<li><a href="/"><img src="/img/brand-logo.png" class="brand-logo-small" alt="Search Icon"/></a></li>-->
+
+                <!--<li>-->
+                    <!--<a {% if page.url =='/video/' %} class="active-text"{% endif %} href="/video/">VIDEOS</a>-->
+                <!--</li>-->
+
+                <!--<li>-->
+                    <!--<a href="https://tackthis.co/shop/fashion21/" class="link" target="_blank">SHOP</a>-->
+                <!--</li>-->
+
+                <!--<li><a href="#" data-toggle="modal" data-target="#searchModal"><span class="glyphicon glyphicon-search"/></a></li>-->
+            <!--</ul>-->
+        <!--</div>-->
         <div class="collapse navbar-collapse" id="navbar-menu-collapse">
             <ul class="nav navbar-nav">
                 {% assign urlArray = page.url | split:"/"  %}
-                 <!--<li><a {% if page.url =='/whatsnew/index.html' %} class="active-text"{% endif %} href="/whatsnew">WHAT'S NEW</a></li>-->
-                 <li><a {% if page.url =='/whatsnew/' %} class="active-text"{% endif %} href="/whatsnew">WHAT'S NEW</a></li>
+                {% for navbar in site.data.navbar %}
+                {% if navbar.id != 4 %}
+                    {% if navbar.id == 2 %}
+                    <li>
+                        <a href="/products/" {% if 'products' == urlArray[1] %}class="active-text"{% endif %}>PRODUCTS</a>
+                    </li>
+                    {% else %}
+                    <li>
+                        <a href="{{ navbar.link }}"
+                            {% if page.url == navbar.link %} class="active-text" {% endif %}>{{ navbar.name | upcase }}
+                        </a>
+                    </li>
+                    {% endif %}
+                {% else %}
                 <li>
-                    <a href="/promotion/" {% if page.url =='/promotion/' %} class="active-text"{% endif %} >PROMOS</a>
+                    <a href="{{ navbar.link }}">
+                        <img src="{{ navbar.logo }}" class="brand-logo-small" />
+                    </a>
                 </li>
-                <li><a href="/products/" {% if 'products' == urlArray[1] %}class="active-text"{% endif %}>PRODUCTS</a></li>
-                <li><a href="/"><img src="/img/brand-logo.png" class="brand-logo-small" alt="Search Icon"/></a></li>
-
+                {% endif %}
+                {% endfor %}
                 <li>
-                    <a {% if page.url =='/video/' %} class="active-text"{% endif %} href="/video/">VIDEOS</a>
+                    <a href="https://tackthis.co/shop/fashion21/" class="link" target="_blank">SHOP ONLINE</a>
                 </li>
-
                 <li>
-                    <a href="https://tackthis.co/shop/fashion21/" class="link" target="_blank">SHOP</a>
+                    <a href="#" data-toggle="modal" data-target="#searchModal">
+                        <span class="glyphicon glyphicon-search"/>
+                    </a>
                 </li>
-
-                <li><a href="#" data-toggle="modal" data-target="#searchModal"><span class="glyphicon glyphicon-search"/></a></li>
             </ul>
         </div>
     </div>
