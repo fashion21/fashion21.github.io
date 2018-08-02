@@ -11,7 +11,6 @@ $skyblue: #0fb5b3
 
 html, body
   height: auto !important
-  
 
 a:hover,
 a:focus
@@ -43,114 +42,8 @@ a:focus
       background-size: cover
       background-repeat: no-repeat
 
-#topPicks
-  margin-bottom: -40px
-  .banner-section
-    position: relative
-    height: 110px
-    background-image: url('/img/top-pick-bg.png')
-    background-position: top center
-    background-size: cover
-    top: -80px
-    .container
-      padding: 0
-      height: inherit
-      #top-pick-banner
-        width: 140px
-        margin-left: -10px
-        position: absolute
-        top: 50%
-        transform: translateY(-50%)
-        -webkit-transform: translateY(-50%)
-        -moz-transform: translateY(-50%)
-        -o-transform: translateY(-50%)
-        -ms-transform: translateY(-50%)
-
-  .top-pick-container
-    position: relative
-    //max-width: 1441px
-    //width: 100%
-    top: -80px
-    .grid
-      list-style-type: none
-      margin: 0
-      padding: 0
-      &:after
-        content: ''
-        display: block
-        clear: both
-      .grid-item
-        float: left
-        overflow: hidden
-        &.grid-item-1
-          width: 28.333333333333336%
-        &.grid-item-2
-          width: 35.833333333333336%
-        &:hover
-          .caption
-            opacity: 1
-          img
-            opacity: 1
-            transform: scale(1.15, 1.15)
-            -webkit-transform: scale(1.15, 1.15)
-            -moz-transform: scale(1.15, 1.15)
-            -ms-transform: scale(1.15, 1.15)
-            -o-transform: scale(1.15, 1.15)
-        img
-          margin: 0
-          padding: 0
-          float: left
-          transition: all 0.45s ease-in-out
-          -webkit-transition: all 0.45s ease-in-out
-          -moz-transition: all 0.45s ease-in-out
-          -o-transition: all 0.45s ease-in-out
-          -ms-transition: all 0.45s ease-in-out
-
-      .caption
-        cursor: pointer
-        position: absolute
-        height: 100%
-        width: 100%
-        opacity: 0
-        -webkit-transition: all 0.45s ease-in-out
-        -moz-transition: all 0.45s ease-in-out
-        -o-transition: all 0.45s ease-in-out
-        -ms-transition: all 0.45s ease-in-out
-        transition: all 0.45s ease-in-out
-        .blur
-          background-color: rgba(255, 255, 255, 0.9)
-          height: 100%
-          width: 100%
-          z-index: 5
-          position: absolute
-          top: 50%
-          transform:  translateY(-50%) scale(1.15, 1.15)
-          -webkit-transform: translateY(-50%) scale(1.15, 1.15)
-          -moz-transform: translateY(-50%) scale(1.15, 1.15)
-          -o-transform: translateY(-50%) scale(1.15, 1.15)
-          -ms-transform: translateY(-50%) scale(1.15, 1.15)
-          .caption-text
-            position: relative
-            top: 50%
-            transform: translateY(-50%)
-            -webkit-transform: translateY(-50%)
-            -moz-transform: translateY(-50%)
-            -o-transform: translateY(-50%)
-            -ms-transform: translateY(-50%)
-            h1
-              text-transform: uppercase
-              font-size: 16px
-              z-index: 10
-              color: black
-              text-align: center
-              margin: 0 auto
-              max-width: 80%
-
 @media (min-width: 1441px)
-  #topPicks
-    .top-pick-content
-      .top-pick-header
-        margin: 2% auto
+
 
 
 @media (max-width: 1024px)
@@ -161,75 +54,14 @@ a:focus
   #cover
     padding-top: 0 !important
     height: 450px
-  #topPicks
-    .top-pick-container
-      width: 100%
-      .banner-section
-        height: 250px
-        #top-pick-banner
-          width: 350px
 
-      #top-pick-content
-        .top-pick-item
-          margin: 2% auto
-          width: 50% !important
 
 @media (max-width: 767px)
-  #topPicks
-    .banner-section
-      .container
-        #top-pick-banner
-          top: 30%
-          left: 2%
-          right: 0
-          transform: none
-
-  #promotion-modal
-    padding-top: 50px
-    padding-right: 0 !important
-    .modal-content
-      max-width: 80%
-      margin-left: auto
-      margin-right: auto
 
 
 @media (max-width: 568px)
-  #promotion-modal
-    .modal-content
-      max-width: 90%
-
   #cover
     height: 400px
-  #topPicks
-    .top-pick-container
-      .banner-section
-        height: 130px
-        #top-pick-banner
-          width: 200px
-
-  #topPicks
-    .top-pick-container
-      .banner-section
-        height: 130px
-        #top-pick-banner
-          width: 200px
-      #top-pick-content
-        .top-pick-item
-          margin: 5% auto
-          width: 100% !important
-          .top-pick-image
-            max-width: 50%
-
-
-  #ig
-    padding-top: 0px
-    #ig-header
-      margin: 0px
-      text-align: center
-      h5
-        font-size: 12px
-      h2
-        font-size: 20px
 
 .carousel, .item, .active, .carousel-inner
   height: 100%
