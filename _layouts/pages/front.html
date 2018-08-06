@@ -7,6 +7,7 @@ head: |
 javascripts: |
     <script type="text/javascript" src="/js/jquery-1.11.3.js"></script>
     <script type="text/javascript" src="/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/js/swiper.min.js"></script>
     <script type="text/javascript" src="/js/front.js"></script>
     <script type="text/javascript" src="/js/search.js"></script>
     <script type="text/javascript">
@@ -16,6 +17,19 @@ javascripts: |
             } else {
                 $('nav').removeClass('shrink');
             }
+        });
+
+        var swiper = new Swiper('#cover-slider',{
+            autoplay: {
+                delay: 6000,
+                disableOnInteraction: false
+            },
+            speed: 300,
+            grabCursor: false,
+            preventInteractionOnTransition: true,
+            noSwiping: true,
+            noSwipingSelector: "#cover-slider",
+            loop: true
         });
 
     </script>
