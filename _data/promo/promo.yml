@@ -1,11 +1,10 @@
-
 - title: "Valentines Day Promo"
-  image: "/img/promotion/feb142018.jpg"
+  image: "https://res.cloudinary.com/f21cosmetics/image/upload/assets/promotion-page/feb142018.jpg"
 
 - title: "Free Organizer"
-  image: "/img/promotion/organizer.jpg"
+  image: "https://res.cloudinary.com/f21cosmetics/image/upload/assets/promotion-page/organizer.jpg"
 
 - title: "Available on Shopee"
-  image: "/img/promotion/shopee.jpg"
+  image: "https://res.cloudinary.com/f21cosmetics/image/upload/assets/promotion-page/shopee.jpg"
 
 
