@@ -19,20 +19,66 @@ a:focus
 
 
 #cover
-  padding-top: 91px
+  position: relative
+  padding-top: 100px
   height: 700px
   #cover-slider
     height: 100%
     padding: 0
     .cover-slider-wrapper
-      .cover-slider-link
-        text-decoration: none
-        .cover-slider-item
-          width: 100%
-          height: 100%
-          background-position: center center
-          background-size: cover
-          background-repeat: no-repeat
+      .cover-slider-item
+        width: 100%
+        height: 100%
+        background-position: center center
+        background-size: cover
+        background-repeat: no-repeat
+
+#best-seller
+  position: relative
+  .banner-section
+    position: relative
+    font-size: 20px
+    color: #FFF
+    background: #eb0029
+    text-transform: uppercase
+    display: inline-block
+    padding: 25px 40px 25px 80px
+    &:after
+      content: " "
+      position: absolute
+      display: block
+      width: 100%
+      height: 100%
+      top: 0
+      left: 0
+      z-index: -1
+      background: #eb0029
+      transform-origin: bottom left
+      transform: skew(-20deg, 0deg)
+      -webkit-transform: skew(-20deg, 0deg)
+      -moz-transform: skew(-20deg, 0deg)
+      -o-transform: skew(-20deg, 0deg)
+      -ms-transform: skew(-20deg, 0deg)
+    .banner-title
+      font-family: 'Avenir-Bold', sans-serif
+      color: #fff
+      display: block
+      font-size: 24px
+  .best-seller-container
+    margin-top: 30px
+    margin-bottom: 30px
+    .best-seller-item
+      margin-bottom: 30px
+      .best-seller-link
+        .best-seller-title
+          display: block
+          background-color: #5c5c5c
+          color: white
+          text-align: center
+          padding-top: 15px
+          padding-bottom: 15px
+          font-size: 16px
+          
 
 @media (min-width: 1441px)
 
