@@ -1,15 +1,11 @@
-<div class="container-fluid full-width-height">
-    <div class="row row-no-gutter full-width-height">
-        <div class="col-sm-12 full-width" id="cover-carousel">
-            <div id="carousel" class="carousel slide" data-ride="carousel">
-                <div class="carousel-inner">
-                    {% for promoItems in site.data.carousel.promo-items %}
-                    <div class="item">
-                        <div class="fill" style="background-image:url('{{ promoItems.image }}');"></div>
-                    </div>
-                    {% endfor %}
-                </div>
-            </div>
-        </div>
+<!-- Swiper -->
+<div id="cover-slider" class="swiper-container">
+    <div class="swiper-wrapper cover-slider-wrapper">
+        {% for promoItems in site.data.carousel.promo-items %}
+        <a href="{{ promoItems.link }}" class="swiper-slide cover-slider-link">
+            <div class=" cover-slider-item" style="background-image: url('{{ promoItems.image }}')"></div>
+        </a>
+        {% endfor %}
+
     </div>
 </div>
