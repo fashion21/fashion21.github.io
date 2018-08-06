@@ -35,9 +35,9 @@ a:focus
 
 #best-seller
   position: relative
+  margin-bottom: 40px
   .banner-section
     position: relative
-    font-size: 20px
     color: #FFF
     background: #eb0029
     text-transform: uppercase
@@ -71,6 +71,7 @@ a:focus
       margin-bottom: 30px
       .best-seller-link
         .best-seller-title
+          font-family: 'Avenir-medium', sans-serif
           display: block
           background-color: #5c5c5c
           color: white
@@ -78,11 +79,47 @@ a:focus
           padding-top: 15px
           padding-bottom: 15px
           font-size: 16px
+
+#promo
+  position: relative
+  background-color: #000000
+  min-height: 500px
+  .banner-section
+    position: absolute
+    top: -47px
+    font-size: 20px
+    color: #FFF
+    background: #eb0029
+    text-transform: uppercase
+    display: inline-block
+    padding: 20px 60px 20px 80px
+    z-index: 2
+    &:after
+      content: " "
+      position: absolute
+      display: block
+      width: 100%
+      height: 100%
+      top: 0
+      left: 0
+      z-index: -1
+      background: #eb0029
+      transform-origin: bottom left
+      transform: skew(-20deg, 0deg)
+      -webkit-transform: skew(-20deg, 0deg)
+      -moz-transform: skew(-20deg, 0deg)
+      -o-transform: skew(-20deg, 0deg)
+      -ms-transform: skew(-20deg, 0deg)
+    .banner-title
+      font-family: 'Avenir-Bold', sans-serif
+      color: #fff
+      display: block
+      font-size: 32px
+      z-index: 3
+
           
 
 @media (min-width: 1441px)
-
-
 
 @media (max-width: 1024px)
   #cover
