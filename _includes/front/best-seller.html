@@ -1,0 +1,19 @@
+<div class="container-fluid">
+    <div class="row">
+        <div class="banner-section">
+            <span class="banner-title">Best Sellers</span>
+        </div>
+    </div>
+    <div class="row">
+        <div class="best-seller-container container">
+            {% for bestSeller in site.data.best-seller %}
+            <div class="col-md-3 best-seller-item">
+                <a href="{{ bestSeller.link }}" class="best-seller-link">
+                    <img src="{{ bestSeller.image }}" class="best-seller-image img-responsive center-block"/>
+                    <span class="best-seller-title">{{ bestSeller.title }}</span>
+                </a>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>
