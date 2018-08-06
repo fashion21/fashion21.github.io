@@ -1,10 +1,8 @@
 <!-- Swiper -->
 <div id="cover-slider" class="swiper-container">
     <div class="swiper-wrapper cover-slider-wrapper">
-        {% for promoItems in site.data.carousel.promo-items %}
-        <a href="{{ promoItems.link }}" class="swiper-slide cover-slider-link">
-            <div class=" cover-slider-item" style="background-image: url('{{ promoItems.image }}')"></div>
-        </a>
+        {% for promoItem in site.data.carousel.promo-items %}
+            <div class="swiper-slide cover-slider-item" style="background-image: url('{{ promoItem.image }}')"></div>
         {% endfor %}
 
     </div>
