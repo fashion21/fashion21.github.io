@@ -159,6 +159,37 @@ a:focus
       top: 44%
       width: 33px
       height: 35px
+
+#instagram
+  position: relative
+  .banner-section
+    position: relative
+    color: #FFF
+    background: $fashion21Red
+    text-transform: uppercase
+    display: inline-block
+    padding: 25px 40px 25px 80px
+    &:after
+      content: " "
+      position: absolute
+      display: block
+      width: 100%
+      height: 100%
+      top: 0
+      left: 0
+      z-index: -1
+      background: $fashion21Red
+      transform-origin: bottom left
+      transform: skew(-20deg, 0deg)
+      -webkit-transform: skew(-20deg, 0deg)
+      -moz-transform: skew(-20deg, 0deg)
+      -o-transform: skew(-20deg, 0deg)
+      -ms-transform: skew(-20deg, 0deg)
+    .banner-title
+      font-family: 'Avenir-Bold', sans-serif
+      color: #fff
+      display: block
+      font-size: 24px
           
 
 @media (min-width: 1441px)

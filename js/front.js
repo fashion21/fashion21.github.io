@@ -1,10 +1,12 @@
 var fs = fs || {};
-  fs.init = function() {
-      fs.addActiveClass();
-      fs.carouselImg();
-      fs.categoryItems();
-      fs.categoryItemHover();
-  };
+fs.init = function() {
+  fs.addActiveClass();
+  fs.carouselImg();
+  fs.categoryItems();
+  fs.categoryItemHover();
+
+};
+
 
 fs.categoryItemHover = function(){
     $('.category-container .category-title').on('mouseenter', function(){
