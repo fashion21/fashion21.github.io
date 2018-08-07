@@ -6,20 +6,25 @@
     </div>
 
     <div class="row">
-        <div class="container">
+        <div class="promo-slider-container container">
             <div id="promo-slider" class="swiper-container">
                 <div class="swiper-wrapper">
-                    <div class="swiper-slide">Slide 1</div>
-                    <div class="swiper-slide">Slide 2</div>
-                    <div class="swiper-slide">Slide 3</div>
-                    <div class="swiper-slide">Slide 4</div>
-                    <div class="swiper-slide">Slide 5</div>
-                    <div class="swiper-slide">Slide 6</div>
-                    <div class="swiper-slide">Slide 7</div>
-                    <div class="swiper-slide">Slide 8</div>
-                    <div class="swiper-slide">Slide 9</div>
-                    <div class="swiper-slide">Slide 10</div>
+                    {% for promoSlider in site.data.promoSlider | sort: "id" | reverse %}
+                    {% if promoSlider.isPromo == true %}
+                    <div class="swiper-slide" data-id="slug#{{ promoSlider.id }}">
+                        <img src="{{ promoSlider.image }}" class="img-responsive center-block"/>
+                    </div>
+                    {% endif %}
+                    {% endfor %}
                 </div>
+            </div>
+            <div class="swiper-button-container">
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+
+            <div class="promo-button-container">
+                <a href="/promotion/" class="promo-button-link">More Promos</a>
             </div>
         </div>
     </div>
