@@ -8,6 +8,7 @@ $white: white
 $black: black
 $gray: #333333
 $skyblue: #0fb5b3
+$fashion21Red: #eb0029
 
 html, body
   height: auto !important
@@ -39,7 +40,7 @@ a:focus
   .banner-section
     position: relative
     color: #FFF
-    background: #eb0029
+    background: $fashion21Red
     text-transform: uppercase
     display: inline-block
     padding: 25px 40px 25px 80px
@@ -52,7 +53,7 @@ a:focus
       top: 0
       left: 0
       z-index: -1
-      background: #eb0029
+      background: $fashion21Red
       transform-origin: bottom left
       transform: skew(-20deg, 0deg)
       -webkit-transform: skew(-20deg, 0deg)
@@ -83,13 +84,12 @@ a:focus
 #promo
   position: relative
   background-color: #000000
-  min-height: 500px
   .banner-section
     position: absolute
     top: -47px
     font-size: 20px
     color: #FFF
-    background: #eb0029
+    background: $fashion21Red
     text-transform: uppercase
     display: inline-block
     padding: 20px 60px 20px 80px
@@ -103,7 +103,7 @@ a:focus
       top: 0
       left: 0
       z-index: -1
-      background: #eb0029
+      background: $fashion21Red
       transform-origin: bottom left
       transform: skew(-20deg, 0deg)
       -webkit-transform: skew(-20deg, 0deg)
@@ -116,7 +116,40 @@ a:focus
       display: block
       font-size: 32px
       z-index: 3
-
+  .promo-slider-container
+    padding-top: 80px
+    padding-bottom: 40px
+  .promo-button-container
+    position: relative
+    display: table
+    margin-left: auto
+    margin-right: auto
+    margin-top: 40px
+    .promo-button-link
+      color: #fff
+      background-color: #eb0029
+      text-decoration: none
+      font-size: 24px
+      text-transform: uppercase
+      display: inline-block
+      padding: 15px 60px
+  .swiper-button-container
+    position: absolute
+    height: 100%
+    width: 1170px
+    margin-left: auto
+    margin-right: auto
+    top: 0
+    left: 0
+    right: 0
+    .swiper-button-prev
+      outline: none
+      left: -40px
+      top: 44%
+    .swiper-button-next
+      outline: none
+      right: -40px
+      top: 44%
           
 
 @media (min-width: 1441px)
