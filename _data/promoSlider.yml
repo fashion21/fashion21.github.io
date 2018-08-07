@@ -1,0 +1,19 @@
+- id: 1
+  image: "/img/promoSlider/promoSlider1.jpg"
+  isPromo: true
+
+- id: 2
+  image: "/img/promoSlider/promoSlider2.jpg"
+  isPromo: true
+
+- id: 3
+  image: "/img/promoSlider/promoSlider1.jpg"
+  isPromo: true
+
+- id: 4
+  image: "/img/promoSlider/promoSlider2.jpg"
+  isPromo: true
+
+- id: 5
+  image: "/img/promoSlider/promoSlider1jpg"
+  isPromo: false
