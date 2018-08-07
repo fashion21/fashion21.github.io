@@ -19,7 +19,7 @@ javascripts: |
             }
         });
 
-        var swiper = new Swiper('#cover-slider',{
+        var swiper1 = new Swiper('#cover-slider',{
             autoplay: {
                 delay: 6000,
                 disableOnInteraction: false
@@ -30,6 +30,20 @@ javascripts: |
             noSwiping: true,
             noSwipingSelector: "#cover-slider",
             loop: true
+        });
+
+        var swiper2 = new Swiper('#promo-slider', {
+            slidesPerView: 2,
+            spaceBetween: 30,
+            loop: true,
+            autoplay: {
+                delay: 7000,
+                disableOnInteraction: false
+            },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            }
         });
 
     </script>
