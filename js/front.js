@@ -30,7 +30,7 @@ $(document).ready(function () {
         lazy: true,
         autoplay: {
             delay: 8000,
-            disableOnInteraction: false
+            disableOnInteraction: true
         },
         navigation: {
             nextEl: '.swiper-button-next',
@@ -62,7 +62,7 @@ $(window).on("load",function () {
                 loop: true,
                 autoplay: {
                     delay: 2000,
-                    disableOnInteraction: false
+                    disableOnInteraction: true
                 }
             });
         }
