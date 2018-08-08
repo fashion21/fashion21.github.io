@@ -41,10 +41,6 @@ $(document).ready(function () {
 });
 
 $(window).on("load",function () {
-
-
-
-
     //Instagram Feed
     var feed = new Instafeed({
         get: 'user',
