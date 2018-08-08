@@ -12,7 +12,8 @@
                     {% for promoSlider in site.data.promoSlider | sort: "id" | reverse %}
                     {% if promoSlider.isPromo == true %}
                     <div class="swiper-slide" data-id="slug#{{ promoSlider.id }}">
-                        <img src="{{ promoSlider.image }}" class="img-responsive center-block"/>
+                        <img data-src="{{ promoSlider.image }}" class="swiper-lazy img-responsive center-block"/>
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
                     </div>
                     {% endif %}
                     {% endfor %}
