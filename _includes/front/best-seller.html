@@ -9,8 +9,8 @@
             {% for bestSeller in site.data.best-seller %}
             <div class="col-md-3 best-seller-item">
                 <a href="{{ bestSeller.link }}" class="best-seller-link">
-                    <div class="image-container">
-                        <img  src="" data-src="{{ bestSeller.image }}" class="b-lazy best-seller-image img-responsive" alt="{{bestSeller.title}}"/>
+                    <div class="image-container loading">
+                        <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{{ bestSeller.image }}" class="b-lazy best-seller-image img-responsive" alt="{{bestSeller.title}}"/>
                         <div class="bg-overlay">
                             <span class="best-seller-overlay-text">View Product</span>
                         </div>

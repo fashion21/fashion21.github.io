@@ -78,7 +78,17 @@ $(window).on("load",function () {
 
 
     // Initialize
-    var bLazy = new Blazy();
+    var blazy = new Blazy({
+        breakpoints: [{
+            src: 'data-src'
+        }],
+        success: function(element){
+            setTimeout(function(){
+                var parent = element.parentNode;
+                parent.className = parent.className.replace(/\bloading\b/,'');
+            }, 200);
+        }
+    });
 
 
 
