@@ -20,6 +20,27 @@ collections:
         output: true
         permalink: /products/:path/
 
+gems: [jekyll-paginate]
+paginate: 5
+paginate_path: "/blog/page:num/"
+
+jekyll_timeago:
+  today: 'today'
+  yesterday: 'yesterday'
+  tomorrow: 'tomorrow'
+  and: 'and'
+  suffix: 'ago'
+  prefix: ''
+  suffix_future: 'in'
+  prefix_future: ''
+  years: 'years'
+  year: 'year'
+  months: 'months'
+  month: 'month'
+  weeks: 'weeks'
+  week: 'week'
+  days: 'days'
+  day: 'day'
 
 prose:
   rooturl: ""
@@ -35,4 +56,6 @@ prose:
         field:
           element: "text"
           label: "title"
+
+
 

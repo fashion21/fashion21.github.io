@@ -2,8 +2,16 @@
 <div id="cover-slider" class="swiper-container">
     <div class="swiper-wrapper cover-slider-wrapper">
         {% for promoItem in site.data.carousel.promo-items %}
-            <div class="swiper-slide cover-slider-item" style="background-image: url('{{ promoItem.image }}')"></div>
+            <div class="swiper-slide cover-slider-item" style="background-image: url('{{ promoItem.image }}')">
+                <!--<div class="slider-button-container">-->
+                    <!--<a href="{{ promoItem.link }}" class="slider-button">View Product</a>-->
+                <!--</div>-->
+            </div>
         {% endfor %}
-
     </div>
 </div>
+<!--<div class="swiper-button-container">-->
+    <!--<div class="swiper-button-prev"></div>-->
+    <!--<div class="swiper-button-next"></div>-->
+<!--</div>-->
+

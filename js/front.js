@@ -10,16 +10,24 @@ $(document).ready(function () {
 
     //Landing page carousel
     var swiper1 = new Swiper('#cover-slider',{
-        autoplay: {
-            delay: 6000,
-            disableOnInteraction: false
-        },
+        // autoplay: {
+        //     delay: 3000,
+        //     disableOnInteraction: false
+        // },
         speed: 300,
         grabCursor: false,
         preventInteractionOnTransition: true,
         noSwiping: true,
         noSwipingSelector: "#cover-slider",
-        loop: true
+        loop: true,
+        autoplay: {
+            delay: 6000,
+            disableOnInteraction: true
+        },
+        // navigation: {
+        //     nextEl: '.swiper-button-next',
+        //     prevEl: '.swiper-button-prev'
+        // }
     });
 
     var swiper2 = new Swiper('#promo-slider', {
