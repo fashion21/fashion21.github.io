@@ -176,12 +176,22 @@ a:focus
     margin-top: 40px
     .promo-button-link
       color: #fff
-      background-color: #eb0029
+      border: 1px solid #ffffff
       text-decoration: none
-      font-size: 24px
+      font-size: 22px
       text-transform: uppercase
       display: inline-block
       padding: 15px 60px
+      transition: all 300ms ease-in-out
+      -webkit-transition: all 300ms ease-in-out
+      -moz-transition: all 300ms ease-in-out
+      -o-transition: all 300ms ease-in-out
+      -ms-transition: all 300ms ease-in-out
+      &:hover
+        color: #ffffff
+        border: 1px solid transparent
+        background-color: #eb0029
+
   .swiper-button-container
     position: absolute
     height: 100%
