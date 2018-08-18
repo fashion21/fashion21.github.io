@@ -15,9 +15,8 @@
     <meta name="description" content="{{ site.description }}">
     <meta name="author" content="">
     <meta name="keywords" content="fashion 21, cosmetics, make up">
-
     <link rel="shorcut icon" href="/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="{{ layout.css }}">
+    <link rel="stylesheet" href="/css/blog.css">
     <title>Fashion 21 | {{ layout.title }}</title>
     {{ layout.head }}
 
@@ -28,7 +27,7 @@
 <!-- End Google Tag Manager (noscript) -->
 {% include navbar/navbar.html %}
 {% include sticky-social.html %}
-{{ content }}
+{% include blog/content.html %}
 {% include footer.html %}
 {% include search/search-modal.html %}
 {{ layout.javascripts }}
