@@ -3,7 +3,12 @@ layout: pages/blog-list
 pagination:
     enabled: true
 ---
-<section id="blog">
-{% include blog-list/blog.html %}
-</section>
-<section id="video"></section>
+<div id="page-container">
+    <section id="video">
+        {% include blog-list/video.html %}
+    </section>
+    <section id="blog">
+    {% include blog-list/blog.html %}
+    </section>
+
+</div>
