@@ -1,12 +1,18 @@
 ---
 layout: default
 title: Blog
-css: /css/blog-list.css
+css: |
+    <link rel="stylesheet" href="/css/blog-list.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/izimodal/1.5.1/css/iziModal.css">
+
 head: |
 javascripts: |
     <script type="text/javascript" src="/js/jquery-1.11.3.js"></script>
     <script type="text/javascript" src="/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="/js/search.js"></script>
+    <script type="text/javascript" src="/js/search.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/izimodal/1.5.1/js/iziModal.min.js"></script>
+
     <script type="text/javascript">
         $(window).scroll(function() {
             if ($(document).scrollTop() > 50) {
