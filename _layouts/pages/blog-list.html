@@ -4,7 +4,6 @@ title: Blog
 css: |
     <link rel="stylesheet" href="/css/blog-list.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/izimodal/1.5.1/css/iziModal.css">
-
 head: |
 javascripts: |
     <script type="text/javascript" src="/js/jquery-1.11.3.js"></script>
@@ -21,6 +20,18 @@ javascripts: |
                 $('nav').removeClass('shrink');
             }
         });
+        $(function(){
+            $(".video-modal").iziModal({
+                history: false,
+                iframe : true,
+                fullscreen: true,
+                headerColor: '#000000',
+                group: 'group1',
+                loop: true
+            });
+
+        })
+
     </script>
 ---
 {{ content }}

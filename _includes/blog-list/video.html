@@ -4,5 +4,14 @@
             <header class="header">Recent Video</header>
         </div>
     </div>
-    <div class="row"></div>
+    <div class="row">
+        {% for video in site.data.video | sort: 'id' | reverse | limit: 3 %}
+        <div class="col-md-4 col-xs-12">
+            <a href="" data-izimodal-open="#slug{{ video.id }}">
+                <img src="{{ video.image-link }}" class="img-responsive center-block"/>
+            </a>
+        </div>
+        <div id="slug{{ video.id }}" class="video-modal" data-izimodal-transitionin="fadeInDown" data-izimodal-title="{{ video.title }}"  data-izimodal-iframeURL="https://www.youtube.com/embed/{{ video.video-link }}?autoplay=1&fs=0&rel=0&showinfo=0"></div>
+        {% endfor %}
+    </div>
 </div>
