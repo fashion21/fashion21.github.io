@@ -21,13 +21,13 @@
 
             <!-- Pagination links -->
             {% if paginator.total_pages > 1 %}
-            <nav class="pagination">
+            <div class="pagination">
                 {% assign first_page_path = site.paginate_path | replace: 'page:num', '' | replace: '//', '/' | relative_url %}
                 <ul>
                     {% comment %} Link for previous page {% endcomment %}
                     {% if paginator.previous_page %}
                     {% if paginator.previous_page == 1 %}
-                    <li><a href="{{ first_page_path }}">{{ site.data.ui-text[site.locale].pagination_previous | default: "Previous" }}</a></li>
+                    <li><a href="/blog{{ first_page_path }}">{{ site.data.ui-text[site.locale].pagination_previous | default: "Previous" }}</a></li>
                     {% else %}
                     <li><a href="/blog{{ site.paginate_path | replace: ':num', '/'| append: paginator.previous_page | replace: '//', '/' | relative_url }}">{{ site.data.ui-text[site.locale].pagination_previous | default: "Previous" }}</a></li>
                     {% endif %}
@@ -87,7 +87,7 @@
                     <li><a href="#" class="disabled"><span aria-hidden="true">{{ site.data.ui-text[site.locale].pagination_next | default: "Next" }}</span></a></li>
                     {% endif %}
                 </ul>
-            </nav>
+            </div>
             {% endif %}
         </div>
     </div>

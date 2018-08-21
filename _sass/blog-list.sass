@@ -7,12 +7,225 @@
 body
   margin-top: 101px
 
-#page-container
+//  Global Declaration
+.iziModal
+  border-radius: 0!important
+
+#banner
+  background-image: url("/img/about/banner.jpg")
+  background-attachment: fixed
+  background-size: contain
+  background-position: 50% -50%
+  background-repeat: no-repeat
+  height: 300px
+  width: 100%
   position: relative
-  min-height: 92vh
-  #video
+
+//Video section
+#video
+  position: relative
+  padding-top: 40px
+  padding-bottom: 40px
+  border-top: 1px solid #efefef
+  .header-container
+    background: #eb0029
     position: relative
-    min-height: 300px
-    .blog-list-container
-      .pagination
-        position: relative
+    height: 50px
+    margin: 0 auto 40px
+    padding: 0 45px
+    min-width: 200px
+    display: table
+    &:before
+      left: -25px
+      content: ""
+      position: absolute
+      height: 0
+      border: 25px solid transparent
+      top: 0
+      width: 0
+      border-top-color: #eb0029
+      border-bottom-color: #eb0029
+      z-index: -1
+    &:after
+      right: -25px
+      content: ""
+      position: absolute
+      height: 0
+      border: 25px solid transparent
+      top: 0
+      width: 0
+      border-top-color: #eb0029
+      border-bottom-color: #eb0029
+      z-index: -1
+    .header
+      color: #ffffff
+      display: block
+      font-size: 28px
+      text-align: center
+      text-transform: uppercase
+      font-family: 'Avenir-Medium',sans-serif
+      width: 100%
+      line-height: 50px
+      &:before
+        content: ""
+        width: 10px
+        height: 10px
+        border-radius: 50%
+        display: block
+        position: absolute
+        background: #fff
+        font-size: 20px
+        top: 20px
+        left: 10px
+      &:after
+        content: ""
+        width: 10px
+        height: 10px
+        border-radius: 50%
+        display: block
+        position: absolute
+        background: #fff
+        font-size: 20px
+        top: 20px
+        right: 10px
+
+  .video-list
+    .video-link
+      display: block
+      position: relative
+      .video-play-container
+        position: absolute
+        width: 100%
+        height: 100%
+        transition: all 300ms ease-in-out
+        -webkit-transition: all 300ms ease-in-out
+        -moz-transition: all 300ms ease-in-out
+        -o-transition: all 300ms ease-in-out
+        -ms-transition: all 300ms ease-in-out
+        .video-play
+          display: block
+          color: white
+          font-size: 64px
+          text-align: center
+          top: 50%
+          transform: translateY(-50%)
+          -webkit-transform: translateY(-50%)
+          -moz-transform: translateY(-50%)
+          -o-transform: translateY(-50%)
+          -ms-transform: translateY(-50%)
+      &:hover
+        .video-play-container
+          background-color: rgba(0,0,0,0.7)
+
+
+
+
+//Blog Section
+#blog
+  position: relative
+  padding-top: 40px
+  padding-bottom: 40px
+  .header-container
+    background: #eb0029
+    position: relative
+    height: 50px
+    margin: 0 auto 40px
+    padding: 0 45px
+    min-width: 200px
+    display: table
+    &:before
+      left: -25px
+      content: ""
+      position: absolute
+      height: 0
+      border: 25px solid transparent
+      top: 0
+      width: 0
+      border-top-color: #eb0029
+      border-bottom-color: #eb0029
+      z-index: -1
+    &:after
+      right: -25px
+      content: ""
+      position: absolute
+      height: 0
+      border: 25px solid transparent
+      top: 0
+      width: 0
+      border-top-color: #eb0029
+      border-bottom-color: #eb0029
+      z-index: -1
+    .header
+      color: #ffffff
+      display: block
+      font-size: 28px
+      text-align: center
+      text-transform: uppercase
+      font-family: 'Avenir-Medium',sans-serif
+      width: 100%
+      line-height: 50px
+      &:before
+        content: ""
+        width: 10px
+        height: 10px
+        border-radius: 50%
+        display: block
+        position: absolute
+        background: #fff
+        font-size: 20px
+        top: 20px
+        left: 10px
+      &:after
+        content: ""
+        width: 10px
+        height: 10px
+        border-radius: 50%
+        display: block
+        position: absolute
+        background: #fff
+        font-size: 20px
+        top: 20px
+        right: 10px
+      
+  .blog-list-container
+    .pagination
+      position: relative
+      ul
+        list-style: none
+        padding: 0
+        margin: 0
+        li
+          list-style: none
+          padding: 0
+          margin: 0
+          float: left
+          a
+            text-decoration: none
+            float: left
+            color: #666
+            font-size: 14px
+            line-height: 24px
+            font-weight: normal
+            text-align: center
+            border: 1px solid #BBB
+            min-width: 14px
+            padding: 5px 15px
+            margin: 0 5px 0 0
+            border-radius: 0
+
+            box-shadow: 0 1px 2px rgba(0,0,0,0.2)
+            background: #efefef
+            background: -moz-linear-gradient(top, #ffffff 0%, #efefef 100%)
+            background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#efefef))
+            background: -webkit-linear-gradient(top, #ffffff 0%,#efefef 100%)
+            background: -o-linear-gradient(top, #ffffff 0%,#efefef 100%)
+            background: -ms-linear-gradient(top, #ffffff 0%,#efefef 100%)
+            background: linear-gradient(top, #ffffff 0%,#efefef)
+            &.disabled
+              background: #666
+              color: #FFF
+              border-color: #444
+              box-shadow: 0 1px 0 rgba(255,255,255,1), 0 0 2px rgba(0, 0, 0, 0.3) inset
+              cursor: default
+
+
