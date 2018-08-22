@@ -8,9 +8,9 @@
             <div class="blog-wrapper clearfix">
                 {% for post in paginator.posts %}
                 <div class="col-md-4 blog-item">
-                    <a href="{{ post.url }}" class="blog-link">
-                        <div class="blog-image-container">
-                            <img class="blog-image img-responsive center-block" src="{{ post.cover }}"/>
+                    <a href="{{ post.url }}" class="blog-link ">
+                        <div class="blog-image-container loading">
+                            <img class="b-lazy blog-image img-responsive center-block" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{{ post.cover }}" alt="blog-image"/>
                         </div>
                         <div class="blog-title-container">
                             <span class="blog-title">{{ post.title }}</span>

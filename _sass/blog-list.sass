@@ -166,8 +166,16 @@ body
         .blog-item
           margin-bottom: 30px
           .blog-link
+            position: relative
             text-decoration: none
+            display: block
+            .blog-image-container
+              position: relative
+              &.loading
+                background-color: #f7f7f7
+                padding-bottom: 66.668% !important
             .blog-title-container
+              position: relative
               background-color: #000
               .blog-title
                 color: $white
@@ -175,8 +183,6 @@ body
                 text-align: center
                 font-size: 20px
                 line-height: 80px
-
-
 
       .pagination
         position: relative

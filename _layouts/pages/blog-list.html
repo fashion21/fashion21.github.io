@@ -42,9 +42,11 @@ javascripts: |
             }],
             success: function(element){
                 setTimeout(function(){
-                    var parent = element.parentNode.parentNode;
-                    console.log(parent);
-                    parent.className = parent.className.replace(/\bloading\b/,'');
+                    var parentVideo = element.parentNode.parentNode;
+                    var parentBlog = element.parentNode;
+
+                    parentVideo.className = parentVideo.className.replace(/\bloading\b/,'');
+                    parentBlog.className = parentBlog.className.replace(/\bloading\b/,'');
                 }, 200);
             }
         });
