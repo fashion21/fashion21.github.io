@@ -1,20 +1,21 @@
+<div class="banner-section">
+    <header class="banner-title">Latest Article</header>
+</div>
 <div class="container">
-    <div class="row">
-        <div class="header-container">
-            <header class="header">Latest Article</header>
-        </div>
-    </div>
     <!-- This loops through the paginated posts -->
     <div class="row">
         <div class="blog-list-container">
             <div class="blog-wrapper clearfix">
                 {% for post in paginator.posts %}
-                    <div class="col-md-4">
-                    <img class="img-responsive center-block" src="{{ post.cover }}"/>
-                    <h4>
-                        <a href="{{ post.url }}">{{ post.title }}</a>
-                    </h4>
-
+                <div class="col-md-4 blog-item">
+                    <a href="{{ post.url }}" class="blog-link">
+                        <div class="blog-image-container">
+                            <img class="blog-image img-responsive center-block" src="{{ post.cover }}"/>
+                        </div>
+                        <div class="blog-title-container">
+                            <span class="blog-title">{{ post.title }}</span>
+                        </div>
+                    </a>
                 </div>
                 {% endfor %}
             </div>

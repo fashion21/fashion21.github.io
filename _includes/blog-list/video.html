@@ -1,22 +1,26 @@
+
+<div class="banner-section">
+    <header class="banner-title">Recent Video</header>
+</div>
 <div class="container">
     <div class="row">
-        <div class="header-container">
-            <header class="header">Recent Video</header>
+        <div class="video-list-container clearfix">
+            {% for video in site.data.video | sort: 'id' | reverse | limit: 3 %}
+            <div class="col-md-4 col-xs-12 video-list">
+                <a class="video-link loading" href="" data-izimodal-open="#slug{{ video.id }}">
+                    <div class="video-play-container">
+                        <span class="video-play glyphicon glyphicon-play-circle"></span>
+                    </div>
+                    <div class="video-image-container">
+                        <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{{ video.image-link }}" class="b-lazy img-responsive center-block" alt="video-image"/>
+                    </div>
+                </a>
+            </div>
+            <div id="slug{{ video.id }}" class="video-modal" data-izimodal-transitionin="fadeInDown" data-izimodal-title="{{ video.title }}"  data-izimodal-iframeURL="https://www.youtube.com/embed/{{ video.video-link }}?autoplay=1&fs=0&rel=0&showinfo=0"></div>
+            {% endfor %}
         </div>
-    </div>
-    <div class="row">
-        {% for video in site.data.video | sort: 'id' | reverse | limit: 3 %}
-        <div class="col-md-4 col-xs-12 video-list">
-            <a class="video-link" href="" data-izimodal-open="#slug{{ video.id }}">
-                <div class="video-play-container">
-                    <span class="video-play glyphicon glyphicon-play-circle"></span>
-                </div>
-                <div class="video-image-container">
-                    <img src="{{ video.image-link }}" class="img-responsive center-block"/>
-                </div>
-            </a>
+        <div class="more-video-container">
+            <a href="#" class="more-video-button">More Videos</a>
         </div>
-        <div id="slug{{ video.id }}" class="video-modal" data-izimodal-transitionin="fadeInDown" data-izimodal-title="{{ video.title }}"  data-izimodal-iframeURL="https://www.youtube.com/embed/{{ video.video-link }}?autoplay=1&fs=0&rel=0&showinfo=0"></div>
-        {% endfor %}
     </div>
 </div>
