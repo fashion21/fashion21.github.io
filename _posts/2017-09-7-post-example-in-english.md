@@ -2,8 +2,8 @@
 year: 2018
 slugID: 02
 layout: post
-title: "SNAP-Magat Inaugurates 8.5-MW Maris hydro"
-cover: "https://picsum.photos/400/350"
+title: "Jane make-up tutorial volume 1"
+cover: "https://picsum.photos/600/400"
 ---
 
 SN Aboitiz Power-Magat, Inc. (SNAP-Magat) marked the successful commissioning of the 8.5-megawatt (MW) Maris Main Canal Hydroelectric Power plant with an inauguration and ceremonial switch-on earlier today. Senator Sherwin “Win” Gatchalian, Undersecretary Jesus Posadas of the Department of Energy, representing Secretary Alfonso Cusi, Norwegian Ambassador Erik Forner, and Governor Faustino Dy III of Isabela led the ceremony held in the National Irrigation Administration (NIA) Dams and Reservoir Division compound in Ramon, Isabela. 
