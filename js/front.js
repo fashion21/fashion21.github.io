@@ -52,9 +52,9 @@ $(window).on("load",function () {
     //Instagram Feed
     var feed = new Instafeed({
         get: 'user',
-        userId: '1162756535',
-        clientId: '0cd51b94022a49f0be1e4b114f24a9ea',
-        accessToken: '1162756535.0cd51b9.7b8b57dd36494ff08f9e4e5c976742b7',
+        userId: '1689161645',
+        clientId: '9ac414ea8c2742ceab562dd493eac687',
+        accessToken: '1689161645.1677ed0.ea65a8b02aff46c996485bc1aceeb6ad',
         sortBy: 'most-recent',
         limit: 20,
         template: '<div class="swiper-slide"><a href="{{link}}" target="_blank"><img class="img-responsive center-block" src="{{image}}" /></a></div>',
@@ -97,7 +97,6 @@ $(window).on("load",function () {
             }, 200);
         }
     });
-
 
 
 
