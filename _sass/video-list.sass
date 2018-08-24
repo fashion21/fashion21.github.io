@@ -1,0 +1,129 @@
+@import "fonts"
+@import "body"
+@import "navbar"
+@import "footer"
+@import "modal"
+
+
+
+body
+  margin-top: 101px
+
+//  Global Declaration
+.iziModal
+  border-radius: 0!important
+  background-color: black !important
+
+#banner
+  position: relative
+  width: 100%
+  height: 300px
+  background-image: url("https://picsum.photos/1920/300")
+  background-position: center center
+  background-size: cover
+  background-repeat: no-repeat
+  .bg-overlay
+    position: absolute
+    width: 100%
+    height: 100%
+    z-index: 1
+    background-color: rgba(0,0,0,0.3)
+  .banner-text
+    position: relative
+    text-align: center
+    display: block
+    z-index: 2
+    font-family: "Avenir-Bold",sans-serif
+    font-size: 48px
+    color: white
+    padding: 116px 0
+    text-transform: uppercase
+
+//Video section
+#video-list
+  position: relative
+  padding-top: 40px
+  padding-bottom: 40px
+  .container
+    .video-list-container
+      position: relative
+      .video-list
+        margin-bottom: 30px
+        .video-link
+          position: relative
+          display: block
+          &.loading
+            background-color: #f7f7f7
+            padding-bottom: 79.4% !important
+            .video-play-container
+              opacity: 0
+          .video-play-container
+            opacity: 1
+            position: absolute
+            width: 100%
+            height: 100%
+            transition: all 300ms ease-in-out
+            -webkit-transition: all 300ms ease-in-out
+            -moz-transition: all 300ms ease-in-out
+            -o-transition: all 300ms ease-in-out
+            -ms-transition: all 300ms ease-in-out
+            .video-play
+              display: block
+              color: white
+              font-size: 64px
+              text-align: center
+              top: 50%
+              transform: translateY(-50%)
+              -webkit-transform: translateY(-50%)
+              -moz-transform: translateY(-50%)
+              -o-transform: translateY(-50%)
+              -ms-transform: translateY(-50%)
+          &:hover
+            .video-play-container
+              background-color: rgba(0,0,0,0.7)
+    .pagination
+      display: table
+      margin-left: auto
+      margin-right: auto
+      a
+        list-style: none
+        float: left
+        min-width: 14px
+        margin: 0 5px 0 0
+        border-radius: 0
+        box-shadow: 0 1px 2px rgba(0,0,0,0.2)
+        background: #efefef
+        background: -moz-linear-gradient(top, #ffffff 0%, #efefef 100%)
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#efefef))
+        background: -webkit-linear-gradient(top, #ffffff 0%,#efefef 100%)
+        background: -o-linear-gradient(top, #ffffff 0%,#efefef 100%)
+        background: -ms-linear-gradient(top, #ffffff 0%,#efefef 100%)
+        background: linear-gradient(top, #ffffff 0%,#efefef)
+        color: #666
+        display: block
+        text-decoration: none
+        font-size: 14px
+        line-height: 24px
+        font-weight: normal
+        text-align: center
+        background-color: transparent
+        border-color: transparent
+        padding: 5px 15px
+        &.jp-disabled, &.jp-current
+          background: #666
+          color: #FFF
+          border-color: #444
+          box-shadow: 0 1px 0 rgba(255,255,255,1), 0 0 2px rgba(0, 0, 0, 0.3) inset
+          cursor: default
+
+
+
+@media (min-width: 1442px)
+  #video-list
+    .container
+      width: 100%
+      max-width: 1600px
+      margin-left: auto
+      margin-right: auto
+
+
