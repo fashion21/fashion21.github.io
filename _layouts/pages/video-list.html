@@ -1,0 +1,81 @@
+---
+layout: default
+title: Video
+css: |
+    <link rel="stylesheet" href="/css/video-list.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/izimodal/1.5.1/css/iziModal.css">
+head: |
+javascripts: |
+    <script type="text/javascript" src="/js/jquery-1.11.3.js"></script>
+    <script type="text/javascript" src="/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/js/search.js"></script>
+    <script type="text/javascript" src="/js/search.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/izimodal/1.5.1/js/iziModal.min.js"></script>
+    <script type="text/javascript" src="/js/jPages.min.js"></script>
+    <script type="text/javascript" src="/js/plugins/blazy.min.js"></script>
+
+
+    <script type="text/javascript">
+        $(window).scroll(function() {
+            if ($(document).scrollTop() > 50) {
+                $('nav').addClass('shrink');
+            } else {
+                $('nav').removeClass('shrink');
+            }
+        });
+
+        /*iziModal video*/
+        $(function(){
+            $(".video-modal").iziModal({
+                history: false,
+                iframe : true,
+                fullscreen: true,
+                headerColor: '#000000',
+                group: 'group1',
+                loop: true,
+                zindex: 1050,
+                overlayColor: 'rgba(0, 0, 0, 0.8)',
+                navigateCaption: false
+            });
+        });
+
+        var blazy = new Blazy({
+            breakpoints: [{
+                src: 'data-src'
+            }],
+            success: function(element){
+                setTimeout(function(){
+                    var parentVideo = element.parentNode.parentNode;
+                    var parentBlog = element.parentNode;
+
+                    parentVideo.className = parentVideo.className.replace(/\bloading\b/,'');
+                    parentBlog.className = parentBlog.className.replace(/\bloading\b/,'');
+                }, 200);
+            }
+        });
+        /*jPages function*/
+        $(function() {
+            /* initiate plugin */
+            $("div.holder").jPages({
+                containerID: "itemContainer",
+                perPage: 6,
+                previous: "Previous",
+                next: "Next",
+                startPage    : 1,
+                startRange   : 1,
+                midRange     : 5,
+                endRange     : 1,
+                callback: function(){
+                    blazy.revalidate();
+                }
+
+            });
+
+        });
+    </script>
+
+
+
+
+---
+{{ content }}
