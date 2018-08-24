@@ -9,7 +9,7 @@
         <div class="promo-slider-container container">
             <div id="promo-slider" class="swiper-container">
                 <div class="swiper-wrapper">
-                    {% for promoSlider in site.data.promoSlider | sort: "id" | reverse %}
+                    {% for promoSlider in site.data.promoSlider %}
                     {% if promoSlider.isPromo == true %}
                     <div class="swiper-slide" data-id="slug#{{ promoSlider.id }}">
                         <img data-src="{{ promoSlider.image }}" class="swiper-lazy img-responsive center-block"/>
