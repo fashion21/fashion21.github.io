@@ -1,0 +1,16 @@
+---
+layout: null
+---
+{% assign first = true %}
+{[
+    {% for video in site.data.video %}
+      {% unless first %},{% endunless %}{
+      "slugID": "{{ video.id }}",
+      "title": "{{ video.title }}",
+      "image-link": "{{ video.image-link }}",
+      "video-link": "{{ video.video-link }}",
+      "seach_omit": "{{ video.search_omit }}"
+      }
+      {% assign first = false %}
+    {% endfor %}
+]}
