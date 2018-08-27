@@ -1,10 +1,14 @@
-<div id="promotion">
-    <div class="container">
-        {% for promo in site.data.promo.promo reversed %}
-        <div class="promo-list col-md-6 col-sm-12 col-xs-12">
+
+<div class="container">
+    <div id="itemContainer" class="promo-wrapper clearfix">
+        {% for promo in site.data.promoPage reversed %}
+        <div class="promo-list col-md-6 col-sm-12 col-xs-12 loading">
             <h2 class="header">{{ promo.title }}</h2>
-            <img src="{{ promo.image }}" alt="Promotion" class="center-block img-responsive image"/>
+            <div class="promo-image-container">
+                <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{{ promo.image }}" alt="Promotion" class="b-lazy center-block img-responsive image"/>
+            </div>
         </div>
         {% endfor %}
     </div>
+    <div class="pagination holder"></div>
 </div>
