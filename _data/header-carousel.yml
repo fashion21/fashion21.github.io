@@ -1,12 +1,10 @@
-- id: 1
-  title: "Matte Permanent Lipstick"
+- title: "Matte Permanent Lipstick"
   description: "A long-lasting, lightweight lipstick available in 10 universally flattering colors, a.k.a your next MLBB favorite"
   background: "/img/header-carousel/carousel-bg1.jpg"
   product-image: "/img/header-carousel/carousel-product1.png"
   link: "/products/lips/matte-permanent-lipstick/"
 
-- id: 2
-  title: "Color Matte Liquid Lipstick"
+- title: "Color Matte Liquid Lipstick"
   description: "A creamy liquid lipstick with impressive matte coverage for when you need an extra boost of confidence"
   background: "/img/header-carousel/carousel-bg2.jpg"
   product-image: "/img/header-carousel/carousel-product2.png"
