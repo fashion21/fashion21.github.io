@@ -6,3 +6,5 @@ _site
 dummypic/*
 _scripts/src/out/*
 .jekyll-metadata
+.img/.DS_Store
+.DS_Store
