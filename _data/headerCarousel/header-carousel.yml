@@ -1,4 +1,5 @@
-- image: "https://res.cloudinary.com/f21cosmetics/image/upload/assets/carousel/img14.jpg"
+- background: "/img/header-carousel/carousel-bg1.jpg"
+  product-image: "/img/header-carousel/carousel-product1.png"
   link: "/products/lips/matte-permanent-lipstick/"
 
 - image: "https://res.cloudinary.com/f21cosmetics/image/upload/assets/carousel/img13.jpg"
