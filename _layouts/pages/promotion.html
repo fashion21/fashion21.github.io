@@ -9,7 +9,8 @@ javascripts: |
     <script type="text/javascript" src="/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="/js/product-category.js"></script>
     <script type="text/javascript" src="/js/search.js"></script>
-
+    <script type="text/javascript" src="/js/jPages.min.js"></script>
+    <script type="text/javascript" src="/js/plugins/blazy.min.js"></script>
     <script type="text/javascript">
         $(window).scroll(function() {
             if ($(document).scrollTop() > 50) {
@@ -17,6 +18,38 @@ javascripts: |
             } else {
                 $('nav').removeClass('shrink');
             }
+        });
+
+        var blazy = new Blazy({
+            breakpoints: [{
+                src: 'data-src'
+            }],
+            success: function(element){
+                setTimeout(function(){
+                    var parent = element.parentNode.parentNode;
+                    parent.className = parent.className.replace(/\bloading\b/,'');
+                }, 200);
+            }
+        });
+
+        /*jPages function*/
+        $(function() {
+            /* initiate plugin */
+            $("div.holder").jPages({
+                containerID: "itemContainer",
+                perPage: 4,
+                previous: "Previous",
+                next: "Next",
+                startPage    : 1,
+                startRange   : 1,
+                midRange     : 5,
+                endRange     : 1,
+                callback: function(){
+                    blazy.revalidate();
+                }
+
+            });
+
         });
     </script>
 ---
