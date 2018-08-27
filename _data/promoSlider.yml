@@ -1,23 +1,24 @@
 - id: 6
-  image: "/img/promo-slider/promo-slider6.jpg"
+  image: "https://res.cloudinary.com/f21cosmetics/image/upload/assets/promo-slider/promo-slider6.jpg"
   isPromo: true
 
 - id: 5
-  image: "/img/promo-slider/promo-slider5.jpg"
+  image: "https://res.cloudinary.com/f21cosmetics/image/upload/assets/promo-slider/promo-slider5.jpg"
   isPromo: true
 
 - id: 4
-  image: "/img/promo-slider/promo-slider4.jpg"
+  image: "https://res.cloudinary.com/f21cosmetics/image/upload/assets/promo-slider/promo-slider4.jpg"
   isPromo: true
 
 - id: 3
-  image: "/img/promo-slider/promo-slider3.jpg"
+  image: "https://res.cloudinary.com/f21cosmetics/image/upload/assets/promo-slider/promo-slider3.jpg"
   isPromo: true
 
 - id: 2
-  image: "/img/promo-slider/promo-slider2.jpg"
+  image: "https://res.cloudinary.com/f21cosmetics/image/upload/assets/promo-slider/promo-slider2.jpg"
   isPromo: true
 
 - id: 1
-  image: "/img/promo-slider/promo-slider1.jpg"
+  image: "https://res.cloudinary.com/f21cosmetics/image/upload/assets/promo-slider/promo-slider1.jpg"
   isPromo: true
+
