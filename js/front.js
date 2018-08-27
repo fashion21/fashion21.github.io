@@ -23,11 +23,7 @@ $(document).ready(function () {
         autoplay: {
             delay: 6000,
             disableOnInteraction: true
-        },
-        // navigation: {
-        //     nextEl: '.swiper-button-next',
-        //     prevEl: '.swiper-button-prev'
-        // }
+        }
     });
 
     var swiper2 = new Swiper('#promo-slider', {

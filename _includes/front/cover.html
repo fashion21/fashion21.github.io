@@ -1,11 +1,26 @@
 <!-- Swiper -->
 <div id="cover-slider" class="swiper-container">
     <div class="swiper-wrapper cover-slider-wrapper">
-        {% for promoItem in site.data.carousel.promo-items %}
-            <div class="swiper-slide cover-slider-item" style="background-image: url('{{ promoItem.image }}')">
-                <!--<div class="slider-button-container">-->
-                    <!--<a href="{{ promoItem.link }}" class="slider-button">View Product</a>-->
-                <!--</div>-->
+        {% for headerCarousel in site.data.headerCarousel.header-carousel %}
+            <div class="swiper-slide cover-slider-item" style="background-image: url('{{ headerCarousel.background }}')">
+                <div class="product-wrapper">
+                    <div class="left-container">
+                        <div class="product-image-container">
+                            <img src="{{ headerCarousel.product-image }}" class="center-block product-image" />
+                        </div>
+                    </div>
+                    <div class="right-container">
+                        <div class="product-info-wrapper">
+                            <div class="product-intro-container">
+                                <span class="product-title">{{ headerCarousel.title }}</span>
+                                <p class="product-description">{{ headerCarousel.description }}</p>
+                            </div>
+                            <div class="product-link-container">
+                                <a href="{{ headerCarousel.link }}" class="product-link">View Product</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         {% endfor %}
     </div>

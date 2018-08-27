@@ -17,7 +17,7 @@ a:focus
 #cover
   position: relative
   padding-top: 100px
-  height: 700px
+  height: 800px
   #cover-slider
     height: 100%
     padding: 0
@@ -28,17 +28,80 @@ a:focus
         background-position: center center
         background-size: cover
         background-repeat: no-repeat
-    .slider-button-container
-      position: absolute
-      bottom: 6.5vh
-      right: 49vh
-      .slider-button
-        background-color: #eb0029
-        color: white
-        text-transform: uppercase
-        font-family: "Avenir-Medium", sans-serif
-        font-size: 16px
-        padding: 20px 30px
+        .product-wrapper
+          height: inherit
+          width: 1600px
+          margin-left: auto
+          margin-right: auto
+          .left-container
+            padding-left: 15px
+            padding-right: 15px
+            position: relative
+            width: 50%
+            float: left
+            height: inherit
+            .product-image-container
+              position: relative
+              top: 50%
+              transform: translateY(-50%)
+              -webkit-transform: translateY(-50%)
+              -moz-transform: translateY(-50%)
+              -o-transform: translateY(-50%)
+              -ms-transform: translateY(-50%)
+              .product-image
+                max-width: 100%
+                min-width: 100%
+          .right-container
+            padding-left: 15px
+            padding-right: 15px
+            position: relative
+            width: 50%
+            float: left
+            height: inherit
+            .product-info-wrapper
+              position: relative
+              top: 50%
+              transform: translateY(-50%)
+              .product-intro-container
+                text-align: center
+                .product-title
+                  display: block
+                  font-family: "Avenir-Bold", sans-serif
+                  font-size: 72px
+                  text-transform: uppercase
+                  text-align: center
+                  letter-spacing: 2px
+                  line-height: 75px
+                .product-description
+                  margin-top: 30px
+                  margin-left: auto
+                  margin-right: auto
+                  max-width: 80%
+                  min-width: 80%
+                  font-size: 24px
+                  line-height: 30px
+                  font-family: "Avenir-light", sans-serif
+              .product-link-container
+                margin-top: 40px
+                text-align: center
+                .product-link
+                  text-transform: uppercase
+                  text-decoration: none
+                  display: inline-block
+                  padding: 20px 60px
+                  font-size: 18px
+                  letter-spacing: 5px
+                  color: $white
+                  background-color: $black
+                  transition: background-color 300ms ease-in-out
+                  -webkit-transition: background-color 300ms ease-in-out
+                  -moz-transition: background-color 300ms ease-in-out
+                  -o-transition: background-color 300ms ease-in-out
+                  -ms-transition: background-color 300ms ease-in-out
+                  &:hover
+                    background-color: $fashion21Red
+
+
 
 #ribbon
   position: relative
@@ -242,9 +305,6 @@ a:focus
         width: 60%
         .shop-container
           position: relative
-          margin-left: auto
-          margin-right: auto
-          width: 50%
           text-align: center
           .shop-header-container
             position: relative
@@ -271,7 +331,8 @@ a:focus
               letter-spacing: 2px
               background-color: #5c5c5c
               display: inline-block
-              font-size: 18px
+              text-transform: uppercase
+              font-size: 22px
               padding: 20px 120px
               text-decoration: none
               transition: background-color 300ms ease-in-out

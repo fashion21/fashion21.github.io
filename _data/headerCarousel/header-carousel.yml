@@ -1,11 +1,17 @@
-- background: "/img/header-carousel/carousel-bg1.jpg"
+- id: 1
+  title: "Matte Permanent Lipstick"
+  description: "A long-lasting, lightweight lipstick available in 10 universally flattering colors, a.k.a your next MLBB favorite"
+  background: "/img/header-carousel/carousel-bg1.jpg"
   product-image: "/img/header-carousel/carousel-product1.png"
   link: "/products/lips/matte-permanent-lipstick/"
 
-- image: "https://res.cloudinary.com/f21cosmetics/image/upload/assets/carousel/img13.jpg"
+- id: 2
+  title: "Color Matte Liquid Lipstick"
+  description: "A creamy liquid lipstick with impressive matte coverage for when you need an extra boost of confidence"
+  background: "/img/header-carousel/carousel-bg2.jpg"
+  product-image: "/img/header-carousel/carousel-product2.png"
   link: "/products/lips/color-matte-liquid-lipstick/"
 
-- image: "https://res.cloudinary.com/f21cosmetics/image/upload/assets/carousel/img10.jpg"
-  link: "/products/eyes/liquid-eyeliner-pen/"
+
 
 
