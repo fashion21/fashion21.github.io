@@ -277,6 +277,7 @@ a:focus
       width: 100%
       .swiper-slide
         min-height: 306.34px
+
   .promo-button-container
     position: relative
     display: table
@@ -284,7 +285,7 @@ a:focus
     margin-right: auto
     margin-top: 40px
     .promo-button-link
-      color: #fff
+      color: $white
       border: 1px solid #ffffff
       text-decoration: none
       font-size: 22px
@@ -297,7 +298,6 @@ a:focus
       -o-transition: all 300ms ease-in-out
       -ms-transition: all 300ms ease-in-out
       &:hover
-        color: #ffffff
         border: 1px solid transparent
         background-color: #eb0029
 
@@ -430,7 +430,6 @@ a:focus
     padding-left: 0
     padding-right: 0
     margin-bottom: 15px
-          
 
 @media (min-width: 1443px)
   #best-seller
@@ -514,10 +513,91 @@ a:focus
                 .product-description
                   max-width: 95%
 
+  #instagram
+    .instagram-slider-container
+      min-height: 28vh
 
-@media (max-width: 1024px)
+@media (max-width: 1200px)
   #cover
     padding-top: 0
+    height: 550px
+    #cover-slider
+      .cover-slider-wrapper
+        .cover-slider-item
+          .product-wrapper
+            .right-container
+              .product-info-wrapper
+                .product-intro-container
+                  .product-title
+                    font-size: 42px
+                    line-height: 50px
+                .product-description
+                  font-size: 18px
+                  max-width: 100%
+                  line-height: 25px
+                .product-link-container
+                  .product-link
+                    font-size: 14px
+
+  #ribbon
+    .container-fluid
+      .ribbon-item
+        min-height: 250px
+        .ribbon-info-container
+          padding-top: 40px
+          .ribbon-intro-container
+            .ribbon-icon
+              height: 40px
+            .ribbon-title
+              font-size: 28px
+          .ribbon-description
+            max-width: 100%
+            font-size: 16px
+
+        &.ribbon2
+          .ribbon-info-container
+            padding-top: 30px
+            .ribbon-icon
+              height: 20px
+
+
+  #promo
+    .promo-slider-container
+      width: 880px
+      #promo-slider
+        .swiper-slide
+          min-height: 190.42px
+      .promo-button-link
+        font-size: 18px
+    .swiper-button-container
+      width: 900px
+
+  #shop
+    height: 300px
+    .container-fluid
+      .row
+        .left-container
+          .model-container
+            .model-image
+              height: 280px
+
+        .right-container
+          .shop-container
+            .shop-header-container
+              padding-top: 59px
+              .shop-header
+                font-size: 38px
+            .shop-description-container
+              .shop-description
+                font-size: 18px
+            .shop-link-container
+              .shop-link
+                font-size: 16px
+                padding: 15px 90px
+
+  #instagram
+    .instagram-slider-container
+      min-height: 33vh
 
 @media (max-width: 991px)
   #cover

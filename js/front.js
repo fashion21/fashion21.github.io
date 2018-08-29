@@ -19,11 +19,11 @@ $(document).ready(function () {
         preventInteractionOnTransition: true,
         noSwiping: true,
         noSwipingSelector: "#cover-slider",
-        loop: true,
-        autoplay: {
-            delay: 6000,
-            disableOnInteraction: true
-        }
+        loop: true
+        // autoplay: {
+        //     delay: 6000,
+        //     disableOnInteraction: true
+        // }
         // navigation: {
         //     nextEl: '.swiper-button-next',
         //     prevEl: '.swiper-button-prev'
@@ -65,11 +65,30 @@ $(window).on("load",function () {
                 spaceBetween: 0,
                 loop: true,
                 autoplay: {
-                    delay: 2000,
+                    delay: 4000,
                     disableOnInteraction: true
+                },
+                breakpoints: {
+                    1280: {
+                        slidesPerView: 5
+                    },
+                    1024:{
+
+                        slidesPerView: 4
+                    },
+                    768: {
+                        slidesPerView: 3
+                    },
+                    640: {
+                        slidesPerView: 2
+                    },
+                    320: {
+                        slidesPerView: 1
+                    }
                 }
             });
         }
+
     });
     feed.run();
 
