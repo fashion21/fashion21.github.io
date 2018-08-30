@@ -7,7 +7,7 @@
     <div class="row">
         <div class="best-seller-container container">
             {% for bestSeller in site.data.best-seller %}
-            <div class="col-md-3 best-seller-item">
+            <div class="col-md-3 col-sm-6 col-xs-12 best-seller-item">
                 <a href="{{ bestSeller.link }}" class="best-seller-link">
                     <div class="image-container loading">
                         <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{{ bestSeller.image }}" class="b-lazy best-seller-image img-responsive" alt="{{bestSeller.title}}"/>

@@ -62,6 +62,10 @@ a:focus
               position: relative
               top: 50%
               transform: translateY(-50%)
+              -webkit-transform: translateY(-50%)
+              -moz-transform: translateY(-50%)
+              -o-transform: translateY(-50%)
+              -ms-transform: translateY(-50%)
               .product-intro-container
                 text-align: center
                 .product-title
@@ -601,8 +605,53 @@ a:focus
 
 @media (max-width: 991px)
   #cover
-    padding-top: 0 !important
-    height: 450px
+    padding-top: 0
+    min-height: calc(100vh - 77px)
+    #cover-slider
+      .cover-slider-wrapper
+        .cover-slider-item
+          .product-wrapper
+            .left-container
+              width: 100%
+              height: auto
+              .product-image-container
+                transform: none
+                -webkit-transform: none
+                -moz-transform: none
+                -o-transform: none
+                -ms-transform: none
+                margin-top: 60px
+                margin-bottom: 30px
+                .product-image
+                  max-width: 80%
+                  min-width: 80%
+            .right-container
+              width: 100%
+              height: auto
+              .product-info-wrapper
+                transform: none
+                -webkit-transform: none
+                -moz-transform: none
+                -o-transform: none
+                -ms-transform: none
+                .product-intro-container
+                  .product-title
+                    font-size: 54px
+                    line-height: 55px
+                .product-description
+                  margin-bottom: 0
+                  max-width: 85%
+                  min-width: 85%
+
+  #ribbon
+    .container-fluid
+      .ribbon-item
+        .ribbon-info-container
+          .ribbon-description
+            max-width: 57%
+            min-width: 57%
+
+
 
 
 @media (max-width: 767px)
