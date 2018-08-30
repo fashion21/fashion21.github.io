@@ -139,15 +139,16 @@ a:focus
           text-align: center
           margin-left: auto
           margin-right: auto
-
           color: $white
-      &.ribbon2
-        .ribbon-info-container
-          padding-top: 70px
-          .ribbon-icon
-            height: 35px
 
-      &.ribbon1,&.ribbon2
+      &.ribbon2
+        &:before
+          position: absolute
+          content: ''
+          border-left: 1px solid $white
+          height: 100%
+          top: 0
+          left: 0
         &:after
           position: absolute
           content: ''
@@ -155,6 +156,13 @@ a:focus
           height: 100%
           top: 0
           right: 0
+        .ribbon-info-container
+          padding-top: 70px
+          .ribbon-icon
+            height: 35px
+
+
+
 
 
 
@@ -645,11 +653,34 @@ a:focus
 
   #ribbon
     .container-fluid
-      .ribbon-item
-        .ribbon-info-container
-          .ribbon-description
-            max-width: 57%
-            min-width: 57%
+      .row
+        margin-left: 0
+        margin-right: 0
+        .ribbon-item
+          margin-top: 0
+          margin-bottom: 0
+          min-height: 0
+          .ribbon-info-container
+            padding-bottom: 50px
+            .ribbon-description
+              max-width: 57%
+              min-width: 57%
+          &.ribbon2
+            &:before
+              border-top: 1px solid #fff
+              width: 100%
+              top: 0
+              border-left: none
+            &:after
+              border-bottom: 1px solid #fff
+              width: 100%
+              bottom: 0
+              border-right: none
+            .ribbon-info-container
+              padding-top: 55px
+              padding-bottom: 55px
+
+
 
 
 
