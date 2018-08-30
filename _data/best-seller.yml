@@ -1,39 +1,39 @@
 - id: 1
   title: Matte Permanent Lipstick
-  image: "https://res.cloudinary.com/f21cosmetics/image/upload/assets/best-seller/best-seller1.jpg"
+  image: "https://res.cloudinary.com/f21cosmetics/image/upload/v1535370681/assets/best-seller/best-seller1.jpg"
   link: "/products/lips/matte-permanent-lipstick/"
 
 - id: 2
   title: Color Set
-  image: "https://res.cloudinary.com/f21cosmetics/image/upload/assets/best-seller/best-seller2.jpg"
+  image: "https://res.cloudinary.com/f21cosmetics/image/upload/v1535370681/assets/best-seller/best-seller2.jpg"
   link: "/products/face/two-way-cake-with-tea-tree-oil/"
 
 - id: 3
   title: Two Way Cake Papaya
-  image: "https://res.cloudinary.com/f21cosmetics/image/upload/assets/best-seller/best-seller3.jpg"
+  image: "https://res.cloudinary.com/f21cosmetics/image/upload/v1535370678/assets/best-seller/best-seller3.jpg"
   link: "/products/eyes/double-up-mascara/"
 
 - id: 4
   title: Blush Stick
-  image: "https://res.cloudinary.com/f21cosmetics/image/upload/assets/best-seller/best-seller4.jpg"
+  image: "https://res.cloudinary.com/f21cosmetics/image/upload/v1535370687/assets/best-seller/best-seller4.jpg"
   link: "/products/eyes/liquid-eyeliner-water-resistant/"
 
 - id: 5
   title: Cheek Tint
-  image: "https://res.cloudinary.com/f21cosmetics/image/upload/assets/best-seller/best-seller5.jpg"
+  image: "https://res.cloudinary.com/f21cosmetics/image/upload/v1535370679/assets/best-seller/best-seller5.jpg"
   link: "/products/eyes/eyebrow-gel/"
 
 - id: 6
   title: Double Up Mascara
-  image: "https://res.cloudinary.com/f21cosmetics/image/upload/assets/best-seller/best-seller6.jpg"
+  image: "https://res.cloudinary.com/f21cosmetics/image/upload/v1535370681/assets/best-seller/best-seller6.jpg"
   link: "/products/face/perfect-stick/"
 
 - id: 7
   title: Perfect Stick Tea Tree Oil
-  image: "https://res.cloudinary.com/f21cosmetics/image/upload/assets/best-seller/best-seller7.jpg"
+  image: "https://res.cloudinary.com/f21cosmetics/image/upload/v1535370684/assets/best-seller/best-seller7.jpg"
   link: "/products/eyes/eyeshadow-kit/"
 
 - id: 8
   title: Color Matte Liquid Lipstick
-  image: "https://res.cloudinary.com/f21cosmetics/image/upload/assets/best-seller/best-seller8.jpg"
+  image: "https://res.cloudinary.com/f21cosmetics/image/upload/v1535370686/assets/best-seller/best-seller8.jpg"
   link: "/products/cheeks/blush-stick/"
