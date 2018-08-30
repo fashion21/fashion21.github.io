@@ -36,9 +36,20 @@ $(document).ready(function () {
         loop: true,
         preloadImages: false,
         lazy: true,
+
         autoplay: {
-            delay: 8000,
+            delay: 6000,
             disableOnInteraction: true
+        },
+        breakpoints: {
+            991: {
+                slidesPerView: 1
+            }
+        },
+        pagination: {
+            el: '.swiper-pagination',
+            type: 'bullets',
+            clickable: true
         },
         navigation: {
             nextEl: '.swiper-button-next',
@@ -81,9 +92,6 @@ $(window).on("load",function () {
                     },
                     640: {
                         slidesPerView: 2
-                    },
-                    320: {
-                        slidesPerView: 1
                     }
                 }
             });
