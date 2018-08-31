@@ -13,6 +13,9 @@ sass:
 
 #Collections
 collections:
+  posts:
+    permalink: /blog/:path/
+
     category-page:
         output: true
         permalink: /products/:path/
