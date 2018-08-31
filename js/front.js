@@ -19,11 +19,11 @@ $(document).ready(function () {
         preventInteractionOnTransition: true,
         noSwiping: true,
         noSwipingSelector: "#cover-slider",
-        loop: true
-        // autoplay: {
-        //     delay: 6000,
-        //     disableOnInteraction: true
-        // }
+        loop: true,
+        autoplay: {
+            delay: 8000,
+            disableOnInteraction: true
+        }
         // navigation: {
         //     nextEl: '.swiper-button-next',
         //     prevEl: '.swiper-button-prev'
