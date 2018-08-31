@@ -64,7 +64,7 @@ $(window).on("load",function () {
     var feed = new Instafeed({
         get: 'user',
         userId: '1689161645',
-        clientId: '9ac414ea8c2742ceab562dd493eac687',
+        clientId: 'd32935f4eb1d4a2aa7ce432cbcfa9bee',
         accessToken: '1689161645.1677ed0.ea65a8b02aff46c996485bc1aceeb6ad',
         sortBy: 'most-recent',
         limit: 20,
