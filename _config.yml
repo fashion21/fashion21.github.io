@@ -16,47 +16,16 @@ collections:
   posts:
     permalink: /blog/:path/
 
-    category-page:
-        output: true
-        permalink: /products/:path/
-    products:
-        output: true
-        permalink: /products/:path/
+  category-page:
+      output: true
+      permalink: /products/:path/
+  products:
+      output: true
+      permalink: /products/:path/
 
-gems: [jekyll-paginate-v2]
+paginate_path: "/blog/page:num/"
+paginate: 6
 
-autopages:
-  # Site-wide kill switch, disable here and it doesn't run at all
-  enabled: false
-
-pagination:
-  enabled: true
-  debug: false
-  collection: 'posts'
-  title: ':title - page :num'
-  per_page: 6
-  limit: 0
-  permalink: '/page/:num/' # Pages are index.html inside this folder (default)
-  sort_reverse: true
-  indexpage: 'index'
-
-jekyll_timeago:
-  today: 'today'
-  yesterday: 'yesterday'
-  tomorrow: 'tomorrow'
-  and: 'and'
-  suffix: 'ago'
-  prefix: ''
-  suffix_future: 'in'
-  prefix_future: ''
-  years: 'years'
-  year: 'year'
-  months: 'months'
-  month: 'month'
-  weeks: 'weeks'
-  week: 'week'
-  days: 'days'
-  day: 'day'
 
 prose:
   rooturl: ""
