@@ -49,7 +49,11 @@ a:focus
               -o-transform: translateY(-50%)
               -ms-transform: translateY(-50%)
               .product-image
-                max-width: 90%
+                display: block
+                &.horizontal-image
+                  max-width: 85%
+                &.vertical-image
+                  max-width: 70%
 
           .right-container
             padding-left: 15px
@@ -532,19 +536,26 @@ a:focus
       .cover-slider-wrapper
         .cover-slider-item
           .product-wrapper
+            .left-container
+              .product-image-container
+                .product-image
+                  &.horizontal-image
+                    max-width: 95%
+                  &.vertical-image
+                    max-width: 85%
             .right-container
               .product-info-wrapper
                 .product-intro-container
                   .product-title
                     font-size: 42px
                     line-height: 50px
-                .product-description
-                  font-size: 18px
-                  max-width: 100%
-                  line-height: 25px
+
+                  .product-description
+                    font-size: 18px
                 .product-link-container
                   .product-link
                     font-size: 14px
+
 
   #ribbon
     .container-fluid
@@ -623,11 +634,16 @@ a:focus
                 -moz-transform: none
                 -o-transform: none
                 -ms-transform: none
-                margin-top: 120px
+                margin-top: 80px
                 margin-bottom: 30px
                 .product-image
-                  max-width: 80%
-                  min-width: 80%
+                  &.horizontal-image
+                    max-width: 75%
+                    min-width: 0
+                  &.vertical-image
+                    max-width: 55%
+                    height: auto
+
             .right-container
               width: 100%
               height: auto
@@ -638,13 +654,16 @@ a:focus
                 -o-transform: none
                 -ms-transform: none
                 .product-intro-container
+                  margin-top: 15px
                   .product-title
-                    font-size: 54px
+                    font-size: 48px
                     line-height: 55px
-                .product-description
-                  margin-bottom: 0
-                  max-width: 85%
-                  min-width: 85%
+                  .product-description
+                    margin-top: 45px
+                    max-width: 75%
+                    min-width: 0
+              .product-link-container
+                margin-top: 45px
 
   #best-seller
     .banner-section
@@ -758,8 +777,6 @@ a:focus
               .product-image-container
                 margin-top: 60px
                 .product-image
-                  max-width: 80%
-                  min-width: 80%
             .right-container
               .product-info-wrapper
                 .product-intro-container
