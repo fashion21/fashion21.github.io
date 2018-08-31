@@ -28,9 +28,9 @@
                     {% comment %} Link for previous page {% endcomment %}
                     {% if paginator.previous_page %}
                     {% if paginator.previous_page == 1 %}
-                    <li ><a href="/blog{{ first_page_path }}">{{ site.data.ui-text[site.locale].pagination_previous | default: "Previous" }}</a></li>
+                    <li ><a href="{{ first_page_path }}">{{ site.data.ui-text[site.locale].pagination_previous | default: "Previous" }}</a></li>
                     {% else %}
-                    <li ><a href="/blog{{ site.paginate_path | replace: ':num', '/'| append: paginator.previous_page | replace: '//', '/' | relative_url }}">{{ site.data.ui-text[site.locale].pagination_previous | default: "Previous" }}</a></li>
+                    <li ><a href="{{ site.paginate_path | replace: ':num', index| append: paginator.previous_page | relative_url }}">{{ site.data.ui-text[site.locale].pagination_previous | default: "Previous" }}</a></li>
                     {% endif %}
                     {% else %}
                     <li class="disabled"><a ><span aria-hidden="true">{{ site.data.ui-text[site.locale].pagination_previous | default: "Previous" }}</span></a></li>
@@ -40,7 +40,7 @@
                     {% if paginator.page == 1 %}
                     <li class="disabled current"><a  >1</a></li>
                     {% else %}
-                    <li><a href="/blog{{ first_page_path }}">1</a></li>
+                    <li><a href="{{ first_page_path }}">1</a></li>
                     {% endif %}
 
                     {% assign page_start = 2 %}
@@ -58,7 +58,7 @@
 
                     {% for index in (page_start..page_end) %}
                     {% if index == paginator.page %}
-                    <li class="disabled current"><a href="/blog{{ site.paginate_path | replace: ':num','/'| append: index | replace: '//', '/' | relative_url }}" >{{ index }}</a></li>
+                    <li class="disabled current"><a href="{{ site.paginate_path | replace: ':num', index | relative_url }}" >{{ index }}</a></li>
                     {% else %}
                     {% comment %} Distance from active page and this link {% endcomment %}
                     {% assign dist = paginator.page | minus: index %}
@@ -66,7 +66,7 @@
                     {% comment %} Distance must be a positive value {% endcomment %}
                     {% assign dist = 0 | minus: dist %}
                     {% endif %}
-                    <li><a href="/blog{{ site.paginate_path | replace: ':num','/'| append: index | relative_url }}">{{ index }}</a></li>
+                    <li><a href="{{ site.paginate_path | replace: ':num', index | relative_url }}">{{ index }}</a></li>
                     {% endif %}
                     {% endfor %}
 
@@ -78,12 +78,12 @@
                     {% if paginator.page == paginator.total_pages %}
                     <li class="disabled current"><a >{{ paginator.page }}</a></li>
                     {% else %}
-                    <li><a href="/blog{{ site.paginate_path | replace: ':num', '/' | append: paginator.total_pages | replace: '//', '/' | relative_url }}">{{ paginator.total_pages }}</a></li>
+                    <li><a href="{{ site.paginate_path | replace: ':num', paginator.total_pages | replace: '//', ''  }}">{{ paginator.total_pages }}</a></li>
                     {% endif %}
 
                     {% comment %} Link next page {% endcomment %}
                     {% if paginator.next_page %}
-                    <li><a href="/blog{{ site.paginate_path | replace: ':num', '/'| append: paginator.next_page | replace: '//', '/' | relative_url }}">{{ site.data.ui-text[site.locale].pagination_next | default: "Next" }}</a></li>
+                    <li><a href="{{ site.paginate_path | replace: ':num', paginator.next_page | replace: '//', '/'  }}">{{ site.data.ui-text[site.locale].pagination_next | default: "Next" }}</a></li>
                     {% else %}
                     <li class="disabled"><a ><span aria-hidden="true">{{ site.data.ui-text[site.locale].pagination_next | default: "Next" }}</span></a></li>
                     {% endif %}
