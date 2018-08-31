@@ -1,7 +1,8 @@
 <div class="container">
     <div class="row">
         <div id="itemContainer" class="video-list-container clearfix">
-            {% for video in site.data.video | sort: 'id' | reverse  %}
+            {% assign sorted-video = site.data.video | sort: 'id' | reverse %}
+            {% for video in sorted-video %}
             <div class="col-md-4 col-xs-12 video-list">
                 <a  class="video-link loading" href="" data-izimodal-open="#slug{{ video.id }}">
                     <div class="video-play-container">

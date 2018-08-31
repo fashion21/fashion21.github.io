@@ -1,39 +1,44 @@
-- id: 8
-  title: "FASHION 21 FULLFACE MAKEUP LOOK"
-  image-link: "https://picsum.photos/500/400"
-  video-link: "V3Wy6xuagBw"
-
-- id: 7
-  title: "MURA NGA PERO MAGANDA BA?!!! FULL FACE USING FASHION 21 COSMETICS"
-  image-link: "https://picsum.photos/500/400"
-  video-link: "Hz7TVUVOojs"
-
-- id: 6
-  title: "ANUTO!? MAY IBUBUGA BA ANG FASHION 21"
-  image-link: "https://picsum.photos/500/400"
-  video-link: "_J_FXYRccxc"
-
-- id: 5
-  title: "OFFICE MAKEUP TUTORIAL"
-  image-link: "https://picsum.photos/500/400"
-  video-link: "DR47XIKrXQA"
-
-- id: 4
-  title: "SULIT NA MAKEUP? FULL FACE USING FASHION 21 BEST SELLER?!"
-  image-link: "https://picsum.photos/500/400"
-  video-link: "5sIACL8Bcsc"
-
-- id: 3
-  title: "FULL FACE USING FASHION 21 COSMETICS"
-  image-link: "https://picsum.photos/500/400"
-  video-link: "qoTiXnloeDY"
+- id: 1
+  title: "Fashion 21 Cosmetics FULL FACE"
+  image-link: "https://res.cloudinary.com/f21cosmetics/image/upload/v1535699685/assets/video-cover/video-cover1.jpg"
+  video-link: "eWUlciR9ahY"
 
 - id: 2
   title: "FASHION 21 MATTE LIPSTICK SWATCHES"
-  image-link: "https://picsum.photos/500/400"
+  image-link: "https://res.cloudinary.com/f21cosmetics/image/upload/v1535699685/assets/video-cover/video-cover2.jpg"
   video-link: "JUVDKTSTvxg"
 
-- id: 1
-  title: "Fashion 21 Cosmetics FULL FACE"
-  image-link: "https://picsum.photos/500/400"
-  video-link: "eWUlciR9ahY"
+- id: 3
+  title: "FULL FACE USING FASHION 21 COSMETICS"
+  image-link: "https://res.cloudinary.com/f21cosmetics/image/upload/v1535699685/assets/video-cover/video-cover3.jpg"
+  video-link: "qoTiXnloeDY"
+
+- id: 4
+  title: "SULIT NA MAKEUP? FULL FACE USING FASHION 21 BEST SELLER?!"
+  image-link: "https://res.cloudinary.com/f21cosmetics/image/upload/v1535699688/assets/video-cover/video-cover4.jpg"
+  video-link: "5sIACL8Bcsc"
+
+- id: 5
+  title: "OFFICE MAKEUP TUTORIAL"
+  image-link: "https://res.cloudinary.com/f21cosmetics/image/upload/v1535699683/assets/video-cover/video-cover5.jpg"
+  video-link: "DR47XIKrXQA"
+
+- id: 6
+  title: "ANUTO!? MAY IBUBUGA BA ANG FASHION 21"
+  image-link: "https://res.cloudinary.com/f21cosmetics/image/upload/v1535699685/assets/video-cover/video-cover6.jpg"
+  video-link: "_J_FXYRccxc"
+
+- id: 7
+  title: "MURA NGA PERO MAGANDA BA?!!! FULL FACE USING FASHION 21 COSMETICS"
+  image-link: "https://res.cloudinary.com/f21cosmetics/image/upload/v1535699687/assets/video-cover/video-cover7.jpg"
+  video-link: "Hz7TVUVOojs"
+
+- id: 8
+  title: "FASHION 21 FULLFACE MAKEUP LOOK"
+  image-link: "https://res.cloudinary.com/f21cosmetics/image/upload/v1535699687/assets/video-cover/video-cover8.jpg"
+  video-link: "V3Wy6xuagBw"
+
+
+
+
+
