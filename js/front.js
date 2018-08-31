@@ -23,6 +23,11 @@ $(document).ready(function () {
         autoplay: {
             delay: 8000,
             disableOnInteraction: true
+        },
+        pagination: {
+            el: '.swiper-pagination',
+            type: 'bullets',
+            clickable: true
         }
         // navigation: {
         //     nextEl: '.swiper-button-next',
