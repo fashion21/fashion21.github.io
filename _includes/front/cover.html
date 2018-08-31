@@ -6,7 +6,7 @@
                 <div class="product-wrapper">
                     <div class="left-container">
                         <div class="product-image-container">
-                            <img src="{{ headerCarousel.product-image }}" class="center-block product-image" />
+                            <img src="{{ headerCarousel.product-image }}" class="{{ headerCarousel.imageType }} center-block product-image" />
                         </div>
                     </div>
                     <div class="right-container">
@@ -23,7 +23,8 @@
                 </div>
             </div>
         {% endfor %}
-    </div>
+        </div>
+    <div class="swiper-pagination"></div>
 </div>
 <!--<div class="swiper-button-container">-->
     <!--<div class="swiper-button-prev"></div>-->
