@@ -3,7 +3,7 @@
         <div id="itemContainer" class="video-list-container clearfix">
             {% assign sorted-video = site.data.video | sort: 'id' | reverse %}
             {% for video in sorted-video %}
-            <div class="col-md-4 col-xs-12 video-list">
+            <div class="col-md-4 col-sm-6 col-xs-12 video-list">
                 <a  class="video-link loading" href="" data-izimodal-open="#slug{{ video.id }}">
                     <div class="video-play-container">
                         <span class="video-play glyphicon glyphicon-play-circle"></span>
