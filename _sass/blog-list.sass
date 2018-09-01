@@ -246,24 +246,56 @@ body
                 color: white
 
 
-            
-              
-
-
 @media (min-width: 1442px)
   #video
     .container
       width: 100%
-      max-width: 1600px
+      max-width: 1440px
       margin-left: auto
       margin-right: auto
 
   #blog
     .container
       width: 100%
-      max-width: 1600px
+      max-width: 1440px
       margin-left: auto
       margin-right: auto
 
+@media (max-width: 767px)
+  #video
+    margin-bottom: 60px
+
+@media (max-width: 480px)
+  #banner
+    height: auto
+    .banner-text
+      font-size: 28px
+      padding: 120px 0
+
+  #video
+    margin-bottom: 30px
+    .banner-section
+      padding: 25px 40px
+      .banner-title
+        font-size: 18px
+    .container
+      .more-video-container
+        .more-video-button
+          font-size: 18px
+
+  #blog
+    .banner-section
+      padding: 25px 40px
+      .banner-title
+        font-size: 18px
+
+    .container
+      .blog-list-container
+        .blog-wrapper
+          .blog-item
+            .blog-link
+              .blog-title-container
+                .blog-title
+                  font-size: 16px
 
 

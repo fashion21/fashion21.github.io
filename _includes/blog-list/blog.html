@@ -7,7 +7,7 @@
         <div class="blog-list-container">
             <div class="blog-wrapper clearfix">
                 {% for post in paginator.posts %}
-                <div class="col-md-4 blog-item">
+                <div class="col-md-4 col-sm-6 col-xs-12 blog-item">
                     <a href="{{ post.url }}" class="blog-link ">
                         <div class="blog-image-container loading">
                             <img class="b-lazy blog-image img-responsive center-block" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{{ post.cover }}" alt="blog-image"/>
