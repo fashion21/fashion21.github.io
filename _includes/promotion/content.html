@@ -2,9 +2,9 @@
 <div class="container">
     <div id="itemContainer" class="promo-wrapper clearfix">
         {% for promo in site.data.promoPage reversed %}
-        <div class="promo-list col-md-6 col-sm-6 col-xs-12 loading">
+        <div class="promo-list col-md-6 col-sm-6 col-xs-12">
             <h2 class="header">{{ promo.title }}</h2>
-            <div class="promo-image-container">
+            <div class="promo-image-container loading">
                 <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{{ promo.image }}" alt="Promotion" class="b-lazy center-block img-responsive image"/>
             </div>
         </div>
