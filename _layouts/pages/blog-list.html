@@ -42,7 +42,7 @@ javascripts: |
             }],
             success: function(element){
                 setTimeout(function(){
-                    var parentVideo = element.parentNode.parentNode;
+                    var parentVideo = element.parentNode;
                     var parentBlog = element.parentNode;
 
                     parentVideo.className = parentVideo.className.replace(/\bloading\b/,'');
