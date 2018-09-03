@@ -13,19 +13,12 @@ sass:
 
 #Collections
 collections:
-  posts:
-    permalink: /blog/:path/
-
   category-page:
       output: true
       permalink: /products/:path/
   products:
       output: true
       permalink: /products/:path/
-
-paginate_path: "/blog/page:num/"
-paginate: 6
-
 
 prose:
   rooturl: ""
