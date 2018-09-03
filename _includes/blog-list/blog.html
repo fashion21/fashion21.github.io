@@ -5,9 +5,28 @@
     <!-- This loops through the paginated posts -->
     <div class="row">
         <div class="blog-list-container">
-            <div class="blog-wrapper clearfix">
+            <div class="blog-wrapper clearfix visible-lg visible-md visible-sm hidden-xs">
                 {% assign sorted-article = site.data.article | sort: 'slugID' | reverse %}
                 {% for article in sorted-article limit:6 %}
+                <div class="col-md-4 col-sm-6 col-xs-12 blog-item">
+                    <a href="{{ article.link }}" class="blog-link" target="_blank">
+                        <div class="blog-image-container loading">
+                            <div class="caption">
+                                <span class="caption-text">Visit Article</span>
+                            </div>
+                            <img class="b-lazy blog-image img-responsive center-block" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{{ article.cover }}" alt="blog-image"/>
+                        </div>
+                        <div class="blog-title-container">
+                            <span class="blog-title">{{ article.title | truncate: 70 }}</span>
+                        </div>
+                    </a>
+                </div>
+                {% endfor %}
+            </div>
+
+            <div class="blog-wrapper clearfix hidden-lg hidden-md hidden-sm visible-xs">
+                {% assign sorted-article = site.data.article | sort: 'slugID' | reverse %}
+                {% for article in sorted-article limit:2 %}
                 <div class="col-md-4 col-sm-6 col-xs-12 blog-item">
                     <a href="{{ article.link }}" class="blog-link" target="_blank">
                         <div class="blog-image-container loading">
