@@ -4,13 +4,16 @@
             {% assign sorted-video = site.data.video | sort: 'id' | reverse %}
             {% for video in sorted-video %}
             <div class="col-md-4 col-sm-6 col-xs-12 video-list">
-                <a  class="video-link loading" href="" data-izimodal-open="#slug{{ video.id }}">
-                    <div class="video-play-container">
-                        <span class="video-play glyphicon glyphicon-play-circle"></span>
-                    </div><!--video-play-container-->
-                    <div class="video-image-container">
+                <a  class="video-link " href="" data-izimodal-open="#slug{{ video.id }}">
+                    <div class="video-image-container loading">
+                        <div class="video-play-container">
+                            <span class="video-play glyphicon glyphicon-play-circle"></span>
+                        </div><!--video-play-container-->
                         <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{{ video.image-link }}" class="b-lazy video-image img-responsive center-block" alt="video-image"/>
                     </div><!--.video-image-container-->
+                    <div class="video-title-container">
+                        <span class="video-title">{{ video.title | truncate: 70 }}</span>
+                    </div>
                 </a>
             </div><!--.video-list-->
             <div id="slug{{ video.id }}" class="video-modal" data-izimodal-transitionin="fadeInDown" data-izimodal-title="{{ video.title }} {{ video.id }}"  data-izimodal-iframeURL="https://www.youtube.com/embed/{{ video.video-link }}?autoplay=1&fs=0&rel=0&showinfo=0"></div>
