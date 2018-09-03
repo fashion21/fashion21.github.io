@@ -201,7 +201,6 @@ body
       color: #fff
       display: block
       font-size: 24px
-
   .container
     .blog-list-container
       .blog-wrapper
@@ -216,6 +215,34 @@ body
               &.loading
                 background-color: #f7f7f7
                 padding-bottom: 66.668% !important
+              .caption
+                opacity: 0
+                position: absolute
+                width: 100%
+                height: 100%
+                transition: all 300ms ease-in-out
+                -webkit-transition: all 300ms ease-in-out
+                -moz-transition: all 300ms ease-in-out
+                -o-transition: all 300ms ease-in-out
+                -ms-transition: all 300ms ease-in-out
+                .caption-text
+                  font-size: 18px
+                  letter-spacing: 5px
+                  position: relative
+                  font-family: "Avenir-Medium", sans-serif
+                  text-transform: uppercase
+                  display: block
+                  color: white
+                  text-align: center
+                  top: 50%
+                  transform: translateY(-50%)
+                  -webkit-transform: translateY(-50%)
+                  -moz-transform: translateY(-50%)
+                  -o-transform: translateY(-50%)
+                  -ms-transform: translateY(-50%)
+                &:hover
+                  opacity: 1
+                  background-color: rgba(0,0,0,0.7)
             .blog-title-container
               position: relative
               background-color: $black
