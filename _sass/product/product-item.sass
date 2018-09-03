@@ -7,6 +7,35 @@
 body
   margin-top: 132px !important
 
+.shopee-link-container
+  margin-top: 30px
+  margin-bottom: 30px
+  position: relative
+  .shopee-link
+    display: inline-block
+    font-family: "Avenir-light", sans-serif
+    color: #fff
+    border: 1px solid #ff5722
+    background: #ff5722
+    text-decoration: none
+    font-size: 14px
+    letter-spacing: 2px
+    padding: 15px 30px
+    transition: all 300ms ease-in-out
+    -webkit-transition: all 300ms ease-in-out
+    -moz-transition: all 300ms ease-in-out
+    -o-transition: all 300ms ease-in-out
+    -ms-transition: all 300ms ease-in-out
+    &:hover
+      background-color: #e64f1f
+    .cart-icon
+      display: inline-block
+      height: 20px
+      vertical-align: middle
+      margin-right: 20px
+      filter: invert(100%)
+
+
 .swatches
   display: inline-block
   .swatch
@@ -98,5 +127,12 @@ body
             background-position: -72px -12px
       .lSPager
         display: none
+
+@media (max-width: 991px)
+  .shopee-link-container
+    width: 100%
+    .shopee-link
+      text-align: center
+      display: block
 
 

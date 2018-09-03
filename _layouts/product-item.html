@@ -32,54 +32,62 @@
             <div class="caption">
                 <h2>{{ page.title}}</h2>
                 <p>{{ content }}</p>
-                <p>
-                    <div class="product row">
-                        <div class="swatch col-xs-9 vcenter">
-                            {% unless page.colors[0].hex == 'N/A' %}
-                                <h3>Colors Available:</h3>
-                                {% if page.multiple_colors %}
-                                    {% for color in page.colors %}
-                                        <h5>{{ color.color }}</h5>
-                                        <div class="swatches">
-                                            {% assign multiple_colors = color.hex | split: "+" %}
-                                            {% for color in multiple_colors %}
-                                                <div data-toggle="popover" data-content="{{ color.color }}" class="swatch" style="background-color: #{{ color }};"></div>
-                                            {% endfor %}
-                                        </div>
-                                    {% endfor %}
-                                {% elsif page.color_image %}
-                                <div class="swatches">
-                                    {% for color in page.colors %}
+                <!--Product container-->
+                <div class="product row">
+                    <div class="swatch col-xs-9 vcenter">
+                        {% unless page.colors[0].hex == 'N/A' %}
+                            <h3>Colors Available:</h3>
+                            {% if page.multiple_colors %}
+                                {% for color in page.colors %}
                                     <h5>{{ color.color }}</h5>
-                                    <img class="img-responsive" src="{{ color.hex }}" alt="{{ color.color }}" alt="Product color">
-                                    {% endfor %}
-                                </div>
-                                {% else %}
                                     <div class="swatches">
-                                        {% for color in page.colors %}
-                                            <div data-toggle="popover" data-content="{{ color.color }}" class="swatch" style="background-color: #{{ color.hex }};"></div>
+                                        {% assign multiple_colors = color.hex | split: "+" %}
+                                        {% for color in multiple_colors %}
+                                            <div data-toggle="popover" data-content="{{ color.color }}" class="swatch" style="background-color: #{{ color }};"></div>
                                         {% endfor %}
                                     </div>
-                                {% endif %}
-                            {% endunless %}
-                        </div>
-                        {% if page.product_color_stroke == "foundation" %}
-                        <div class="col-xs-3 color-picker-container vcenter">
-                            <div class="color-picker">
-                                <img class="img-responsive" src="/img/Foundation/FoundationColorTemplateShadows.png" alt="Product Image">
-                                <img id="preview-color" class="img-responsive" src="/img/Foundation/FoundationColorTemplateAlpha.png" alt="Product Image" style="background-color: #{{ page.colors[0].hex }};">
+                                {% endfor %}
+                            {% elsif page.color_image %}
+                            <div class="swatches">
+                                {% for color in page.colors %}
+                                <h5>{{ color.color }}</h5>
+                                <img class="img-responsive" src="{{ color.hex }}" alt="{{ color.color }}" alt="Product color">
+                                {% endfor %}
                             </div>
-                        </div>
-                        {% elsif page.product_color_stroke == "brush" %}
-                        <div class="col-xs-3 color-picker-container vcenter">
-                            <div class="color-picker">
-                                <img class="img-responsive" src="/img/Brush/BrushColorTemplateShadows.png" alt="Product Image">
-                                <img id="preview-color" class="img-responsive" src="/img/Brush/BrushColorTemplateAlpha.png" alt="Product Image" style="background-color: #{{ page.colors[0].hex }};">
-                            </div>
-                        </div>
-                        {% endif %}
+                            {% else %}
+                                <div class="swatches">
+                                    {% for color in page.colors %}
+                                        <div data-toggle="popover" data-content="{{ color.color }}" class="swatch" style="background-color: #{{ color.hex }};"></div>
+                                    {% endfor %}
+                                </div>
+                            {% endif %}
+                        {% endunless %}
                     </div>
-                </p>
+                    {% if page.product_color_stroke == "foundation" %}
+                    <div class="col-xs-3 color-picker-container vcenter">
+                        <div class="color-picker">
+                            <img class="img-responsive" src="/img/Foundation/FoundationColorTemplateShadows.png" alt="Product Image">
+                            <img id="preview-color" class="img-responsive" src="/img/Foundation/FoundationColorTemplateAlpha.png" alt="Product Image" style="background-color: #{{ page.colors[0].hex }};">
+                        </div>
+                    </div>
+                    {% elsif page.product_color_stroke == "brush" %}
+                    <div class="col-xs-3 color-picker-container vcenter">
+                        <div class="color-picker">
+                            <img class="img-responsive" src="/img/Brush/BrushColorTemplateShadows.png" alt="Product Image">
+                            <img id="preview-color" class="img-responsive" src="/img/Brush/BrushColorTemplateAlpha.png" alt="Product Image" style="background-color: #{{ page.colors[0].hex }};">
+                        </div>
+                    </div>
+                    {% endif %}
+                </div>
+                <!--Shopee link-->
+                {% if page.shopee-link !="" %}
+                <div class="shopee-link-container clearfix">
+                    <!--<a href="{{ page.shopee-link }}" class="shopee-link"><span class="glyphicon glyphicon-shopping-cart"></span>Shopee</a>-->
+                    <a href="{{ page.shopee-link }}" class="shopee-link" target="_blank"><img class="cart-icon" src="https://res.cloudinary.com/f21cosmetics/image/upload/assets/shop/shopping-cart.png"/>Buy Now</a>
+                </div>
+
+                {% endif %}
+
             </div>
         </div>
 
