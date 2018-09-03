@@ -1,5 +1,6 @@
 ---
 published: true
+shopee-link: "https://shopee.ph/Fashion21-Matte-Permanent-Lipstick-i.26222223.826165357"
 title: Matte Permanent Lipstick
 id: 48
 layout: product-item

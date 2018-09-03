@@ -1,5 +1,6 @@
 ---
 published: true
+shopee-link: "https://shopee.ph/Fashion21-Fine-Blush-Powder-i.26222223.826193961"
 id: 35
 title: Fine Blush Powder
 layout: product-item

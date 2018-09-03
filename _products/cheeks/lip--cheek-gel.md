@@ -1,4 +1,5 @@
 ---
+shopee-link: "https://shopee.ph/Fashion21-Lip-Cheek-Gel-i.26222223.826165431"
 id: 36
 title: "Lip & Cheek Gel"
 layout: product-item

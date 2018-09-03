@@ -1,5 +1,6 @@
 ---
 published: true
+shopee-link: "https://shopee.ph/Fashion21-All-Day-Matte-Lipstick-i.26222223.826165373"
 id: 41
 title: All Day Matte Lipstick
 layout: product-item

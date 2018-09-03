@@ -1,5 +1,6 @@
 ---
 published: true
+shopee-link: "https://shopee.ph/Fashion21-Contouring-Kit-i.26222223.826165350"
 id: 38
 title: Contouring Kit
 layout: product-item

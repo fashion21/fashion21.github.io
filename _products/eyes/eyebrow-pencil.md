@@ -1,4 +1,5 @@
 ---
+shopee-link: "https://shopee.ph/Fashion21-Eyeliner-Pencil-i.26222223.826165467"
 id: 23
 title: Eyebrow Pencil
 layout: product-item

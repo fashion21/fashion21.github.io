@@ -1,4 +1,5 @@
 ---
+shopee-link: "https://shopee.ph/Fashion21-Two-Way-Cake-with-Papaya-Extract-i.26222223.826193915"
 published: true
 id: 10
 title: Two-Way Cake with Papaya Extract

@@ -1,4 +1,5 @@
 ---
+shopee-link: "https://shopee.ph/Fashion21-Eyebrow-Gel-i.26222223.826165375"
 id: 22
 title: Eyebrow Gel
 layout: product-item

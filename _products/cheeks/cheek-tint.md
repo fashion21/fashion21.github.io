@@ -1,4 +1,5 @@
 ---
+shopee-link: "https://shopee.ph/Fashion21-Lip-Cheek-Tint-i.26222223.826165426"
 id: 34
 title: "Cheek Tint"
 layout: product-item

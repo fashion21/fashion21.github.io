@@ -1,4 +1,5 @@
 ---
+shopee-link: ""
 id: 72
 title: Shaver
 layout: product-item

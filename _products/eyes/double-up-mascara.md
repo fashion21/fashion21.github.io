@@ -1,4 +1,5 @@
 ---
+shopee-link: "https://shopee.ph/Fashion21-Double-Up-Mascara-i.26222223.826193918"
 id: 19
 title: "Double-Up Mascara"
 layout: product-item

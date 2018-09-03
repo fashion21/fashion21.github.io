@@ -1,4 +1,5 @@
 ---
+shopee-link: "https://shopee.ph/Fashion21-Dipliner-i.26222223.826165459"
 id: 18
 title: Dipliner
 layout: product-item

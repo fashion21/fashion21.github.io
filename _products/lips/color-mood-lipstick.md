@@ -1,4 +1,5 @@
 ---
+shopee-link: "https://shopee.ph/Fashion21-Color-Mood-Lipstick-i.26222223.826165349"
 id: 43
 title: "Color Mood Lipstick"
 layout: product-item

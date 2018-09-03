@@ -1,5 +1,6 @@
 ---
 published: true
+shopee-link: "https://shopee.ph/Fashion21-Color-Bar-i.26222223.826193940"
 id: 31
 title: Color Bar
 layout: product-item

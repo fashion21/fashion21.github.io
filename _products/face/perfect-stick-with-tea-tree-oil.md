@@ -1,4 +1,5 @@
 ---
+shopee-link: "https://shopee.ph/Fashion21-Perfect-Stick-with-Tea-Tree-Oil-i.26222223.826165479"
 id: 4
 title: "Perfect Stick with Tea-Tree Oil"
 layout: product-item

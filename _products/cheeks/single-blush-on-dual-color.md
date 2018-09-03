@@ -1,4 +1,5 @@
 ---
+shopee-link: "https://shopee.ph/Fashion21-Blush-On-(Dual-Tone)-i.26222223.826165417"
 id: 81
 title: "Single Blush-On (dual color)"
 layout: product-item

@@ -1,4 +1,5 @@
 ---
+shopee-link: "https://shopee.ph/Fashion21-Kabuki-Brush-i.26222223.826165390"
 id: 55
 title: Kabuki Brush
 layout: product-item

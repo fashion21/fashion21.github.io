@@ -1,4 +1,5 @@
 ---
+shopee-link: "https://shopee.ph/Fashion21-Color-Set-i.26222223.826193956"
 id: 32
 title: "Color Set"
 layout: product-item

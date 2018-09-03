@@ -1,5 +1,6 @@
 ---
 published: true
+shopee-link: "https://shopee.ph/Fashion21-Paddle-Brush-i.26222223.826165367"
 id: 55
 title: Paddle Brush
 layout: product-item

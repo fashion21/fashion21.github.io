@@ -1,4 +1,5 @@
 ---
+shopee-link: "https://shopee.ph/Fashion21-Eyebrow-Duo-Powder-i.26222223.826165446"
 id: 20
 title: Duo Eyebrow Powder
 layout: product-item
