@@ -35,69 +35,128 @@ body
     color: white
     padding: 116px 0
     text-transform: uppercase
-#blog-list
+
+#article
+  position: relative
+  padding-top: 40px
+  padding-bottom: 40px
+  min-height: 61vh
   .container
-    .blog-list-container
-      .blog-wrapper
-        .blog-item
-          margin-bottom: 30px
-          .blog-link
+    .article-wrapper
+      min-height: 0 !important
+      .article-item
+        margin-bottom: 30px
+        .article-link
+          position: relative
+          text-decoration: none
+          display: block
+          .article-image-container
             position: relative
-            text-decoration: none
-            display: block
-            .blog-image-container
-              position: relative
-              &.loading
-                background-color: #f7f7f7
-                padding-bottom: 66.668% !important
-              .caption
-                opacity: 0
-                position: absolute
-                width: 100%
-                height: 100%
-                transition: all 300ms ease-in-out
-                -webkit-transition: all 300ms ease-in-out
-                -moz-transition: all 300ms ease-in-out
-                -o-transition: all 300ms ease-in-out
-                -ms-transition: all 300ms ease-in-out
-                .caption-text
-                  font-size: 18px
-                  letter-spacing: 5px
-                  position: relative
-                  font-family: "Avenir-Medium", sans-serif
-                  text-transform: uppercase
-                  display: block
-                  color: white
-                  text-align: center
-                  top: 50%
-                  transform: translateY(-50%)
-                  -webkit-transform: translateY(-50%)
-                  -moz-transform: translateY(-50%)
-                  -o-transform: translateY(-50%)
-                  -ms-transform: translateY(-50%)
-                &:hover
-                  opacity: 1
-                  background-color: rgba(0,0,0,0.7)
-            .blog-title-container
-              position: relative
-              background-color: $black
-              height: 100px
-              padding-left: 15px
-              padding-right: 15px
-              .blog-title
-                line-height: 25px
-                color: $white
-                display: block
-                text-align: center
-                font-size: 16px
-                text-transform: capitalize
+            &.loading
+              background-color: #f7f7f7
+              padding-bottom: 66.668% !important
+            .caption
+              opacity: 0
+              position: absolute
+              width: 100%
+              height: 100%
+              transition: all 300ms ease-in-out
+              -webkit-transition: all 300ms ease-in-out
+              -moz-transition: all 300ms ease-in-out
+              -o-transition: all 300ms ease-in-out
+              -ms-transition: all 300ms ease-in-out
+              .caption-text
+                font-size: 18px
+                letter-spacing: 5px
                 position: relative
+                font-family: "Avenir-Medium", sans-serif
+                text-transform: uppercase
+                display: block
+                color: white
+                text-align: center
                 top: 50%
                 transform: translateY(-50%)
                 -webkit-transform: translateY(-50%)
                 -moz-transform: translateY(-50%)
                 -o-transform: translateY(-50%)
                 -ms-transform: translateY(-50%)
+              &:hover
+                opacity: 1
+                background-color: rgba(0,0,0,0.7)
+          .article-title-container
+            position: relative
+            background-color: $black
+            height: 100px
+            padding-left: 15px
+            padding-right: 15px
+            .article-title
+              line-height: 25px
+              color: $white
+              display: block
+              text-align: center
+              font-size: 16px
+              text-transform: capitalize
+              position: relative
+              top: 50%
+              transform: translateY(-50%)
+              -webkit-transform: translateY(-50%)
+              -moz-transform: translateY(-50%)
+              -o-transform: translateY(-50%)
+              -ms-transform: translateY(-50%)
+    .pagination
+      display: table
+      margin-left: auto
+      margin-right: auto
+      a
+        list-style: none
+        float: left
+        min-width: 14px
+        margin: 0 5px 0 0
+        border-radius: 0
+        box-shadow: 0 1px 2px rgba(0,0,0,0.2)
+        background: #efefef
+        background: -moz-linear-gradient(top, #ffffff 0%, #efefef 100%)
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#efefef))
+        background: -webkit-linear-gradient(top, #ffffff 0%,#efefef 100%)
+        background: -o-linear-gradient(top, #ffffff 0%,#efefef 100%)
+        background: -ms-linear-gradient(top, #ffffff 0%,#efefef 100%)
+        background: linear-gradient(top, #ffffff 0%,#efefef)
+        color: #666
+        display: block
+        text-decoration: none
+        font-size: 14px
+        line-height: 24px
+        font-weight: normal
+        text-align: center
+        background-color: transparent
+        border-color: transparent
+        padding: 5px 15px
+        &.jp-disabled, &.jp-current
+          background: #666
+          color: #FFF
+          border-color: #444
+          box-shadow: 0 1px 0 rgba(255,255,255,1), 0 0 2px rgba(0, 0, 0, 0.3) inset
+          cursor: default
+
+
+
+@media (min-width: 1442px)
+  #article
+    .container
+      width: 100%
+      max-width: 1440px
+      margin-left: auto
+      margin-right: auto
+
+@media (max-width: 480px)
+  #banner
+    height: auto
+    .banner-text
+      font-size: 28px
+      padding: 60px 0
+
+
+
 
 
 
