@@ -1,42 +1,82 @@
 - id: 1
-  title: "Fashion 21 Cosmetics FULL FACE"
-  image-link: "https://res.cloudinary.com/f21cosmetics/image/upload/v1535699685/assets/video-cover/video-cover1.jpg"
-  video-link: "eWUlciR9ahY"
+  title: "Fashion 21 All Day Matte Lipstick Review"
+  image-link: "https://res.cloudinary.com/f21cosmetics/image/upload/v1535962710/assets/video-cover/KrisLumagui.jpg"
+  video-link: "0mmLXYqZGsM"
 
 - id: 2
-  title: "FASHION 21 MATTE LIPSTICK SWATCHES"
-  image-link: "https://res.cloudinary.com/f21cosmetics/image/upload/v1535699685/assets/video-cover/video-cover2.jpg"
-  video-link: "JUVDKTSTvxg"
+  title: "Eyebrows on Fleek"
+  image-link: "https://res.cloudinary.com/f21cosmetics/image/upload/v1535959341/assets/video-cover/AnaVictorino_1.jpg"
+  video-link: "KYUafgwbNRs"
 
 - id: 3
-  title: "FULL FACE USING FASHION 21 COSMETICS, REVIEW + WEAR TEST! MURANG MAKEUP! | Gen-zel Habab"
-  image-link: "https://res.cloudinary.com/f21cosmetics/image/upload/v1535770297/assets/video-cover/video-cover3.jpg"
-  video-link: "qoTiXnloeDY"
+  title: "90s Doll Makeup Tutorial"
+  image-link: "https://res.cloudinary.com/f21cosmetics/image/upload/v1535959337/assets/video-cover/AnaVictorino.jpg"
+  video-link: "1SsTJbC1brs"
 
 - id: 4
-  title: "SULIT NA MAKEUP? FULL FACE USING FASHION 21 BEST SELLER?! MAGANDA BA?!"
-  image-link: "https://res.cloudinary.com/f21cosmetics/image/upload/v1535770295/assets/video-cover/video-cover4.jpg"
-  video-link: "5sIACL8Bcsc"
+  title: "OK BA? Fashion21 Makeup Video"
+  image-link: "https://res.cloudinary.com/f21cosmetics/image/upload/v1535963013/assets/video-cover/SayTioco1.jpg"
+  video-link: "Q_fLADm8JHw"
 
 - id: 5
-  title: "#TIPIDMAKEUP OFFICE MAKEUP TUTORIAL! Full Face using FASHION 21!"
-  image-link: "https://res.cloudinary.com/f21cosmetics/image/upload/v1535770295/assets/video-cover/video-cover5.jpg"
-  video-link: "DR47XIKrXQA"
+  title: "FASHION21 FIRST IMPRESSIONS + DEMO| Anna Cay ♥"
+  image-link: "https://res.cloudinary.com/f21cosmetics/image/upload/v1535960310/assets/video-cover/AnaCay1.jpg"
+  video-link: "4Acx4edke0c"
 
 - id: 6
-  title: "ANUTO!? MAY IBUBUGA BA ANG FASHION 21!? ILABAN NG FULL FACE!!"
-  image-link: "https://res.cloudinary.com/f21cosmetics/image/upload/v1535770295/assets/video-cover/video-cover6.jpg"
-  video-link: "_J_FXYRccxc"
+  title: "EASY EVERY DAY Summer Makeup by Jessica Godinez"
+  image-link: "https://res.cloudinary.com/f21cosmetics/image/upload/v1535962692/assets/video-cover/JessicalGodinez.jpg"
+  video-link: "3uk2aYVP21U"
 
 - id: 7
-  title: "MURA NGA PERO MAGANDA BA?!!! FULL FACE USING FASHION 21 COSMETICS"
-  image-link: "https://res.cloudinary.com/f21cosmetics/image/upload/v1535699687/assets/video-cover/video-cover7.jpg"
-  video-link: "Hz7TVUVOojs"
+  title: "100 LIPSTICKS UNBOXING!! (Fashion 21 Cosmetics)"
+  image-link: "https://res.cloudinary.com/f21cosmetics/image/upload/v1535963001/assets/video-cover/RealAsianBeauty1.jpg"
+  video-link: "9M_EV7eQMCU"
 
 - id: 8
+  title: "Say Tioco's Updated Affordable Kilay Tutorial featuring Fashion21"
+  image-link: "https://res.cloudinary.com/f21cosmetics/image/upload/v1535962694/assets/video-cover/Say_Tioco.jpg"
+  video-link: "UMoy8BetTS8"
+
+- id: 9
+  title: "TIPID MAKEUP: Fashion 21 Cosmetics FULL FACE!"
+  image-link: "https://res.cloudinary.com/f21cosmetics/image/upload/v1535959339/assets/video-cover/Anneclutz.jpg"
+  video-link: "eWUlciR9ahY"
+
+- id: 10
+  title: "FASHION 21 MATTE LIPSTICK SWATCHES | 16 Shades + Giveaway!"
+  image-link: "https://res.cloudinary.com/f21cosmetics/image/upload/v1535959380/assets/video-cover/RealAsianBeauty.jpg"
+  video-link: "JUVDKTSTvxg"
+
+- id: 11
+  title: "ANUTO!? MAY IBUBUGA BA ANG FASHION 21!? ILABAN NG FULL FACE!!"
+  image-link: "https://res.cloudinary.com/f21cosmetics/image/upload/v1535959370/assets/video-cover/Raf.jpg"
+  video-link: "_J_FXYRccxc"
+
+- id: 12
   title: "FASHION 21 FULLFACE MAKEUP LOOK"
-  image-link: "https://res.cloudinary.com/f21cosmetics/image/upload/v1535699687/assets/video-cover/video-cover8.jpg"
+  image-link: "https://res.cloudinary.com/f21cosmetics/image/upload/v1535959353/assets/video-cover/linexoxo.jpg"
   video-link: "V3Wy6xuagBw"
+
+- id: 13
+  title: "#TIPIDMAKEUP OFFICE MAKEUP TUTORIAL! Full Face using FASHION 21!"
+  image-link: "https://res.cloudinary.com/f21cosmetics/image/upload/v1535959352/assets/video-cover/lousanchez.jpg"
+  video-link: "DR47XIKrXQA"
+
+- id: 14
+  title: "FULL FACE USING FASHION 21 COSMETICS, REVIEW + WEAR TEST! MURANG MAKEUP! | Gen-zel Habab"
+  image-link: "https://res.cloudinary.com/f21cosmetics/image/upload/v1535959357/assets/video-cover/genzel.jpg"
+  video-link: "qoTiXnloeDY"
+
+- id: 15
+  title: "SULIT NA MAKEUP? FULL FACE USING FASHION 21 BEST SELLER?! MAGANDA BA?!"
+  image-link: "https://res.cloudinary.com/f21cosmetics/image/upload/v1535959372/assets/video-cover/MaeLayug.jpg"
+  video-link: "5sIACL8Bcsc"
+
+- id: 16
+  title: "MURA NGA PERO MAGANDA BA?!!! FULL FACE USING FASHION 21 COSMETICS (ALL UNDER 250 PESOS!)"
+  image-link: "https://res.cloudinary.com/f21cosmetics/image/upload/v1535959367/assets/video-cover/KennyManalad.jpg"
+  video-link: "Hz7TVUVOojs"
 
 
 
