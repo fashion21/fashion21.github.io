@@ -17,7 +17,7 @@ a:focus
 #cover
   position: relative
   padding-top: 100px
-  height: 800px
+  height: 700px
   #cover-slider
     height: 100%
     padding: 0
@@ -51,9 +51,9 @@ a:focus
               .product-image
                 display: block
                 &.horizontal-image
-                  max-width: 85%
+                  max-width: 70%
                 &.vertical-image
-                  max-width: 65%
+                  max-width: 55%
 
           .right-container
             padding-left: 15px
@@ -75,28 +75,28 @@ a:focus
                 .product-title
                   display: block
                   font-family: "Avenir-Bold", sans-serif
-                  font-size: 58px
+                  font-size: 48px
                   text-transform: uppercase
                   text-align: center
                   letter-spacing: 2px
                   line-height: 60px
                 .product-description
-                  margin-top: 30px
+                  margin-top: 15px
                   margin-left: auto
                   margin-right: auto
                   max-width: 80%
                   min-width: 80%
-                  font-size: 22px
+                  font-size: 18px
                   line-height: 30px
                   font-family: "Avenir-medium", sans-serif
               .product-link-container
-                margin-top: 40px
+                margin-top: 50px
                 text-align: center
                 .product-link
                   text-transform: uppercase
                   text-decoration: none
                   display: inline-block
-                  font-size: 16px
+                  font-size: 14px
                   padding: 20px 40px
                   letter-spacing: 5px
                   color: $white
@@ -457,7 +457,6 @@ a:focus
 
 @media (max-width: 1442px)
   #cover
-    height: 700px
     #cover-slider
       .cover-slider-wrapper
         .cover-slider-item
@@ -466,39 +465,30 @@ a:focus
             .right-container
               .product-info-wrapper
                 .product-intro-container
+                  .product-title
+                    font-size: 42px
+                    line-height: normal
                   .product-description
-                    max-width: 90%
+                    max-width: 87%
 
+  #shop
+    .container-fluid
+      .row
+        .right-container
+          .shop-container
+            .shop-link-container
+              .shop-link
+                font-size: 18px
+                padding: 20px 100px
 
-#promo
-  .promo-slider-container
-    #promo-slider
-      min-height: 0
-
-#shop
-  .container-fluid
-    .row
-      .right-container
-        .shop-container
-          .shop-link-container
-            .shop-link
-              font-size: 18px
-              padding: 20px 100px
+  #promo
+    .promo-slider-container
+      #promo-slider
+        min-height: 305px
 
 @media (max-width: 1281px)
   #cover
-    #cover-slider
-      .cover-slider-wrapper
-        .cover-slider-item
-          .product-wrapper
-            .right-container
-              .product-info-wrapper
-                .product-intro-container
-                  .product-title
-                    font-size: 54px
-                .product-description
-                  max-width: 95%
-
+    height: 600px
   #ribbon
     .container-fluid
       .ribbon-item
@@ -581,7 +571,7 @@ a:focus
 @media (max-width: 991px)
   #cover
     padding-top: 0
-    height: 900px
+    height: 800px
     #cover-slider
       .cover-slider-wrapper
         .cover-slider-item
@@ -599,10 +589,10 @@ a:focus
                 margin-bottom: 30px
                 .product-image
                   &.horizontal-image
-                    max-width: 75%
+                    max-width: 60%
                     min-width: 0
                   &.vertical-image
-                    max-width: 55%
+                    max-width: 45%
                     height: auto
 
             .right-container
@@ -617,10 +607,11 @@ a:focus
                 .product-intro-container
                   margin-top: 15px
                   .product-title
-                    font-size: 48px
-                    line-height: 55px
+                    font-size: 38px
+                    line-height: normal
                   .product-description
-                    margin-top: 45px
+                    font-size: 16px
+                    margin-top: 15px
                     max-width: 75%
                     min-width: 0
               .product-link-container
@@ -735,7 +726,7 @@ a:focus
 
 @media (max-width: 767px)
   #cover
-    height: 800px
+    height: 700px
     #cover-slider
       .cover-slider-wrapper
         .cover-slider-item
@@ -747,15 +738,10 @@ a:focus
             .right-container
               .product-info-wrapper
                 .product-intro-container
-                  .product-title
-                    font-size: 38px
-                    line-height: normal
-                  .product-description
-                    font-size: 18px
-                    margin-top: 15px
-                    max-width: 90%
+                  margin-top: 0
                 .product-link-container
                   margin-bottom: 30px
+
   #ribbon
     .container-fluid
       .row
@@ -802,7 +788,7 @@ a:focus
   //Iphone 6 7 8 plus
 @media (max-width: 480px)
   #cover
-    height: 660px
+    height: 630px
     #cover-slider
       .cover-slider-wrapper
         .cover-slider-item
@@ -810,6 +796,7 @@ a:focus
             .left-container
               .product-image-container
                 .product-image
+                  margin-bottom: 15px
                   &.horizontal-image
                     max-width: 90%
                   &.vertical-image
@@ -822,12 +809,16 @@ a:focus
                     max-width: 98%
                     margin-left: auto
                     margin-right: auto
-                    font-size: 28px
+                    font-size: 26px
                   .product-description
-                    font-size: 16px
+                    font-size: 14px
                     margin-top: 20px
-                    max-width: 107%
+                    max-width: 89%
                     line-height: normal
+                .product-link-container
+                  .product-link
+                    font-size: 12px
+
 
   #ribbon
     .container-fluid
