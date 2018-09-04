@@ -1,4 +1,5 @@
 ---
+lazada-link: ""
 shopee-link: "https://shopee.ph/Fashion21-Liquid-Eyeliner-i.26222223.826165458"
 id: 27
 title: Liquid Eyeliner Water-Resistant

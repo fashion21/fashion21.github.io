@@ -1,5 +1,6 @@
 ---
 published: true
+lazada-link: ""
 shopee-link: "https://shopee.ph/Fashion21-Water-Drop-Sponge-i.26222223.826165361"
 id: 76
 title: Waterdrop Blender

@@ -1,4 +1,5 @@
 ---
+lazada-link: ""
 shopee-link: "https://shopee.ph/Fashion21-Loose-Powder-i.26222223.826165486"
 id: 2
 title: Loose Powder

@@ -1,4 +1,5 @@
 ---
+lazada-link: ""
 shopee-link: "https://shopee.ph/Fashion21-Cake-Foundation-i.26222223.826165377"
 id: 1
 title: "Cake Foundation"

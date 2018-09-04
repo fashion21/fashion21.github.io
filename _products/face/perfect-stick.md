@@ -1,5 +1,6 @@
 ---
 published: true
+lazada-link: ""
 shopee-link: "https://shopee.ph/Fashion21-Perfect-Stick-i.26222223.826165484"
 id: 3
 title: Perfect Stick

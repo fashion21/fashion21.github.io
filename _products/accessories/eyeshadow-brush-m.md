@@ -1,5 +1,6 @@
 ---
 shopee-link: ""
+lazada-link: ""
 id: 52
 title: "Eyeshadow Brush (S) (M)"
 layout: product-item

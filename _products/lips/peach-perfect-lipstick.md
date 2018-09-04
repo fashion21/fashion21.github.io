@@ -1,4 +1,5 @@
 ---
+lazada-link: ""
 shopee-link: "https://shopee.ph/Fashion21-Peach-Perfect-Lipstick-i.26222223.1330800463"
 id: 44
 title: "Peach Perfect Lipstick"

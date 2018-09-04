@@ -1,4 +1,5 @@
 ---
+lazada-link: ""
 shopee-link: "https://shopee.ph/Fashion21-Aqualicious-Lipstick-i.26222223.1328455503"
 id: 42
 title: Aqualicious Lipstick

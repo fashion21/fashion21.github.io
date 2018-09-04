@@ -1,4 +1,5 @@
 ---
+lazada-link: ""
 shopee-link: ""
 id: 30
 title: "Water-Resistant Mascara with Lash Conditioner"

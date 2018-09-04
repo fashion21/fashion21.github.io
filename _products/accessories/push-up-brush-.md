@@ -1,4 +1,5 @@
 ---
+lazada-link: ""
 shopee-link: "https://shopee.ph/Fashion21-Push-Up-Brush-Black-i.26222223.826165408"
 id: 67
 title: "Push-Up Brush "

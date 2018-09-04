@@ -1,4 +1,5 @@
 ---
+lazada-link: ""
 shopee-link: "https://shopee.ph/Fashion21-Two-Way-Cake-(Classic)-i.26222223.826165473"
 published: true
 id: 6

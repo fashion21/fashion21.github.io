@@ -1,5 +1,6 @@
 ---
 published: true
+lazada-link: ""
 shopee-link: "https://shopee.ph/Fashion21-Color-Matte-Liquid-Lipstick-i.26222223.826165348"
 title: Color Matte Liquid Lipstick
 id: 49

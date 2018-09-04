@@ -1,4 +1,5 @@
 ---
+lazada-link: ""
 shopee-link: "https://shopee.ph/Fashion21-Liquid-Eyeliner-Pen-i.26222223.826165355"
 published: true
 title: Liquid Eyeliner Pen

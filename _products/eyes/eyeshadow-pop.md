@@ -1,4 +1,5 @@
 ---
+lazada-link: ""
 shopee-link: ""
 id: 26
 title: "Eyeshadow Pop"

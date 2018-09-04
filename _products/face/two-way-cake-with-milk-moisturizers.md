@@ -1,4 +1,5 @@
 ---
+lazada-link: ""
 shopee-link: "https://shopee.ph/Fashion21-Two-Way-Cake-with-Milk-Moisturizers-i.26222223.826165509"
 published: true
 id: 8

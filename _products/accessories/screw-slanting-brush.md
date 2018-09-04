@@ -1,5 +1,6 @@
 ---
 published: true
+lazada-link: ""
 shopee-link: "https://shopee.ph/Fashion21-Slanting-Brush-and-Screw-(one-brush-only)-i.26222223.826193982"
 title: Screw/Slanting Brush
 id: 70

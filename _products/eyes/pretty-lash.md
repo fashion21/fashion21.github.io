@@ -1,4 +1,5 @@
 ---
+lazada-link: ""
 shopee-link: ""
 id: 28
 title: Pretty Lash

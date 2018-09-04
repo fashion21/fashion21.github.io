@@ -1,4 +1,5 @@
 ---
+lazada-link: ""
 shopee-link: "https://shopee.ph/Fashion21-Blush-Stick-(New)-i.26222223.826165372"
 id: 33
 title: "Blush Stick"

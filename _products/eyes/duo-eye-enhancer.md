@@ -1,5 +1,6 @@
 ---
 published: true
+lazada-link: ""
 shopee-link: "https://shopee.ph/Fashion21-Duo-Eye-Enhancer-i.26222223.826165374"
 id: 21
 title: Duo Eye Enhancer

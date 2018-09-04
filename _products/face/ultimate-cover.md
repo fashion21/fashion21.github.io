@@ -1,4 +1,5 @@
 ---
+lazada-link: ""
 shopee-link: "https://shopee.ph/Fashion21-Ultimate-Cover-i.26222223.826165516"
 published: true
 id: 14

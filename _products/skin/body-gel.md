@@ -1,4 +1,5 @@
 ---
+lazada-link: ""
 shopee-link: ""
 id: 77
 title: Body Gel
