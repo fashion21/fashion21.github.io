@@ -1,11 +1,11 @@
 - title: "Wear it."
-  icon: "/img/ribbon/icon1.png"
+  icon: "https://res.cloudinary.com/f21cosmetics/image/upload/v1536063166/assets/icon/icon1.png"
   description: "Lorem Ipsum Dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
 
 - title: "Feel it."
-  icon: "/img/ribbon/icon2.png"
+  icon: "https://res.cloudinary.com/f21cosmetics/image/upload/v1536063166/assets/icon/icon2.png"
   description: "Lorem Ipsum Dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
 
 - title: "Love it!"
-  icon: "/img/ribbon/icon3.png"
+  icon: "https://res.cloudinary.com/f21cosmetics/image/upload/v1536063167/assets/icon/icon3.png"
   description: "Lorem Ipsum Dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
