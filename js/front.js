@@ -41,7 +41,6 @@ $(document).ready(function () {
         loop: true,
         preloadImages: false,
         lazy: true,
-
         autoplay: {
             delay: 6000,
             disableOnInteraction: true
