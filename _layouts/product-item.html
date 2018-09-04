@@ -80,13 +80,21 @@
                     {% endif %}
                 </div>
                 <!--Shopee link-->
-                {% if page.shopee-link !="" %}
-                <div class="shopee-link-container clearfix">
-                    <!--<a href="{{ page.shopee-link }}" class="shopee-link"><span class="glyphicon glyphicon-shopping-cart"></span>Shopee</a>-->
-                    <a href="{{ page.shopee-link }}" class="shopee-link" target="_blank"><img class="cart-icon" src="https://res.cloudinary.com/f21cosmetics/image/upload/assets/shop/shopping-cart.png"/>Buy Now</a>
+
+                <div class="online-market-container clearfix">
+                    {% if page.shopee-link !="" %}
+                    <a href="{{ page.shopee-link }}" class="online-market-link" target="_blank">
+                        <img class="cart-icon" src="https://res.cloudinary.com/f21cosmetics/image/upload/v1536065778/assets/icon/shopee-icon.png"/>
+                    </a>
+                    {% endif %}
+                    {% if page.lazada-link !="" %}
+                    <a href="{{ page.lazada-link }}" class="online-market-link" target="_blank">
+                        <img class="cart-icon" src="https://res.cloudinary.com/f21cosmetics/image/upload/v1536065778/assets/icon/lazada-icon.png"/>
+                    </a>
+                    {% endif %}
+
                 </div>
 
-                {% endif %}
 
             </div>
         </div>
