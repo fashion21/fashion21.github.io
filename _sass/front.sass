@@ -338,7 +338,7 @@ a:focus
 #shop
   position: relative
   background-image: -webkit-linear-gradient(135deg, #e3b9c6 57%, #ecc1c7 43%)
-  height: 350px
+  height: 300px
   .container-fluid
     height: inherit
     max-width: 1440px
@@ -355,7 +355,7 @@ a:focus
           right: 0
           .model-image
             width: auto
-            height: 330px
+            height: 280px
       .right-container
         position: relative
         height: inherit
@@ -369,18 +369,18 @@ a:focus
             padding-top: 75px
             .shop-cart
               display: inline-block
-              height: 70px
+              height: 50px
             .shop-header
               display: inline-block
               vertical-align: middle
               font-family: "Avenir-Bold",sans-serif
               text-transform: uppercase
-              font-size: 44px
+              font-size: 34px
               margin-left: 15px
           .shop-description-container
             padding-top: 10px
             .shop-description
-              font-size: 22px
+              font-size: 18px
               font-family: "Avenir-medium",sans-serif
           .shop-link-container
             padding-top: 20px
@@ -390,8 +390,8 @@ a:focus
               background-color: #5c5c5c
               display: inline-block
               text-transform: uppercase
-              font-size: 22px
-              padding: 20px 120px
+              font-size: 16px
+              padding: 15px 90px
               text-decoration: none
               transition: background-color 300ms ease-in-out
               -webkit-transition: background-color 300ms ease-in-out
@@ -461,16 +461,6 @@ a:focus
                   .product-description
                     max-width: 87%
 
-  #shop
-    .container-fluid
-      .row
-        .right-container
-          .shop-container
-            .shop-link-container
-              .shop-link
-                font-size: 18px
-                padding: 20px 100px
-
   #promo
     .promo-slider-container
       width: 970px
@@ -526,9 +516,6 @@ a:focus
                 .product-link-container
                   .product-link
                     font-size: 14px
-
-
-
   #promo
     .promo-slider-container
       width: 880px
@@ -539,29 +526,6 @@ a:focus
         font-size: 18px
     .swiper-button-container
       width: 900px
-
-  #shop
-    height: 300px
-    .container-fluid
-      .row
-        .left-container
-          .model-container
-            .model-image
-              height: 280px
-
-        .right-container
-          .shop-container
-            .shop-header-container
-              padding-top: 59px
-              .shop-header
-                font-size: 38px
-            .shop-description-container
-              .shop-description
-                font-size: 18px
-            .shop-link-container
-              .shop-link
-                font-size: 16px
-                padding: 15px 90px
 
   #instagram
     .instagram-slider-container
@@ -871,6 +835,21 @@ a:focus
       padding: 25px 40px
       .banner-title
         font-size: 18px
+
+@media (max-width: 420px)
+  #shop
+    .container-fluid
+      .row
+        .right-container
+          .shop-container
+            .shop-header-container
+              .shop-cart
+                display: none
+              .shop-header
+                margin-left: 0
+            .shop-description-container
+              padding-top: 15px
+
 
 //Iphone X
 @media (max-width: 380px)
