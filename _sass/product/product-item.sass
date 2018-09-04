@@ -7,34 +7,26 @@
 body
   margin-top: 132px !important
 
-.shopee-link-container
+.online-market-container
   margin-top: 30px
-  margin-bottom: 30px
   position: relative
-  .shopee-link
+  .online-market-link
     display: inline-block
-    font-family: "Avenir-light", sans-serif
-    color: #fff
-    border: 1px solid $fashion21Red
-    background: $fashion21Red
-    text-transform: uppercase
+    background-color: #eb0029
+    margin-right: 15px
     text-decoration: none
-    font-size: 14px
-    letter-spacing: 2px
-    padding: 15px 30px
-    transition: all 300ms ease-in-out
-    -webkit-transition: all 300ms ease-in-out
-    -moz-transition: all 300ms ease-in-out
-    -o-transition: all 300ms ease-in-out
-    -ms-transition: all 300ms ease-in-out
+    padding: 10px 30px
+    transition: background-color 300ms ease-in-out
+    -webkit-transition: background-color 300ms ease-in-out
+    -moz-transition: background-color 300ms ease-in-out
+    -o-transition: background-color 300ms ease-in-out
+    -ms-transition: background-color 300ms ease-in-out
     &:hover
       background-color: #ce0024
     .cart-icon
       display: inline-block
-      height: 20px
-      vertical-align: middle
-      margin-right: 20px
-      filter: invert(100%)
+      height: 40px
+
 
 
 .swatches
@@ -129,14 +121,27 @@ body
       .lSPager
         display: none
 
+@media (max-width: 1200px)
+  .online-market-container
+    .online-market-link
+      margin-top: 0
+      margin-bottom: 20px
+
 @media (max-width: 991px)
-  .shopee-link-container
+  .online-market-container
     width: 100%
-    .shopee-link
+    .online-market-link
       text-align: center
       display: block
+      .shop-cart
+        display: block
 
 @media (max-width: 480px)
+  .online-market-container
+    .online-market-link
+      margin-bottom: 30px
+      display: block
+
   .swatches
     .swatch
       margin-bottom: 5px
