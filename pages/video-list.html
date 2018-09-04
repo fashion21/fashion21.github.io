@@ -2,9 +2,15 @@
 layout: pages/video-list
 permalink: video/
 ---
+
 <section id="banner">
     <div class="bg-overlay"></div>
-    <header class="banner-text">Fashion21 Tutorials</header>
+    <div class="banner-wrapper">
+        <div class="model-container">
+            <img src="https://res.cloudinary.com/f21cosmetics/image/upload/v1536075037/assets/banner/banner-model.png" class="model"/>
+        </div>
+        <header class="banner-text">Fashion21 Tutorials</header>
+    </div>
 </section>
 <section id="video-list">
     {% include video-list/content.html %}
