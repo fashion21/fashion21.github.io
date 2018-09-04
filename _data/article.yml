@@ -1,44 +1,110 @@
 - slugID: 1
-  title: "Beauty on a Budget: Fashion 21 Eyeshadow Palette Review"
-  cover: "https://picsum.photos/600/400"
-  link: "http://www.kikaysikat.com/beauty-budget-fashion-21-eyeshadow-palette-review.html"
+  title: "Fashion 21 All Day (Russet) Matte Lipstick: Review"
+  cover: "https://res.cloudinary.com/f21cosmetics/image/upload/v1536063637/assets/article/lotsofgirlstuff.jpg"
+  link: "http://lotsofgirlstuff.blogspot.com/2016/01/fashion-21-all-day-russet-matte.html"
 
 - slugID: 2
-  title: "Fashion 21 Two-Way Cake And Ultimate Cover BB Cream + Concealer"
-  cover: "https://picsum.photos/600/400"
-  link: "http://www.rochellerivera.com/2017/04/product-review-fashion-21-two-way-cake.html"
+  title: "Fashion 21 Cosmetics Eyeshadow Kit Review"
+  cover: "https://res.cloudinary.com/f21cosmetics/image/upload/v1536063634/assets/article/iamtanyanatazsha.jpg"
+  link: "http://iamtanyanatazsha.blogspot.com/2016/01/fashion-21-eyeshadow-kit.html"
 
 - slugID: 3
-  title: "A Review On Fashion 21’S Waterdrop Blender"
-  cover: "https://picsum.photos/600/400"
-  link: "http://gretasjunkyard.com/a-review-on-fashion-21s-waterdrop-blender/"
+  title: "Fashion21 Perfect Stick, Two-Way Cake with Papaya Extract and Color Bar"
+  cover: "https://res.cloudinary.com/f21cosmetics/image/upload/v1536063654/assets/article/rarevanity.jpg"
+  link: "http://www.rarevanity.net/2016/03/fashion21-perfect-stick-two-way-cake.html"
 
 - slugID: 4
-  title: "Fashion21 Defining lip liner review"
-  cover: "https://picsum.photos/600/400"
-  link: "https://lushangel.com/2017/08/10/fashion-21-defining-lip-liner-review/"
+  title: "Fashion21 Ultimate Cover BB Cream + Concealer"
+  cover: "https://res.cloudinary.com/f21cosmetics/image/upload/v1536063640/assets/article/kikaysimaria.jpg"
+  link: "http://kikaysimaria.blogspot.com/2016/04/fashion21-ultimate-cover-bb-cream.html"
 
 - slugID: 5
-  title: "Fashion21 Cosmetics review + their new Liquid eyeliner pen!"
-  cover: "https://picsum.photos/600/400"
-  link: "http://www.gen-zel.com/fashion-21-cosmetics-review-swatches-photos.html"
+  title: "Product Review: Fashion 21 All Day Matte Lipsticks"
+  cover: "https://res.cloudinary.com/f21cosmetics/image/upload/v1536063646/assets/article/rochellerivera_2.jpg"
+  link: "http://www.rochellerivera.com/2016/05/product-review-fashion-21-all-day-matte.html"
 
 - slugID: 6
-  title: "Products in Focus: Fashion 21 Cosmetics"
-  cover: "https://picsum.photos/600/400"
-  link: "http://www.anneclutz.com/fashion21cosmetics/"
+  title: "Fashion 21: Water Resistant Liquid Eyeliner in brown"
+  cover: "https://res.cloudinary.com/f21cosmetics/image/upload/v1536063620/assets/article/allaboutbeauty101.jpg"
+  link: "http://www.allaboutbeauty101.com/2016/06/fashion21-brown-liquid-eyeliner.html"
 
 - slugID: 7
-  title: "Complete makeup from Fashion21 for just PHP 1500+!"
-  cover: "/img/article/kikaysimaria.jpg"
-  link: "http://www.anagonzales.com/2018/01/update-your-beauty-stash-this-2018.html"
+  title: "Fashion21 Liquid Eyeliner Review"
+  cover: "https://res.cloudinary.com/f21cosmetics/image/upload/v1536063616/assets/article/awesomejulianne.jpg"
+  link: "http://awesomejulianne.com/fashion21-liquid-eyeliner-review/"
 
 - slugID: 8
-  title: "Falling in Love with Fashion21 Cosmetics"
-  cover: "/img/article/kikaysimaria.jpg"
-  link: "http://www.chinchinobcena.com/post/171196586014/falling-in-love-with-fashion-21-cosmetics"
+  title: "Product Review: Fashion 21 Eyebrow Gel"
+  cover: "https://res.cloudinary.com/f21cosmetics/image/upload/v1536063654/assets/article/theprojectawesome.jpg"
+  link: "http://theprojectawesome.blogspot.com/2016/07/product-review-fashion-21-eyebrow-gel.html"
 
 - slugID: 9
-  title: "Fashion21 Double up mascara"
-  cover: "/img/article/kikaysimaria.jpg"
-  link: "https://thebeautyjunkee.blogspot.com/2018/03/fashion21-double-up-mascara-review.html"
+  title: "Product Review: Fashion 21 Two Way Cake Foundation"
+  cover: "https://res.cloudinary.com/f21cosmetics/image/upload/v1536063628/assets/article/jeanquiambao.jpg"
+  link: "http://jeanquiambao.net/blog/fashion-21-two-way-cake-foundation-review/"
+
+- slugID: 10
+  title: "Fashion21 Auto Eyeliner Pen Review"
+  cover: "https://res.cloudinary.com/f21cosmetics/image/upload/v1536063654/assets/article/mishrendon.jpg"
+  link: "http://www.mishrendon.com/2016/09/fashion21-auto-eyeliner-pen-review.html"
+
+- slugID: 11
+  title: "Beauty on a Budget: Fashion 21 Eyeshadow Palette Review"
+  cover: "https://res.cloudinary.com/f21cosmetics/image/upload/v1536063643/assets/article/Kikaysikat.jpg"
+  link: "https://www.kikaysikat.com/beauty-budget-fashion-21-eyeshadow-palette-review.html"
+
+- slugID: 12
+  title: "Review: Fashion21 Cosmetics Color Bar"
+  cover: "https://res.cloudinary.com/f21cosmetics/image/upload/v1536063630/assets/article/karenlizescobar.jpg"
+  link: "http://karenlizescobar.blogspot.com/2017/03/review-fashion21-cosmetics-color-bar.html"
+
+- slugID: 13
+  title: "Product Review: Fashion 21 Two-Way Cake And Ultimate Cover BB Cream + Concealer"
+  cover: "https://res.cloudinary.com/f21cosmetics/image/upload/v1536063647/assets/article/rochellerivera.jpg"
+  link: "http://www.rochellerivera.com/2017/04/product-review-fashion-21-two-way-cake.html"
+
+- slugID: 14
+  title: "A Review On Fashion 21’S Waterdrop Blender"
+  cover: "https://res.cloudinary.com/f21cosmetics/image/upload/v1536063635/assets/article/gretasjunkyard.jpg"
+  link: "http://gretasjunkyard.com/a-review-on-fashion-21s-waterdrop-blender/"
+
+- slugID: 15
+  title: "The Latest Fashion21 Eyeshadow Kit has finally been revealed"
+  cover: "https://res.cloudinary.com/f21cosmetics/image/upload/v1536063620/assets/article/ayeshaheart.jpg"
+  link: "http://ayeshaheart.com/the-latest-fashion21-eyeshadow-kit-has-finally-been-revealed/"
+
+- slugID: 16
+  title: "Fashion 21 Defining Lip Liner Review"
+  cover: "https://res.cloudinary.com/f21cosmetics/image/upload/v1536063644/assets/article/lush_angel.jpg"
+  link: "https://lushangel.com/2017/08/10/fashion-21-defining-lip-liner-review/"
+
+- slugID: 17
+  title: "Fashion 21 Cosmetics Review + Their New Liquid Eyeliner Pen!"
+  cover: "https://res.cloudinary.com/f21cosmetics/image/upload/v1536063625/assets/article/gen-zel.jpg"
+  link: "http://www.gen-zel.com/fashion-21-cosmetics-review-swatches-photos.html"
+
+- slugID: 18
+  title: "Update your Beauty Stash this 2018: Complete Makeup From Fashion21 for Just php 1500+"
+  cover: "https://res.cloudinary.com/f21cosmetics/image/upload/v1536063615/assets/article/anagonzales.jpg"
+  link: "http://www.anagonzales.com/2018/01/update-your-beauty-stash-this-2018.html"
+
+- slugID: 19
+  title: "Swatch Watch : Fashion 21 Cosmetics All Day Matte Lipsticks"
+  cover: "https://res.cloudinary.com/f21cosmetics/image/upload/v1536063616/assets/article/allaboutbeautybydee.jpg"
+  link: "https://allaboutbeautybydee.com/2018/01/19/swatch-watch-fashion-21-cosmetics-all-day-matte-lipsticks/"
+
+- slugID: 20
+  title: "Falling in Love with Fashion21 Cosmetics"
+  cover: "https://res.cloudinary.com/f21cosmetics/image/upload/v1536063621/assets/article/chinchinobcena.jpg"
+  link: "http://www.chinchinobcena.com/post/171196586014/falling-in-love-with-fashion-21-cosmetics"
+
+- slugID: 21
+  title: "Feature: Fashion 21 Matte Permanent Lipstick and Pressed Powder with Cucumber Extract"
+  cover: "https://res.cloudinary.com/f21cosmetics/image/upload/v1536063639/assets/article/kathrivera.jpg"
+  link: "http://www.kathrivera.com/2018/03/fashion-21-matte-permanent-lipstick-swatch-review.html"
+
+- slugID: 22
+  title: "Fashion21 Double Up Mascara"
+  cover: "https://res.cloudinary.com/f21cosmetics/image/upload/v1536063627/assets/article/Beauty_Junkee.jpg"
+  link: "http://thebeautyjunkee.blogspot.com/2018/03/fashion21-double-up-mascara-review.html"
+
