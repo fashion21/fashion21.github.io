@@ -115,7 +115,6 @@ a:focus
   background-color: $black
   .container-fluid
     height: auto
-    max-width: 1440px
     .ribbon-item
       margin-top: 15px
       margin-bottom: 15px
@@ -281,11 +280,10 @@ a:focus
     padding-top: 80px
     padding-bottom: 40px
     #promo-slider
-      min-height: 425.02px
       height: 100%
       width: 100%
       .swiper-slide
-        min-height: 306.34px
+        min-height: 306px
 
   .promo-button-container
     position: relative
@@ -447,14 +445,6 @@ a:focus
       width: 100%
       max-width: 1440px
 
-  #promo
-    .promo-slider-container
-      width: 100%
-      max-width: 1440px
-    .swiper-button-container
-      width: 100%
-      max-width: 1440px
-
 @media (max-width: 1442px)
   #cover
     #cover-slider
@@ -483,8 +473,17 @@ a:focus
 
   #promo
     .promo-slider-container
+      width: 970px
       #promo-slider
-        min-height: 305px
+        min-height: 0
+        .swiper-slide
+          min-height: 251px
+    .swiper-button-container
+      width: 970px
+    .promo-button-container
+      .promo-button-link
+        font-size: 16px
+
 
 @media (max-width: 1281px)
   #cover
@@ -571,7 +570,7 @@ a:focus
 @media (max-width: 991px)
   #cover
     padding-top: 0
-    height: 800px
+    height: 760px
     #cover-slider
       .cover-slider-wrapper
         .cover-slider-item
@@ -654,10 +653,10 @@ a:focus
         font-size: 28px
     .promo-slider-container
       max-width: 100%
-      width: 90%
+      width: 80%
       #promo-slider
         .swiper-slide
-          min-height: 367.36px
+          min-height: 322px
     .swiper-button-container
       display: none
       width: 100%
