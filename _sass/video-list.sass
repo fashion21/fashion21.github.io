@@ -3,6 +3,7 @@
 @import "navbar"
 @import "footer"
 @import "modal"
+@import "blog-banner"
 
 
 
@@ -14,55 +15,20 @@ body
   border-radius: 0!important
   background-color: black !important
 
-#banner
-  position: relative
-  background-image: -webkit-linear-gradient(135deg, #e397a4 60%, #f2afa9 40%)
-  height: 300px
-  .bg-overlay
-    position: absolute
-    height: 100%
-    width: 100%
-    background-color: rgba(0,0,0,0.5)
-    z-index: 1
-  .banner-wrapper
-    position: relative
-    width: 100%
-    max-width: 1440px
-    margin-left: auto
-    margin-right: auto
-    height: inherit
-    .model-container
-      position: relative
-      left: 0
-      bottom: 0
-      float: left
-      .model
-        display: block
-        height: 300px
-    .banner-text
-      position: absolute
-      width: 100%
-      top: 50%
-      transform: translateY(-50%)
-      -webkit-transform: translateY(-50%)
-      -moz-transform: translateY(-50%)
-      -o-transform: translateY(-50%)
-      -ms-transform: translateY(-50%)
-      text-align: center
-      display: block
-      z-index: 2
-      font-family: "Avenir-Bold",sans-serif
-      font-size: 48px
-      color: white
-      text-transform: uppercase
-      letter-spacing: 5px
-
 //Video section
 #video-list
   position: relative
   padding-top: 40px
   padding-bottom: 40px
   min-height: 61vh
+  &:before
+    content: " "
+    border-top: 1px solid #efefef
+    position: absolute
+    top: 0px
+    width: 100%
+    display: block
+    z-index: -3
   .container
     .video-list-container
       min-height: 0 !important
@@ -178,12 +144,6 @@ body
       .video-list-container
         .video-list
           width: 100%
-
-@media (max-width: 480px)
-  #banner
-    .banner-wrapper
-      .banner-text
-        font-size: 24px
 
 
 
