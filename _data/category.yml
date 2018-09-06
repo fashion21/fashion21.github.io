@@ -1,0 +1,15 @@
+- category-title: Face
+  category-image: "https://res.cloudinary.com/f21cosmetics/image/upload/v1536222113/assets/category-product/model1-1.jpg"
+  category-link: "/products/face/"
+
+- category-title: Eyes
+  category-image: "https://res.cloudinary.com/f21cosmetics/image/upload/v1536221956/assets/category-product/model2.jpg"
+  category-link: "/products/eyes/"
+
+- category-title: Cheeks
+  category-image: "https://res.cloudinary.com/f21cosmetics/image/upload/v1536221954/assets/category-product/model3.jpg"
+  category-link: "/products/cheeks/"
+
+- category-title: Lips
+  category-image: "https://res.cloudinary.com/f21cosmetics/image/upload/v1536221951/assets/category-product/model4.jpg"
+  category-link: "/products/lips/"
