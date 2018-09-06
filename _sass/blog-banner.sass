@@ -1,0 +1,114 @@
+#banner
+  position: relative
+  height: 300px
+  .banner-image-container
+    height: inherit
+    overflow: hidden
+    position: absolute
+    left: 0
+    bottom: 0
+    width: 100%
+    .banner-image
+      height: inherit
+      position: absolute
+      display: block
+      &.banner-left
+        left: -3%
+      &.banner-right
+        right: -3%
+  .banner-text-container
+    position: relative
+    width: 100%
+    max-width: 1440px
+    margin-left: auto
+    margin-right: auto
+    height: inherit
+    .banner-text
+      position: relative
+      top: 50%
+      transform: translateY(-50%)
+      -webkit-transform: translateY(-50%)
+      -moz-transform: translateY(-50%)
+      -ms-transform: translateY(-50%)
+      -o-transform: translateY(-50%)
+      text-align: center
+      display: block
+      z-index: 2
+      font-family: "Avenir-Bold",sans-serif
+      font-size: 48px
+      color: $black
+      text-transform: uppercase
+      letter-spacing: 5px
+
+
+
+@media (max-width: 1441px)
+  #banner
+    .banner-image-container
+      .banner-image
+        &.banner-left
+          left: -10%
+        &.banner-right
+          right: -10%
+
+
+@media (max-width: 1200px)
+  #banner
+    height: 250px
+    .banner-image-container
+      .banner-image
+        &.banner-left
+          left: -15%
+        &.banner-right
+          right: -15%
+
+@media (max-width: 991px)
+  #banner
+    height: 200px
+    .banner-image-container
+      .banner-image
+        &.banner-left
+          left: -20%
+        &.banner-right
+          right: -20%
+
+@media (max-width: 767px)
+  #banner
+    .banner-image-container
+      .banner-image
+        &.banner-left
+          left: -35%
+        &.banner-right
+          right: -35%
+    .banner-text-container
+      .banner-text
+        font-size: 34px
+
+
+@media (max-width: 480px)
+  #banner
+    height: 150px
+    .banner-image-container
+      .banner-image
+        &.banner-left
+          left: -45%
+        &.banner-right
+          right: -45%
+    .banner-text-container
+      .banner-text
+        font-size: 24px
+
+@media (max-width: 380px)
+  #banner
+    .banner-image-container
+      .banner-image
+        &.banner-left
+          left: -55%
+        &.banner-right
+          right: -55%
+    .banner-text-container
+      .banner-text
+        font-size: 24px
+
+
+
