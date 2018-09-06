@@ -16,44 +16,43 @@ body
 
 #banner
   position: relative
-  background-image: -webkit-linear-gradient(135deg, #e397a4 60%, #f2afa9 40%)
   height: 300px
-  .bg-overlay
+  .banner-image-container
+    height: inherit
+    overflow: hidden
     position: absolute
-    height: 100%
+    left: 0
+    bottom: 0
     width: 100%
-    background-color: rgba(0,0,0,0.5)
-    z-index: 1
-  .banner-wrapper
+    .banner-image
+      height: inherit
+      position: absolute
+      display: block
+      &.banner-left
+        left: -3%
+      &.banner-right
+        right: -3%
+  .banner-text-container
     position: relative
     width: 100%
     max-width: 1440px
     margin-left: auto
     margin-right: auto
     height: inherit
-    .model-container
-      position: relative
-      left: 0
-      bottom: 0
-      float: left
-      .model
-        display: block
-        height: 300px
     .banner-text
-      position: absolute
-      width: 100%
+      position: relative
       top: 50%
       transform: translateY(-50%)
       -webkit-transform: translateY(-50%)
       -moz-transform: translateY(-50%)
-      -o-transform: translateY(-50%)
       -ms-transform: translateY(-50%)
+      -o-transform: translateY(-50%)
       text-align: center
       display: block
       z-index: 2
       font-family: "Avenir-Bold",sans-serif
       font-size: 48px
-      color: white
+      color: $black
       text-transform: uppercase
       letter-spacing: 5px
 
@@ -309,6 +308,16 @@ body
       margin-left: auto
       margin-right: auto
 
+@media (max-width: 1441px)
+  #banner
+    .banner-image-container
+      .banner-image
+        &.banner-left
+          left: -10%
+        &.banner-right
+          right: -10%
+
+
 @media (max-width: 1200px)
   #video
     .container
@@ -323,10 +332,27 @@ body
           .blog-item
             width: 50%
 
+  #banner
+    height: 250px
+    .banner-image-container
+      .banner-image
+        &.banner-left
+          left: -15%
+        &.banner-right
+          right: -15%
+
 @media (max-width: 991px)
   #video
     margin-bottom: 60px
 
+  #banner
+    height: 200px
+    .banner-image-container
+      .banner-image
+        &.banner-left
+          left: -20%
+        &.banner-right
+          right: -20%
 
 @media (max-width: 767px)
   #video
@@ -350,12 +376,31 @@ body
             font-size: 16px
             padding: 15px 45px
 
+  #banner
+    .banner-image-container
+      .banner-image
+        &.banner-left
+          left: -35%
+        &.banner-right
+          right: -35%
+    .banner-text-container
+      .banner-text
+        font-size: 34px
+
 
 @media (max-width: 480px)
   #banner
-    .banner-wrapper
+    height: 150px
+    .banner-image-container
+      .banner-image
+        &.banner-left
+          left: -45%
+        &.banner-right
+          right: -45%
+    .banner-text-container
       .banner-text
         font-size: 24px
+
 
 
   #video
@@ -374,7 +419,6 @@ body
       padding: 25px 40px
       .banner-title
         font-size: 18px
-
     .container
       .blog-list-container
         .blog-wrapper
@@ -383,5 +427,19 @@ body
               .blog-title-container
                 .blog-title
                   font-size: 16px
+
+@media (max-width: 380px)
+  #banner
+
+    .banner-image-container
+      .banner-image
+        &.banner-left
+          left: -55%
+        &.banner-right
+          right: -55%
+    .banner-text-container
+      .banner-text
+        font-size: 24px
+
 
 
