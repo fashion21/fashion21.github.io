@@ -104,17 +104,16 @@ $(window).on("load",function () {
     });
     feed.run();
 
-    //Best seller on hover
-    var bestSellerLink = $(".best-seller-link");
-
-    bestSellerLink.on("mouseover",function () {
-        $(this).find(".bg-overlay").css("opacity","1");
+    var categoryLink = $(".category-link");
+    categoryLink.on("mouseenter", function () {
+        console.log("MOUSE ENTER");
+        categoryLink.not(this).find(".bg-overlay").css('opacity','1');
     });
-
-    bestSellerLink.on("mouseout",function () {
-        $(this).find(".bg-overlay").css("opacity","0");
+    categoryLink.on("mouseout", function () {
+        console.log("MOUSE OUT");
+        $(this).find(".bg-overlay").css('opacity','0');
+        categoryLink.not(this).find(".bg-overlay").css('opacity','0');
     });
-
 
     // Initialize
     var blazy = new Blazy({
