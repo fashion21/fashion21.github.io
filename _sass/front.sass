@@ -4,6 +4,13 @@
 @import "footer"
 @import "modal"
 
+@font-face
+  font-family: 'ChristopherHand-Medium'
+  src: url('/fonts/comesinhandy.ttf')
+
+@font-face
+  font-family: 'ChristopherHand-Small'
+  src: url('/fonts/comesinhandy-small.ttf')
 
 html, body
   height: auto !important
@@ -108,7 +115,6 @@ a:focus
                   &:hover
                     background-color: $fashion21Red
 
-
 #ribbon
   position: relative
   background-color: $black
@@ -129,12 +135,12 @@ a:focus
           .ribbon-title
             display: inline-block
             margin-left: 30px
-            font-family: 'Montserrat', sans-serif
-            font-weight: 400
+            font-family: 'ChristopherHand-Small', sans-serif
             color: $white
             text-transform: uppercase
-            font-size: 24px
+            font-size: 28px
             vertical-align: middle
+            letter-spacing: 5px
         .ribbon-description
           margin-top: 25px
           font-size: 16px
@@ -146,13 +152,17 @@ a:focus
 
       &.ribbon2
         &:before
+          display: block
           position: absolute
           content: ''
+          clear: both
           border-left: 1px solid $white
           height: 100%
           top: 0
           left: 0
         &:after
+          display: block
+          clear: both
           position: absolute
           content: ''
           border-right: 1px solid $white
@@ -163,6 +173,47 @@ a:focus
           padding: 20px 0px
           .ribbon-icon
             height: 20px
+
+#product-category
+  position: relative
+  .category-item
+    float: left
+    width: 25%
+    .category-link
+      position: relative
+      display: block
+      &.loading
+        background-color: #f7f7f7
+        padding-bottom: 104.166% !important
+      text-decoration: none
+      .bg-overlay
+        opacity: 0
+        background-color: rgba(0,0,0,0.5)
+        position: absolute
+        width: 100%
+        height: 100%
+        top: 0
+        left:  0
+        transition: all 300ms ease-in-out
+        -webkit-transition: all 300ms ease-in-out
+        -moz-transition: all 300ms ease-in-out
+        -ms-transition: all 300ms ease-in-out
+        -o-transition: all 300ms ease-in-out
+      .category-image
+        display: block
+        max-width: 100%
+      .category-title
+        display: block
+        position: absolute
+        bottom: 20px
+        right: 0
+        left: 0
+        text-align: center
+        font-size: 34px
+        color: white
+        font-family: 'ChristopherHand-Small', sans-serif
+        text-transform: uppercase
+        letter-spacing: 5px
 
 #best-seller
   position: relative
@@ -416,6 +467,8 @@ a:focus
               -moz-transition: background-color 300ms ease-in-out
               -o-transition: background-color 300ms ease-in-out
               -ms-transition: background-color 300ms ease-in-out
+              &.shop-lazada
+                margin-right: 15px
               &:hover
                 background-color: $fashion21Red
 
@@ -627,6 +680,10 @@ a:focus
               bottom: 0
               border-right: none
 
+  #product-category
+    .category-item
+      width: 50%
+
 
   #promo
     .banner-section
@@ -656,6 +713,7 @@ a:focus
         .right-container
           .shop-container
             .shop-header-container
+              padding-top: 30px
               .shop-header
                 font-size: 28px
               .shop-cart
@@ -667,6 +725,9 @@ a:focus
               .shop-link
                 font-size: 14px
                 padding: 15px 80px
+                &.shop-lazada
+                  margin-right: auto
+                  margin-bottom: 15px
 
   #instagram
     .banner-section
@@ -809,6 +870,13 @@ a:focus
               max-width: 90%
               font-size: 14px
               line-height: 25px
+
+  #product-category
+    .category-item
+      width: 100%
+      .category-link
+        .category-title
+          font-size: 28px
 
   #best-seller
     .banner-section
