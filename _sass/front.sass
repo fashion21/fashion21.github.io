@@ -202,8 +202,25 @@ a:focus
       margin-bottom: 30px
       .best-seller-link
         display: block
+        &:hover
+          .image-container
+            .best-seller-image
+              -webkit-transform: scale(1.2)
+              -moz-transform: scale(1.2)
+              -ms-transform: scale(1.2)
+              -o-transform: scale(1.2)
+              transform: scale(1.2)
+            .bg-overlay
+              opacity: 1
         .image-container
           position: relative
+          overflow: hidden
+          .best-seller-image
+            transition: all 300ms ease-in-out
+            -webkit-transition: all 300ms ease-in-out
+            -moz-transition: all 300ms ease-in-out
+            -o-transition: all 300ms ease-in-out
+            -ms-transition: all 300ms ease-in-out
           &.loading
             background-color: #f7f7f7
             padding-bottom: 100% !important
@@ -233,9 +250,10 @@ a:focus
               position: relative
               z-index: 5
         .best-seller-title
+
           font-family: 'Avenir-medium', sans-serif
           display: block
-          background-color: #5c5c5c
+          background-color: #494949
           color: white
           text-align: center
           padding-top: 15px
@@ -293,8 +311,8 @@ a:focus
     margin-right: auto
     margin-top: 40px
     .promo-button-link
+      background-color: #494949
       color: $white
-      border: 1px solid #ffffff
       text-decoration: none
       font-size: 22px
       text-transform: uppercase
@@ -306,7 +324,6 @@ a:focus
       -o-transition: all 300ms ease-in-out
       -ms-transition: all 300ms ease-in-out
       &:hover
-        border: 1px solid transparent
         background-color: #eb0029
 
   .swiper-button-container
@@ -388,7 +405,7 @@ a:focus
             .shop-link
               color: $white
               letter-spacing: 2px
-              background-color: #5c5c5c
+              background-color: #494949
               display: inline-block
               text-transform: uppercase
               font-size: 16px
@@ -511,7 +528,6 @@ a:focus
                   .product-title
                     font-size: 42px
                     line-height: 50px
-
                   .product-description
                     font-size: 18px
                 .product-link-container
