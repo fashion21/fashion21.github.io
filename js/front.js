@@ -128,6 +128,23 @@ $(window).on("load",function () {
         }
     });
 
+    //video on click
+    var videoButton = $('.video-button');
+    var videoContainer = $('#video-bg');
+    var videoIframeContainer = $('#iframe-video');
+    var videoMenuContainer = $("#video .content-container #video-bg .video-content-container");
+    var videoOverlay = $("#video .content-container #video-bg .video-overlay");
+
+    videoButton.on('click', function(){
+        videoContainer.css('display','none');
+        videoOverlay.css('display','none');
+        videoMenuContainer.css('display','none');
+        videoIframeContainer.css('display','block');
+        videoIframeContainer.append('<iframe src="https://www.youtube.com/embed/fixogdOAF8g?autoplay=1&fs=0&rel=0&showinfo=0" allowfullscreen="allowfullscreen" width="100%" height="100%" frameborder="0"></iframe> ');
+    });
+
+
+
 
 
 });
