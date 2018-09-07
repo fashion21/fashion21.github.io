@@ -36,8 +36,8 @@ $(document).ready(function () {
     });
 
     var swiper2 = new Swiper('#promo-slider', {
-        slidesPerView: 2,
-        spaceBetween: 30,
+        slidesPerView: 3,
+        spaceBetween: 5,
         loop: true,
         preloadImages: false,
         lazy: true,
@@ -45,7 +45,11 @@ $(document).ready(function () {
             delay: 6000,
             disableOnInteraction: true
         },
+
         breakpoints: {
+            1200: {
+                slidesPerView: 2
+            },
             991: {
                 slidesPerView: 1
             }
@@ -54,10 +58,6 @@ $(document).ready(function () {
             el: '.swiper-pagination',
             type: 'bullets',
             clickable: true
-        },
-        navigation: {
-            nextEl: '.swiper-button-next',
-            prevEl: '.swiper-button-prev'
         }
     });
 
