@@ -409,9 +409,8 @@ a:focus
 
 #video
   position: relative
-  height: 80vh
   .content-container
-    height: inherit
+    height: 80vh
     position: relative
     #video-bg
       background-image: url("https://res.cloudinary.com/f21cosmetics/image/upload/v1536285059/assets/banner/video-cover.png")
@@ -451,6 +450,38 @@ a:focus
       display: none
       iframe
         height: inherit
+  .more-vlogs-container
+    position: relative
+    width: 100%
+    background-color: #494949
+    display: table
+    text-align: center
+    height: 90px
+    .vlog-text
+      color: white
+      display: inline-block
+      vertical-align: middle
+      text-transform: uppercase
+      font-size: 18px
+      margin-right: 15px
+      margin-bottom: 0
+    .vlog-button
+      margin: 18px auto
+      vertical-align: middle
+      display: inline-block
+      padding: 15px 60px
+      color: #fff
+      background-color: $fashion21Red
+      font-size: 18px
+      text-align: center
+      transition: background-color 300ms ease-in-out
+      -webkit-transition: background-color 300ms ease-in-out
+      -moz-transition: background-color 300ms ease-in-out
+      -o-transition: background-color 300ms ease-in-out
+      -ms-transition: background-color 300ms ease-in-out
+      &:hover
+        background-color: black
+
 
 #shop
   position: relative
@@ -752,7 +783,8 @@ a:focus
         right: 5px
 
   #video
-    height: 432px
+    .content-container
+      height: 432px
 
   #shop
     .container-fluid
@@ -951,7 +983,8 @@ a:focus
           min-height: 188.5px
 
   #video
-    height: 250px
+    .content-container
+      height: 250px
 
   #shop
     .container-fluid
@@ -989,6 +1022,25 @@ a:focus
                 margin-left: 0
             .shop-description-container
               padding-top: 15px
+
+  #video
+    .content-container
+      #video-bg
+        .video-content-container
+          .video-button
+            height: 65px
+    .more-vlogs-container
+      height: auto
+      .vlog-text
+        display: block
+        margin-top: 20px
+        margin-right: 0
+      .vlog-button
+        display: inline-block
+        padding: 10px 45px
+        margin-top: 20px
+        margin-bottom: 20px
+
 
 
 //Iphone X
