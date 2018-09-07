@@ -404,6 +404,51 @@ a:focus
       width: 33px
       height: 35px
 
+#video
+  position: relative
+  height: 90vh
+  .content-container
+    height: inherit
+    position: relative
+    #video-bg
+      background-image: url("https://res.cloudinary.com/f21cosmetics/image/upload/v1536285059/assets/banner/video-cover.png")
+      background-position: center center
+      background-repeat: no-repeat
+      background-size: cover
+      height: inherit
+      .video-overlay
+        position: absolute
+        background-image: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7))
+        height: 100%
+        width: 100%
+        z-index: 1
+      .video-content-container
+        width: 100%
+        position: absolute
+        top: 50%
+        transform: translateY(-50%)
+        -webkit-transform: translateY(-50%)
+        -moz-transform: translateY(-50%)
+        -o-transform: translateY(-50%)
+        -ms-transform: translateY(-50%)
+        z-index: 5
+        .video-button
+          cursor: pointer
+          left: 0
+          right: 0
+          height: 100px
+        .caption
+          .caption-text
+            color: white
+            letter-spacing: 2px
+            text-align: center
+    #iframe-video
+      background-color: black
+      height: inherit
+      display: none
+      iframe
+        height: inherit
+
 #shop
   position: relative
   background-image: -webkit-linear-gradient(135deg, #e3b9c6 57%, #ecc1c7 43%)
@@ -703,6 +748,9 @@ a:focus
       .swiper-button-next
         right: 5px
 
+  #video
+    height: 432px
+
   #shop
     .container-fluid
       .row
@@ -724,10 +772,11 @@ a:focus
             .shop-link-container
               .shop-link
                 font-size: 14px
-                padding: 15px 80px
+                padding: 15px 90px
                 &.shop-lazada
                   margin-right: auto
                   margin-bottom: 15px
+
 
   #instagram
     .banner-section
@@ -897,6 +946,9 @@ a:focus
       #promo-slider
         .swiper-slide
           min-height: 188.5px
+
+  #video
+    height: 250px
 
   #shop
     .container-fluid
