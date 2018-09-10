@@ -10,14 +10,8 @@ $(document).ready(function () {
 
     //Landing page carousel
     var swiper1 = new Swiper('#cover-slider',{
-        // autoplay: {
-        //     delay: 3000,
-        //     disableOnInteraction: false
-        // },
         speed: 300,
-        grabCursor: false,
         preventInteractionOnTransition: true,
-        noSwiping: true,
         noSwipingSelector: "#cover-slider",
         loop: true,
         autoplay: {
@@ -29,10 +23,6 @@ $(document).ready(function () {
             type: 'bullets',
             clickable: true
         }
-        // navigation: {
-        //     nextEl: '.swiper-button-next',
-        //     prevEl: '.swiper-button-prev'
-        // }
     });
 
     var swiper2 = new Swiper('#promo-slider', {
@@ -40,6 +30,7 @@ $(document).ready(function () {
         spaceBetween: 5,
         loop: true,
         preloadImages: false,
+        grabCursor: true,
         lazy: true,
         autoplay: {
             delay: 6000,
