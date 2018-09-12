@@ -67,7 +67,7 @@ $(window).on("load",function () {
         resolution: 'standard_resolution',
         after: function () {
             var swiper3 = new Swiper('.instagram-slider', {
-                slidesPerView: 6,
+                slidesPerView: 8,
                 spaceBetween: 0,
                 loop: true,
                 autoplay: {
@@ -75,18 +75,21 @@ $(window).on("load",function () {
                     disableOnInteraction: true
                 },
                 breakpoints: {
+                    1442: {
+                        slidesPerView: 7
+                    },
                     1280: {
-                        slidesPerView: 5
+                        slidesPerView: 6
                     },
                     1024:{
 
-                        slidesPerView: 4
+                        slidesPerView: 5
                     },
                     768: {
-                        slidesPerView: 3
+                        slidesPerView: 4
                     },
                     640: {
-                        slidesPerView: 2
+                        slidesPerView: 3
                     }
                 }
             });
