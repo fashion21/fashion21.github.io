@@ -515,9 +515,9 @@ a:focus
         .shop-container
           position: relative
           text-align: center
+          padding: 62px 0
           .shop-header-container
             position: relative
-            padding-top: 75px
             .shop-cart
               display: inline-block
               height: 50px
@@ -539,7 +539,7 @@ a:focus
               background-color: #494949
               display: inline-block
               text-transform: uppercase
-              padding: 15px 90px
+              padding: 10px 60px
               text-decoration: none
               transition: background-color 300ms ease-in-out
               -webkit-transition: background-color 300ms ease-in-out
@@ -548,11 +548,28 @@ a:focus
               -ms-transition: background-color 300ms ease-in-out
               &.shop-lazada
                 margin-right: 15px
+                &:hover
+                  background-color: #003e52
+              &.shop-shopee
+                &:hover
+                  background-color: #ff5620
               &:hover
-                background-color: $fashion21Red
+                .cart-icon
+                  filter: none
+                  -webkit-filter: none
+                  -moz-filter: none
+                  -o-filter: none
               .cart-icon
-                height: 30px
-
+                height: 35px
+                filter: brightness(0) invert(1)
+                -webkit-filter: brightness(0) invert(1)
+                -moz-filter: brightness(0) invert(1)
+                -o-filter: brightness(0) invert(1)
+                transition: background-color 300ms ease-in-out
+                -webkit-transition: all 300ms ease-in-out
+                -moz-transition: all 300ms ease-in-out
+                -o-transition: all 300ms ease-in-out
+                -ms-transition: all 300ms ease-in-out
 
 #instagram
   position: relative
@@ -622,6 +639,27 @@ a:focus
     .promo-button-container
       .promo-button-link
         font-size: 16px
+
+  #shop
+    height: 250px
+    .container-fluid
+      .row
+        .left-container
+          .model-container
+            .model-image
+              height: 230px
+        .right-container
+          .shop-container
+            padding: 42px 0
+            .shop-header-container
+              padding-top: 0
+              .shop-header
+                font-size: 28px
+            .shop-link-container
+              .shop-link
+                padding: 10px 60px
+                .cart-icon
+                  height: 30px
 
   #instagram
     .instagram-slider-container

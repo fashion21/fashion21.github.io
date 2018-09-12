@@ -12,20 +12,39 @@ body
   position: relative
   .online-market-link
     display: inline-block
-    background-color: #eb0029
+    background-color: #494949
     margin-right: 15px
     text-decoration: none
-    padding: 10px 30px
-    transition: background-color 300ms ease-in-out
-    -webkit-transition: background-color 300ms ease-in-out
-    -moz-transition: background-color 300ms ease-in-out
-    -o-transition: background-color 300ms ease-in-out
-    -ms-transition: background-color 300ms ease-in-out
+    padding: 10px 60px
+    transition: all 300ms ease-in-out
+    -webkit-transition: all 300ms ease-in-out
+    -moz-transition: all 300ms ease-in-out
+    -o-transition: all 300ms ease-in-out
+    -ms-transition: all 300ms ease-in-out
     &:hover
-      background-color: #ce0024
+      .cart-icon
+        filter: none
+        -webkit-filter: none
+        -moz-filter: none
+        -o-filter: none
+    &.shop-shopee
+      &:hover
+        background-color: #ff5620
+    &.shop-lazada
+      &:hover
+        background-color: #003e52
     .cart-icon
       display: inline-block
-      height: 30px
+      height: 35px
+      filter: brightness(0) invert(1)
+      -webkit-filter: brightness(0) invert(1)
+      -moz-filter: brightness(0) invert(1)
+      -o-filter: brightness(0) invert(1)
+      transition: background-color 300ms ease-in-out
+      -webkit-transition: all 300ms ease-in-out
+      -moz-transition: all 300ms ease-in-out
+      -o-transition: all 300ms ease-in-out
+      -ms-transition: all 300ms ease-in-out
 
 
 
@@ -120,6 +139,12 @@ body
             background-position: -72px -12px
       .lSPager
         display: none
+
+@media (max-width: 1442px)
+  .online-market-container
+    .online-market-link
+      .cart-icon
+        height: 30px
 
 @media (max-width: 1200px)
   .online-market-container
