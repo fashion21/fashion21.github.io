@@ -46,6 +46,7 @@ a:focus
             width: 50%
             float: left
             height: inherit
+            right: -4.5vh
             .product-image-container
               position: relative
               top: 50%
@@ -68,6 +69,7 @@ a:focus
             width: 50%
             float: left
             height: inherit
+            left: -4.5vh
             .product-info-wrapper
               position: relative
               top: 50%
@@ -368,7 +370,7 @@ a:focus
       background-color: #494949
       color: $white
       text-decoration: none
-      font-size: 22px
+      font-size: 16px
       text-transform: uppercase
       display: inline-block
       padding: 15px 60px
@@ -462,7 +464,7 @@ a:focus
       display: inline-block
       vertical-align: middle
       text-transform: uppercase
-      font-size: 18px
+      font-size: 16px
       margin-right: 15px
       margin-bottom: 0
     .vlog-button
@@ -625,12 +627,32 @@ a:focus
 @media (max-width: 1281px)
   #cover
     height: 600px
+    #cover-slider
+      .cover-slider-wrapper
+        .cover-slider-item
+          .product-wrapper
+            .left-container
+              right: -5.5vh
+            .right-container
+              left: -5.5vh
+
   #ribbon
     .container-fluid
       .ribbon-item
+        &.ribbon2
+          .ribbon-info-container
+            .ribbon-intro-container
+              .ribbon-icon
+                height: 18px
         .ribbon-info-container
+          .ribbon-title
+            font-size: 24px
           .ribbon-description
-            max-width: 92%
+            max-width: 84%
+            font-size: 14px
+          .ribbon-intro-container
+            .ribbon-icon
+              height: 35px
 
   #promo
     .promo-slider-container
@@ -651,6 +673,7 @@ a:focus
         .cover-slider-item
           .product-wrapper
             .left-container
+              right: 0
               .product-image-container
                 .product-image
                   &.horizontal-image
@@ -658,6 +681,7 @@ a:focus
                   &.vertical-image
                     max-width: 85%
             .right-container
+              left: 0
               .product-info-wrapper
                 .product-intro-container
                   .product-title
