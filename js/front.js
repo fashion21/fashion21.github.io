@@ -1,12 +1,12 @@
 $(document).ready(function () {
     //navbar on scroll
-    $(window).scroll(function() {
+    /*$(window).scroll(function() {
         if ($(document).scrollTop() > 50) {
             $('nav').addClass('shrink');
         } else {
             $('nav').removeClass('shrink');
         }
-    });
+    });*/
 
     //Landing page carousel
     var swiper1 = new Swiper('#cover-slider',{
