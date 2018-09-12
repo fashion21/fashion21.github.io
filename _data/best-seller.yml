@@ -1,7 +1,7 @@
 - id: 1
-  title: Matte Permanent Lipstick
-  image: "https://res.cloudinary.com/f21cosmetics/image/upload/v1535370681/assets/best-seller/best-seller1.jpg"
-  link: "/products/lips/matte-permanent-lipstick/"
+  title: All Day Matte
+  image: "https://res.cloudinary.com/f21cosmetics/image/upload/v1536730964/assets/best-seller/cheek-gel.jpg"
+  link: "/products/lips/all-day-matte-lipstick/"
 
 - id: 2
   title: Color Set
@@ -14,9 +14,9 @@
   link: "/products/eyes/double-up-mascara/"
 
 - id: 4
-  title: Blush Stick
-  image: "https://res.cloudinary.com/f21cosmetics/image/upload/v1535370687/assets/best-seller/best-seller4.jpg"
-  link: "/products/eyes/liquid-eyeliner-water-resistant/"
+  title: Cheek Gel
+  image: "https://res.cloudinary.com/f21cosmetics/image/upload/v1536730964/assets/best-seller/all-day-matte.jpg"
+  link: "/products/cheeks/lip--cheek-gel/"
 
 - id: 5
   title: Cheek Tint
