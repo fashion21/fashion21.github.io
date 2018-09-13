@@ -1,8 +1,8 @@
 <div class="container-fluid">
-    <div class="row">
+    <div class="row visible-lg hidden-md hidden-sm hidden-xs">
         {% assign counter = 0 %}
         {% for ribbon in site.data.ribbon %}
-        <div class="col-md-4 ribbon-item {% cycle 'ribbon1', 'ribbon2', 'ribbon3' %}">
+        <div class="col-md-4 ribbon-item  {% cycle 'ribbon1', 'ribbon2', 'ribbon3' %}">
             <div class="ribbon-info-container">
                 <div class="ribbon-intro-container">
                     <img src="{{ ribbon.icon }}" class="ribbon-icon" />
@@ -12,5 +12,25 @@
             </div><!--ribbon-intro-container-->
         </div><!--ribbon-item-->
         {% endfor %}
+    </div><!--row-->
+    <div class="row hidden-lg visible-md visible-sm visible-xs">
+        <div id="ribbon-slider" class="swiper-container">
+            <div class="swiper-wrapper">
+                {% for ribbon in site.data.ribbon %}
+                <div class="swiper-slide ribbon-item  {% cycle 'ribbon1', 'ribbon2', 'ribbon3' %}">
+                    <div class="ribbon-info-container">
+                        <div class="ribbon-intro-container">
+                            <img src="{{ ribbon.icon }}" class="ribbon-icon" />
+                            <span class="ribbon-title">{{ ribbon.title }}</span>
+                        </div>
+                        <p class="ribbon-description">{{ ribbon.description }}</p>
+                    </div><!--ribbon-intro-container-->
+                </div><!--ribbon-item-->
+                {% endfor %}
+            </div>
+
+            <div class="swiper-pagination"></div>
+        </div>
+
     </div><!--row-->
 </div><!--container-fluid-->

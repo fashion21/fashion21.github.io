@@ -145,6 +145,7 @@ a:focus
             vertical-align: middle
             letter-spacing: 5px
         .ribbon-description
+          line-height: 25px
           margin-top: 25px
           font-size: 16px
           max-width: 81%
@@ -176,6 +177,8 @@ a:focus
           padding: 20px 0px
           .ribbon-icon
             height: 20px
+    .swiper-pagination-bullet
+      background: $white
 
 #product-category
   position: relative
@@ -218,6 +221,7 @@ a:focus
         font-family: 'ChristopherHand-Small', sans-serif
         text-transform: uppercase
         letter-spacing: 5px
+
 
 #best-seller
   position: relative
@@ -825,20 +829,28 @@ a:focus
           margin-bottom: 0
           min-height: 0
           .ribbon-info-container
-            padding: 30px 0
+            padding: 25px
+            .ribbon-intro-container
+              .ribbon-icon
+                display: block
+                max-width: 100%
+                margin-left: auto
+                margin-right: auto
+                margin-bottom: 15px
+                height: 45px
+              .ribbon-title
+                margin-left: 0
             .ribbon-description
               max-width: 79%
           &.ribbon2
             &:before
-              border-top: 1px solid #fff
-              width: 100%
-              top: 0
-              border-left: none
+              border: none
             &:after
-              border-bottom: 1px solid #fff
-              width: 100%
-              bottom: 0
-              border-right: none
+              border: none
+            .ribbon-info-container
+              .ribbon-intro-container
+                .ribbon-icon
+                  height: 20px
 
   #product-category
     .category-item
@@ -868,16 +880,18 @@ a:focus
       height: 432px
 
   #shop
+    height: 250px
     .container-fluid
       .row
         .left-container
           .model-container
+            height: 220px
             left: 0
             right: auto
         .right-container
           .shop-container
             .shop-header-container
-              padding-top: 30px
+              padding-top: 0
               .shop-header
                 font-size: 28px
               .shop-cart
@@ -887,8 +901,7 @@ a:focus
                 font-size: 16px
             .shop-link-container
               .shop-link
-                font-size: 14px
-                padding: 15px 90px
+                padding: 10px 50px
                 &.shop-lazada
                   margin-right: auto
                   margin-bottom: 15px
@@ -954,7 +967,7 @@ a:focus
         .ribbon-item
           .ribbon-info-container
             .ribbon-description
-              max-width: 78%
+              max-width: 100%
               min-width: 0
 
   #best-seller
@@ -969,6 +982,16 @@ a:focus
         .swiper-slide
           min-height: 281.5px
 
+  #video
+    .more-vlogs-container
+      height: 0
+      .vlog-button
+        font-size: 14px
+        padding: 10px 40px
+      .vlog-text
+        font-size: 14px
+
+
   #shop
     height: auto
     .container-fluid
@@ -976,22 +999,15 @@ a:focus
         .right-container
           width: 100%
           .shop-container
-            padding-top: 60px
-            padding-bottom: 60px
+            padding: 30px 0
             .shop-header-container
               padding-top: 0
-              .shop-cart
-                height: 60px
-              .shop-header
-                font-size: 34px
+            .shop-link-container
+              .shop-link
+                .cart-icon
+                  height: 25px
 
-            .shop-description-container
-              padding-top: 30px
-              .shop-description
-                font-size: 18px
-
-
-  //Iphone 6 7 8 plus
+//Iphone 6 7 8 plus
 @media (max-width: 480px)
   #cover
     height: 630px
@@ -1031,10 +1047,18 @@ a:focus
       .row
         .ribbon-item
           .ribbon-info-container
+            .ribbon-intro-container
+              .ribbon-icon
+                height: 35px
             .ribbon-description
-              max-width: 90%
-              font-size: 14px
-              line-height: 25px
+              margin-top: 15px
+          &.ribbon2
+            .ribbon-info-container
+              .ribbon-intro-container
+                .ribbon-icon
+                  height: 18px
+
+
 
   #product-category
     .category-item

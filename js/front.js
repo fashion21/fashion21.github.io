@@ -15,7 +15,7 @@ $(document).ready(function () {
         noSwipingSelector: "#cover-slider",
         loop: true,
         autoplay: {
-            delay: 800000,
+            delay: 8000,
             disableOnInteraction: true
         },
         pagination: {
@@ -24,6 +24,8 @@ $(document).ready(function () {
             clickable: true
         }
     });
+
+
 
     var swiper2 = new Swiper('#promo-slider', {
         slidesPerView: 3,
@@ -98,6 +100,22 @@ $(window).on("load",function () {
     });
     feed.run();
 
+    var swiper4 = new Swiper('#ribbon-slider',{
+        speed: 300,
+        preventInteractionOnTransition: true,
+        noSwipingSelector: "#cover-slider",
+        loop: true,
+        autoplay: {
+            delay: 6000,
+            disableOnInteraction: true
+        },
+        pagination: {
+            el: '.swiper-pagination',
+            type: 'bullets',
+            clickable: true
+        }
+    });
+
     var categoryLink = $(".category-link");
     categoryLink.on("mouseenter", function () {
         console.log("MOUSE ENTER");
@@ -136,9 +154,6 @@ $(window).on("load",function () {
         videoIframeContainer.css('display','block');
         videoIframeContainer.append('<iframe src="https://www.youtube.com/embed/fixogdOAF8g?autoplay=1&fs=0&rel=0&showinfo=0" allowfullscreen="allowfullscreen" width="100%" height="100%" frameborder="0"></iframe> ');
     });
-
-
-
-
+    
 
 });
