@@ -26,7 +26,7 @@
 
         <div class="video-list-container clearfix hidden-lg hidden-md hidden-sm visible-xs">
             {% assign sorted-video = site.data.video | sort: 'id' | reverse %}
-            {% for video in sorted-video limit: 2 %}
+            {% for video in sorted-video limit: 4 %}
             <div class="col-md-4 col-sm-6 col-xs-12 video-list">
                 <a class="video-link" href="" data-izimodal-open="#slug{{ video.id }}">
                     <div class="video-image-container loading">

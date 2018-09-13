@@ -26,7 +26,7 @@
 
             <div class="blog-wrapper clearfix hidden-lg hidden-md hidden-sm visible-xs">
                 {% assign sorted-article = site.data.article | sort: 'slugID' | reverse %}
-                {% for article in sorted-article limit:2 %}
+                {% for article in sorted-article limit: 4 %}
                 <div class="col-md-4 col-sm-6 col-xs-12 blog-item">
                     <a href="{{ article.link }}" class="blog-link" target="_blank">
                         <div class="blog-image-container loading">
