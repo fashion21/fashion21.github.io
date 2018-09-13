@@ -1,5 +1,5 @@
 <div class="container-fluid">
-    <div class="row visible-lg hidden-md hidden-sm hidden-xs">
+    <div class="row ribbon-normal">
         {% assign counter = 0 %}
         {% for ribbon in site.data.ribbon %}
         <div class="col-md-4 ribbon-item  {% cycle 'ribbon1', 'ribbon2', 'ribbon3' %}">
@@ -13,7 +13,7 @@
         </div><!--ribbon-item-->
         {% endfor %}
     </div><!--row-->
-    <div class="row hidden-lg visible-md visible-sm visible-xs">
+    <div class="row ribbon-slider">
         <div id="ribbon-slider" class="swiper-container">
             <div class="swiper-wrapper">
                 {% for ribbon in site.data.ribbon %}
