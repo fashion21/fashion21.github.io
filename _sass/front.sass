@@ -980,12 +980,15 @@ a:focus
       .best-seller-item
         width: 50%
         float: left
+        .best-seller-link
+          .best-seller-title
+            font-size: 14px
 
   #promo
     .promo-slider-container
       #promo-slider
         .swiper-slide
-          min-height: 281.5px
+          min-height: 40vw
 
   #video
     .more-vlogs-container
@@ -1011,6 +1014,18 @@ a:focus
               .shop-link
                 .cart-icon
                   height: 25px
+
+@media (max-width: 568px)
+  #video
+    .more-vlogs-container
+      padding-top: 20px
+      padding-bottom: 20px
+      .vlog-text
+        display: block
+      .vlog-button
+        display: inline-block
+        margin-bottom: 0
+
 
 //Iphone 6 7 8 plus
 @media (max-width: 480px)
@@ -1046,7 +1061,6 @@ a:focus
                   .product-link
                     font-size: 12px
 
-
   #ribbon
     .container-fluid
       .row
@@ -1063,8 +1077,6 @@ a:focus
                 .ribbon-icon
                   height: 18px
 
-
-
   #product-category
     .category-item
       width: 100%
@@ -1078,8 +1090,15 @@ a:focus
       .banner-title
         font-size: 18px
     .best-seller-container
+      padding-left: 15px
+      padding-right: 15px
       .best-seller-item
-        width: 100%
+        width: 50%
+        padding: 0
+        margin-bottom: 0
+        .best-seller-link
+          .best-seller-title
+            display: none
 
   #promo
     .banner-section
@@ -1088,9 +1107,6 @@ a:focus
         font-size: 24px
     .promo-slider-container
       width: 100%
-      #promo-slider
-        .swiper-slide
-          min-height: 188.5px
       .promo-button-link
         font-size: 14px
 
@@ -1146,15 +1162,10 @@ a:focus
       height: auto
       .vlog-text
         display: block
-        margin-top: 20px
         margin-right: 0
       .vlog-button
         display: inline-block
         padding: 10px 45px
-        margin-top: 20px
-        margin-bottom: 20px
-
-
 
 //Iphone X
 @media (max-width: 380px)
