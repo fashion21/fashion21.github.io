@@ -24,6 +24,7 @@ a:focus
   position: relative
   padding-top: 86px
   height: 700px
+  z-index: 1
   #cover-slider
     height: 100%
     padding: 0
@@ -61,14 +62,6 @@ a:focus
                   max-width: 70%
                 &.vertical-image
                   max-width: 55%
-          .right-container
-            padding-left: 15px
-            padding-right: 15px
-            position: relative
-            width: 50%
-            float: left
-            height: inherit
-            left: -4.5vh
             .product-info-wrapper
               position: relative
               top: 50%
@@ -116,8 +109,124 @@ a:focus
                   -ms-transition: background-color 300ms ease-in-out
                   &:hover
                     background-color: $fashion21Red
+          .right-container
+            padding-left: 15px
+            padding-right: 15px
+            position: relative
+            width: 50%
+            float: left
+            height: inherit
+            left: -4.5vh
+            .product-image-container
+              position: relative
+              top: 50%
+              transform: translateY(-50%)
+              -webkit-transform: translateY(-50%)
+              -moz-transform: translateY(-50%)
+              -o-transform: translateY(-50%)
+              -ms-transform: translateY(-50%)
+              .product-image
+                display: block
+                &.horizontal-image
+                  max-width: 70%
+                &.vertical-image
+                  max-width: 55%
+            .product-info-wrapper
+              position: relative
+              top: 50%
+              transform: translateY(-50%)
+              -webkit-transform: translateY(-50%)
+              -moz-transform: translateY(-50%)
+              -o-transform: translateY(-50%)
+              -ms-transform: translateY(-50%)
+              .product-intro-container
+                text-align: center
+                .product-title
+                  display: block
+                  font-family: "Montserrat", sans-serif
+                  font-weight: 600
+                  font-size: 44px
+                  text-transform: uppercase
+                  text-align: center
+                  letter-spacing: 2px
+                  line-height: 60px
+                .product-description
+                  margin-top: 15px
+                  margin-left: auto
+                  margin-right: auto
+                  max-width: 80%
+                  min-width: 80%
+                  font-size: 18px
+                  line-height: 30px
+                  font-family: "Avenir-medium", sans-serif
+              .product-link-container
+                margin-top: 50px
+                text-align: center
+                .product-link
+                  text-transform: uppercase
+                  text-decoration: none
+                  display: inline-block
+                  font-size: 14px
+                  padding: 20px 40px
+                  letter-spacing: 5px
+                  color: $white
+                  background-color: $black
+                  transition: background-color 300ms ease-in-out
+                  -webkit-transition: background-color 300ms ease-in-out
+                  -moz-transition: background-color 300ms ease-in-out
+                  -o-transition: background-color 300ms ease-in-out
+                  -ms-transition: background-color 300ms ease-in-out
+                  &:hover
+                    background-color: $fashion21Red
+        &.template2
+          .product-wrapper
+            .left-container
+              width: 60%
+              .product-image-container
+                position: absolute
+                bottom: 0
+                top: auto
+                transform: none
+                -webkit-transform: none
+                -moz-transform: none
+                -o-transform: none
+                -ms-transform: none
+                .product-image
+                  max-width: 100%
+            .right-container
+              width: 40%
+        &.template5
+          .product-wrapper
+            .left-container
+              right: 0
+              padding-left: 0
+              width: 63%
+              .product-image-container
+                top: auto
+                transform: none
+                -webkit-transform: none
+                -moz-transform: none
+                -o-transform: none
+                -ms-transform: none
+                .product-image
+                  max-width: 100%
+            .right-container
+              width: 37%
+              .product-info-wrapper
+                .product-intro-container
+                  .product-logo
+                    margin-top: 30px
+                    display: block
+                    margin-left: auto
+                    margin-right: auto
+                    max-width: 55%
+                .product-link-container
+                  margin-top: 30px
+
+
 
 #ribbon
+  z-index: 2
   position: relative
   background-color: $black
   .container-fluid

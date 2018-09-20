@@ -15,7 +15,7 @@ $(document).ready(function () {
         noSwipingSelector: "#cover-slider",
         loop: true,
         autoplay: {
-            delay: 8000,
+            delay: 8000000,
             disableOnInteraction: true
         },
         pagination: {
