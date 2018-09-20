@@ -932,7 +932,6 @@ a:focus
                   &.vertical-image
                     max-width: 45%
                     height: auto
-
             .right-container
               width: 100%
               height: auto
@@ -954,6 +953,69 @@ a:focus
                     min-width: 0
               .product-link-container
                 margin-top: 45px
+        .cover-slider-item.template2
+          .product-wrapper
+            .left-container
+              width: 100%
+              .product-image-container
+                position: relative
+                margin-bottom: 0
+                .product-image
+                  max-width: 75%
+            .right-container
+              width: 100%
+              height: 100%
+              background-color: #8c5b46
+              .product-info-wrapper
+                top: auto
+                transform: none
+                -webkit-transform: none
+                -moz-transform: none
+                -o-transform: none
+                -ms-transform: none
+                .product-intro-container
+                  .product-title
+                    color: $white
+                  .product-description
+                    color: $white
+                    max-width: 67%
+        .cover-slider-item.template3
+          .product-wrapper
+            .left-container
+              width: 100%
+              .product-image-container
+                .product-image
+                  max-width: 50%
+            .right-container
+                width: 100%
+        .cover-slider-item.template4
+          .product-wrapper
+            .left-container
+              transform: none
+              -webkit-transform: none
+              -moz-transform: none
+              -o-transform: none
+              -ms-transform: none
+              .product-image-container
+                .product-image
+                  max-width: 50%
+            .right-container
+              left: 0
+        .cover-slider-item.template5
+          .product-wrapper
+            .left-container
+              width: 100%
+              .product-image-container
+                .product-image
+                  max-width: 60%
+            .right-container
+              width: 100%
+              .right-container
+                .product-info-wrapper
+                  .product-intro-container
+                    .product-logo
+
+                      max-width: 25%
 
   #best-seller
     .banner-section
@@ -1106,6 +1168,16 @@ a:focus
                 .product-link-container
                   margin-bottom: 30px
 
+        .cover-slider-item.template2
+          .product-wrapper
+            .left-container
+              .product-image-container
+                .product-image
+                  max-width: 80%
+            .right-container
+              .product-info-wrapper
+                margin-top: 30px
+
   #ribbon
     .container-fluid
       .row
@@ -1170,13 +1242,14 @@ a:focus
 //Iphone 6 7 8 plus
 @media (max-width: 480px)
   #cover
-    height: 630px
+    height: 650px
     #cover-slider
       .cover-slider-wrapper
         .cover-slider-item
           .product-wrapper
             .left-container
               .product-image-container
+                margin-top: 30px
                 .product-image
                   margin-bottom: 15px
                   &.horizontal-image
@@ -1200,6 +1273,20 @@ a:focus
                 .product-link-container
                   .product-link
                     font-size: 12px
+        .cover-slider-item.template2
+          .product-wrapper
+            .left-container
+              .product-image-container
+                .product-image
+                  max-width: 100%
+                  margin-bottom: 0
+        .cover-slider-item.template3
+          .product-wrapper
+            .left-container
+              .product-image-container
+                .product-image
+                  &.horizontal-image
+                    max-width: 80%
 
   #ribbon
     .container-fluid

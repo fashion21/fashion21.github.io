@@ -51,7 +51,29 @@
             <div class="{{ headerCarousel.templateType }} swiper-slide cover-slider-item" style="background-image: url('{{ headerCarousel.background }}')">
                 <div class="product-wrapper">
                     <div class="left-container">
-                        <div class="product-info-wrapper">
+
+                        <div class="product-info-wrapper visible-lg visible-md hidden-sm hidden-xs">
+                            <div class="product-intro-container">
+                                <span class="product-title">{{ headerCarousel.title }}</span>
+                                <p class="product-description">{{ headerCarousel.description }}</p>
+                            </div>
+                            <div class="product-link-container ">
+                                <a href="{{ headerCarousel.link }}" class="product-link">View Product</a>
+                            </div>
+                        </div>
+
+                        <div class="product-image-container hidden-lg hidden-md visible-sm visible-xs">
+                            <img src="{{ headerCarousel.product-image }}" class="{{ headerCarousel.imageType }} center-block product-image" />
+                        </div>
+
+                    </div>
+                    <div class="right-container">
+
+                        <div class="product-image-container visible-lg visible-md hidden-sm hidden-xs">
+                            <img src="{{ headerCarousel.product-image }}" class="{{ headerCarousel.imageType }} center-block product-image" />
+                        </div>
+
+                        <div class="product-info-wrapper hidden-lg hidden-md visible-sm visible-xs">
                             <div class="product-intro-container">
                                 <span class="product-title">{{ headerCarousel.title }}</span>
                                 <p class="product-description">{{ headerCarousel.description }}</p>
@@ -59,11 +81,6 @@
                             <div class="product-link-container">
                                 <a href="{{ headerCarousel.link }}" class="product-link">View Product</a>
                             </div>
-                        </div>
-                    </div>
-                    <div class="right-container">
-                        <div class="product-image-container">
-                            <img src="{{ headerCarousel.product-image }}" class="{{ headerCarousel.imageType }} center-block product-image" />
                         </div>
 
                     </div>
@@ -74,7 +91,8 @@
             <div class="{{ headerCarousel.templateType }} swiper-slide cover-slider-item" style="background-image: url('{{ headerCarousel.background }}')">
                 <div class="product-wrapper">
                     <div class="left-container">
-                        <div class="product-info-wrapper">
+
+                        <div class="product-info-wrapper visible-lg visible-md hidden-sm hidden-xs">
                             <div class="product-intro-container">
                                 <span class="product-title">{{ headerCarousel.title }}</span>
                                 <p class="product-description">{{ headerCarousel.description }}</p>
@@ -83,10 +101,26 @@
                                 <a href="{{ headerCarousel.link }}" class="product-link">View Product</a>
                             </div>
                         </div>
+
+                        <div class="product-image-container hidden-lg hidden-md visible-sm visible-xs">
+                            <img src="{{ headerCarousel.product-image }}" class="{{ headerCarousel.imageType }} center-block product-image" />
+                        </div>
+
                     </div>
                     <div class="right-container">
-                        <div class="product-image-container">
+
+                        <div class="product-image-container visible-lg visible-md hidden-sm hidden-xs">
                             <img src="{{ headerCarousel.product-image }}" class="{{ headerCarousel.imageType }} center-block product-image" />
+                        </div>
+
+                        <div class="product-info-wrapper hidden-lg hidden-md visible-sm visible-xs">
+                            <div class="product-intro-container">
+                                <span class="product-title">{{ headerCarousel.title }}</span>
+                                <p class="product-description">{{ headerCarousel.description }}</p>
+                            </div>
+                            <div class="product-link-container">
+                                <a href="{{ headerCarousel.link }}" class="product-link">View Product</a>
+                            </div>
                         </div>
 
                     </div>
