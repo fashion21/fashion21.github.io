@@ -20,7 +20,7 @@
   title: "Eyeshadow Kit #6"
   description: "You asked for matte and we heard you! Introducing our new all-matte eyeshadow kit in nude tones!"
   background: "https://res.cloudinary.com/f21cosmetics/image/upload/v1537419356/assets/carousel/new/slider3-bg.jpg"
-  link: ""
+  link: "/products/eyes/eyeshadow-kit/"
   product-image: "https://res.cloudinary.com/f21cosmetics/image/upload/v1537419393/assets/carousel/new/slider3-image.png"
   templateType: template2
 
@@ -28,7 +28,7 @@
   title: "Lip & Cheek Gel"
   description: "A sheer flush of color that blends seamlessly for a bright rosy glow to the lips and cheeks."
   background: "https://res.cloudinary.com/f21cosmetics/image/upload/v1537419357/assets/carousel/new/slider4-bg.jpg"
-  link: ""
+  link: "/products/cheeks/lip--cheek-gel/"
   product-image: "https://res.cloudinary.com/f21cosmetics/image/upload/v1537419373/assets/carousel/new/slider4-image.png"
   imageType: "horizontal-image"
   templateType: template3
@@ -48,7 +48,7 @@
   description: "A sheer flush of color that blends seamlessly for a bright rosy glow to the lips and cheeks."
   background: faede4
   logo: "https://res.cloudinary.com/f21cosmetics/image/upload/v1537423808/assets/carousel/new/lazada-image.png"
-  link: ""
+  link: "https://www.lazada.com.ph/shop/fashion21ph/?spm=a2o4l.pdp.seller.1.34eccbc96ET2y9"
   product-image: "https://res.cloudinary.com/f21cosmetics/image/upload/v1537423761/assets/carousel/new/slider6-image.jpg"
   templateType: template5
 
