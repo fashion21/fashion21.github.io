@@ -1,5 +1,5 @@
 ---
-lazada-link: ""
+lazada-link: "https://www.lazada.com.ph/products/fashion21-metal-curler-i254090499-s348995848.html?spm=a2o4l.seller.list.40.5de16cc9YaIUpI&mp=1"
 shopee-link: "https://shopee.ph/Fashion21-Metal-Curler-i.26222223.826193958"
 id: 66
 title: "Metal Eyelash Curler"

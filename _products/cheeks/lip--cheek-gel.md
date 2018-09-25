@@ -1,5 +1,5 @@
 ---
-lazada-link: ""
+lazada-link: "https://www.lazada.com.ph/products/fashion21-lip-and-cheek-gel-i258061044-s356043094.html?spm=a2o4l.seller.list.8.6f7a6cc9EG639o&mp=1"
 shopee-link: "https://shopee.ph/Fashion21-Lip-Cheek-Gel-i.26222223.826165431"
 id: 36
 title: "Lip & Cheek Gel"

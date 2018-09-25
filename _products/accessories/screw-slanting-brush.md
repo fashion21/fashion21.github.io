@@ -1,6 +1,6 @@
 ---
 published: true
-lazada-link: ""
+lazada-link: "https://www.lazada.com.ph/products/fashion21-slanting-brush-and-screw-i258043882-s356030239.html?spm=a2o4l.seller.list.54.5de16cc9xRUVLW&mp=1"
 shopee-link: "https://shopee.ph/Fashion21-Slanting-Brush-and-Screw-(one-brush-only)-i.26222223.826193982"
 title: Screw/Slanting Brush
 id: 70

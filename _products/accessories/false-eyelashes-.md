@@ -1,5 +1,5 @@
 ---
-lazada-link: ""
+lazada-link: "https://www.lazada.com.ph/products/fashion21-false-eyelashes-i258050540-s356025673.html?spm=a2o4l.seller.list.24.5de16cc90jDK6k&mp=1"
 shopee-link: "https://shopee.ph/Fashion21-False-Eyelashes-i.26222223.826165379"
 id: 54
 title: "False Eyelashes "

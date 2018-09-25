@@ -1,5 +1,5 @@
 ---
-lazada-link: ""
+lazada-link: "https://www.lazada.com.ph/products/fashion21-eyeshadow-kit-i254099499-s349006941.html?spm=a2o4l.seller.list.68.5de16cc912FoIi&mp=1"
 shopee-link: "https://shopee.ph/Fashion21-Eyeshadow-Kit-i.26222223.826165475"
 published: true
 id: 31

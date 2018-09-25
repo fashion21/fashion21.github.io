@@ -1,5 +1,5 @@
 ---
-lazada-link: ""
+lazada-link: "https://www.lazada.com.ph/products/fashion21-multi-function-brush-i254108511-s349021104.html?spm=a2o4l.seller.list.58.5de16cc9S9KbZR&mp=1"
 shopee-link: "https://shopee.ph/Fashion21-Multi-Function-Brush-i.26222223.826165388"
 id: 63
 title: "Multi-Function Brush"

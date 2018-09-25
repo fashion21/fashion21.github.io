@@ -1,5 +1,5 @@
 ---
-lazada-link: ""
+lazada-link: "https://www.lazada.com.ph/products/fashion21-two-way-cake-w-tea-tree-oil-i257584954-s354320023.html?spm=a2o4l.seller.list.6.6f7a6cc981CPCJ&mp=1"
 shopee-link: "https://shopee.ph/Fashion21-Two-Way-Cake-with-Tea-Tree-Oil-i.26222223.826165554"
 published: true
 id: 12

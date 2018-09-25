@@ -1,5 +1,5 @@
 ---
-lazada-link: ""
+lazada-link: "https://www.lazada.com.ph/products/fashion21-kabuki-brush-i254096501-s349003974.html?spm=a2o4l.seller.list.42.5de16cc9eeczE5&mp=1"
 shopee-link: "https://shopee.ph/Fashion21-Kabuki-Brush-i.26222223.826165390"
 id: 55
 title: Kabuki Brush

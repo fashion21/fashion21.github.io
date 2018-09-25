@@ -1,5 +1,5 @@
 ---
-lazada-link: ""
+lazada-link: "https://www.lazada.com.ph/products/fashion21-two-way-cake-w-papaya-extract-i257582182-s354286171.html?spm=a2o4l.seller.list.10.6f7a6cc9ZyV9kI&mp=1"
 shopee-link: "https://shopee.ph/Fashion21-Two-Way-Cake-with-Papaya-Extract-i.26222223.826193915"
 published: true
 id: 10

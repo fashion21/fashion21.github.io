@@ -1,6 +1,6 @@
 ---
 published: true
-lazada-link: ""
+lazada-link: "https://www.lazada.com.ph/products/fashion21-fine-blush-powder-i254092488-s348997942.html?spm=a2o4l.seller.list.70.5de16cc9YIAwSM&mp=1"
 shopee-link: "https://shopee.ph/Fashion21-Fine-Blush-Powder-i.26222223.826193961"
 id: 35
 title: Fine Blush Powder

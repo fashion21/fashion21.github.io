@@ -1,5 +1,5 @@
 ---
-lazada-link: ""
+lazada-link: "https://www.lazada.com.ph/products/fashion21-defining-eyeliner-i254086520-s348999794.html?spm=a2o4l.seller.list.76.5de16cc9QQLfvm&mp=1"
 shopee-link: "https://shopee.ph/Fashion21-Defining-Eyeliner-i.26222223.826165462"
 id: 17
 title: Defining Eyeliner

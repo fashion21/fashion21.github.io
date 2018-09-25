@@ -1,5 +1,5 @@
 ---
-lazada-link: ""
+lazada-link: "https://www.lazada.com.ph/products/fashion21-eyebrow-gel-i254089475-s349000732.html?spm=a2o4l.seller.list.10.5de16cc9mJV7yb&mp=1"
 shopee-link: "https://shopee.ph/Fashion21-Eyebrow-Gel-i.26222223.826165375"
 id: 22
 title: Eyebrow Gel

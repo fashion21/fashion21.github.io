@@ -1,5 +1,5 @@
 ---
-lazada-link: ""
+lazada-link: "https://www.lazada.com.ph/products/fashion21-lip-cheek-tint-i254111500-s349007819.html?spm=a2o4l.seller.list.20.6f7a6cc9X4aAKt&mp=1"
 shopee-link: "https://shopee.ph/Fashion21-Lip-Cheek-Tint-i.26222223.826165426"
 id: 34
 title: "Cheek Tint"

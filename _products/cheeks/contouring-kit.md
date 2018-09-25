@@ -1,6 +1,6 @@
 ---
 published: true
-lazada-link: ""
+lazada-link: "https://www.lazada.com.ph/products/fashion21-contouring-kit-i258047709-s356018973.html?spm=a2o4l.seller.list.16.6f7a6cc9YLlCpj&mp=1"
 shopee-link: "https://shopee.ph/Fashion21-Contouring-Kit-i.26222223.826165350"
 id: 38
 title: Contouring Kit

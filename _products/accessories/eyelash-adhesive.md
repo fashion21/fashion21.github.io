@@ -1,6 +1,6 @@
 ---
 published: true
-lazada-link: "https://shopee.ph/Fashion21-Eyelash-Adhesive-i.26222223.826193978"
+lazada-link: "https://www.lazada.com.ph/products/fashion21-eyelash-adhesive-i254107509-s349014883.html?spm=a2o4l.seller.list.32.5de16cc9lSbnDw&mp=1"
 shopee-link: "https://shopee.ph/Fashion21-Eyelash-Adhesive-i.26222223.826193978"
 id: 51
 title: Eyelash Adhesive

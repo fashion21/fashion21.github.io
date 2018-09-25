@@ -1,5 +1,5 @@
 ---
-lazada-link: ""
+lazada-link: "https://www.lazada.com.ph/products/fashion21-double-up-mascara-i258047703-s356025581.html?spm=a2o4l.seller.list.30.5de16cc9p5OrNh&mp=1"
 shopee-link: "https://shopee.ph/Fashion21-Double-Up-Mascara-i.26222223.826193918"
 id: 19
 title: "Double-Up Mascara"

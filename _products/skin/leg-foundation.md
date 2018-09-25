@@ -1,5 +1,5 @@
 ---
-lazada-link: ""
+lazada-link: "https://www.lazada.com.ph/products/fashion21-leg-make-up-i254102506-s349011994.html?spm=a2o4l.seller.list.16.5de16cc92qZHAW&mp=1"
 shopee-link: "https://shopee.ph/Fashion21-Leg-Make-Up-i.26222223.826193988"
 id: 78
 title: "Leg Foundation"

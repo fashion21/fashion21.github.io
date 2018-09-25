@@ -1,5 +1,5 @@
 ---
-lazada-link: ""
+lazada-link: "https://www.lazada.com.ph/products/fashion21-cucumber-pressed-powder-i258055287-s356036521.html?spm=a2o4l.seller.list.28.5de16cc9uMSH9q&mp=1"
 shopee-link: "https://shopee.ph/Fashion21-Cucumber-Pressed-Powder-i.26222223.826165512"
 published: true
 id: 5

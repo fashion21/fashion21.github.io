@@ -1,5 +1,5 @@
 ---
-lazada-link: ""
+lazada-link: "https://www.lazada.com.ph/products/fashion21-eyebrow-duo-powder-i254104476-s349018837.html?spm=a2o4l.seller.list.8.5de16cc9wr0obm&mp=1"
 shopee-link: "https://shopee.ph/Fashion21-Eyebrow-Duo-Powder-i.26222223.826165446"
 id: 20
 title: Duo Eyebrow Powder

@@ -1,5 +1,5 @@
 ---
-lazada-link: ""
+lazada-link: "https://www.lazada.com.ph/products/fashion21-perfect-stick-w-tea-tree-i254098532-s349020180.html?spm=a2o4l.seller.list.6.5de16cc9XzBAlW&mp=1"
 shopee-link: "https://shopee.ph/Fashion21-Perfect-Stick-with-Tea-Tree-Oil-i.26222223.826165479"
 id: 4
 title: "Perfect Stick with Tea-Tree Oil"

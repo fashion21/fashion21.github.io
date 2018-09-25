@@ -1,5 +1,5 @@
 ---
-lazada-link: ""
+lazada-link: "https://www.lazada.com.ph/products/fashion21-eyebrow-pencil-i254103530-s349013906.html?spm=a2o4l.seller.list.46.5de16cc9yWxY3r&mp=1"
 shopee-link: "https://shopee.ph/Fashion21-Eyeliner-Pencil-i.26222223.826165467"
 id: 23
 title: Eyebrow Pencil

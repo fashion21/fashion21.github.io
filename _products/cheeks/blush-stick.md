@@ -1,5 +1,5 @@
 ---
-lazada-link: ""
+lazada-link: "https://www.lazada.com.ph/products/fashion21-blush-stick-new-i254105382-s349016642.html?spm=a2o4l.seller.list.66.5de16cc90F0Ycf&mp=1"
 shopee-link: "https://shopee.ph/Fashion21-Blush-Stick-(New)-i.26222223.826165372"
 id: 33
 title: "Blush Stick"

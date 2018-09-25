@@ -1,5 +1,5 @@
 ---
-lazada-link: ""
+lazada-link: "https://www.lazada.com.ph/products/fashion21-auto-eyebrow-i254098533-s349020184.html?spm=a2o4l.seller.list.4.5de16cc90022U5&mp=1"
 shopee-link: "https://shopee.ph/Fashion21-Auto-Eyebrow-Pen-i.26222223.826165442"
 published: true
 id: 15

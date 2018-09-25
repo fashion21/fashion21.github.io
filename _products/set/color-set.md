@@ -1,5 +1,5 @@
 ---
-lazada-link: ""
+lazada-link: "https://www.lazada.com.ph/products/fashion21-color-set-748-i254086519-s348999792.html?spm=a2o4l.seller.list.30.6f7a6cc9PzFae5&mp=1"
 shopee-link: "https://shopee.ph/Fashion21-Color-Set-i.26222223.826193956"
 id: 32
 title: "Color Set"

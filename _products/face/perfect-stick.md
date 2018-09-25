@@ -1,6 +1,6 @@
 ---
 published: true
-lazada-link: ""
+lazada-link: "https://www.lazada.com.ph/products/fashion21-perfect-stick-i254089476-s349000738.html?spm=a2o4l.seller.list.12.6f7a6cc9di95w8&mp=1"
 shopee-link: "https://shopee.ph/Fashion21-Perfect-Stick-i.26222223.826165484"
 id: 3
 title: Perfect Stick

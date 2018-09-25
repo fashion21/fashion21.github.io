@@ -1,5 +1,5 @@
 ---
-lazada-link: ""
+lazada-link: "https://www.lazada.com.ph/products/fashion21-single-blush-on-i254100487-s349009829.html?spm=a2o4l.seller.list.18.6f7a6cc9qQHiAY&mp=1"
 shopee-link: "https://shopee.ph/Fashion21-Single-Blush-On-i.26222223.826165428"
 id: 37
 title: "Single Blush-On (solid)"

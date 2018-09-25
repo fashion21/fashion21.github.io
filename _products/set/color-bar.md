@@ -1,6 +1,6 @@
 ---
 published: true
-lazada-link: ""
+lazada-link: "https://www.lazada.com.ph/products/fashion21-color-bar-212-i254088494-s348998945.html?spm=a2o4l.seller.list.26.6f7a6cc9x09ywU&mp=1"
 shopee-link: "https://shopee.ph/Fashion21-Color-Bar-i.26222223.826193940"
 id: 31
 title: Color Bar

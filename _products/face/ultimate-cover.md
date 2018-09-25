@@ -1,5 +1,5 @@
 ---
-lazada-link: ""
+lazada-link: "https://www.lazada.com.ph/products/fashion21-ultimate-cover-i254090498-s348995846.html?spm=a2o4l.seller.list.12.5de16cc9bHxWCg&mp=1"
 shopee-link: "https://shopee.ph/Fashion21-Ultimate-Cover-i.26222223.826165516"
 published: true
 id: 14

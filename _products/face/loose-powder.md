@@ -1,5 +1,5 @@
 ---
-lazada-link: ""
+lazada-link: "https://www.lazada.com.ph/products/fashion21-loose-powder-i254100486-s349009825.html?spm=a2o4l.seller.list.34.5de16cc97h3Fhe&mp=1"
 shopee-link: "https://shopee.ph/Fashion21-Loose-Powder-i.26222223.826165486"
 id: 2
 title: Loose Powder

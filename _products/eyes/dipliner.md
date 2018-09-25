@@ -1,5 +1,5 @@
 ---
-lazada-link: ""
+lazada-link: "https://www.lazada.com.ph/products/fashion21-dipliner-i254092491-s348997951.html?spm=a2o4l.seller.list.74.5de16cc9Yr4knn&mp=1"
 shopee-link: "https://shopee.ph/Fashion21-Dipliner-i.26222223.826165459"
 id: 18
 title: Dipliner

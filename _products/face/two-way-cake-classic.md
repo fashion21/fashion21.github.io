@@ -1,5 +1,5 @@
 ---
-lazada-link: ""
+lazada-link: "https://www.lazada.com.ph/products/fashion21-2-way-cake-9703-i254107507-s349014881.html?spm=a2o4l.seller.list.44.5de16cc93mq4zR&mp=1"
 shopee-link: "https://shopee.ph/Fashion21-Two-Way-Cake-(Classic)-i.26222223.826165473"
 published: true
 id: 6

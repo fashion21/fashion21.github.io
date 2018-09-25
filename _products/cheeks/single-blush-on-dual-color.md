@@ -1,5 +1,5 @@
 ---
-lazada-link: ""
+lazada-link: "https://www.lazada.com.ph/products/fashion21-blush-on-dual-tone-i254107506-s349014878.html?spm=a2o4l.seller.list.22.6f7a6cc9FKbtUB&mp=1"
 shopee-link: "https://shopee.ph/Fashion21-Blush-On-(Dual-Tone)-i.26222223.826165417"
 id: 81
 title: "Single Blush-On (dual color)"

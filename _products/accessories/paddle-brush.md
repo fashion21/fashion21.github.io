@@ -1,6 +1,6 @@
 ---
 published: true
-lazada-link: ""
+lazada-link: "https://www.lazada.com.ph/products/fashion21-paddle-brush-i254086522-s348999798.html?spm=a2o4l.seller.list.48.5de16cc958XuQs&mp=1"
 shopee-link: "https://shopee.ph/Fashion21-Paddle-Brush-i.26222223.826165367"
 id: 55
 title: Paddle Brush
