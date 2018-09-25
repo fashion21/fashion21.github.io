@@ -227,8 +227,6 @@ a:focus
                 .product-link-container
                   margin-top: 30px
 
-
-
 #ribbon
   z-index: 2
   position: relative
@@ -1006,16 +1004,22 @@ a:focus
             .left-container
               width: 100%
               .product-image-container
+                margin-top: 0
+                margin-bottom: 20px
                 .product-image
-                  max-width: 60%
+                  max-width: 100%
             .right-container
               width: 100%
-              .right-container
-                .product-info-wrapper
-                  .product-intro-container
-                    .product-logo
-
-                      max-width: 25%
+              .product-info-wrapper
+                .product-intro-container
+                  .product-logo
+                    margin-top: 0
+                    max-width: 20%
+                  .product-title
+                    font-size: 24px
+                    margin-top: 0
+                .product-link-container
+                  margin-top: 15px
 
   #best-seller
     .banner-section
@@ -1287,6 +1291,19 @@ a:focus
                 .product-image
                   &.horizontal-image
                     max-width: 80%
+        .cover-slider-item.template5
+          .product-wrapper
+            .right-container
+              .product-info-wrapper
+                .product-intro-container
+                  .product-title
+                    margin-top: 30px
+                  .product-logo
+                    margin-top: 30px
+                    max-width: 50%
+                .product-link-container
+                  margin-top: 30px
+
 
   #ribbon
     .container-fluid
@@ -1397,6 +1414,8 @@ a:focus
 
 //Iphone X
 @media (max-width: 380px)
+  #cover
+    height: 580px
   #promo
     .promo-slider-container
       #promo-slider
