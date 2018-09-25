@@ -1,10 +1,11 @@
-_site
-.sass-cache
-.idea
-*.iml
-/img/top-pick/
-dummypic/*
-_scripts/src/out/*
+# Jekyll
+_site/
+.jekyll-cache/
 .jekyll-metadata
-.img/.DS_Store
+.sass-cache/
+
+# Microsoft Visual code
+.history/
 .DS_Store
+.idea/
+Gemfile.lock
