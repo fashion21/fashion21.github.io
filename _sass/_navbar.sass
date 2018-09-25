@@ -176,6 +176,9 @@ body
       display: table
       float: none
       margin-bottom: 11px
+      .dropdown-menu
+        position: relative
+        margin-bottom: 20px
       .navbar-link
         font-size: 1.2em
         padding-top: 10px
@@ -239,4 +242,21 @@ body
             color: #000
             .brand-logo-small
               display: none
-//@media screen and (max-width: 767px)
+@media screen and (max-width: 767px)
+  nav.navbar-default
+    .container
+      .navbar-nav
+        .navbar-item
+          &.shop-link
+            ul
+              background-color: white
+              border: 1px solid rgba(0,0,0,0.15)
+              border-radius: 0
+              -webkit-box-shadow: 0 6px 12px rgba(0,0,0,0.175)
+              box-shadow: 0 6px 12px rgba(0,0,0,0.175)
+              li
+                a
+                  color: black
+                  &:hover
+                    color: white
+
