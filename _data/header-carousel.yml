@@ -36,21 +36,21 @@
 
 - id: 5
   title: "Oh So Buttery!"
-  description: "The Creamier the product the longer it is going to last on your face!"
+  description: "The creamier the product the longer it is going to last on your face!"
   background: "https://res.cloudinary.com/f21cosmetics/image/upload/v1537419340/assets/carousel/new/slider5-bg.jpg"
   link: ""
   product-image: "https://res.cloudinary.com/f21cosmetics/image/upload/v1537419385/assets/carousel/new/slider5-image.png"
   imageType: "horizontal-image"
   templateType: template4
 
-- id: 6
-  title: "Now Available On"
-  description: "A sheer flush of color that blends seamlessly for a bright rosy glow to the lips and cheeks."
-  background: faede4
-  logo: "https://res.cloudinary.com/f21cosmetics/image/upload/v1537423808/assets/carousel/new/lazada-image.png"
-  link: "https://www.lazada.com.ph/shop/fashion21ph/?spm=a2o4l.pdp.seller.1.34eccbc96ET2y9"
-  product-image: "https://res.cloudinary.com/f21cosmetics/image/upload/v1537423761/assets/carousel/new/slider6-image.jpg"
-  templateType: template5
+#- id: 6
+#  title: "Now Available On"
+#  description: "A sheer flush of color that blends seamlessly for a bright rosy glow to the lips and cheeks."
+#  background: faede4
+#  logo: "https://res.cloudinary.com/f21cosmetics/image/upload/v1537423808/assets/carousel/new/lazada-image.png"
+#  link: "https://www.lazada.com.ph/shop/fashion21ph/?spm=a2o4l.pdp.seller.1.34eccbc96ET2y9"
+#  product-image: "https://res.cloudinary.com/f21cosmetics/image/upload/v1537423761/assets/carousel/new/slider6-image.jpg"
+#  templateType: template5
 
 
 

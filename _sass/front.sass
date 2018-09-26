@@ -797,19 +797,73 @@ a:focus
 
 @media (max-width: 1370px)
   #cover
-    height: 650px
+    height: 500px
     #cover-slider
+
       .cover-slider-wrapper
+        .cover-slider-item
+          .product-wrapper
+            .left-container
+              right: -6vh
+              .product-info-wrapper
+                .product-intro-container
+                  .product-title
+                    font-size: 28px
+                  .product-description
+                    font-size: 16px
+                    max-width: 82%
+                .product-link-container
+                  .product-link
+                    font-size: 12px
+                    padding: 20px 30px
+            .right-container
+              left: -6vh
+              .product-info-wrapper
+                .product-intro-container
+                  .product-title
+                    font-size: 28px
+                  .product-description
+                    font-size: 16px
+                    max-width: 82%
+                .product-link-container
+                  .product-link
+                    font-size: 12px
+                    padding: 20px 30px
         .cover-slider-item.template2
             .product-wrapper
               .left-container
                 width: 55%
+                .product-image-container
+                  .product-image
+                    max-width: 80%
               .right-container
                 width: 45%
+        .cover-slider-item.template3
+          .product-wrapper
+            .left-container
+              right: -10vh
+              .product-info-wrapper
+                .product-intro-container
+                  .product-title
+                    font-size: 28px
+                  .product-description
+                    max-width: 66%
+            .right-container
+              left: -10vh
+              .product-image-container
+                .product-image
+                  &.horizontal-image
+                    max-width: 55%
         .cover-slider-item.template4
           .product-wrapper
+            .left-container
+              right: -10vh
             .right-container
-              left: 2vh
+              left: -10vh
+              .product-image-container
+                .product-image
+                  &.horizontal-image
+                    max-width: 55%
 
 @media (max-width: 1281px)
   #cover
