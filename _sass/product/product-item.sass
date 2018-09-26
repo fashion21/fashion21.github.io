@@ -10,6 +10,7 @@ body
 .online-market-container
   margin-top: 30px
   position: relative
+  margin-bottom: 30px
   .online-market-link
     display: inline-block
     background-color: #494949
@@ -149,23 +150,28 @@ body
 @media (max-width: 1200px)
   .online-market-container
     .online-market-link
+      display: inline-block
+      margin-right: 5px
+      padding: 10px 25px
       margin-top: 0
-      margin-bottom: 20px
 
 @media (max-width: 991px)
   .online-market-container
     width: 100%
     .online-market-link
       text-align: center
-      display: block
-      .shop-cart
-        display: block
+
 
 @media (max-width: 480px)
+  .container-fluid
+    .item
+      padding-left: 0
+      padding-right: 0
+
   .online-market-container
     .online-market-link
-      margin-bottom: 30px
-      display: block
+      .cart-icon
+        height: 22px
 
   .swatches
     .swatch
