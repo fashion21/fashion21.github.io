@@ -18,6 +18,10 @@ body
 #banner
   position: relative
   height: 300px
+  background-image: url("https://res.cloudinary.com/f21cosmetics/image/upload/v1537965690/assets/banner/blog-bg.jpg")
+  background-position: center center
+  background-size: cover
+  background-repeat: no-repeat
   .banner-image-container
     height: inherit
     overflow: hidden
@@ -314,10 +318,9 @@ body
     .banner-image-container
       .banner-image
         &.banner-left
-          left: -10%
+          left: -18%
         &.banner-right
-          right: -10%
-
+          right: -18%
 
 @media (max-width: 1200px)
   #video
@@ -338,9 +341,9 @@ body
     .banner-image-container
       .banner-image
         &.banner-left
-          left: -15%
+          left: -20%
         &.banner-right
-          right: -15%
+          right: -20%
 
 @media (max-width: 991px)
   #video
@@ -351,9 +354,9 @@ body
     .banner-image-container
       .banner-image
         &.banner-left
-          left: -20%
+          left: -25%
         &.banner-right
-          right: -20%
+          right: -25%
 
   #blog
     .container
@@ -389,7 +392,7 @@ body
         &.banner-left
           left: -35%
         &.banner-right
-          right: -35%
+          right: -45%
     .banner-text-container
       .banner-text
         font-size: 34px
@@ -413,19 +416,22 @@ body
   #video
     margin-bottom: 30px
     .banner-section
-      padding: 25px 40px
+      padding: 15px 30px
       .banner-title
-        font-size: 18px
+        font-size: 16px
     .container
       .more-video-container
+        margin-top: 0
         .more-video-button
           font-size: 14px
 
   #blog
+    padding-top: 0
+    padding-bottom: 30px
     .banner-section
-      padding: 25px 40px
+      padding: 15px 30px
       .banner-title
-        font-size: 18px
+        font-size: 16px
     .container
       .blog-list-container
         .blog-wrapper
@@ -434,6 +440,8 @@ body
               .blog-title-container
                 .blog-title
                   font-size: 16px
+        .more-article-container
+          margin-top: 0
 
 @media (max-width: 380px)
   #banner
@@ -441,9 +449,9 @@ body
     .banner-image-container
       .banner-image
         &.banner-left
-          left: -55%
+          left: -60%
         &.banner-right
-          right: -55%
+          right: -75%
     .banner-text-container
       .banner-text
         font-size: 24px
