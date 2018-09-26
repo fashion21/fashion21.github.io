@@ -8,7 +8,6 @@ $(document).ready(function () {
         }
     });*/
 
-
     //Landing page carousel
     var swiper1 = new Swiper('#cover-slider',{
         speed: 300,
@@ -25,7 +24,6 @@ $(document).ready(function () {
             clickable: true
         }
     });
-
 
     var swiper2 = new Swiper('#promo-slider', {
         slidesPerView: 3,
