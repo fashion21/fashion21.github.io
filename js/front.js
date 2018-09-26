@@ -8,14 +8,15 @@ $(document).ready(function () {
         }
     });*/
 
+
     //Landing page carousel
     var swiper1 = new Swiper('#cover-slider',{
         speed: 300,
+        grabCursor: true,
         preventInteractionOnTransition: true,
-        noSwipingSelector: "#cover-slider",
         loop: true,
         autoplay: {
-            delay: 8000000,
+            delay: 8000,
             disableOnInteraction: true
         },
         pagination: {
@@ -24,7 +25,6 @@ $(document).ready(function () {
             clickable: true
         }
     });
-
 
 
     var swiper2 = new Swiper('#promo-slider', {
@@ -105,10 +105,7 @@ $(window).on("load",function () {
         preventInteractionOnTransition: true,
         noSwipingSelector: "#cover-slider",
         loop: true,
-        autoplay: {
-            delay: 6000,
-            disableOnInteraction: true
-        },
+        grabCursor: true,
         pagination: {
             el: '.swiper-pagination',
             type: 'bullets',
