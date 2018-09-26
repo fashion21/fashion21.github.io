@@ -866,21 +866,6 @@ a:focus
                     max-width: 55%
 
 @media (max-width: 1281px)
-  #cover
-    height: 600px
-    #cover-slider
-      .cover-slider-wrapper
-        .cover-slider-item
-          .product-wrapper
-            .left-container
-              right: -5.5vh
-            .right-container
-              left: -5.5vh
-              .product-info-wrapper
-                .product-intro-container
-                  .product-title
-                    font-size: 38px
-
   #ribbon
     .container-fluid
       .ribbon-item
@@ -912,42 +897,53 @@ a:focus
 
 @media (max-width: 1200px)
   #cover
+    height: 350px
     padding-top: 0
-    height: 430px
     #cover-slider
       .cover-slider-wrapper
         .cover-slider-item
           .product-wrapper
             .left-container
-              right: 0
-              .product-image-container
-                .product-image
-                  &.horizontal-image
-                    max-width: 95%
-                  &.vertical-image
-                    max-width: 85%
+              right: -3vh
+              .product-info-wrapper
+                .product-link-container
+                  margin-top: 30px
+                  .product-link
+                    font-size: 10px
             .right-container
-              left: 0
+              left: -3vh
               .product-info-wrapper
                 .product-intro-container
                   .product-title
-                    font-size: 42px
-                    line-height: 50px
+                    font-size: 24px
                   .product-description
-                    font-size: 18px
+                    max-width: 100%
                 .product-link-container
+                  margin-top: 30px
                   .product-link
-                    font-size: 14px
+                    font-size: 10px
         .cover-slider-item.template2
           .product-wrapper
             .left-container
-              width: 60%
-            .right-container
-              width: 40%
+              .product-image-container
+                .product-image
+                  max-width: 85%
+        .cover-slider-item.template3
+          .product-wrapper
+            .left-container
+              right: -7vh
               .product-info-wrapper
                 .product-intro-container
                   .product-description
-                    max-width: 100%
+                    max-width: 90%
+            .right-container
+              left: -7vh
+        .cover-slider-item.template4
+          .product-wrapper
+            .left-container
+              right: -7vh
+            .right-container
+              left: -7vh
 
   #promo
     .promo-slider-container
