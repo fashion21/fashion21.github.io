@@ -1207,14 +1207,14 @@ a:focus
 
 @media (max-width: 767px)
   #cover
-    height: 700px
+    height: 480px
     #cover-slider
       .cover-slider-wrapper
         .cover-slider-item
           .product-wrapper
             .left-container
               .product-image-container
-                margin-top: 60px
+                margin-top: 30px
                 //.product-image
             .right-container
               .product-info-wrapper
@@ -1223,15 +1223,12 @@ a:focus
                 .product-link-container
                   margin-bottom: 30px
 
-        .cover-slider-item.template2
+        .cover-slider-item.template4
           .product-wrapper
             .left-container
               .product-image-container
-                .product-image
-                  max-width: 80%
-            .right-container
-              .product-info-wrapper
-                margin-top: 30px
+                margin-top: 20px
+
 
   #ribbon
     .container-fluid
@@ -1296,52 +1293,67 @@ a:focus
 
 //Iphone 6 7 8 plus
 @media (max-width: 480px)
+  #sticky-social
+    top: 50%
   #cover
-    height: 650px
+    height: 400px
     #cover-slider
       .cover-slider-wrapper
         .cover-slider-item
           .product-wrapper
             .left-container
               .product-image-container
-                margin-top: 30px
                 .product-image
                   margin-bottom: 15px
                   &.horizontal-image
-                    max-width: 90%
+                    max-width: 80%
                   &.vertical-image
-                    max-width: 70%
+                    max-width: 56%
             .right-container
               .product-info-wrapper
                 .product-intro-container
                   margin-top: 0
                   .product-title
-                    max-width: 98%
+                    max-width: 100%
                     margin-left: auto
                     margin-right: auto
-                    font-size: 26px
+                    font-size: 18px
                   .product-description
                     font-size: 14px
-                    margin-top: 20px
-                    max-width: 89%
+                    margin-top: 15px
+                    max-width: 100%
                     line-height: normal
                 .product-link-container
+                  margin-top: 20px
                   .product-link
-                    font-size: 12px
+                    padding: 15px 20px
         .cover-slider-item.template2
           .product-wrapper
             .left-container
               .product-image-container
                 .product-image
-                  max-width: 100%
+                  max-width: 68%
                   margin-bottom: 0
+            .right-container
+              .product-info-wrapper
+                .product-intro-container
+                  .product-description
+                    max-width: 99%
+
         .cover-slider-item.template3
           .product-wrapper
             .left-container
               .product-image-container
                 .product-image
                   &.horizontal-image
-                    max-width: 80%
+                    max-width: 70%
+        .cover-slider-item.template4
+          .product-wrapper
+            .left-container
+              .product-image-container
+                .product-image
+                  &.horizontal-image
+                    max-width: 50%
         .cover-slider-item.template5
           .product-wrapper
             .right-container
@@ -1354,7 +1366,6 @@ a:focus
                     max-width: 50%
                 .product-link-container
                   margin-top: 30px
-
 
   #ribbon
     .container-fluid
@@ -1465,8 +1476,34 @@ a:focus
 
 //Iphone X
 @media (max-width: 380px)
+  #sticky-social
+    top: 30%
+
   #cover
-    height: 580px
+    #cover-slider
+      .cover-slider-wrapper
+        .cover-slider-item.template2
+          .product-wrapper
+            .left-container
+              .product-image-container
+                .product-image
+                  max-width: 79%
+        .cover-slider-item.template3
+          .product-wrapper
+            .left-container
+              .product-image-container
+                .product-image
+                  &.horizontal-image
+                    max-width: 85%
+
+        .cover-slider-item.template4
+          .product-wrapper
+            .left-container
+              .product-image-container
+                .product-image
+                  &.horizontal-image
+                    max-width: 66%
+
   #promo
     .promo-slider-container
       #promo-slider
