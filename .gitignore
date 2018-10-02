@@ -3,9 +3,7 @@ _site/
 .jekyll-cache/
 .jekyll-metadata
 .sass-cache/
-
-# Microsoft Visual code
-.history/
+Gemfile.lock
+_includes/.DS_Store
 .DS_Store
 .idea/
-Gemfile.lock
