@@ -1295,7 +1295,7 @@ a:focus
   #sticky-social
     top: 50%
   #cover
-    height: 400px
+    height: 450px
     #cover-slider
       .cover-slider-wrapper
         .cover-slider-item
@@ -1303,12 +1303,21 @@ a:focus
             .left-container
               .product-image-container
                 .product-image
-                  margin-bottom: 15px
+                  margin-bottom: 30px
                   &.horizontal-image
                     max-width: 80%
                   &.vertical-image
                     max-width: 56%
+              .product-info-wrapper
+                .product-intro-container
+                  .product-description
+                    margin-top: 20px
+                .product-link-container
+                  margin-top: 30px
             .right-container
+              .product-image-container
+                .product-image
+                  margin-bottom: 30px
               .product-info-wrapper
                 .product-intro-container
                   margin-top: 0
@@ -1319,11 +1328,11 @@ a:focus
                     font-size: 18px
                   .product-description
                     font-size: 14px
-                    margin-top: 15px
+                    margin-top: 20px
                     max-width: 100%
                     line-height: normal
                 .product-link-container
-                  margin-top: 20px
+                  margin-top: 30px
                   .product-link
                     padding: 15px 20px
         .cover-slider-item.template2
@@ -1336,6 +1345,7 @@ a:focus
             .right-container
               .product-info-wrapper
                 .product-intro-container
+                  margin-top: 30px
                   .product-description
                     max-width: 99%
 
@@ -1381,11 +1391,26 @@ a:focus
               .ribbon-intro-container
                 .ribbon-icon
                   height: 18px
-
   #product-category
     .category-item
       width: 50%
       .category-link
+        max-height: 120px
+        overflow: hidden
+        &.loading
+          padding-bottom: 64% !important
+        .category-image
+          max-height: 120px
+          width: 100%
+          height: 100%
+          min-height: 120px
+          object-fit: cover
+          &#image-1, &#image-2
+            object-position: top
+          &#image-3
+            object-position: center
+          &#image-4
+            object-position: 100% 75%
         .category-title
           font-size: 18px
 
@@ -1499,7 +1524,6 @@ a:focus
 @media (max-width: 380px)
   #sticky-social
     top: 30%
-
   #cover
     #cover-slider
       .cover-slider-wrapper
@@ -1530,6 +1554,35 @@ a:focus
       #promo-slider
         .swiper-slide
           min-height: 130px
+
+@media (max-width: 320px)
+  #cover
+    height: 420px
+    #cover-slider
+      .cover-slider-wrapper
+        .cover-slider-item
+          .product-wrapper
+            .left-container
+              .product-image-container
+                .product-image
+                  margin-bottom: 15px
+            .right-container
+              .product-info-wrapper
+                .product-intro-container
+                  .product-description
+                    margin-top: 10px
+        .cover-slider-item.template2
+          .product-wrapper
+            .right-container
+              .product-info-wrapper
+                .product-intro-container
+                  margin-top: 20px
+        .cover-slider-item.template2
+          .product-wrapper
+            .right-container
+              .product-info-wrapper
+                .product-intro-container
+                  margin-top: 20px
 
 
                 

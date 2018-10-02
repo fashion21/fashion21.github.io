@@ -2,9 +2,9 @@
     <div class="row">
         {% for category in site.data.category %}
         <div class="category-item">
-            <a href="{{ category.category-link  }}" class="category-link loading clearfix ">
+            <a href="{{ category.category-link }}" class="category-link loading clearfix ">
                 <div class="bg-overlay"></div>
-                <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{{ category.category-image }}" class="b-lazy category-image"/>
+                <img id="image-{{ forloop.index }}" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{{ category.category-image }}" class="b-lazy category-image"/>
                 <span class="category-title">{{ category.category-title }}</span>
             </a>
         </div>
