@@ -1,156 +1,16 @@
 <!-- Swiper -->
-<div id="cover-slider" class="swiper-container">
+<div class="cover-slider swiper-container">
     <div class="swiper-wrapper cover-slider-wrapper">
-        {% assign sortedCarousel = site.data.header-carousel | sort:'id' %}
-        {% for headerCarousel in sortedCarousel %}
-            {% if headerCarousel.templateType == 'template1' %}
-            <div class="{{ headerCarousel.templateType }} swiper-slide cover-slider-item" style="background-image: url('{{ headerCarousel.background }}')">
-                <div class="product-wrapper">
-                    <div class="left-container">
-                        <div class="product-image-container">
-                            <img src="{{ headerCarousel.product-image }}" class="{{ headerCarousel.imageType }} center-block product-image" />
-                        </div>
-                    </div>
-                    <div class="right-container">
-                        <div class="product-info-wrapper">
-                            <div class="product-intro-container">
-                                <span class="product-title">{{ headerCarousel.title }}</span>
-                                <p class="product-description">{{ headerCarousel.description }}</p>
-                            </div>
-                            <div class="product-link-container">
-                                <a href="{{ headerCarousel.link }}" class="product-link">View Product</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            {% endif %}
-            {% if headerCarousel.templateType == 'template2' %}
-            <div class="{{ headerCarousel.templateType }} swiper-slide cover-slider-item" style="background-image: url('{{ headerCarousel.background }}')">
-                <div class="product-wrapper">
-                    <div class="left-container">
-                        <div class="product-image-container">
-                            <img src="{{ headerCarousel.product-image }}" class="{{ headerCarousel.imageType }} center-block product-image" />
-                        </div>
-                    </div>
-                    <div class="right-container">
-                        <div class="product-info-wrapper">
-                            <div class="product-intro-container">
-                                <span class="product-title">{{ headerCarousel.title }}</span>
-                                <p class="product-description">{{ headerCarousel.description }}</p>
-                            </div>
-                            <div class="product-link-container">
-                                <a href="{{ headerCarousel.link }}" class="product-link">View Product</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            {% endif %}
-            {% if headerCarousel.templateType == 'template3' %}
-            <div class="{{ headerCarousel.templateType }} swiper-slide cover-slider-item" style="background-image: url('{{ headerCarousel.background }}')">
-                <div class="product-wrapper">
-                    <div class="left-container">
-
-                        <div class="product-info-wrapper visible-lg visible-md hidden-sm hidden-xs">
-                            <div class="product-intro-container">
-                                <span class="product-title">{{ headerCarousel.title }}</span>
-                                <p class="product-description">{{ headerCarousel.description }}</p>
-                            </div>
-                            <div class="product-link-container ">
-                                <a href="{{ headerCarousel.link }}" class="product-link">View Product</a>
-                            </div>
-                        </div>
-
-                        <div class="product-image-container hidden-lg hidden-md visible-sm visible-xs">
-                            <img src="{{ headerCarousel.product-image }}" class="{{ headerCarousel.imageType }} center-block product-image" />
-                        </div>
-
-                    </div>
-                    <div class="right-container">
-
-                        <div class="product-image-container visible-lg visible-md hidden-sm hidden-xs">
-                            <img src="{{ headerCarousel.product-image }}" class="{{ headerCarousel.imageType }} center-block product-image" />
-                        </div>
-
-                        <div class="product-info-wrapper hidden-lg hidden-md visible-sm visible-xs">
-                            <div class="product-intro-container">
-                                <span class="product-title">{{ headerCarousel.title }}</span>
-                                <p class="product-description">{{ headerCarousel.description }}</p>
-                            </div>
-                            <div class="product-link-container">
-                                <a href="{{ headerCarousel.link }}" class="product-link">View Product</a>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-            {% endif %}
-            {% if headerCarousel.templateType == 'template4' %}
-            <div class="{{ headerCarousel.templateType }} swiper-slide cover-slider-item" style="background-image: url('{{ headerCarousel.background }}')">
-                <div class="product-wrapper">
-                    <div class="left-container">
-
-                        <div class="product-info-wrapper visible-lg visible-md hidden-sm hidden-xs">
-                            <div class="product-intro-container">
-                                <span class="product-title">{{ headerCarousel.title }}</span>
-                                <p class="product-description">{{ headerCarousel.description }}</p>
-                            </div>
-                            <div class="product-link-container">
-                                <a href="{{ headerCarousel.link }}" class="product-link">View Product</a>
-                            </div>
-                        </div>
-
-                        <div class="product-image-container hidden-lg hidden-md visible-sm visible-xs">
-                            <img src="{{ headerCarousel.product-image }}" class="{{ headerCarousel.imageType }} center-block product-image" />
-                        </div>
-
-                    </div>
-                    <div class="right-container">
-
-                        <div class="product-image-container visible-lg visible-md hidden-sm hidden-xs">
-                            <img src="{{ headerCarousel.product-image }}" class="{{ headerCarousel.imageType }} center-block product-image" />
-                        </div>
-
-                        <div class="product-info-wrapper hidden-lg hidden-md visible-sm visible-xs">
-                            <div class="product-intro-container">
-                                <span class="product-title">{{ headerCarousel.title }}</span>
-                                <p class="product-description">{{ headerCarousel.description }}</p>
-                            </div>
-                            <div class="product-link-container">
-                                <a href="{{ headerCarousel.link }}" class="product-link">View Product</a>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-            {% endif %}
-            {% if headerCarousel.templateType == 'template5' %}
-            <div class="{{ headerCarousel.templateType }} swiper-slide cover-slider-item" style="background-color: #{{ headerCarousel.background }};">
-                <div class="product-wrapper">
-                    <div class="left-container">
-                        <div class="product-image-container">
-                            <img src="{{ headerCarousel.product-image }}" class="{{ headerCarousel.imageType }} center-block product-image" />
-                        </div>
-                    </div>
-                    <div class="right-container">
-                        <div class="product-info-wrapper">
-                            <div class="product-intro-container">
-                                <span class="product-title">{{ headerCarousel.title }}</span>
-                                <img src="{{ headerCarousel.logo }}" class="product-logo"/>
-
-                            </div>
-                            <div class="product-link-container">
-                                <a href="{{ headerCarousel.link }}" class="product-link" target="_blank">View Product</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            {% endif %}
-        {% endfor %}
+        {% for slider in site.data.carouselNew %}
+        <div class="swiper-slide cover-slider-item">
+            <a href="{{ slider.link }}">
+                <img src="{{ slider.big-image }}" class="visible-lg visible-md hidden-sm hidden-xs slider-image img-responsive center-block"/>
+                <img src="{{ slider.tablet-image }}" class="hidden-lg hidden-md visible-sm hidden-xs slider-image img-responsive center-block"/>
+                <img src="{{ slider.small-image }}" class="hidden-lg hidden-md hidden-sm visible-xs slider-image img-responsive center-block"/>
+            </a>
         </div>
+        {% endfor %}
+    </div>
     <div class="swiper-pagination"></div>
 </div>
+
