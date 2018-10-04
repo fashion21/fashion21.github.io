@@ -1,13 +1,29 @@
 <div class="container-fluid">
-    <div class="row">
-        {% for category in site.data.category %}
+    <div class="row visible-lg visible-md visible-sm hidden-xs">
+        {% assign sortedCategory = site.data.category | sort:'big-screen-order' %}
+        {% for category in sortedCategory %}
         <div class="category-item">
             <a href="{{ category.category-link }}" class="category-link loading clearfix ">
                 <div class="bg-overlay"></div>
-                <img id="image-{{ forloop.index }}" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{{ category.category-image }}" class="b-lazy category-image"/>
+                <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{{ category.category-image }}" class="image-{{ forloop.index }} b-lazy category-image"/>
                 <span class="category-title">{{ category.category-title }}</span>
             </a>
         </div>
         {% endfor %}
     </div>
+    <div class="row hidden-lg hidden-md hidden-sm visible-xs">
+        {% assign sortedCategory = site.data.category | sort:'small-screen-order' %}
+        {% for category in sortedCategory %}
+        <div class="category-item">
+            <a href="{{ category.category-link }}" class="category-link loading clearfix ">
+                <div class="bg-overlay"></div>
+                <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{{ category.category-small-image }}" class="b-lazy category-image "/>
+                <span class="category-title title-{{ forloop.index }}">{{ category.category-title }}</span>
+            </a>
+        </div>
+        {% endfor %}
+    </div>
 </div>
+
+
+
