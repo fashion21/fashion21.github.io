@@ -9,8 +9,9 @@ $(document).ready(function () {
     });*/
 
     //Landing page carousel
-    var swiper1 = new Swiper('#cover-slider',{
+    var swiper1 = new Swiper('.cover-slider',{
         speed: 300,
+        slidesPerView: 1,
         grabCursor: true,
         preventInteractionOnTransition: true,
         loop: true,
