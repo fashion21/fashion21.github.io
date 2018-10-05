@@ -1,62 +1,23 @@
-- id: 1
-  title: "Matte Permanent Lipstick"
-  description: "A long-lasting, lightweight lipstick available in 10 universally flattering colors, a.k.a your next MLBB favorite"
-  background: "https://res.cloudinary.com/f21cosmetics/image/upload/assets/carousel/carousel-bg1.jpg"
-  link: "/products/lips/matte-permanent-lipstick/"
-  product-image: "https://res.cloudinary.com/f21cosmetics/image/upload/assets/carousel/carousel-product1.png"
-  imageType: "horizontal-image"
-  templateType: template1
+- big-image: https://res.cloudinary.com/f21cosmetics/image/upload/v1538732257/assets/carousel/new/big%20screen/1920_x_800_lazada.jpg
+  tablet-image: https://res.cloudinary.com/f21cosmetics/image/upload/v1538733146/assets/carousel/new/tablet%20screen/991x800_lazada.jpg
+  small-image: https://res.cloudinary.com/f21cosmetics/image/upload/v1538732373/assets/carousel/new/small%20screen/483x738_lazada.jpg
 
-- id: 2
-  title: "Color Matte Liquid Lipstick"
-  description: "A creamy liquid lipstick with impressive matte coverage for when you need an extra boost of confidence"
-  background: "https://res.cloudinary.com/f21cosmetics/image/upload/assets/carousel/carousel-bg2.jpg"
-  link: "/products/lips/color-matte-liquid-lipstick/"
-  product-image: "https://res.cloudinary.com/f21cosmetics/image/upload/v1535711740/assets/carousel/carousel-product2.png"
-  imageType: "vertical-image"
-  templateType: template1
+- big-image: https://res.cloudinary.com/f21cosmetics/image/upload/v1538732221/assets/carousel/new/big%20screen/1920_x_800_lip_and_cheek_gel.jpg
+  tablet-image: https://res.cloudinary.com/f21cosmetics/image/upload/v1538732321/assets/carousel/new/tablet%20screen/991x800_lip_and_cheek_gel.jpg
+  small-image: https://res.cloudinary.com/f21cosmetics/image/upload/v1538732361/assets/carousel/new/small%20screen/483x738_lip_and_cheek_gel.jpg
 
-- id: 3
-  title: "Eyeshadow Kit #6"
-  description: "You asked for matte and we heard you! Introducing our new all-matte eyeshadow kit in nude tones!"
-  background: "https://res.cloudinary.com/f21cosmetics/image/upload/v1537419356/assets/carousel/new/slider3-bg.jpg"
-  link: "/products/eyes/eyeshadow-kit/"
-  product-image: "https://res.cloudinary.com/f21cosmetics/image/upload/v1537419393/assets/carousel/new/slider3-image.png"
-  templateType: template2
+- big-image: https://res.cloudinary.com/f21cosmetics/image/upload/v1538732254/assets/carousel/new/big%20screen/1920_x_800_eyeshadow_kit.jpg
+  tablet-image: https://res.cloudinary.com/f21cosmetics/image/upload/v1538732340/assets/carousel/new/tablet%20screen/991x800_eyeshadow_kit.jpg
+  small-image: https://res.cloudinary.com/f21cosmetics/image/upload/v1538732366/assets/carousel/new/small%20screen/483x738_eyeshadow_kit.jpg
 
-- id: 4
-  title: "Lip & Cheek Gel"
-  description: "A sheer flush of color that blends seamlessly for a bright rosy glow to the lips and cheeks."
-  background: "https://res.cloudinary.com/f21cosmetics/image/upload/v1537419357/assets/carousel/new/slider4-bg.jpg"
-  link: "/products/cheeks/lip--cheek-gel/"
-  product-image: "https://res.cloudinary.com/f21cosmetics/image/upload/v1537419373/assets/carousel/new/slider4-image.png"
-  imageType: "horizontal-image"
-  templateType: template3
+- big-image: https://res.cloudinary.com/f21cosmetics/image/upload/v1538732247/assets/carousel/new/big%20screen/1920_x_800_oh_so_buttery.jpg
+  tablet-image: https://res.cloudinary.com/f21cosmetics/image/upload/v1538732338/assets/carousel/new/tablet%20screen/991x800_oh_so_buttery.jpg
+  small-image: https://res.cloudinary.com/f21cosmetics/image/upload/v1538732378/assets/carousel/new/small%20screen/483x738_oh_so_buttery.jpg
 
+- big-image: https://res.cloudinary.com/f21cosmetics/image/upload/v1538732292/assets/carousel/new/big%20screen/1920_x_800_color_matte.jpg
+  tablet-image: https://res.cloudinary.com/f21cosmetics/image/upload/v1538732387/assets/carousel/new/tablet%20screen/991x800_color_matte.jpg
+  small-image: https://res.cloudinary.com/f21cosmetics/image/upload/v1538732354/assets/carousel/new/small%20screen/483x738_color_matte.jpg
 
-- id: 5
-  title: "Oh So Buttery!"
-  description: "The creamier the product the longer it is going to last on your face!"
-  background: "https://res.cloudinary.com/f21cosmetics/image/upload/v1537419340/assets/carousel/new/slider5-bg.jpg"
-  link: ""
-  product-image: "https://res.cloudinary.com/f21cosmetics/image/upload/v1537419385/assets/carousel/new/slider5-image.png"
-  imageType: "horizontal-image"
-  templateType: template4
-
-#- id: 6
-#  title: "Now Available On"
-#  description: "A sheer flush of color that blends seamlessly for a bright rosy glow to the lips and cheeks."
-#  background: faede4
-#  logo: "https://res.cloudinary.com/f21cosmetics/image/upload/v1537423808/assets/carousel/new/lazada-image.png"
-#  link: "https://www.lazada.com.ph/shop/fashion21ph/?spm=a2o4l.pdp.seller.1.34eccbc96ET2y9"
-#  product-image: "https://res.cloudinary.com/f21cosmetics/image/upload/v1537423761/assets/carousel/new/slider6-image.jpg"
-#  templateType: template5
-
-
-
-
-
-
-
-
-
+- big-image: https://res.cloudinary.com/f21cosmetics/image/upload/v1538732273/assets/carousel/new/big%20screen/1920_x_800_matte_permanent.jpg
+  tablet-image: https://res.cloudinary.com/f21cosmetics/image/upload/v1538732339/assets/carousel/new/tablet%20screen/991x800_matte_permanent.jpg
+  small-image: https://res.cloudinary.com/f21cosmetics/image/upload/v1538732372/assets/carousel/new/small%20screen/483x738_matte_permanent.jpg
