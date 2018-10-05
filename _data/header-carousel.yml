@@ -1,23 +1,29 @@
 - big-image: https://res.cloudinary.com/f21cosmetics/image/upload/v1538732257/assets/carousel/new/big%20screen/1920_x_800_lazada.jpg
   tablet-image: https://res.cloudinary.com/f21cosmetics/image/upload/v1538733146/assets/carousel/new/tablet%20screen/991x800_lazada.jpg
   small-image: https://res.cloudinary.com/f21cosmetics/image/upload/v1538732373/assets/carousel/new/small%20screen/483x738_lazada.jpg
+  link: https://www.lazada.com.ph/shop/fashion21ph/?spm=a2o4l.pdp.seller.1.34eccbc96ET2y9
 
 - big-image: https://res.cloudinary.com/f21cosmetics/image/upload/v1538732221/assets/carousel/new/big%20screen/1920_x_800_lip_and_cheek_gel.jpg
   tablet-image: https://res.cloudinary.com/f21cosmetics/image/upload/v1538732321/assets/carousel/new/tablet%20screen/991x800_lip_and_cheek_gel.jpg
   small-image: https://res.cloudinary.com/f21cosmetics/image/upload/v1538732361/assets/carousel/new/small%20screen/483x738_lip_and_cheek_gel.jpg
+  link: /products/cheeks/lip--cheek-gel/
 
 - big-image: https://res.cloudinary.com/f21cosmetics/image/upload/v1538732254/assets/carousel/new/big%20screen/1920_x_800_eyeshadow_kit.jpg
   tablet-image: https://res.cloudinary.com/f21cosmetics/image/upload/v1538732340/assets/carousel/new/tablet%20screen/991x800_eyeshadow_kit.jpg
   small-image: https://res.cloudinary.com/f21cosmetics/image/upload/v1538732366/assets/carousel/new/small%20screen/483x738_eyeshadow_kit.jpg
+  link: /products/eyes/eyeshadow-kit/
 
 - big-image: https://res.cloudinary.com/f21cosmetics/image/upload/v1538732247/assets/carousel/new/big%20screen/1920_x_800_oh_so_buttery.jpg
   tablet-image: https://res.cloudinary.com/f21cosmetics/image/upload/v1538732338/assets/carousel/new/tablet%20screen/991x800_oh_so_buttery.jpg
   small-image: https://res.cloudinary.com/f21cosmetics/image/upload/v1538732378/assets/carousel/new/small%20screen/483x738_oh_so_buttery.jpg
+  link:
 
 - big-image: https://res.cloudinary.com/f21cosmetics/image/upload/v1538732292/assets/carousel/new/big%20screen/1920_x_800_color_matte.jpg
   tablet-image: https://res.cloudinary.com/f21cosmetics/image/upload/v1538732387/assets/carousel/new/tablet%20screen/991x800_color_matte.jpg
   small-image: https://res.cloudinary.com/f21cosmetics/image/upload/v1538732354/assets/carousel/new/small%20screen/483x738_color_matte.jpg
+  link: /products/lips/color-matte-liquid-lipstick/
 
 - big-image: https://res.cloudinary.com/f21cosmetics/image/upload/v1538732273/assets/carousel/new/big%20screen/1920_x_800_matte_permanent.jpg
   tablet-image: https://res.cloudinary.com/f21cosmetics/image/upload/v1538732339/assets/carousel/new/tablet%20screen/991x800_matte_permanent.jpg
   small-image: https://res.cloudinary.com/f21cosmetics/image/upload/v1538732372/assets/carousel/new/small%20screen/483x738_matte_permanent.jpg
+  link: /products/lips/matte-permanent-lipstick/

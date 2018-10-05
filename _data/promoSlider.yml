@@ -1,3 +1,7 @@
+- id: 7
+  image: "https://res.cloudinary.com/f21cosmetics/image/upload/v1538733444/assets/promo-slider/Promo_Slider_7.jpg"
+  isPromo: true
+
 - id: 6
   image: "https://res.cloudinary.com/f21cosmetics/image/upload/assets/promo-slider/promo-slider6.jpg"
   isPromo: true
