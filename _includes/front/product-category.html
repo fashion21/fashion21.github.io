@@ -17,7 +17,7 @@
         <div class="category-item">
             <a href="{{ category.category-link }}" class="category-link loading clearfix ">
                 <div class="bg-overlay"></div>
-                <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{{ category.category-small-image }}" class="b-lazy category-image "/>
+                <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{{ category.category-small-image }}" class="image-{{forloop.index}} b-lazy category-image "/>
                 <span class="category-title title-{{ forloop.index }}">{{ category.category-title }}</span>
             </a>
         </div>
