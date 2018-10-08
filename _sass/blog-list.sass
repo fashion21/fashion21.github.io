@@ -15,52 +15,6 @@ body
   border-radius: 0!important
   background-color: black !important
 
-#banner
-  position: relative
-  height: 300px
-  background-image: url("https://res.cloudinary.com/f21cosmetics/image/upload/v1537965690/assets/banner/blog-bg.jpg")
-  background-position: center center
-  background-size: cover
-  background-repeat: no-repeat
-  .banner-image-container
-    height: inherit
-    overflow: hidden
-    position: absolute
-    left: 0
-    bottom: 0
-    width: 100%
-    .banner-image
-      height: inherit
-      position: absolute
-      display: block
-      &.banner-left
-        left: -3%
-      &.banner-right
-        right: -3%
-  .banner-text-container
-    position: relative
-    width: 100%
-    max-width: 1440px
-    margin-left: auto
-    margin-right: auto
-    height: inherit
-    .banner-text
-      position: relative
-      top: 50%
-      transform: translateY(-50%)
-      -webkit-transform: translateY(-50%)
-      -moz-transform: translateY(-50%)
-      -ms-transform: translateY(-50%)
-      -o-transform: translateY(-50%)
-      text-align: center
-      display: block
-      z-index: 2
-      font-family: "Avenir-Bold",sans-serif
-      font-size: 48px
-      color: $black
-      text-transform: uppercase
-      letter-spacing: 5px
-
 //Video section
 #video
   position: relative
@@ -312,15 +266,6 @@ body
       margin-left: auto
       margin-right: auto
 
-@media (max-width: 1441px)
-  #banner
-    .banner-image-container
-      .banner-image
-        &.banner-left
-          left: -18%
-        &.banner-right
-          right: -18%
-
 @media (max-width: 1200px)
   #video
     .container
@@ -335,27 +280,9 @@ body
           .blog-item
             width: 50%
 
-  #banner
-    height: 250px
-    .banner-image-container
-      .banner-image
-        &.banner-left
-          left: -20%
-        &.banner-right
-          right: -20%
-
 @media (max-width: 991px)
   #video
     margin-bottom: 30px
-
-  #banner
-    height: 200px
-    .banner-image-container
-      .banner-image
-        &.banner-left
-          left: -25%
-        &.banner-right
-          right: -25%
 
   #blog
     .container
@@ -385,33 +312,8 @@ body
             font-size: 16px
             padding: 15px 45px
 
-  #banner
-    .banner-image-container
-      .banner-image
-        &.banner-left
-          left: -35%
-        &.banner-right
-          right: -45%
-    .banner-text-container
-      .banner-text
-        font-size: 34px
-
 
 @media (max-width: 480px)
-  #banner
-    height: 150px
-    .banner-image-container
-      .banner-image
-        &.banner-left
-          left: -45%
-        &.banner-right
-          right: -45%
-    .banner-text-container
-      .banner-text
-        font-size: 24px
-
-
-
   #video
     margin-bottom: 30px
     .banner-section
@@ -445,19 +347,3 @@ body
           .more-video-button
             font-size: 10px
             padding: 15px 20px
-
-@media (max-width: 380px)
-  #banner
-
-    .banner-image-container
-      .banner-image
-        &.banner-left
-          left: -60%
-        &.banner-right
-          right: -75%
-    .banner-text-container
-      .banner-text
-        font-size: 24px
-
-
-
