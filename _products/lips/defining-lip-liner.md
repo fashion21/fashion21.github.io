@@ -1,6 +1,6 @@
 ---
 published: true
-lazada-link: ""
+lazada-link: "https://www.lazada.com.ph/products/fashion21-defining-lip-liner-i254112490-s349019866.html?spm=a2o4l.seller.list.1.4e1d75c9Qcd8br&mp=1"
 shopee-link: "https://shopee.ph/Fashion21-Defining-Lip-Liner-i.26222223.826165420"
 id: 39
 title: Defining Lip Liner

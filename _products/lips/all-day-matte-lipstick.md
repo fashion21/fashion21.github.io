@@ -1,6 +1,6 @@
 ---
 published: true
-lazada-link: ""
+lazada-link: "https://www.lazada.com.ph/products/fashion21-all-day-matte-lipstick-2-i254103532-s349013917.html?spm=a2o4l.seller.list.78.5de16cc9aILTHe&mp=1"
 shopee-link: "https://shopee.ph/Fashion21-All-Day-Matte-Lipstick-i.26222223.826165373"
 id: 41
 title: All Day Matte Lipstick

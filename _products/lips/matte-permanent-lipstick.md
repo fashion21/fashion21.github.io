@@ -1,6 +1,6 @@
 ---
 published: true
-lazada-link: ""
+lazada-link: "https://www.lazada.com.ph/products/fashion21-matte-permanent-lipstick-i254112487-s349019855.html?spm=a2o4l.seller.list.40.6f7a6cc93Bpyxg&mp=1"
 shopee-link: "https://shopee.ph/Fashion21-Matte-Permanent-Lipstick-i.26222223.826165357"
 title: Matte Permanent Lipstick
 id: 48

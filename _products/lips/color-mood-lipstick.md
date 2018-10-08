@@ -1,5 +1,5 @@
 ---
-lazada-link: ""
+lazada-link: "https://www.lazada.com.ph/products/fashion21-color-mood-lipstick-i254107505-s349014871.html?spm=a2o4l.seller.list.36.6f7a6cc9BfxcV1&mp=1"
 shopee-link: "https://shopee.ph/Fashion21-Color-Mood-Lipstick-i.26222223.826165349"
 id: 43
 title: "Color Mood Lipstick"

@@ -1,5 +1,5 @@
 ---
-lazada-link: ""
+lazada-link: "https://www.lazada.com.ph/products/fashion21-pink-obsession-lipstick-i254104481-s349018862.html?spm=a2o4l.seller.list.42.6f7a6cc9UrOPAu&mp=1"
 shopee-link: "https://shopee.ph/Fashion21-Pink-Obsession-Lipstick-i.26222223.1330807523"
 id: 45
 title: "Pink Obsession Lipstick"

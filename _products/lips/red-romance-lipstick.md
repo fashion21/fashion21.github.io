@@ -1,5 +1,5 @@
 ---
-lazada-link: ""
+lazada-link: "https://www.lazada.com.ph/products/fashion21-red-romance-lipstick-i254106467-s349017859.html?spm=a2o4l.seller.list.80.5de16cc9H0gUkI&mp=1"
 shopee-link: "https://shopee.ph/Fashion21-Red-Romance-Lipstick-i.26222223.826165415"
 id: 46
 title: "Red Romance Lipstick"

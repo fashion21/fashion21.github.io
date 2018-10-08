@@ -1,6 +1,6 @@
 ---
-lazada-link: ""
-shopee-link: ""
+lazada-link: "https://www.lazada.com.ph/products/fashion21-eyeliner-pencil-i258048963-s356035971.html?spm=a2o4l.seller.list.24.6f7a6cc9kNsivP&mp=1"
+shopee-link: "https://shopee.ph/Fashion21-Eyeliner-Pencil-i.26222223.826165467"
 id: 24
 title: "Eyeliner with Foam Tip"
 layout: product-item
