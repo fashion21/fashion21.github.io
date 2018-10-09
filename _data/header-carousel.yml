@@ -16,7 +16,7 @@
 - big-image: https://res.cloudinary.com/f21cosmetics/image/upload/assets/carousel/new/big%20screen/1920_x_800_oh_so_buttery.jpg
   tablet-image: https://res.cloudinary.com/f21cosmetics/image/upload/assets/carousel/new/tablet%20screen/991x800_oh_so_buttery.jpg
   small-image: https://res.cloudinary.com/f21cosmetics/image/upload/assets/carousel/new/small%20screen/483x738_oh_so_buttery.jpg
-  link:
+  link: /products/
 
 - big-image: https://res.cloudinary.com/f21cosmetics/image/upload/assets/carousel/new/big%20screen/1920_x_800_color_matte.jpg
   tablet-image: https://res.cloudinary.com/f21cosmetics/image/upload/assets/carousel/new/tablet%20screen/991x800_color_matte.jpg
