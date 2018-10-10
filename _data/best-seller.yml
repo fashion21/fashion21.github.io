@@ -1,47 +1,47 @@
-- id: 1
-  title: All Day Matte Lipstick
-  image: "https://res.cloudinary.com/f21cosmetics/image/upload/assets/best-seller/cheek-gel.jpg"
-  link: "/products/lips/all-day-matte-lipstick/"
+- title: All Day Matte Lipstick
+  id: 1
+  image: https://res.cloudinary.com/f21cosmetics/image/upload/assets/best-seller/cheek-gel.jpg
+  link: /products/lips/all-day-matte-lipstick/
   mobileID: 1
 
-- id: 2
-  title: Color Set
-  image: "https://res.cloudinary.com/f21cosmetics/image/upload/assets/best-seller/best-seller2.jpg"
-  link: "/products/set/color-set/"
+- title: Color Set
+  id: 2
+  image: https://res.cloudinary.com/f21cosmetics/image/upload/assets/best-seller/best-seller2.jpg
+  link: /products/set/color-set/
   mobileID: 2
 
-- id: 3
-  title: Two Way Cake Papaya
-  image: "https://res.cloudinary.com/f21cosmetics/image/upload/assets/best-seller/best-seller3.jpg"
-  link: "/products/face/two-way-cake-with-papaya-extract/"
+- title: Two Way Cake Papaya
+  id: 3
+  image: https://res.cloudinary.com/f21cosmetics/image/upload/assets/best-seller/best-seller3.jpg
+  link: /products/face/two-way-cake-with-papaya-extract/
   mobileID: 5
 
-- id: 4
-  title: Cheek Gel
-  image: "https://res.cloudinary.com/f21cosmetics/image/upload/assets/best-seller/cheek_gel.jpg"
-  link: "/products/cheeks/lip--cheek-gel/"
+- title: Cheek Gel
+  id: 4
+  image: https://res.cloudinary.com/f21cosmetics/image/upload/assets/best-seller/cheek_gel.jpg
+  link: /products/cheeks/lip--cheek-gel/
   mobileID: 7
 
-- id: 5
-  title: Cheek Tint
-  image: "https://res.cloudinary.com/f21cosmetics/image/upload/assets/best-seller/best-seller5.jpg"
-  link: "/products/cheeks/cheek-tint/"
+- title: Cheek Tint
+  id: 5
+  image: https://res.cloudinary.com/f21cosmetics/image/upload/assets/best-seller/best-seller5.jpg
+  link: /products/cheeks/cheek-tint/
   mobileID: 3
 
-- id: 6
-  title: Double Up Mascara
-  image: "https://res.cloudinary.com/f21cosmetics/image/upload/assets/best-seller/best-seller6.jpg"
-  link: "/products/eyes/double-up-mascara/"
+- title: Double Up Mascara
+  id: 6
+  image: https://res.cloudinary.com/f21cosmetics/image/upload/assets/best-seller/best-seller6.jpg
+  link: /products/eyes/double-up-mascara/
   mobileID: 4
 
-- id: 7
-  title: Perfect Stick Tea Tree Oil
-  image: "https://res.cloudinary.com/f21cosmetics/image/upload/assets/best-seller/best-seller7.jpg"
-  link: "/products/face/perfect-stick-with-tea-tree-oil/"
+- title: Perfect Stick Tea Tree Oil
+  id: 7
+  image: https://res.cloudinary.com/f21cosmetics/image/upload/assets/best-seller/best-seller7.jpg
+  link: /products/face/perfect-stick-with-tea-tree-oil/
   mobileID: 6
 
-- id: 8
-  title: Color Matte Liquid Lipstick
-  image: "https://res.cloudinary.com/f21cosmetics/image/upload/assets/best-seller/best-seller8.jpg"
-  link: "/products/lips/color-matte-liquid-lipstick/"
+- title: Color Matte Liquid Lipstick
+  id: 8
+  image: https://res.cloudinary.com/f21cosmetics/image/upload/assets/best-seller/best-seller8.jpg
+  link: /products/lips/color-matte-liquid-lipstick/
   mobileID: 8

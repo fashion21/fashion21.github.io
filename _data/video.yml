@@ -1,97 +1,97 @@
-- id: 1
-  title: "Fashion 21 All Day Matte Lipstick Review by Kris Lumagui"
-  image-link: "https://res.cloudinary.com/f21cosmetics/image/upload/assets/video-cover/Kris_Lumagui.jpg"
-  video-link: "0mmLXYqZGsM"
+- title: Fashion 21 All Day Matte Lipstick Review by Kris Lumagui
+  id: 1
+  image-link: https://res.cloudinary.com/f21cosmetics/image/upload/assets/video-cover/Kris_Lumagui.jpg
+  video-link: 0mmLXYqZGsM
 
-- id: 2
-  title: "Eyebrows on Fleek' with Fashion 21 by Ana Victorino"
-  image-link: "https://res.cloudinary.com/f21cosmetics/image/upload/assets/video-cover/AnaVictorino_1.jpg"
-  video-link: "KYUafgwbNRs"
+- title: Eyebrows on Fleek' with Fashion 21 by Ana Victorino
+  id: 2
+  image-link: https://res.cloudinary.com/f21cosmetics/image/upload/assets/video-cover/AnaVictorino_1.jpg
+  video-link: KYUafgwbNRs
 
-- id: 3
-  title: "90s Doll Makeup Tutorial with Fashion 21 by Ana Victorino"
-  image-link: "https://res.cloudinary.com/f21cosmetics/image/upload/assets/video-cover/AnaVictorino.jpg"
-  video-link: "1SsTJbC1brs"
+- title: 90s Doll Makeup Tutorial with Fashion 21 by Ana Victorino
+  id: 3
+  image-link: https://res.cloudinary.com/f21cosmetics/image/upload/assets/video-cover/AnaVictorino.jpg
+  video-link: 1SsTJbC1brs
 
-- id: 4
-  title: "Say Tioco's OK BA? Fashion21 Makeup Video"
-  image-link: "https://res.cloudinary.com/f21cosmetics/image/upload/assets/video-cover/Say_Tioco_1.jpg"
-  video-link: "Q_fLADm8JHw"
+- title: Say Tioco's OK BA? Fashion21 Makeup Video
+  id: 4
+  image-link: https://res.cloudinary.com/f21cosmetics/image/upload/assets/video-cover/Say_Tioco_1.jpg
+  video-link: Q_fLADm8JHw
 
-- id: 5
-  title: "Fashion21 First Impressions + Demo| Anna Cay ♥"
-  image-link: "https://res.cloudinary.com/f21cosmetics/image/upload/assets/video-cover/Ana_Cay_1.jpg"
-  video-link: "4Acx4edke0c"
+- title: Fashion21 First Impressions + Demo| Anna Cay ♥
+  id: 5
+  image-link: https://res.cloudinary.com/f21cosmetics/image/upload/assets/video-cover/Ana_Cay_1.jpg
+  video-link: 4Acx4edke0c
 
-- id: 6
-  title: "EASY EVERY DAY Summer Makeup by Jessica Godinez"
-  image-link: "https://res.cloudinary.com/f21cosmetics/image/upload/assets/video-cover/JessicalGodinez.jpg"
-  video-link: "3uk2aYVP21U"
+- title: EASY EVERY DAY Summer Makeup by Jessica Godinez
+  id: 6
+  image-link: https://res.cloudinary.com/f21cosmetics/image/upload/assets/video-cover/JessicalGodinez.jpg
+  video-link: 3uk2aYVP21U
 
-- id: 7
-  title: "Realasianbeauty Unboxes Lipsticks of Fashion 21 Cosmetics"
-  image-link: "https://res.cloudinary.com/f21cosmetics/image/upload/assets/video-cover/RealAsianBeauty1.jpg"
-  video-link: "9M_EV7eQMCU"
+- title: Realasianbeauty Unboxes Lipsticks of Fashion 21 Cosmetics
+  id: 7
+  image-link: https://res.cloudinary.com/f21cosmetics/image/upload/assets/video-cover/RealAsianBeauty1.jpg
+  video-link: 9M_EV7eQMCU
 
-- id: 8
-  title: "Say Tioco's Updated Affordable Kilay Tutorial featuring Fashion21"
-  image-link: "https://res.cloudinary.com/f21cosmetics/image/upload/assets/video-cover/Say_Tioco.jpg"
-  video-link: "UMoy8BetTS8"
+- title: Say Tioco's Updated Affordable Kilay Tutorial featuring Fashion21
+  id: 8
+  image-link: https://res.cloudinary.com/f21cosmetics/image/upload/assets/video-cover/Say_Tioco.jpg
+  video-link: UMoy8BetTS8
 
-- id: 9
-  title: "Tipid Makeup: Fashion 21 Cosmetics Full Face!"
-  image-link: "https://res.cloudinary.com/f21cosmetics/image/upload/assets/video-cover/Anneclutz.jpg"
-  video-link: "eWUlciR9ahY"
+- title: Tipid Makeup: Fashion 21 Cosmetics Full Face!
+  id: 9
+  image-link: https://res.cloudinary.com/f21cosmetics/image/upload/assets/video-cover/Anneclutz.jpg
+  video-link: eWUlciR9ahY
 
-- id: 10
-  title: "Fashion 21 Matte Lipstick Swatches | 16 Shades + Giveaway!"
-  image-link: "https://res.cloudinary.com/f21cosmetics/image/upload/assets/video-cover/RealAsianBeauty.jpg"
-  video-link: "JUVDKTSTvxg"
+- title: Fashion 21 Matte Lipstick Swatches | 16 Shades + Giveaway!
+  id: 10
+  image-link: https://res.cloudinary.com/f21cosmetics/image/upload/assets/video-cover/RealAsianBeauty.jpg
+  video-link: JUVDKTSTvxg
 
-- id: 11
-  title: "Anuto!? May Ibubuga Ba Ang Fashion 21!? Ilaban Ng Full Face!!"
-  image-link: "https://res.cloudinary.com/f21cosmetics/image/upload/assets/video-cover/Raf.jpg"
-  video-link: "_J_FXYRccxc"
+- title: Anuto!? May Ibubuga Ba Ang Fashion 21!? Ilaban Ng Full Face!!
+  id: 11
+  image-link: https://res.cloudinary.com/f21cosmetics/image/upload/assets/video-cover/Raf.jpg
+  video-link: _J_FXYRccxc
 
-- id: 12
-  title: "Fashion 21 Fullface Makeup Look"
-  image-link: "https://res.cloudinary.com/f21cosmetics/image/upload/assets/video-cover/linexoxo.jpg"
-  video-link: "V3Wy6xuagBw"
+- title: Fashion 21 Fullface Makeup Look
+  id: 12
+  image-link: https://res.cloudinary.com/f21cosmetics/image/upload/assets/video-cover/linexoxo.jpg
+  video-link: V3Wy6xuagBw
 
-- id: 13
-  title: "#TipidMakeup Office Makeup Tutorial! Full Face Using Fashion 21!"
-  image-link: "https://res.cloudinary.com/f21cosmetics/image/upload/assets/video-cover/lousanchez.jpg"
-  video-link: "DR47XIKrXQA"
+- title: '#TipidMakeup Office Makeup Tutorial! Full Face Using Fashion 21!'
+  id: 13
+  image-link: https://res.cloudinary.com/f21cosmetics/image/upload/assets/video-cover/lousanchez.jpg
+  video-link: DR47XIKrXQA
 
-- id: 14
-  title: "Full Face Using Fashion 21 Cosmetics, Review + Wear Test! Murang Makeup!"
-  image-link: "https://res.cloudinary.com/f21cosmetics/image/upload/assets/video-cover/genzel.jpg"
-  video-link: "qoTiXnloeDY"
+- title: Full Face Using Fashion 21 Cosmetics, Review + Wear Test! Murang Makeup!
+  id: 14
+  image-link: https://res.cloudinary.com/f21cosmetics/image/upload/assets/video-cover/genzel.jpg
+  video-link: qoTiXnloeDY
 
-- id: 15
-  title: "Sulit Na Makeup? Full Face Using Fashion 21 Best Seller?! Maganda Ba?!"
-  image-link: "https://res.cloudinary.com/f21cosmetics/image/upload/assets/video-cover/MaeLayug.jpg"
-  video-link: "5sIACL8Bcsc"
+- title: Sulit Na Makeup? Full Face Using Fashion 21 Best Seller?! Maganda Ba?!
+  id: 15
+  image-link: https://res.cloudinary.com/f21cosmetics/image/upload/assets/video-cover/MaeLayug.jpg
+  video-link: 5sIACL8Bcsc
 
-- id: 16
-  title: "Mura Nga Pero Maganda Ba?!!! Full Face Using Fashion 21 Cosmetics (All Under 250 Pesos!)"
-  image-link: "https://res.cloudinary.com/f21cosmetics/image/upload/assets/video-cover/KennyManalad.jpg"
-  video-link: "Hz7TVUVOojs"
+- title: Mura Nga Pero Maganda Ba?!!! Full Face Using Fashion 21 Cosmetics (All Under 250 Pesos!)
+  id: 16
+  image-link: https://res.cloudinary.com/f21cosmetics/image/upload/assets/video-cover/KennyManalad.jpg
+  video-link: Hz7TVUVOojs
 
-- id: 17
-  title: "Try Natin ang Best Seller sa Fashion21 Cosmetics (Tambay Makeup Look)"
-  image-link: "https://res.cloudinary.com/f21cosmetics/image/upload/assets/video-cover/sandee_proud.jpg"
-  video-link: "m_aeHngtSlI"
+- title: Try Natin ang Best Seller sa Fashion21 Cosmetics (Tambay Makeup Look)
+  id: 17
+  image-link: https://res.cloudinary.com/f21cosmetics/image/upload/assets/video-cover/sandee_proud.jpg
+  video-link: m_aeHngtSlI
 
-- id: 18
-  title: "Fashion21 Cosmetics Pak or Lagapak?"
-  image-link: "https://res.cloudinary.com/f21cosmetics/image/upload/assets/video-cover/joyce_sola.jpg"
-  video-link: "FIh6XIWrEfE"
+- title: Fashion21 Cosmetics Pak or Lagapak?
+  id: 18
+  image-link: https://res.cloudinary.com/f21cosmetics/image/upload/assets/video-cover/joyce_sola.jpg
+  video-link: FIh6XIWrEfE
 
-- id: 19
-  title: "185Php Fashion21 Perfect Stick Foundation Review | Wow, Walang Hulas?!"
-  image-link: "https://res.cloudinary.com/f21cosmetics/image/upload/assets/video-cover/georgia_relucio.jpg"
-  video-link: "Kc6pD2Jt2io"
+- title: 185Php Fashion21 Perfect Stick Foundation Review | Wow, Walang Hulas?!
+  id: 19
+  image-link: https://res.cloudinary.com/f21cosmetics/image/upload/assets/video-cover/georgia_relucio.jpg
+  video-link: Kc6pD2Jt2io
 
 
 
