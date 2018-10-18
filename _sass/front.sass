@@ -335,14 +335,13 @@ a:focus
 #video
   position: relative
   .content-container
-    height: 100vh
-    position: relative
     #video-bg
       background-image: url("https://res.cloudinary.com/f21cosmetics/image/upload/v1539835812/assets/banner/video-cover.jpg")
       background-position: center center
       background-repeat: no-repeat
       background-size: cover
-      height: inherit
+      position: relative
+      height: 100vh
       .video-overlay
         position: absolute
         background-image: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7))
@@ -370,12 +369,15 @@ a:focus
             letter-spacing: 2px
             text-align: center
     #iframe-video
+      display: none
       position: relative
       padding-bottom: 56.25%
       height: 0
       overflow: hidden
       max-width: 100%
+      background-color: black
       iframe
+        background-color: black
         position: absolute
         top: 0
         left: 0
@@ -1015,7 +1017,7 @@ a:focus
             left: 10px
 
 
-                
+
 
 
 
