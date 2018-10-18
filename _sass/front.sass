@@ -339,16 +339,13 @@ a:focus
       background-position: center center
       background-repeat: no-repeat
       background-size: cover
+      padding-bottom: 56.25%
       position: relative
-      height: 100vh
-      .video-overlay
-        position: absolute
-        background-image: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7))
-        height: 100%
-        width: 100%
-        z-index: 1
-      .video-content-container
-        width: 100%
+      .video-button
+        cursor: pointer
+        left: 0
+        right: 0
+        height: 100px
         position: absolute
         top: 50%
         transform: translateY(-50%)
@@ -356,17 +353,6 @@ a:focus
         -moz-transform: translateY(-50%)
         -o-transform: translateY(-50%)
         -ms-transform: translateY(-50%)
-        z-index: 5
-        .video-button
-          cursor: pointer
-          left: 0
-          right: 0
-          height: 100px
-        .caption
-          .caption-text
-            color: white
-            letter-spacing: 2px
-            text-align: center
     #iframe-video
       display: none
       position: relative
@@ -972,9 +958,8 @@ a:focus
   #video
     .content-container
       #video-bg
-        .video-content-container
-          .video-button
-            height: 65px
+        .video-button
+          height: 65px
     .more-vlogs-container
       height: auto
       .vlog-text
