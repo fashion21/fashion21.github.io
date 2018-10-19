@@ -114,11 +114,11 @@ $(window).on("load",function () {
 
     var categoryLink = $(".category-link");
     categoryLink.on("mouseenter", function () {
-        console.log("MOUSE ENTER");
+        // console.log("MOUSE ENTER");
         categoryLink.not(this).find(".bg-overlay").css('opacity','1');
     });
     categoryLink.on("mouseout", function () {
-        console.log("MOUSE OUT");
+        // console.log("MOUSE OUT");
         $(this).find(".bg-overlay").css('opacity','0');
         categoryLink.not(this).find(".bg-overlay").css('opacity','0');
     });
