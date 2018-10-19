@@ -1,6 +1,6 @@
 var fs = fs || {};
 fs.productItem = function() {
-    fs.categoryNav();
+    // fs.categoryNav();
     fs.productImageSlider();
     fs.colorPicker();
 };
