@@ -1,8 +1,7 @@
 {% assign categories = (site.category-page | sort: 'rank') %}
-<nav class="navbar navbar-fixed-top navbar-default">
+<nav class="navbar navbar-fixed-top navbar-default navbar-mobile">
     <div class="container">
         <div class="navbar-mobile">
-            {% include navbar/navbar.html %}
             <nav class="category-menu mobile navbar-fixed-top">
                 <ul>
                     <li>
@@ -11,13 +10,13 @@
                 </ul>
 
                 {% for category in categories %}
-                    {% if page.categories[0] == category.title or page.title == category.title %}
-                    {% assign category-header-image = category.category-header-image %}
-                        <img src="/img/{{ category-header-image }}" alt="Product Type">
-                    {% endif %}
+                {% if page.categories[0] == category.title or page.title == category.title %}
+                {% assign category-header-image = category.category-header-image %}
+                <img src="/img/{{ category-header-image }}" alt="Product Type">
+                {% endif %}
                 {% endfor %}
                 {% if !page.category-header-image %}
-                    <img src="/img/{{ page.category-header-image }}" alt="Product Type">
+                <img src="/img/{{ page.category-header-image }}" alt="Product Type">
                 {% endif %}
             </nav>
         </div>
@@ -35,7 +34,6 @@
         </div>
     </div>
 </nav>
-
 <nav class="category-menu navbar-fixed-top">
     <ul>
         {% for category in categories %}
@@ -52,5 +50,7 @@
         <img src="/img/{{ category-header-image }}" alt="Product Type">
     {% endif %}
 </nav>
+
+
 
 
