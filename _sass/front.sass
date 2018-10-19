@@ -39,6 +39,7 @@ a:focus
     max-width: 1440px
     height: auto
     .ribbon-item
+      min-height: 190px
       margin-top: 15px
       margin-bottom: 15px
       .ribbon-info-container
@@ -67,17 +68,17 @@ a:focus
           margin-left: auto
           margin-right: auto
           color: $white
-
-      &.ribbon2
-        &:before
+      &.ribbon1
+        &:after
           display: block
+          clear: both
           position: absolute
           content: ''
-          clear: both
-          border-left: 1px solid $white
+          border-right: 1px solid $white
           height: 100%
           top: 0
-          left: 0
+          right: 0
+      &.ribbon2
         &:after
           display: block
           clear: both
@@ -611,6 +612,11 @@ a:focus
   #cover
     padding-top: 0
 
+  #ribbon
+    .container-fluid
+      .ribbon-item
+        min-height: 200px
+
   #promo
     .promo-slider-container
       #promo-slider
@@ -649,10 +655,16 @@ a:focus
                 margin-left: 0
             .ribbon-description
               max-width: 79%
+          &.ribbon1
+            &:after
+              display: none
+              border: none
           &.ribbon2
             &:before
+              display: none
               border: none
             &:after
+              display: none
               border: none
             .ribbon-info-container
               .ribbon-intro-container
