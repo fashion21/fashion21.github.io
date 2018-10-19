@@ -5,7 +5,7 @@ id: 36
 title: "Lip & Cheek Gel"
 layout: product-item
 categories: ["cheeks"]
-feature_image: "https://res.cloudinary.com/dp79ddrmc/image/upload/products/lipCheek.jpg"
+feature_image: "https://res.cloudinary.com/f21cosmetics/image/upload/v1539936578/assets/lip_and_cheek_gel.jpg"
 colors:
     - color: "#1"
       hex: "f23b32"
