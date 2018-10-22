@@ -74,3 +74,5 @@ fields:
   type: text
   hidden: false
   default: ''
+pages:
+- _products/skin/test-product-title.md
