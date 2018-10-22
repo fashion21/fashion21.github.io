@@ -15,7 +15,6 @@ top-pick: false
 top-pick-id: ''
 top-pick-image: ''
 class: ''
-published: false
 
 ---
 Description here
