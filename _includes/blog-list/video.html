@@ -5,10 +5,10 @@
 <div class="container">
     <div class="row">
         <div class="video-list-container clearfix visible-lg visible-md visible-sm hidden-xs">
-            {% assign sorted-video = site.data.video | sort: 'id' | reverse %}
+            {% assign sorted-video = site.data.video | sort: 'slugID' | reverse %}
             {% for video in sorted-video limit: 6 %}
             <div class="col-md-4 col-sm-6 col-xs-12 video-list">
-                <a class="video-link" href="" data-izimodal-open="#slug{{ video.id }}">
+                <a class="video-link" href="" data-izimodal-open="#slug{{ video.slugID }}">
                     <div class="video-image-container loading">
                         <div class="video-play-container">
                             <span class="video-play glyphicon glyphicon-play-circle"></span>
@@ -20,15 +20,15 @@
                     </div>
                 </a>
             </div>
-            <div id="slug{{ video.id }}" class="video-modal" data-izimodal-transitionin="fadeInDown" data-izimodal-title="{{ video.title }}"  data-izimodal-iframeURL="https://www.youtube.com/embed/{{ video.video-link }}?autoplay=1&fs=0&rel=0&showinfo=0"></div>
+            <div id="slug{{ video.slugID }}" class="video-modal" data-izimodal-transitionin="fadeInDown" data-izimodal-title="{{ video.title }}"  data-izimodal-iframeURL="https://www.youtube.com/embed/{{ video.video-link }}?autoplay=1&fs=0&rel=0&showinfo=0"></div>
             {% endfor %}
         </div>
 
         <div class="video-list-container clearfix hidden-lg hidden-md hidden-sm visible-xs">
-            {% assign sorted-video = site.data.video | sort: 'id' | reverse %}
+            {% assign sorted-video = site.data.video | sort: 'slugID' | reverse %}
             {% for video in sorted-video limit: 4 %}
             <div class="col-md-4 col-sm-6 col-xs-12 video-list">
-                <a class="video-link" href="" data-izimodal-open="#slug{{ video.id }}">
+                <a class="video-link" href="" data-izimodal-open="#slug{{ video.slugID }}">
                     <div class="video-image-container loading">
                         <div class="video-play-container">
                             <span class="video-play glyphicon glyphicon-play-circle"></span>
@@ -40,7 +40,7 @@
                     </div>
                 </a>
             </div>
-            <div id="slug{{ video.id }}" class="video-modal" data-izimodal-transitionin="fadeInDown" data-izimodal-title="{{ video.title }}"  data-izimodal-iframeURL="https://www.youtube.com/embed/{{ video.video-link }}?autoplay=1&fs=0&rel=0&showinfo=0"></div>
+            <div id="slug{{ video.slugID }}" class="video-modal" data-izimodal-transitionin="fadeInDown" data-izimodal-title="{{ video.title }}"  data-izimodal-iframeURL="https://www.youtube.com/embed/{{ video.video-link }}?autoplay=1&fs=0&rel=0&showinfo=0"></div>
             {% endfor %}
         </div>
 
