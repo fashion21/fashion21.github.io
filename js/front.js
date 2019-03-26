@@ -61,7 +61,7 @@ $(window).on("load",function () {
         get: 'user',
         userId: '1689161645',
         clientId: 'd32935f4eb1d4a2aa7ce432cbcfa9bee',
-        accessToken: '1689161645.1677ed0.ea65a8b02aff46c996485bc1aceeb6ad',
+        accessToken: '1689161645.1677ed0.ff35b54c38b4463886fdd33ce2861e24',
         sortBy: 'most-recent',
         limit: 20,
         template: '<div class="swiper-slide"><a href="{{link}}" target="_blank"><img class="img-responsive center-block" src="{{image}}" /></a></div>',
