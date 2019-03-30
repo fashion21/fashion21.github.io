@@ -8,10 +8,10 @@
   small-image: https://res.cloudinary.com/f21cosmetics/image/upload/assets/carousel/new/small%20screen/483x738_lip_and_cheek_gel.jpg
   link: /products/cheeks/lip--cheek-gel/
 
-- big-image: https://res.cloudinary.com/f21cosmetics/image/upload/assets/carousel/new/big%20screen/1920_x_800_eyeshadow_kit.jpg
-  tablet-image: https://res.cloudinary.com/f21cosmetics/image/upload/assets/carousel/new/tablet%20screen/991x800_eyeshadow_kit.jpg
-  small-image: https://res.cloudinary.com/f21cosmetics/image/upload/assets/carousel/new/small%20screen/483x738_eyeshadow_kit.jpg
-  link: /products/eyes/eyeshadow-kit/
+- big-image: https://res.cloudinary.com/f21cosmetics/image/upload/v1553910850/assets/carousel/1920_x_800_2019models.jpg
+  tablet-image: https://res.cloudinary.com/f21cosmetics/image/upload/v1553913911/assets/carousel/991_x_800_2019models.jpg
+  small-image: https://res.cloudinary.com/f21cosmetics/image/upload/v1553913908/assets/carousel/483_x_738_2019models.jpg
+  link: /products/
 
 - big-image: https://res.cloudinary.com/f21cosmetics/image/upload/assets/carousel/new/big%20screen/1920_x_800_oh_so_buttery.jpg
   tablet-image: https://res.cloudinary.com/f21cosmetics/image/upload/assets/carousel/new/tablet%20screen/991x800_oh_so_buttery.jpg
