@@ -1,27 +1,27 @@
 - category-title: Face
-  category-image: https://res.cloudinary.com/f21cosmetics/image/upload/v1539055498/assets/category-product/face-big.jpg
-  category-small-image: https://res.cloudinary.com/f21cosmetics/image/upload/v1539055641/assets/category-product/face.jpg
+  category-image: https://res.cloudinary.com/f21cosmetics/image/upload/v1553914796/assets/category-product/face2019.jpg
+  category-small-image: https://res.cloudinary.com/f21cosmetics/image/upload/v1553914817/assets/category-product/face_mobile.jpg
   category-link: /products/face/
   big-screen-order: 1
   small-screen-order: 1
 
 - category-title: Eyes
-  category-image: https://res.cloudinary.com/f21cosmetics/image/upload/v1539055490/assets/category-product/eyes-big.jpg
-  category-small-image: https://res.cloudinary.com/f21cosmetics/image/upload/v1539055643/assets/category-product/eyes.jpg
+  category-image: https://res.cloudinary.com/f21cosmetics/image/upload/v1553914793/assets/category-product/eyes2019.jpg
+  category-small-image: https://res.cloudinary.com/f21cosmetics/image/upload/v1553914817/assets/category-product/eyes_mobile.jpg
   category-link: /products/eyes/
   big-screen-order: 2
   small-screen-order: 3
 
 - category-title: Cheeks
-  category-image: https://res.cloudinary.com/f21cosmetics/image/upload/v1539055486/assets/category-product/cheeks-big.jpg
-  category-small-image: https://res.cloudinary.com/f21cosmetics/image/upload/v1539055643/assets/category-product/cheeks.jpg
+  category-image: https://res.cloudinary.com/f21cosmetics/image/upload/v1553914791/assets/category-product/cheeks2019.jpg
+  category-small-image: https://res.cloudinary.com/f21cosmetics/image/upload/v1553914815/assets/category-product/cheeks_mobile.jpg
   category-link: /products/cheeks/
   big-screen-order: 3
   small-screen-order: 4
 
 - category-title: Lips
-  category-image: https://res.cloudinary.com/f21cosmetics/image/upload/v1539055489/assets/category-product/lips-big.jpg
-  category-small-image: https://res.cloudinary.com/f21cosmetics/image/upload/v1539055642/assets/category-product/lips.jpg
+  category-image: https://res.cloudinary.com/f21cosmetics/image/upload/v1553914793/assets/category-product/lips2019.jpg
+  category-small-image: https://res.cloudinary.com/f21cosmetics/image/upload/v1553914818/assets/category-product/lips_mobile.jpg
   category-link: /products/lips/
   big-screen-order: 4
   small-screen-order: 2
