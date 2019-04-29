@@ -143,12 +143,15 @@ $(window).on("load",function () {
     var videoMenuContainer = $("#video .content-container #video-bg .video-content-container");
     var videoOverlay = $("#video .content-container #video-bg .video-overlay");
 
+    var videoSrc = videoIframeContainer.attr("data-video");
+    console.log("UPDATE implemented");
+
     videoButton.on('click', function(){
         videoContainer.css('display','none');
         videoOverlay.css('display','none');
         videoMenuContainer.css('display','none');
         videoIframeContainer.css('display','block');
-        videoIframeContainer.append('<iframe src="https://player.vimeo.com/video/295757602?autoplay=1" webkitallowfullscreen mozallowfullscreen allowfullscreen width="100%" height="100%" frameborder="0"></iframe> ');
+        videoIframeContainer.append('<iframe src="' + videoSrc + '" webkitallowfullscreen mozallowfullscreen allowfullscreen width="100%" height="100%" frameborder="0"></iframe> ');
     });
     
 
