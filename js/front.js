@@ -148,7 +148,7 @@ $(window).on("load",function () {
         videoOverlay.css('display','none');
         videoMenuContainer.css('display','none');
         videoIframeContainer.css('display','block');
-        videoIframeContainer.append('<iframe src="https://player.vimeo.com/video/295757602?autoplay=1" webkitallowfullscreen mozallowfullscreen allowfullscreen width="100%" height="100%" frameborder="0"></iframe> ');
+        videoIframeContainer.append('<iframe src="https://player.vimeo.com/video/333139111?autoplay=1" webkitallowfullscreen mozallowfullscreen allowfullscreen width="100%" height="100%" frameborder="0"></iframe> ');
     });
     
 
