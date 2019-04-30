@@ -144,7 +144,7 @@ $(window).on("load",function () {
     var videoOverlay = $("#video .content-container #video-bg .video-overlay");
 
     var videoSrc = videoIframeContainer.attr("data-video");
-    console.log("UPDATE implemented");
+    console.log("Video Update implemented!");
 
     videoButton.on('click', function(){
         videoContainer.css('display','none');
