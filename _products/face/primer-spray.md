@@ -11,5 +11,5 @@ colors:
       hex: "ffffff"    
     
 ---
-A lightweight base that preps skin for seamless makeup application. This mist keeps skin unbelievably soft, smooth, and hydrated. Easy on the sensitive parts of the face and does not clog pores. Just spray evenly, and let dry for a minute before applying your favorite foundation.
+A lightweight base that preps skin for seamless makeup application. This mist keeps skin unbelievably soft, smooth, and hydrated. Easy on the sensitive parts of the face and does not clog pores. Just spray evenly, and let dry for a minute before applying your favorite foundation. 
 
