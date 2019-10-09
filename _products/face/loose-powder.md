@@ -5,7 +5,7 @@ id: 2
 title: Loose Powder
 layout: product-item
 categories: ["face"]
-feature_image: 'https://res.cloudinary.com/dp79ddrmc/image/upload/products/loosePowder.jpg'
+feature_image: 'https://res.cloudinary.com/f21cosmetics/image/upload/v1570587908/loose-powder.jpg'
 colors:
   - color: '#1'
     hex: e2be9a
