@@ -5,7 +5,7 @@ id: 50
 title: "Matte Kisses"
 layout: product-item
 categories: ["lips"]
-feature_image: "https://res.cloudinary.com/f21cosmetics/image/upload/v1565330319/matte-kisses.jpg"
+feature_image: "https://res.cloudinary.com/f21cosmetics/image/upload/v1570588177/matte-kisses.jpg"
 colors:
     - color: "#1"
       hex: "9f3f31"
