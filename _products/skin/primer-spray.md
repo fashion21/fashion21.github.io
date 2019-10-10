@@ -4,7 +4,7 @@ shopee-link: "https://shopee.ph/Fashion21-Primer-Spray-i.26222223.2385430283"
 id: 16
 title: "Primer Spray"
 layout: product-item
-categories: ["face"]
+categories: ["skin"]
 feature_image: "https://res.cloudinary.com/f21cosmetics/image/upload/v1565323481/primer-spray.jpg"
 colors:
     - color: ""
