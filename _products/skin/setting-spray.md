@@ -4,7 +4,7 @@ shopee-link: ""
 id: 17
 title: "Makeup Setting Spray"
 layout: product-item
-categories: ["face"]
+categories: ["skin"]
 feature_image: "https://res.cloudinary.com/f21cosmetics/image/upload/v1565329790/setting-spray.jpg"
 colors:
     - color: ""
