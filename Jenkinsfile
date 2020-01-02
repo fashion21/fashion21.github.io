@@ -16,5 +16,16 @@ pipeline {
 				sh 'bundle exec jekyll build'
 			}
 		}
+		stage('Upload') {
+			steps {
+				withAWS(credentials: 'bryanchug-aws-jenkins-deployer') {
+					s3Upload(
+							bucket: 'www.fashion21cosmetics.com-test',
+							includePathPattern: '*',
+							workingDir: '_site'
+					)
+				}
+			}
+		}
 	}
 }
