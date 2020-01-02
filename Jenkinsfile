@@ -21,7 +21,7 @@ pipeline {
 				withAWS(credentials: 'bryanchug-aws-jenkins-deployer') {
 					s3Upload(
 							bucket: 'www.fashion21cosmetics.com-test',
-							includePathPattern: '*',
+							includePathPattern: '**/*',
 							workingDir: '_site'
 					)
 				}
