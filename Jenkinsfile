@@ -18,7 +18,8 @@ pipeline {
 		}
 		stage('Versioning') {
 			steps {
-				sh "echo $GIT_COMMIT > _site/version.txt"
+				sh "mkdir -p _site/version"
+				sh "echo $GIT_COMMIT > _site/version/index.html"
 			}
 		}
 		stage('Upload') {
