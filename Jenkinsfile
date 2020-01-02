@@ -16,6 +16,11 @@ pipeline {
 				sh 'bundle exec jekyll build'
 			}
 		}
+		stage('Versioning') {
+			steps {
+				sh "echo $GIT_COMMIT > _site/version.txt"
+			}
+		}
 		stage('Upload') {
 			steps {
 				withAWS(credentials: 'bryanchug-aws-jenkins-deployer') {
