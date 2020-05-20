@@ -11,11 +11,21 @@ colors:
       hex: "802519"
     - color: "Blooming Orchid"
       hex: "ef788e"        
+    - color: "Calm Berry"
+      hex: "6b1111"        
+    - color: "Cheesy Pink"
+      hex: "b3062c"        
+    - color: "Ecstatic Nude"
+      hex: "822b0f"        
     - color: "Merry Berry"
       hex: "ee0b29"    
+    - color: "Misty Rose"
+      hex: "7d0c09"    
     - color: "Mystical Mauve"
       hex: "cb6266"    
+    - color: "Posh Spice"
+      hex: "7b0c0c"    
     - color: "Wild Cherry"
       hex: "b63f39"
 ---
-The range of colors this lipstick comes in can definitely reflect any mood. And it’s not just here for its looks—this creamy product has Vitamin E and jojoba oil, which is a natural moisturizer with antibacterial capabilities that can keep your lips soft and healthy.
+The range of colors this lipstick comes in can definitely reflect any mood. And it’s not just here for its looks—this creamy product has Vitamin E and jojoba oil, which is a natural moisturizer with antibacterial capabilities that can keep your lips soft and healthy. Fashion 21 Color Mood is paraben-free.
