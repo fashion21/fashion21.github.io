@@ -11,4 +11,4 @@ colors:
       hex: "ffffff"    
     
 ---
-A translucent cloud-like mist that sets makeup into place and keeps face radiant all day long. Suitable for all skin types, the Setting Spray hydrates, soothes, and prolongs makeup leaving a dewy and oil-free effect. Enjoy luminous and long-lasting beauty look without the fear of fading. 
+A translucent cloud-like mist that sets makeup into place and keeps face radiant all day long. Suitable for all skin types, the Setting Spray hydrates, soothes, and prolongs makeup leaving a dewy and oil-free effect. Enjoy luminous and long-lasting beauty look without the fear of fading. Fashion 21 Makeup Setting Spray is paraben-free.
