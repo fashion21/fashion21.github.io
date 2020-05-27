@@ -7,14 +7,16 @@ layout: product-item
 categories: ["face"]
 feature_image: "https://res.cloudinary.com/f21cosmetics/image/upload/v1565323025/conceal.jpg"
 colors:
-    - color: "Light"
-      hex: "f1dcaf"
-    - color: "Tan"
-      hex: "d5ad79"
-    - color: "Fair"
+    - color: Fair
       hex: "d2ac85"
-    - color: "Neutral"
+    - color: Light
+      hex: "f1dcaf"
+    - color: Neutral
       hex: "d7b99f"
+    - color: Tan
+      hex: "d5ad79"
+    - color: Suntan
+      hex: "c58d73"
     
 ---
 A lightweight creamy concealer that provides a buildable coverage able to camouflage blemishes, fine lines and other skin imperfections. The concealer blends instantly delivering a matte, even, and non-cakey finish. It contains a slanted doe-foot wand to take care of those hard-to-reach areas and for precise application.
