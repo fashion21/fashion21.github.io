@@ -7,10 +7,16 @@ layout: product-item
 categories: ["lips"]
 feature_image: "https://res.cloudinary.com/dp79ddrmc/image/upload/products/redRomance.jpg"
 colors:
+    - color: "Casablanca"
+      hex: "c60000"    
     - color: "Cherie Amour"
       hex: "470707"    
+    - color: "Dear Juliet"
+      hex: "b50048"    
     - color: "Heartthrob"
       hex: "890404"
+    - color: "Honeymoon"
+      hex: "b30f2a"
     - color: "Miss Valentine"
       hex: "89112A"
     - color: "Prom Date"
