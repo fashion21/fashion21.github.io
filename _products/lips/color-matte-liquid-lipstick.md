@@ -13,17 +13,24 @@ colors:
   - color: Autumn
     hex: ce4f2e
   - color: Butterscotch
-    hex: 89381a
+    hex: '89381a'
   - color: Camellia
-    hex: bb2e37
+    hex: 'bb2e37'
+  - color: Cashmere
+    hex: '953d34'    
   - color: Crimson
-    hex: 5a000a
+    hex: '5a000a'
   - color: Khaki
-    hex: 3d170a
+    hex: '3d170a'
   - color: Ruby
-    hex: 96001d
+    hex: '96001d'
   - color: Scarlet
-    hex: 93001c
+    hex: '93001c'
+  - color: Siren
+    hex: '490e0c'
+  - color: Toast
+    hex: '994543'
+
 top-pick: true
 top-pick-id: 3
 top-pick-image: >-
