@@ -13,8 +13,6 @@ colors:
     hex: ebbe8e
   - color: Beige
     hex: fbdbb6
-  - color: Ivory
-    hex: fad5bd
   - color: Light Beige
     hex: f3d2b2
   - color: Natural
