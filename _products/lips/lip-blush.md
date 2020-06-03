@@ -11,15 +11,15 @@ feature_image: >-
   https://res.cloudinary.com/f21cosmetics/image/upload/v1590482018/lip-blush.jpg
 colors:
   - color: Apple Jam
-    hex: '7e2b3c'
+    hex: '8c1526'
   - color: Charm Blossom
-    hex: 'e35965'
+    hex: 'cd283c'
   - color: Midsummer
-    hex: '7c414e'
+    hex: '5f0606'
   - color: Red Glaze
-    hex: 'aa4452'
+    hex: '822a3d'
   - color: Wineberry
-    hex: 'b4455d'
+    hex: '9c2d45'
   
 top-pick: false
 top-pick-id: 2
