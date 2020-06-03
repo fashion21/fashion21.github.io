@@ -10,7 +10,7 @@ colors:
     - color: "Bad Apple"
       hex: "802519"
     - color: "Blooming Orchid"
-      hex: "ef788e"        
+      hex: "d73a6a"        
     - color: "Calm Berry"
       hex: "6b1111"        
     - color: "Cheesy Pink"
@@ -26,6 +26,6 @@ colors:
     - color: "Posh Spice"
       hex: "7b0c0c"    
     - color: "Wild Cherry"
-      hex: "b63f39"
+      hex: "6c020f"
 ---
 The range of colors this lipstick comes in can definitely reflect any mood. And it’s not just here for its looks—this creamy product has Vitamin E and jojoba oil, which is a natural moisturizer with antibacterial capabilities that can keep your lips soft and healthy. Fashion 21 Color Mood is paraben-free.
