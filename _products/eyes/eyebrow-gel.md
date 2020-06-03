@@ -7,8 +7,6 @@ layout: product-item
 categories: ["eyes"]
 feature_image: 'https://res.cloudinary.com/dp79ddrmc/image/upload/products/eyebrowGel.jpg'
 colors:
-  - color: Blonde
-    hex: e9af5b
   - color: Clear
     hex: CLEAR
   - color: Dark Brown
