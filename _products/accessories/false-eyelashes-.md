@@ -16,7 +16,10 @@ colors:
     - color: "#4"
       hex: "N/A"
     - color: "#5"
-      hex: "N/A"
+      hex: "N/A"    
+    - color: "#6"
+      hex: "N/A"    
+
 ---
 There’s nothing “false” about our falsies, which look perfectly natural and blend in with your actual lashes for that 
-perfect plumping effect. These lashes also feel light, and don’t irritate your eyes at all. Choose from five different lengths to match your ideal look, apply easily with our handy eyelash adhesive, and give the windows to your soul a beautiful frame.
+perfect plumping effect. These lashes also feel light, and don’t irritate your eyes at all. Choose from five different lengths to match your ideal look, apply easily with our handy eyelash adhesive, and give the windows to your soul a beautiful frame. Available in 6 designs.
