@@ -12,10 +12,6 @@ multiple_colors: true
 colors:
   - color: '#1'
     hex: fffbe2+f0af5d+eda77b+c28a3f+5c3b3b
-  - color: '#2'
-    hex: e6ab89+cb9c5a+e8be81+8469a2+3a2e41
-  - color: '#3'
-    hex: ce7a95+f9b6a0+e06c8d+885e8e+281f3d
   - color: '#4'
     hex: fde4bc+eaaf88+f2c897+c88c6f+624b40
   - color: '#5'
