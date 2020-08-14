@@ -1,47 +1,47 @@
-- title: All Day Matte Lipstick
+- title: Double Up Mascara
   id: 1
-  image: https://res.cloudinary.com/f21cosmetics/image/upload/assets/best-seller/cheek-gel.jpg
-  link: /products/lips/all-day-matte-lipstick/
+  image: https://res.cloudinary.com/f21cosmetics/image/upload/v1597386009/1_double_up_2020.jpg
+  link: /products/eyes/double-up-mascara/
   mobileID: 1
 
-- title: Color Set
+- title: Powder Lip Matte
   id: 2
-  image: https://res.cloudinary.com/f21cosmetics/image/upload/assets/best-seller/best-seller2.jpg
-  link: /products/set/color-set/
+  image: https://res.cloudinary.com/f21cosmetics/image/upload/v1597386009/2_powder_lip_matte_2020.jpg
+  link: /products/lips/powder-lip-matte/
   mobileID: 2
 
-- title: Two Way Cake Papaya
+- title: Conceal
   id: 3
-  image: https://res.cloudinary.com/f21cosmetics/image/upload/assets/best-seller/best-seller3.jpg
-  link: /products/face/two-way-cake-with-papaya-extract/
+  image: https://res.cloudinary.com/f21cosmetics/image/upload/v1597386009/3_conceal_2020.jpg
+  link: /products/face/conceal/
   mobileID: 5
 
-- title: Cheek Gel
+- title: Contouring Kit
   id: 4
-  image: https://res.cloudinary.com/f21cosmetics/image/upload/assets/best-seller/cheek_gel.jpg
-  link: /products/cheeks/lip--cheek-gel/
+  image: https://res.cloudinary.com/f21cosmetics/image/upload/v1597386009/4_contour_kit_2020.jpg
+  link: /products/cheeks/contouring-kit/
   mobileID: 7
 
-- title: Cheek Tint
+- title: Primer Spray
   id: 5
-  image: https://res.cloudinary.com/f21cosmetics/image/upload/assets/best-seller/best-seller5.jpg
-  link: /products/cheeks/cheek-tint/
+  image: https://res.cloudinary.com/f21cosmetics/image/upload/v1597386010/5_primer_spray_2020.jpg
+  link: /products/skin/primer-spray/
   mobileID: 3
 
-- title: Double Up Mascara
+- title: Cheek Tint
   id: 6
-  image: https://res.cloudinary.com/f21cosmetics/image/upload/assets/best-seller/best-seller6.jpg
-  link: /products/eyes/double-up-mascara/
+  image: https://res.cloudinary.com/f21cosmetics/image/upload/v1597386010/6_cheek_tint_2020.jpg
+  link: /products/cheeks/cheek-tint/
   mobileID: 4
 
-- title: Perfect Stick Tea Tree Oil
+- title: Color Bar
   id: 7
-  image: https://res.cloudinary.com/f21cosmetics/image/upload/assets/best-seller/best-seller7.jpg
-  link: /products/face/perfect-stick-with-tea-tree-oil/
+  image: https://res.cloudinary.com/f21cosmetics/image/upload/v1597386010/7_color_bar_2020.jpg
+  link: /products/set/color-bar/
   mobileID: 6
 
-- title: Color Matte Liquid Lipstick
+- title: Two Way Cake Papaya
   id: 8
-  image: https://res.cloudinary.com/f21cosmetics/image/upload/assets/best-seller/best-seller8.jpg
-  link: /products/lips/color-matte-liquid-lipstick/
+  image: https://res.cloudinary.com/f21cosmetics/image/upload/v1597386010/8_twc_papaya_2020.jpg
+  link: /products/face/two-way-cake-with-papaya-extract/
   mobileID: 8
