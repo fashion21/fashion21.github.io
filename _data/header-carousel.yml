@@ -1,26 +1,20 @@
-- big-image: https://res.cloudinary.com/f21cosmetics/image/upload/assets/carousel/new/big%20screen/1920_x_800_lazada.jpg
+- big-image: https://res.cloudinary.com/f21cosmetics/image/upload/v1597385456/banner_4_2020.jpg
   tablet-image: https://res.cloudinary.com/f21cosmetics/image/upload/assets/carousel/new/tablet%20screen/991x800_lazada.jpg
   small-image: https://res.cloudinary.com/f21cosmetics/image/upload/assets/carousel/new/small%20screen/483x738_lazada.jpg
   link: https://www.lazada.com.ph/shop/fashion21ph/?spm=a2o4l.pdp.seller.1.34eccbc96ET2y9
 
-- big-image: https://res.cloudinary.com/f21cosmetics/image/upload/v1553910850/assets/carousel/1920_x_800_2019models.jpg
+- big-image: https://res.cloudinary.com/f21cosmetics/image/upload/v1597385456/banner_1_2020.jpg
   tablet-image: https://res.cloudinary.com/f21cosmetics/image/upload/v1553913911/assets/carousel/991_x_800_2019models.jpg
   small-image: https://res.cloudinary.com/f21cosmetics/image/upload/v1553913908/assets/carousel/483_x_738_2019models.jpg
-  link: /products/
+  link: /products/lips/powder-lip-matte/
 
-- big-image: https://res.cloudinary.com/f21cosmetics/image/upload/assets/carousel/new/big%20screen/1920_x_800_lip_and_cheek_gel.jpg
+- big-image: https://res.cloudinary.com/f21cosmetics/image/upload/v1597385455/banner_3_2020.jpg
   tablet-image: https://res.cloudinary.com/f21cosmetics/image/upload/assets/carousel/new/tablet%20screen/991x800_lip_and_cheek_gel.jpg
   small-image: https://res.cloudinary.com/f21cosmetics/image/upload/assets/carousel/new/small%20screen/483x738_lip_and_cheek_gel.jpg
-  link: /products/cheeks/lip--cheek-gel/
+  link: /products/face/two-way-cake-with-papaya-extract/
 
-- big-image: https://res.cloudinary.com/f21cosmetics/image/upload/assets/carousel/new/big%20screen/1920_x_800_oh_so_buttery.jpg
+- big-image: https://res.cloudinary.com/f21cosmetics/image/upload/v1597385455/banner_2_2020.jpg
   tablet-image: https://res.cloudinary.com/f21cosmetics/image/upload/assets/carousel/new/tablet%20screen/991x800_oh_so_buttery.jpg
   small-image: https://res.cloudinary.com/f21cosmetics/image/upload/assets/carousel/new/small%20screen/483x738_oh_so_buttery.jpg
   link: /products/
-
-- big-image: https://res.cloudinary.com/f21cosmetics/image/upload/assets/carousel/new/big%20screen/1920_x_800_color_matte.jpg
-  tablet-image: https://res.cloudinary.com/f21cosmetics/image/upload/assets/carousel/new/tablet%20screen/991x800_color_matte.jpg
-  small-image: https://res.cloudinary.com/f21cosmetics/image/upload/assets/carousel/new/small%20screen/483x738_color_matte.jpg
-  link: /products/lips/color-matte-liquid-lipstick/
-
 
