@@ -5,7 +5,7 @@ id: 72
 title: Shaver
 layout: product-item
 categories: ["accessories"]
-feature_image: 'https://res.cloudinary.com/dp79ddrmc/image/upload/products/shaver.jpg'
+feature_image: 'https://res.cloudinary.com/f21cosmetics/image/upload/v1598009150/shaver_ppbg2g.jpg'
 top-pick: false
 colors:
   - color: N/A
