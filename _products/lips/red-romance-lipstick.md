@@ -5,7 +5,7 @@ id: 46
 title: "Red Romance Lipstick"
 layout: product-item
 categories: ["lips"]
-feature_image: "https://res.cloudinary.com/dp79ddrmc/image/upload/products/redRomance.jpg"
+feature_image: "https://res.cloudinary.com/f21cosmetics/image/upload/v1597991298/red-romance_tob6pv.jpg"
 colors:
     - color: "Casablanca"
       hex: "c60000"    
