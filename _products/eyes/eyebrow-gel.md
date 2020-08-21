@@ -5,7 +5,7 @@ id: 22
 title: Eyebrow Gel
 layout: product-item
 categories: ["eyes"]
-feature_image: 'https://res.cloudinary.com/dp79ddrmc/image/upload/products/eyebrowGel.jpg'
+feature_image: 'https://res.cloudinary.com/f21cosmetics/image/upload/v1597985213/eb-gel_v0goai.jpg'
 colors:
   - color: Clear
     hex: CLEAR
