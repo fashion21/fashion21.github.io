@@ -7,7 +7,7 @@ title: Perfect Stick
 layout: product-item
 categories:
   - face
-feature_image: 'https://res.cloudinary.com/dp79ddrmc/image/upload/products/perfectStick.jpg'
+feature_image: 'https://res.cloudinary.com/f21cosmetics/image/upload/v1597983603/perfect-stick_e49knj.jpg'
 colors:
   - color: Almond
     hex: ebbe8e
