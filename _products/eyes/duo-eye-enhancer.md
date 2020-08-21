@@ -7,7 +7,7 @@ title: Duo Eye Enhancer
 layout: product-item
 categories:
   - eyes
-feature_image: 'https://res.cloudinary.com/dp79ddrmc/image/upload/products/duoEyeEnhancer.jpg'
+feature_image: 'https://res.cloudinary.com/f21cosmetics/image/upload/v1597985219/duo-enhancer_xd3mx7.jpg'
 colors:
   - color: Blonde
     hex: '8e6f43'
