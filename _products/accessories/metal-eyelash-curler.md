@@ -5,7 +5,7 @@ id: 66
 title: "Metal Eyelash Curler"
 layout: product-item
 categories: ["accessories"]
-feature_image: "https://res.cloudinary.com/dp79ddrmc/image/upload/products/metalEyelashCurler.jpg"
+feature_image: "https://res.cloudinary.com/f21cosmetics/image/upload/v1598008733/curler_zuk6tq.jpg"
 colors:
     - color: "N/A"
       hex: "N/A"
