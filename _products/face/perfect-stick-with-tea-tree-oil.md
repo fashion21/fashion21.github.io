@@ -5,7 +5,7 @@ id: 4
 title: "Perfect Stick with Tea-Tree Oil"
 layout: product-item
 categories: ["face"]
-feature_image: "https://res.cloudinary.com/dp79ddrmc/image/upload/products/perfectStickTeaTree.jpg"
+feature_image: "https://res.cloudinary.com/f21cosmetics/image/upload/v1597983604/perfect-stickT3_extb9p.jpg"
 colors:
     - color: Milk Tea
       hex: "f1d297"
