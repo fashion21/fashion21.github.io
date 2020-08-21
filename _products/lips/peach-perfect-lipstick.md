@@ -5,7 +5,7 @@ id: 44
 title: "Peach Perfect Lipstick"
 layout: product-item
 categories: ["lips"]
-feature_image: "https://res.cloudinary.com/dp79ddrmc/image/upload/products/peachPerfect.jpg"
+feature_image: "https://res.cloudinary.com/f21cosmetics/image/upload/v1597991299/peach-perfect_slwure.jpg"
 colors:
     - color: "Apricot"
       hex: "e21414"
