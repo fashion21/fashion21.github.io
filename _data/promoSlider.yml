@@ -1,3 +1,11 @@
+- id: 9
+  image: https://res.cloudinary.com/f21cosmetics/image/upload/v1598009944/promo_2_qtz0hz.jpg
+  isPromo: true
+
+- id: 8
+  image: https://res.cloudinary.com/f21cosmetics/image/upload/v1598009945/promo_1_bjtq7a.jpg
+  isPromo: true
+
 - id: 7
   image: https://res.cloudinary.com/f21cosmetics/image/upload/v1538733444/assets/promo-slider/Promo_Slider_7.jpg
   isPromo: true
@@ -20,9 +28,9 @@
 
 - id: 2
   image: https://res.cloudinary.com/f21cosmetics/image/upload/assets/promo-slider/promo-slider2.jpg
-  isPromo: true
+  isPromo: false
 
 - id: 1
   image: https://res.cloudinary.com/f21cosmetics/image/upload/assets/promo-slider/promo-slider1.jpg
-  isPromo: true
+  isPromo: false
 
