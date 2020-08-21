@@ -5,7 +5,7 @@ id: 78
 title: "Leg Foundation"
 layout: product-item
 categories: ["skin"]
-feature_image: "https://res.cloudinary.com/dp79ddrmc/image/upload/products/legFoundation.jpg"
+feature_image: "https://res.cloudinary.com/f21cosmetics/image/upload/v1597995294/leg-makeup_fyt3l2.jpg"
 colors:
     - color: ""
       hex: "f9cca3"
