@@ -5,7 +5,7 @@ id: 23
 title: Eyebrow Pencil
 layout: product-item
 categories: ["eyes"]
-feature_image: 'https://res.cloudinary.com/dp79ddrmc/image/upload/products/eyeBrowPencil.jpg'
+feature_image: 'https://res.cloudinary.com/f21cosmetics/image/upload/v1597985217/eb-pencil_b8w599.jpg'
 top-pick: false
 colors:
   - color: Black
