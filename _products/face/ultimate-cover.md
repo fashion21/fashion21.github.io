@@ -8,7 +8,7 @@ layout: product-item
 categories:
   - face
 feature_image: >-
-  https://res.cloudinary.com/dp79ddrmc/image/upload/v1455006447/products/ultimateCover.jpg
+  https://res.cloudinary.com/f21cosmetics/image/upload/v1597983604/ultimate-cover_faglkc.jpg
 multiple_colors: true
 colors:
   - color: '#1'
