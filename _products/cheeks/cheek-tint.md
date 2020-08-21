@@ -5,7 +5,7 @@ id: 34
 title: "Cheek Tint"
 layout: product-item
 categories: ["cheeks"]
-feature_image: "https://res.cloudinary.com/f21cosmetics/image/upload/v1598007521/cheek-tint_wa5gts.jpg"
+feature_image: "https://res.cloudinary.com/f21cosmetics/image/upload/v1598009742/cheek-tint_wqnttr.jpg"
 colors:
     - color: "#1"
       hex: "ff5c60"
