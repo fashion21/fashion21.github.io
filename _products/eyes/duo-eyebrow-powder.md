@@ -5,7 +5,7 @@ id: 20
 title: Duo Eyebrow Powder
 layout: product-item
 categories: ["eyes"]
-feature_image: 'https://res.cloudinary.com/dp79ddrmc/image/upload/products/duoEyebrow.jpg'
+feature_image: 'https://res.cloudinary.com/f21cosmetics/image/upload/v1597985218/eb-duo_bivse5.jpg'
 multiple_colors: true
 top-pick: false
 colors:
