@@ -5,7 +5,7 @@ id: 17
 title: Defining Eyeliner
 layout: product-item
 categories: ["eyes"]
-feature_image: "https://res.cloudinary.com/dp79ddrmc/image/upload/v1456717061/products/defining-eyeliner.jpg"
+feature_image: "https://res.cloudinary.com/f21cosmetics/image/upload/v1597985215/defining-el_ca519h.jpg"
 top-pick: false
 colors:
   - color: 'Black '
