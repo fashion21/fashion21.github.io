@@ -5,7 +5,7 @@ id: 45
 title: "Pink Obsession Lipstick"
 layout: product-item
 categories: ["lips"]
-feature_image: "https://res.cloudinary.com/dp79ddrmc/image/upload/products/pinkObsession.jpg"
+feature_image: "https://res.cloudinary.com/f21cosmetics/image/upload/v1597991298/pink-obsession_ljj0wa.jpg"
 colors:
     - color: "Baby Chic"
       hex: "fc8fbb"
