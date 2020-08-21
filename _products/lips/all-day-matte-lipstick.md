@@ -8,7 +8,7 @@ layout: product-item
 categories:
   - lips
 feature_image: >-
-  https://res.cloudinary.com/dp79ddrmc/image/upload/products/allDayMatteLipstick.jpg
+  https://res.cloudinary.com/f21cosmetics/image/upload/v1597991300/all-day_kcvs3c.jpg
 colors:
   - color: Bronze
     hex: 'cf8c7f'
