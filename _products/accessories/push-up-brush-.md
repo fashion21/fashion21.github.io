@@ -5,7 +5,7 @@ id: 67
 title: "Push-Up Brush "
 layout: product-item
 categories: ["accessories"]
-feature_image: "https://res.cloudinary.com/dp79ddrmc/image/upload/products/pushUpBrush.jpg"
+feature_image: "https://res.cloudinary.com/f21cosmetics/image/upload/v1598008736/push-up_nm3clw.jpg"
 colors:
     - color: "N/A"
       hex: "N/A"
