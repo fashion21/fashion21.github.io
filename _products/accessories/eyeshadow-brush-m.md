@@ -5,7 +5,7 @@ id: 52
 title: "Eyeshadow Brush (S) (M)"
 layout: product-item
 categories: ["accessories"]
-feature_image: "https://res.cloudinary.com/dp79ddrmc/image/upload/products/eyeshadowBrush.jpg"
+feature_image: "https://res.cloudinary.com/f21cosmetics/image/upload/v1598008734/blending-brush_wzxavl.jpg"
 colors:
     - color: "N/A"
       hex: "N/A"
