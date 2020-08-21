@@ -8,7 +8,7 @@ layout: product-item
 categories:
   - lips
 feature_image: >-
-  https://res.cloudinary.com/dp79ddrmc/image/upload/products/definingLipLiner.jpg
+  https://res.cloudinary.com/f21cosmetics/image/upload/v1597992080/defining-ll_foszw9.jpg
 colors:
   - color: No. 1
     hex: .inf
