@@ -24,7 +24,7 @@
 
 - id: 3
   image: https://res.cloudinary.com/f21cosmetics/image/upload/assets/promo-slider/promo-slider3.jpg
-  isPromo: true
+  isPromo: false
 
 - id: 2
   image: https://res.cloudinary.com/f21cosmetics/image/upload/assets/promo-slider/promo-slider2.jpg
