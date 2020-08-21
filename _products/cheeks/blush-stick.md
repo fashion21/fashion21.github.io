@@ -5,7 +5,7 @@ id: 33
 title: "Blush Stick"
 layout: product-item
 categories: ["cheeks"]
-feature_image: "https://res.cloudinary.com/dp79ddrmc/image/upload/products/blushStick.jpg"
+feature_image: "https://res.cloudinary.com/f21cosmetics/image/upload/v1597995297/blush-stick_ncwsd7.jpg"
 colors:
     - color: "#1"
       hex: "fdac9a"
