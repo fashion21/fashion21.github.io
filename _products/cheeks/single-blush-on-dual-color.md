@@ -5,7 +5,7 @@ id: 81
 title: "Single Blush-On (dual color)"
 layout: product-item
 categories: ["cheeks"]
-feature_image: "https://res.cloudinary.com/dp79ddrmc/image/upload/products/singleBlushOnDual.jpg"
+feature_image: "https://res.cloudinary.com/f21cosmetics/image/upload/v1597995296/blush-m0_bq3dwt.jpg"
 multiple_colors: true
 colors:
     - color: "M01 (Matte Finish)"
