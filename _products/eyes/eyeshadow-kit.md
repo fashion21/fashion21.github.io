@@ -7,7 +7,7 @@ title: Eyeshadow Kit
 layout: product-item
 categories:
   - eyes
-feature_image: 'https://res.cloudinary.com/dp79ddrmc/image/upload/eyeshadowKit_hceiif.jpg'
+feature_image: 'https://res.cloudinary.com/f21cosmetics/image/upload/v1597985213/es-kit_zzeaje.jpg'
 multiple_colors: true
 colors:
   - color: '#1'
