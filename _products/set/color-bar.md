@@ -6,7 +6,7 @@ id: 31
 title: Color Bar
 layout: product-item
 categories: ["set"] 
-feature_image: 'https://res.cloudinary.com/dp79ddrmc/image/upload/products/colorBar.jpg'
+feature_image: 'https://res.cloudinary.com/f21cosmetics/image/upload/v1597995294/color-bar_wcvezr.jpg'
 color_image: true
 colors:
   - color: '#1'
