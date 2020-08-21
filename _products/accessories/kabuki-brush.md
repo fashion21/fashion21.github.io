@@ -5,7 +5,7 @@ id: 55
 title: Kabuki Brush
 layout: product-item
 categories: ["accessories"]
-feature_image: 'https://res.cloudinary.com/dp79ddrmc/image/upload/products/kabukiBrush.jpg'
+feature_image: 'https://res.cloudinary.com/f21cosmetics/image/upload/v1598008734/kabuki_pgkdvm.jpg'
 colors:
   - color: N/A
     hex: N/A
