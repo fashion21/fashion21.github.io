@@ -5,7 +5,7 @@ id: 18
 title: Dipliner
 layout: product-item
 categories: ["eyes"]
-feature_image: 'https://res.cloudinary.com/dp79ddrmc/image/upload/products/dipliner.jpg'
+feature_image: 'https://res.cloudinary.com/f21cosmetics/image/upload/v1597985215/dipliner_gdejlk.jpg'
 top-pick: false
 colors:
   - color: Black
