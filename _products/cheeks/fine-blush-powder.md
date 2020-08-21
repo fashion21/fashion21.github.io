@@ -7,7 +7,7 @@ title: Fine Blush Powder
 layout: product-item
 categories:
   - cheeks
-feature_image: 'https://res.cloudinary.com/dp79ddrmc/image/upload/products/fineBlushPowder.jpg'
+feature_image: 'https://res.cloudinary.com/f21cosmetics/image/upload/v1597995297/fine-blush_vmupkk.jpg'
 colors:
   - color: '#2'
     hex: f5969f
