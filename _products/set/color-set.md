@@ -5,7 +5,7 @@ id: 32
 title: "Color Set"
 layout: product-item
 categories: ["set"]
-feature_image: "https://res.cloudinary.com/dp79ddrmc/image/upload/products/colorSet.jpg"
+feature_image: "https://res.cloudinary.com/f21cosmetics/image/upload/v1597995294/color-set_k8dsqd.jpg"
 color_image: true
 colors:
     - color: "#1"
