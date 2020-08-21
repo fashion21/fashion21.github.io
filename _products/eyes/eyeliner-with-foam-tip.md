@@ -5,7 +5,7 @@ id: 24
 title: "Eyeliner with Foam Tip"
 layout: product-item
 categories: ["eyes"]
-feature_image: "https://res.cloudinary.com/dp79ddrmc/image/upload/products/eyelinerFoamTip.jpg"
+feature_image: "https://res.cloudinary.com/f21cosmetics/image/upload/v1597985214/foam-pencil_oxsslt.jpg"
 colors:
     - color: "Black"
       hex: "000000"
