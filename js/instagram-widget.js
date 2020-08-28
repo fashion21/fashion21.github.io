@@ -7,13 +7,10 @@ fs.runInstagramFeed = function () {
     $.getScript('/js/instafeed.min.js', function () {
         if (Instafeed) {
             new Instafeed({
-                get: 'tagged',
-                tagName: 'fashion21_cosmetics',
-                clientId: '9ac414ea8c2742ceab562dd493eac687',
+                accessToken: 'IGQVJYRjVqSWQyUmxLUDNZAVFlwaTRLSEFCalc5ZAGZAJZAFEwM0FpSk9VYXNzZA3NpSTZAXU3NCaGc1dC1VZAmxEc2wxNTZA6TEFqOC00bnpSdmVoLUdkYmVpX1ZAxUVdQYnZAFUG14cThSNFV5NEpmN3k2ekZAXdQZDZD',
                 limit: 8,
                 sortBy: 'most-recent',
                 template: '<a href="{{link}}" target="_blank" class="col-md-2 col-sm-2 col-xs-6"><img src="{{image}}" /></a>',
-                resolution: 'low_resolution',
                 success: function(feed){
                     var data = feed.data.reverse();
                     $('.placeholder').each(function(index, placeholder){
