@@ -9,7 +9,6 @@ fs.runInstagramFeed = function () {
             new Instafeed({
                 accessToken: 'IGQVJYRjVqSWQyUmxLUDNZAVFlwaTRLSEFCalc5ZAGZAJZAFEwM0FpSk9VYXNzZA3NpSTZAXU3NCaGc1dC1VZAmxEc2wxNTZA6TEFqOC00bnpSdmVoLUdkYmVpX1ZAxUVdQYnZAFUG14cThSNFV5NEpmN3k2ekZAXdQZDZD',
                 limit: 8,
-                sortBy: 'most-recent',
                 template: '<a href="{{link}}" target="_blank" class="col-md-2 col-sm-2 col-xs-6"><img src="{{image}}" /></a>',
                 success: function(feed){
                     var data = feed.data.reverse();
