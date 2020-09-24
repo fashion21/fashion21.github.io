@@ -3,7 +3,7 @@ published: true
 lazada-link: "https://www.lazada.com.ph/products/fashion21-eyeshadow-travel-set-i1228486729-s4385198554.html?spm=a2o4l.seller.list.7.7d866cc9pnxa9i&mp=1"
 shopee-link: ""
 id: 31
-title: Color Bar
+title: Eyeshadow Travel Set
 layout: product-item
 categories: ["set"] 
 feature_image: 'https://res.cloudinary.com/f21cosmetics/image/upload/v1600921346/travel-set_khk3mt.jpg'
