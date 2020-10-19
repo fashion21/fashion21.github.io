@@ -19,8 +19,6 @@ colors:
       hex: "822b0f"        
     - color: "Merry Berry"
       hex: "ee0b29"    
-    - color: "Misty Rose"
-      hex: "7d0c09"    
     - color: "Mystical Mauve"
       hex: "cb6266"    
     - color: "Posh Spice"
