@@ -58,7 +58,7 @@ $(document).ready(function () {
 $(window).on("load",function () {
     //Instagram Feed
     var feed = new Instafeed({
-        accessToken: 'IGQVJXbFBrSnNUVV9FUkdtUHRweTlSMlRaMVdxMlRMck53Rk9NdW9oeWJfZA0h1TVRxRE9NakRpa0N3YldNb0NzUFBUdkxUSWlGdG83UXBlUEtYX09uLVlHc1A0RHdJdGhwNUs3T0ZAR',
+        accessToken: 'IGQVJVTG1ELUtMb1o5T0VDYUhzN2oyaWZANUzdienZAoZA0RYeXFZATmRmT2JtcUFTaGJUWUptVmM0R2hEN21HYm1FZAHRTMGFGRGREVTFtWUhwenNjTVB4QTYyZAUxGZAFlQWXdIQ2Q3QTk3S09RVUt2aVI2ZAwZDZD',
         limit: 20,
         template: '<div class="swiper-slide"><a href="{{link}}" target="_blank"><img class="img-responsive center-block" src="{{image}}" /></a></div>',
         resolution: 'standard_resolution',
